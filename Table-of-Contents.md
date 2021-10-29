@@ -2,6 +2,8 @@
 
 https://uab-it.github.io/linear/components/table-of-contents.html#usage
 
+https://libraries.io/bower/jquery-toc/v0.0.1
+
 ```html
 <script>
   jQuery(document).ready( function() {
