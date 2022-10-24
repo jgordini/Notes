@@ -75,4 +75,8 @@ The Tower of Hanoi problem is to move a set of n different-sized disks from one 
 
 Write a function Hanoi ⍵ to solve the problem of moving ⍵ disks from peg 0 to peg 2. Since it’s always the disk which is at the top of a peg which is moved, the solution can be stated as a 2-column matrix with column 0 indicating the source peg and column 1 the destination peg.,
 
-Clipped from [APL Exercises](https://www.jsoftware.com/papers/APL_exercises/ex2.htm) at 2022-10-24.
+Clipped from [APL Exercises](https://www.jsoftware.com/papers/APL_exercises/ex2.htm) at 2022-10-24.> From the moment the pandemic forced us to pause campus life and conduct operations virtually, our goal was to reunite students and faculty in the classrooms, labs, and studios as soon as was safely possible. And in 2020, we did just that.
+
+But getting there was no small task.,
+
+Clipped from [Boston University - Annual Report 2021](https://www.bu.edu/ar/2021/academics/learn-from-anywhere.html) at 2022-10-24.
