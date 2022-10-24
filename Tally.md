@@ -38,3 +38,41 @@ A [J904 beta](https://code.jsoftware.com/wiki/System/ReleaseNotes/J904) is avail
 
 Clipped from [Overview](https://www.jsoftware.com/#/README) at 2022-10-24.
 
+> APL Exercises  
+  
+**Roger K.W. Hui**  
+ 
+
+These exercises are designed to introduce APL to a high school senior adept in mathematics.
+
+⎕io←0 throughout.,
+
+Clipped from [APL Exercises](https://www.jsoftware.com/papers/APL_exercises/intro.htm) at 2022-10-24.> APL Exercises 2  
+Recursion  
+ 
+
+⎕io←0 throughout.  
+ 
+
+**2.0 Factorial**
+
+Write a function to compute the factorial function on integer ⍵ , ⍵≥0 .
+
+   fac¨ 5 6 7 8
+120 720 5040 40320
+
+   n←1+?20
+   (fac n) = n×fac n-1
+1
+   fac 0
+1,
+
+Clipped from [APL Exercises](https://www.jsoftware.com/papers/APL_exercises/ex2.htm) at 2022-10-24.> **2.8 Tower of Hanoi**
+
+![](https://www.jsoftware.com/papers/APL_exercises/img/Tower_of_Hanoi_4.gif)
+
+The Tower of Hanoi problem is to move a set of n different-sized disks from one peg to another, moving one disk at a time, using an intermediate peg if necessary. At all times no larger disk may sit on top of a smaller disk.
+
+Write a function Hanoi ⍵ to solve the problem of moving ⍵ disks from peg 0 to peg 2. Since it’s always the disk which is at the top of a peg which is moved, the solution can be stated as a 2-column matrix with column 0 indicating the source peg and column 1 the destination peg.,
+
+Clipped from [APL Exercises](https://www.jsoftware.com/papers/APL_exercises/ex2.htm) at 2022-10-24.
