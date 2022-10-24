@@ -13,13 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "annual-report.md",
+                "file": "Work HTML/phone.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "005ce2eba1587829",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "APL/Images/Screen Shot 2022-10-24 at 10.05.53 AM.png"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "annual-report.md",
+                "file": "APL/Images/Screen Shot 2022-10-24 at 10.05.53 AM.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "annual-report.md",
+                "file": "APL/Images/Screen Shot 2022-10-24 at 10.05.53 AM.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "annual-report.md"
+                "file": "APL/Images/Screen Shot 2022-10-24 at 10.05.53 AM.png"
               }
             }
           }
@@ -139,13 +150,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "409da9ec7df1eaa0",
+  "active": "5a4e69478dd26ebf",
   "lastOpenFiles": [
-    "Tally.md",
-    "Function Defs.png",
-    "phone.md",
-    "README.md",
-    "Table-of-Contents.md",
-    "Screen Shot 2022-10-24 at 10.05.53 AM.png"
+    "Work HTML/Table-of-Contents.md",
+    "APL/Images/Screen Shot 2022-10-24 at 10.05.53 AM.png",
+    "Untitled.md",
+    "Work HTML/phone.md",
+    "Annual Report 2022/annual-report.md",
+    "Annual Report 2022/Annual Report Images/Screen Shot 2022-10-24 at 11.46.52 AM.png",
+    "Annual Report 2022/Annual Report Images/Screen Shot 2022-10-24 at 11.46.41 AM.png",
+    "Annual Report 2022/Annual Report Images/Screen Shot 2022-10-24 at 11.21.43 AM.png",
+    "Annual Report 2022/Annual Report Images/Screen Shot 2022-10-24 at 11.19.12 AM.png",
+    "Annual Report 2022/Annual Report Images/numbers_graphic.jpg"
   ]
 }
