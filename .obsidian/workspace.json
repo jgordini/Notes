@@ -33,14 +33,28 @@
             "id": "e93eb81ba185df49",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Trig/PDF/MTH 113 Emphasis Sheet (Me)(1).pdf"
+                "file": "APL/APL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0fcbb072a87b6b3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Trig/Trig Notes.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -106,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trig/PDF/MTH 113 Emphasis Sheet (Me)(1).pdf",
+                "file": "Trig/Trig Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trig/PDF/MTH 113 Emphasis Sheet (Me)(1).pdf",
+                "file": "Trig/Trig Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trig/PDF/MTH 113 Emphasis Sheet (Me)(1).pdf"
+                "file": "Trig/Trig Notes.md"
               }
             }
           }
@@ -160,17 +174,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "5a4e69478dd26ebf",
+  "active": "0fcbb072a87b6b3b",
   "lastOpenFiles": [
-    "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf",
+    "APL/APL.md",
+    "Trig/Trig Notes.md",
     "Trig/PDF/MTH 113 Emphasis Sheet (Me)(1).pdf",
+    "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf",
     "Annual Report 2022/annual-report.md",
-    "APL/Tally.md",
     "Work HTML/Table-of-Contents.md",
     "Work HTML/phone.md",
     "README.md",
     "APL/Images/tally-apl-cart.png",
-    "Annual Report 2022/Annual Report Images/polygon.png",
-    "Annual Report 2022/Annual Report Images/engineer.png"
+    "Annual Report 2022/Annual Report Images/polygon.png"
   ]
 }

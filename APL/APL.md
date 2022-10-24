@@ -1,5 +1,6 @@
-> Who is this for?[#](https://xpqz.github.io/learnapl/intro.html#who-is-this-for)
 -------------------------------------------------------------------------------
+
+### [APL Books](https://drive.google.com/drive/folders/1By9dnSi53_ov9gYjbiboCoQwaP6zZsvu?usp=sharing)
 
 I wrote this to be the book I would have wanted to read when I started to learn APL. An introduction to APL for an experienced practitioner from a different programming language or two. We all learn in different ways, and I prefer the fundamental concepts laid bare first, and then learn by example.
 
