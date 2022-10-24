@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Tally",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -139,7 +140,7 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "409da9ec7df1eaa0",
+  "active": "03074444151a6085",
   "lastOpenFiles": [
     "README.md",
     "2022-10-24.md",
