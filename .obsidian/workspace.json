@@ -33,11 +33,9 @@
             "id": "e93eb81ba185df49",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "APL/Tally.md",
-                "mode": "source",
-                "source": false
+                "file": "Trig/PDF/MTH 113 Emphasis Sheet (Me)(1).pdf"
               }
             }
           }
@@ -108,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "APL/Tally.md",
+                "file": "Trig/PDF/MTH 113 Emphasis Sheet (Me)(1).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "APL/Tally.md",
+                "file": "Trig/PDF/MTH 113 Emphasis Sheet (Me)(1).pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "APL/Tally.md"
+                "file": "Trig/PDF/MTH 113 Emphasis Sheet (Me)(1).pdf"
               }
             }
           }
@@ -162,17 +160,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "e93eb81ba185df49",
+  "active": "5a4e69478dd26ebf",
   "lastOpenFiles": [
+    "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf",
+    "Trig/PDF/MTH 113 Emphasis Sheet (Me)(1).pdf",
+    "Annual Report 2022/annual-report.md",
+    "APL/Tally.md",
     "Work HTML/Table-of-Contents.md",
     "Work HTML/phone.md",
     "README.md",
     "APL/Images/tally-apl-cart.png",
-    "Annual Report 2022/annual-report.md",
     "Annual Report 2022/Annual Report Images/polygon.png",
-    "Annual Report 2022/Annual Report Images/engineer.png",
-    "Annual Report 2022/Annual Report Images/numbers.png",
-    "Annual Report 2022/Annual Report Images/numbers_graphic.jpg",
-    "Annual Report 2022/Annual Report Images/Screen Shot 2022-10-24 at 11.09.18 AM 1.png"
+    "Annual Report 2022/Annual Report Images/engineer.png"
   ]
 }
