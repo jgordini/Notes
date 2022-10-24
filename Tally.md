@@ -1,5 +1,4 @@
 
-
 ## Tally, Depth, Match: `≢≡`[](https://xpqz.github.io/learnapl/manip.html#tally-depth-match "Permalink to this headline")
 
 [_Tally_](http://help.dyalog.com/18.0/index.htm#Language/Primitive%20Functions/Tally.htm), monadic `≢`, gives the number of major cells in an array, kind of like Python’s [len()](https://docs.python.org/3/library/functions.html#len):
@@ -41,3 +40,107 @@ Monadic `≡B` gives the [depth](http://help.dyalog.com/latest/index.htm#Lang
 ¯3
 1
 3
+
+-   Equal underbar  
+    
+    The Equal underbar (`≡`) serves two purposes. In its monadic form, it shows the depth of a specific structure.
+    
+    ≡2 2⍴1 (2 3) (4 5 6 7) (8 (9 10) 11)
+    
+    In its dyadic form, it attempts to match both parameters to see if they are equal in shape, order and values:
+    
+    't' 'e' 's' 't'≡'test'
+    
+-   Equal underbar slash  
+    
+    The Equal underbar slash (`≢`) does the exact opposite of `≡`. In its monadic form, it shows the tally (shallowest depth) of a specific structure:
+    
+    ≢2 2⍴1 (2 3) (4 5 6 7) (8 (9 10) 11)
+    
+    In its dyadic form, it checks if both parameters **do not match**:
+    
+    ('t' 'e') ('s' 't')≢'test'
+
+#### dyadic `≡` (Match)
+
+Match does a comparison to see if 2 objects are equal. It is similar to `=`, but it works on entire objects rather than elementwise. In other words it is equal with a wider scope.
+
+In [ ]:
+
+1 ≡ 1
+
+Out[ ]:
+1
+In [ ]:
+1 ≡ 0
+Out[ ] 
+0
+`≡` works on whole objects and **not** elementwise with broadcasting.
+
+In [ ]:
+1 ≡ 1 1
+Out[ ]:
+0
+### `≢` (Equal Underbar Slash)
+
+#### monadic `≢` (Tally)
+
+Tally counts the major cells in an array. This means it gives the length of the leading axis. For a vector, or rank 1 array, this is the same as it's shape but as a scalar.
+
+In [ ]:
+
+≢ 1 2 3
+
+Out[ ]:
+ 
+3
+
+In [ ]:
+
+⍴ 1 2 3
+Out[ ]:
+
+┌→┐
+│3│
+└~┘
+
+If there are multiple dimensions, Tally returns the number of major cells, which is the size of the first dimension
+
+In [ ]:
+≢ 2 3 ⍴ ⍳6
+Out[ ]:
+2
+In [ ]:
+≢ 3 2 ⍴ ⍳6
+Out[ ]:
+
+3
+#### dyadic `≢` (Not match)
+
+Not match does a comparison to see if 2 objects are not equal. It is similar to `≠`, but it works on entire objects rather than elementwise. In other words, it is equal with a wider scope.
+
+In [ ]:
+
+1 ≢ 1
+
+Out[ ]:
+
+0
+
+In [ ]:
+
+1 ≢ 0
+
+Out[ ]:
+1
+ 
+`≢` works on whole objects and **not** elementwise with broadcasting.
+
+In [ ]:
+
+1 ≢ 1 1
+
+Out[ ]:
+
+ 
+1
