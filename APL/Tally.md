@@ -19,10 +19,14 @@ The design of APL affords even greater rewards because of its consistency, gener
 
 ![[Function Defs.png]]
 
-`⊆⍨~' '=m  
+
+```
+⊆⍨~' '=m  
 m←⎕CSV⍠'Separator' 'x'⊢'/Users/optopi/Desktop/input2.txt'⍬ 4  
 ⍋⊢+⌿m  
-j[⍋j]`
+j[⍋j]
+```
+
 
 > **J** is a high-level, general-purpose programming language that is particularly suited to the mathematical, statistical, and logical analysis of data. It is a powerful tool for developing algorithms and exploring problems that are not already well understood.
 
@@ -58,7 +62,8 @@ Recursion
 
 Write a function to compute the factorial function on integer ⍵ , ⍵≥0 .
 
-   fac¨ 5 6 7 8
+
+```  fac¨ 5 6 7 8
 120 720 5040 40320
 
    n←1+?20
@@ -66,7 +71,8 @@ Write a function to compute the factorial function on integer ⍵ , ⍵≥0 .
 1
    fac 0
 1,
-
+ ```
+ 
 Clipped from [APL Exercises](https://www.jsoftware.com/papers/APL_exercises/ex2.htm) at 2022-10-24.> **2.8 Tower of Hanoi**
 
 ![](https://www.jsoftware.com/papers/APL_exercises/img/Tower_of_Hanoi_4.gif)
@@ -74,9 +80,3 @@ Clipped from [APL Exercises](https://www.jsoftware.com/papers/APL_exercises/ex2.
 The Tower of Hanoi problem is to move a set of n different-sized disks from one peg to another, moving one disk at a time, using an intermediate peg if necessary. At all times no larger disk may sit on top of a smaller disk.
 
 Write a function Hanoi ⍵ to solve the problem of moving ⍵ disks from peg 0 to peg 2. Since it’s always the disk which is at the top of a peg which is moved, the solution can be stated as a 2-column matrix with column 0 indicating the source peg and column 1 the destination peg.,
-
-Clipped from [APL Exercises](https://www.jsoftware.com/papers/APL_exercises/ex2.htm) at 2022-10-24.> From the moment the pandemic forced us to pause campus life and conduct operations virtually, our goal was to reunite students and faculty in the classrooms, labs, and studios as soon as was safely possible. And in 2020, we did just that.
-
-But getting there was no small task.,
-
-Clipped from [Boston University - Annual Report 2021](https://www.bu.edu/ar/2021/academics/learn-from-anywhere.html) at 2022-10-24.
