@@ -1,2 +1,3 @@
 # Notes
-## read this note
+Obsidian Notbook
+
