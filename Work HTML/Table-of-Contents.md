@@ -31,7 +31,7 @@ https://github.com/nefe/You-Dont-Need-jQuery#query-selector
 
 //Document Ready
 
-```
+```js
 if (document.readyState !== 'loading') {
     eventHandler();
   } else {
@@ -41,13 +41,13 @@ if (document.readyState !== 'loading') {
 
 // Assign variable for id
 
-```
+```js
 document.querySelector('#id');
 ```
 
 // toc headers
 
-```
+```js
 var toc = initTOC(options);
 initTOC({
     selector: 'h1, h2, h3, h4, h5, h6',
@@ -59,7 +59,7 @@ initTOC({
 
 Final
 
-```
+```js
 if (document.readyState !== 'loading') {
   eventHandler(){
   var container = document.querySelector('#toc');
