@@ -4,33 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a339cec1c7603b92",
+        "id": "f6ce02e65b282a88",
         "type": "tabs",
         "children": [
           {
-            "id": "409da9ec7df1eaa0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Work HTML/phone.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "005ce2eba1587829",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Annual Report 2022/Annual Report Images/micro.png"
-              }
-            }
-          },
-          {
-            "id": "e93eb81ba185df49",
+            "id": "fea05b8215259851",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -40,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "0fcbb072a87b6b3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Trig/Trig Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trig/Trig Notes.md",
+                "file": "APL/APL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trig/Trig Notes.md",
+                "file": "APL/APL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trig/Trig Notes.md"
+                "file": "APL/APL.md"
               }
             }
           }
@@ -174,10 +139,10 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "0fcbb072a87b6b3b",
+  "active": "fea05b8215259851",
   "lastOpenFiles": [
-    "Work HTML/Table-of-Contents.md",
     "Trig/Trig Notes.md",
+    "Work HTML/Table-of-Contents.md",
     "APL/APL.md",
     "Trig/PDF/MTH 113 Emphasis Sheet (Me)(1).pdf",
     "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf",
