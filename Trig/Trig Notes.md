@@ -5,4 +5,7 @@
 ```APL
 )load ~/Repos/APL/deg.dws
 ```
-testa test
+### MAC HOME LT
+```APL
+)load /users/jeremy/repos/APL/deg.dws
+```
