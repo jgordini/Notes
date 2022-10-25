@@ -109,5 +109,14 @@
       ],
       "key": "Y"
     }
+  ],
+  "editor:toggle-fold": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "F"
+    }
   ]
 }
