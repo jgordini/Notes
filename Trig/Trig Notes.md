@@ -3,7 +3,7 @@
 
 ### Linux
 ```APL
-)load ~/Repos/APL/deg.dws
+)load /home/jeremy/Repos/APL/deg.dws
 ```
 ### MAC HOME LT
 ```APL
