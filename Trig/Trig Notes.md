@@ -13,18 +13,3 @@
 **4. you know what I mean**
 5. hello world
 *this is text not in that list*
-
-
-
-
-  
- 
- 
- 
-
- 
- 
-
-
-
-
