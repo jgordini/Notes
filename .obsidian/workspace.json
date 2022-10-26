@@ -57,12 +57,8 @@
             "id": "c7915380cf6c3dd2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Solar.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -71,7 +67,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Solar.md",
+                "file": "Solar1.md",
                 "mode": "source",
                 "source": false
               }
@@ -144,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Solar.md",
+                "file": "Solar1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Solar.md",
+                "file": "Solar1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Solar.md"
+                "file": "Solar1.md"
               }
             }
           }
@@ -197,15 +193,15 @@
   },
   "active": "02a97932328c178d",
   "lastOpenFiles": [
-    "Yeti Home Backup Systems | Goal Zero 1.md",
-    "Yeti Home Backup Systems | Goal Zero.md",
     "Solar.md",
+    "Yeti Home Backup Systems | Goal Zero.md",
+    "Solar1 1.md",
+    "Solar1.md",
+    "Yeti Home Backup Systems | Goal Zero 1.md",
     "Test.md",
     "a new note.md",
     "Trig/Trig Notes.md",
     "APL/APL.md",
-    "conflict-files-obsidian-git.md",
-    "Work HTML/HTML CSS NOTES.md",
-    "Work HTML/Table-of-Contents.md"
+    "conflict-files-obsidian-git.md"
   ]
 }

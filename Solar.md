@@ -1,1 +1,0 @@
-Unable get contents of the clipUnable get contents of the clipUnable get contents of the clip
