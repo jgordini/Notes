@@ -52,8 +52,12 @@ Clipped from [Overview](https://www.jsoftware.com/#/README) at 2022-10-24.
  
 
 These exercises are designed to introduce APL to a high school senior adept in mathematics.
+```APL
+⎕io←0
+```
 
-⎕io←0 throughout.,
+
+throughout.,
 
 Clipped from [APL Exercises](https://www.jsoftware.com/papers/APL_exercises/intro.htm) at 2022-10-24.> APL Exercises 2  
 Recursion  
@@ -65,9 +69,18 @@ Recursion
 **2.0 Factorial**
 
 Write a function to compute the factorial function on integer ⍵ , ⍵≥0 .
+```APL
+⍵ , ⍵≥0
+```
+```html
+<h1> some code </h1>
+```
 
-
-```  fac¨ 5 6 7 8
+```HTML
+<h1> this is some code</h1>
+```
+```APL
+fac¨ 5 6 7 8
 120 720 5040 40320
 
    n←1+?20

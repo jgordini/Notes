@@ -1,3 +1,6 @@
 {
-  "accentColor": ""
+  "accentColor": "",
+  "cssTheme": "Prism",
+  "baseFontSize": 20,
+  "theme": "obsidian"
 }
