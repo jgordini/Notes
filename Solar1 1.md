@@ -1,2 +1,0 @@
-> 
-Clipped from [c3ce2072d5393a12d0ab07f240fc6e28_291a4765-7190-4a85-8e2e-a9e2c8bacdf0_2000x.jpg (WEBP Image, 500 × 500 pixels)](https://cdn.shopify.com/s/files/1/0520/1156/5225/files/c3ce2072d5393a12d0ab07f240fc6e28_291a4765-7190-4a85-8e2e-a9e2c8bacdf0_2000x.jpg?v=1649781397) at 2022-10-26.

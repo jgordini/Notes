@@ -67,7 +67,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Solar1 3.md",
+                "file": "Solar1.md",
                 "mode": "source",
                 "source": false
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Solar1 3.md",
+                "file": "Solar1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Solar1 3.md",
+                "file": "Solar1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Solar1 3.md"
+                "file": "Solar1.md"
               }
             }
           }
@@ -193,15 +193,15 @@
   },
   "active": "02a97932328c178d",
   "lastOpenFiles": [
+    "Test.md",
+    "a new note.md",
+    "Solar1.md",
+    "Solar1 3.md",
     "Solar1 2.md",
     "Solar1 1.md",
-    "Solar1.md",
     "Solar.md",
     "Yeti Home Backup Systems | Goal Zero.md",
     "Yeti Home Backup Systems | Goal Zero 1.md",
-    "Test.md",
-    "a new note.md",
-    "Trig/Trig Notes.md",
-    "APL/APL.md"
+    "Trig/Trig Notes.md"
   ]
 }
