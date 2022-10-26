@@ -59,7 +59,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "APL/APL.md",
+                "file": "Trig/Trig Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "APL/APL.md",
+                "file": "Trig/Trig Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "APL/APL.md",
+                "file": "Trig/Trig Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "APL/APL.md"
+                "file": "Trig/Trig Notes.md"
               }
             }
           }
@@ -188,8 +188,8 @@
   },
   "active": "c7915380cf6c3dd2",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "APL/APL.md",
+    "conflict-files-obsidian-git.md",
     "Work HTML/HTML CSS NOTES.md",
     "Work HTML/Table-of-Contents.md",
     "Work HTML/phone.md",
