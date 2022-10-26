@@ -1,1 +1,0 @@
-[Silicon Valley quake shows off Android Earthquake Alert System in action](https://www.androidpolice.com/android-earthquake-alert-system-us-visual/)
