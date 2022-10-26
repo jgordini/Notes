@@ -65,11 +65,9 @@
             "id": "02a97932328c178d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Solar1.md",
-                "mode": "source",
-                "source": false
+                "file": "Images/Screen Shot 2022-10-26 at 1.59.23 PM.png"
               }
             }
           }
@@ -140,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Solar1.md",
+                "file": "Images/Screen Shot 2022-10-26 at 1.59.23 PM.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Solar1.md",
+                "file": "Images/Screen Shot 2022-10-26 at 1.59.23 PM.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Solar1.md"
+                "file": "Images/Screen Shot 2022-10-26 at 1.59.23 PM.png"
               }
             }
           }
@@ -193,11 +191,11 @@
   },
   "active": "02a97932328c178d",
   "lastOpenFiles": [
-    "Images/Screen Shot 2022-10-26 at 1.59.23 PM.png",
     "Images/Screen Shot 2022-10-26 at 1.53.29 PM.png",
-    "Solar1.md",
-    "Images/test.png",
     "Images/2022-10-26_13-49.png",
+    "Images/test.png",
+    "Solar1.md",
+    "Images/Screen Shot 2022-10-26 at 1.59.23 PM.png",
     "Test.md",
     "a new note.md",
     "Solar1 3.md",
