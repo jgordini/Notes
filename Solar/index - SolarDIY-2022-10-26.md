@@ -1,0 +1,2 @@
+>  The cost to mount, and wire 40 (10 year old) 100 watt solar panels, is more then buying 10 400 watt solar panel (US pricing, assuming proper installation). This is why a lot of older 250 watt and under solar panels are on the used market for $50 (US). It’s not worth using them for that application anymore.
+Clipped from [index - SolarDIY](https://www.reddit.com/r/SolarDIY/wiki/index/#wiki_covering_your_roof_with_older.2C_lower_wattage.2C_and_cheap_solar_panels_is_not_a_good_idea.) at 2022-10-26.
