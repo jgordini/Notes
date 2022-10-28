@@ -1,0 +1,2 @@
+> The best method to use this system in a legal fashion, is to hire a licensed electrician to install a transfer switch for your homes critical loads. Then have the electrician connect the transfer switch to your offgrid solar power system's load center. They will run the proper size conductors, and ground the system to NEC code.
+Clipped from [48V Offgrid Solar Power System - DIY Solar Power - Made Easy!](https://www.mobile-solarpower.com/48v-complete-system-blueprint.html) at 2022-10-26.

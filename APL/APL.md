@@ -2,6 +2,9 @@
 
 ### [APL Books](https://drive.google.com/drive/folders/1By9dnSi53_ov9gYjbiboCoQwaP6zZsvu?usp=sharing)
 
+### [APL Links](https://keep.google.com/u/0/#label/APL)
+
+
 I wrote this to be the book I would have wanted to read when I started to learn APL. An introduction to APL for an experienced practitioner from a different programming language or two. We all learn in different ways, and I prefer the fundamental concepts laid bare first, and then learn by example.
 
 I came to APL after discovering a file of [solutions](https://github.com/KxSystems/kdb/blob/master/ad.k) to the [Advent of Code](https://adventofcode.com/) 2015 challenge in [K](https://en.wikipedia.org/wiki/K_(programming_language)), an APL derivative. That’s around 100 lines of actual code, and whilst I didn’t understand any of it, I kept looking at it, trying to figure out which of the 50 problems (well, 49) this was a solution to. Each of my Python solutions typically ran to 50-100 lines+ for the bulk of the problems.
