@@ -23,11 +23,9 @@
             "id": "71b4e0f3cfcb63df",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Solar/Solar Notes.md",
-                "mode": "source",
-                "source": false
+                "file": "APL/Images/APL Caniidates.png"
               }
             }
           }
@@ -98,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Solar/Solar Notes.md",
+                "file": "APL/Images/APL Caniidates.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Solar/Solar Notes.md",
+                "file": "APL/Images/APL Caniidates.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Solar/Solar Notes.md"
+                "file": "APL/Images/APL Caniidates.png"
               }
             }
           }
@@ -152,13 +150,13 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "71b4e0f3cfcb63df",
+  "active": "5a4e69478dd26ebf",
   "lastOpenFiles": [
+    "Solar/Solar Notes.md",
     "Trig/Trig Notes.md",
     "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf",
     "Trig/PDF/MTH 113 Emphasis Sheet (Me)(1).pdf",
     "Annual Report 2022/annual-report.md",
-    "Solar/Solar Notes.md",
     "APL/APL.md",
     "APL/Images/tally-apl-cart.png",
     "Trig/Trig Images/Function Defs.png",
