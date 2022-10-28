@@ -23,9 +23,11 @@
             "id": "71b4e0f3cfcb63df",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "APL/Images/APL Caniidates.png"
+                "file": "Trig/Trig Notes.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "APL/Images/APL Caniidates.png",
+                "file": "Trig/Trig Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "APL/Images/APL Caniidates.png",
+                "file": "Trig/Trig Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "APL/Images/APL Caniidates.png"
+                "file": "Trig/Trig Notes.md"
               }
             }
           }
@@ -150,8 +152,9 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "5a4e69478dd26ebf",
+  "active": "71b4e0f3cfcb63df",
   "lastOpenFiles": [
+    "APL/Images/APL Caniidates.png",
     "Solar/Solar Notes.md",
     "Trig/Trig Notes.md",
     "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf",
@@ -160,7 +163,6 @@
     "APL/APL.md",
     "APL/Images/tally-apl-cart.png",
     "Trig/Trig Images/Function Defs.png",
-    "Trig/testing.md",
-    "a new note.md"
+    "Trig/testing.md"
   ]
 }
