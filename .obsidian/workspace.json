@@ -96,9 +96,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3aa7fdd66770c6f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -164,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work HTML/Meeting Notes 10-27.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work HTML/Meeting Notes 10-27.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work HTML/Meeting Notes 10-27.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -215,7 +227,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5a4e69478dd26ebf",
+  "active": "3aa7fdd66770c6f1",
   "lastOpenFiles": [
     "Solar/Solar Notes.md",
     "Solar/What Size Solar Panel to Charge 100Ah Battery? - Footprint Hero-2022-10-26.md",
