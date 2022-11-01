@@ -96,9 +96,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "24a50dca5bc56d03",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI Stories/4321.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -164,7 +176,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Work HTML/CSS Animation.md",
+                "file": "AI Stories/4321.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +193,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Work HTML/CSS Animation.md",
+                "file": "AI Stories/4321.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Work HTML/CSS Animation.md"
+                "file": "AI Stories/4321.md"
               }
             }
           }
@@ -215,8 +227,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5a4e69478dd26ebf",
+  "active": "24a50dca5bc56d03",
   "lastOpenFiles": [
+    "Work HTML/CSS Animation.md",
     "Solar/Solar Notes.md",
     "Solar/What Size Solar Panel to Charge 100Ah Battery? - Footprint Hero-2022-10-26.md",
     "Solar/48V Offgrid Solar Power System - DIY Solar Power - Made Easy!-2022-10-26.md",
@@ -225,7 +238,6 @@
     "Websites/Obsidian Clipper-2022-10-26.md",
     "Websites/Yeti Home Backup Systems | Goal Zero-2022-10-26.md",
     "Websites.md",
-    "a new note.md",
-    "Solar1.md"
+    "a new note.md"
   ]
 }
