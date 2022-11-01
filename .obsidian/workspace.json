@@ -4,35 +4,101 @@
     "type": "split",
     "children": [
       {
-        "id": "e965b067b39742ad",
+        "id": "a339cec1c7603b92",
         "type": "tabs",
         "children": [
           {
-            "id": "85efe497ca15e5cc",
+            "id": "409da9ec7df1eaa0",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "005ce2eba1587829",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Annual Report 2022/Annual Report Images/micro.png"
+              }
+            }
+          },
+          {
+            "id": "e93eb81ba185df49",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trig/Trig Notes.md",
+                "file": "APL/APL.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "71b4e0f3cfcb63df",
+            "id": "0fcbb072a87b6b3b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Solar/Solar Notes.md",
+                "file": "Work HTML/Table-of-Contents.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c7915380cf6c3dd2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "02a97932328c178d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "a7f11e1447b8de54",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "1bc54be7eab859a1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Search/DiscMaster-2022-10-27.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4d30ac85d642f49b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Work HTML/CSS Animation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -98,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Solar/Solar Notes.md",
+                "file": "Work HTML/CSS Animation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Solar/Solar Notes.md",
+                "file": "Work HTML/CSS Animation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Solar/Solar Notes.md"
+                "file": "Work HTML/CSS Animation.md"
               }
             }
           }
@@ -149,20 +215,17 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "71b4e0f3cfcb63df",
+  "active": "5a4e69478dd26ebf",
   "lastOpenFiles": [
-    "Trig/Trig Notes.md",
-    "APL/Images/APL Caniidates.png",
     "Solar/Solar Notes.md",
-    "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf",
-    "Trig/PDF/MTH 113 Emphasis Sheet (Me)(1).pdf",
-    "Annual Report 2022/annual-report.md",
-    "APL/APL.md",
-    "APL/Images/tally-apl-cart.png",
-    "Trig/Trig Images/Function Defs.png",
-    "Trig/testing.md"
+    "Solar/What Size Solar Panel to Charge 100Ah Battery? - Footprint Hero-2022-10-26.md",
+    "Solar/48V Offgrid Solar Power System - DIY Solar Power - Made Easy!-2022-10-26.md",
+    "Solar/index - SolarDIY-2022-10-26.md",
+    "Solar/How to Size your Solar Power System - YouTube-2022-10-26.md",
+    "Websites/Obsidian Clipper-2022-10-26.md",
+    "Websites/Yeti Home Backup Systems | Goal Zero-2022-10-26.md",
+    "Websites.md",
+    "a new note.md",
+    "Solar1.md"
   ]
 }
