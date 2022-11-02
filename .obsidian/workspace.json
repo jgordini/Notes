@@ -167,7 +167,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "APL/APL.md",
+                "file": "Websites/Invoker - Welcome - Beyond Code-2022-11-02.md",
                 "mode": "source",
                 "source": false
               }
@@ -240,7 +240,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "APL/APL.md",
+                "file": "Websites/Invoker - Welcome - Beyond Code-2022-11-02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -257,7 +257,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "APL/APL.md",
+                "file": "Websites/Invoker - Welcome - Beyond Code-2022-11-02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -280,7 +280,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "APL/APL.md"
+                "file": "Websites/Invoker - Welcome - Beyond Code-2022-11-02.md"
               }
             }
           }
@@ -293,6 +293,7 @@
   },
   "active": "d9eab408d8f07576",
   "lastOpenFiles": [
+    "APL/APL.md",
     "Trig/Trig Notes.md",
     "conflict-files-obsidian-git.md",
     "README.md",
@@ -301,7 +302,6 @@
     "Solar/What Size Solar Panel to Charge 100Ah Battery? - Footprint Hero-2022-10-26.md",
     "Solar/48V Offgrid Solar Power System - DIY Solar Power - Made Easy!-2022-10-26.md",
     "Solar/index - SolarDIY-2022-10-26.md",
-    "Solar/How to Size your Solar Power System - YouTube-2022-10-26.md",
-    "Websites/Obsidian Clipper-2022-10-26.md"
+    "Solar/How to Size your Solar Power System - YouTube-2022-10-26.md"
   ]
 }
