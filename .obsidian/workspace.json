@@ -165,8 +165,12 @@
             "id": "d9eab408d8f07576",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Trig/Trig Notes.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -236,6 +240,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Trig/Trig Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -252,6 +257,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Trig/Trig Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -273,7 +279,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Trig/Trig Notes.md"
+              }
             }
           }
         ]
