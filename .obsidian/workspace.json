@@ -167,7 +167,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trig/Trig Notes.md",
+                "file": "APL/APL.md",
                 "mode": "source",
                 "source": false
               }
@@ -240,7 +240,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trig/Trig Notes.md",
+                "file": "APL/APL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -257,7 +257,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trig/Trig Notes.md",
+                "file": "APL/APL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -280,7 +280,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trig/Trig Notes.md"
+                "file": "APL/APL.md"
               }
             }
           }
@@ -293,6 +293,7 @@
   },
   "active": "d9eab408d8f07576",
   "lastOpenFiles": [
+    "Trig/Trig Notes.md",
     "conflict-files-obsidian-git.md",
     "README.md",
     "Websites/Certbot Instructions | Certbot-2022-11-02.md",
@@ -301,7 +302,6 @@
     "Solar/48V Offgrid Solar Power System - DIY Solar Power - Made Easy!-2022-10-26.md",
     "Solar/index - SolarDIY-2022-10-26.md",
     "Solar/How to Size your Solar Power System - YouTube-2022-10-26.md",
-    "Websites/Obsidian Clipper-2022-10-26.md",
-    "Websites/Yeti Home Backup Systems | Goal Zero-2022-10-26.md"
+    "Websites/Obsidian Clipper-2022-10-26.md"
   ]
 }
