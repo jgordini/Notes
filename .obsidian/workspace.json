@@ -4,177 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "a339cec1c7603b92",
+        "id": "e965b067b39742ad",
         "type": "tabs",
         "children": [
           {
-            "id": "409da9ec7df1eaa0",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "005ce2eba1587829",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Annual Report 2022/Annual Report Images/micro.png"
-              }
-            }
-          },
-          {
-            "id": "e93eb81ba185df49",
+            "id": "85efe497ca15e5cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "APL/APL.md",
+                "file": "Trig/Trig Notes.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0fcbb072a87b6b3b",
+            "id": "71b4e0f3cfcb63df",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Work HTML/Table-of-Contents.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c7915380cf6c3dd2",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "02a97932328c178d",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "a7f11e1447b8de54",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "1bc54be7eab859a1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Search/DiscMaster-2022-10-27.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bf5d8524f5ff9d92",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Work HTML/Meeting Notes 10-27.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3aa7fdd66770c6f1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Websites/Certbot Instructions | Certbot-2022-11-02.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eb8e09f5530f4267",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Websites/Certbot Instructions | Certbot-2022-11-02.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2aca02a6c24e4590",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "fcbdcd29e2fb3ffd",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "5a2f7c1e5de76098",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "940600495c554810",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "e858d63c795b212c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "d9eab408d8f07576",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Websites/Invoker - Welcome - Beyond Code-2022-11-02.md",
-                "mode": "source",
-                "source": false
+                "file": "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf"
               }
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -240,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Websites/Invoker - Welcome - Beyond Code-2022-11-02.md",
+                "file": "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -257,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Websites/Invoker - Welcome - Beyond Code-2022-11-02.md",
+                "file": "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -280,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Websites/Invoker - Welcome - Beyond Code-2022-11-02.md"
+                "file": "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf"
               }
             }
           }
@@ -291,17 +147,20 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d9eab408d8f07576",
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "71b4e0f3cfcb63df",
   "lastOpenFiles": [
-    "APL/APL.md",
-    "Trig/Trig Notes.md",
-    "conflict-files-obsidian-git.md",
-    "README.md",
-    "Websites/Certbot Instructions | Certbot-2022-11-02.md",
+    "Trig/PDF/MTH 113 Emphasis Sheet (Me)(1).pdf",
+    "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf",
     "Solar/Solar Notes.md",
-    "Solar/What Size Solar Panel to Charge 100Ah Battery? - Footprint Hero-2022-10-26.md",
-    "Solar/48V Offgrid Solar Power System - DIY Solar Power - Made Easy!-2022-10-26.md",
-    "Solar/index - SolarDIY-2022-10-26.md",
-    "Solar/How to Size your Solar Power System - YouTube-2022-10-26.md"
+    "Trig/Trig Notes.md",
+    "APL/Images/APL Caniidates.png",
+    "Annual Report 2022/annual-report.md",
+    "APL/APL.md",
+    "APL/Images/tally-apl-cart.png",
+    "Trig/Trig Images/Function Defs.png",
+    "Trig/testing.md"
   ]
 }
