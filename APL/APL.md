@@ -20,3 +20,6 @@ dtor should be rtod
 half←{180-2×rtod ⍺×○÷⍵}
 ```
 Also looking for a solution that identifies the answer by quadrants
+
+There is a math dyalog plugin for windows and linux
+https://github.com/Dyalog/Math
