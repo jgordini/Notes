@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI Stories/2nd.md",
+                "file": "Solar/Solar Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -191,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI Stories/2nd.md",
+                "file": "Solar/Solar Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -208,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI Stories/2nd.md",
+                "file": "Solar/Solar Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -231,7 +231,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI Stories/2nd.md"
+                "file": "Solar/Solar Notes.md"
               }
             }
           }
@@ -242,17 +242,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5a4e69478dd26ebf",
+  "active": "409da9ec7df1eaa0",
   "lastOpenFiles": [
+    "Solar/48V Offgrid Solar Power System - DIY Solar Power - Made Easy!-2022-10-26.md",
+    "AI Stories/2nd.md",
     "AI Stories/4321.md",
     "Work HTML/CSS Animation.md",
     "Solar/Solar Notes.md",
     "Solar/What Size Solar Panel to Charge 100Ah Battery? - Footprint Hero-2022-10-26.md",
-    "Solar/48V Offgrid Solar Power System - DIY Solar Power - Made Easy!-2022-10-26.md",
     "Solar/index - SolarDIY-2022-10-26.md",
     "Solar/How to Size your Solar Power System - YouTube-2022-10-26.md",
     "Websites/Obsidian Clipper-2022-10-26.md",
-    "Websites/Yeti Home Backup Systems | Goal Zero-2022-10-26.md",
-    "Websites.md"
+    "Websites/Yeti Home Backup Systems | Goal Zero-2022-10-26.md"
   ]
 }
