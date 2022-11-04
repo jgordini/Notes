@@ -29,7 +29,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trig/Trig Notes.md",
+                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trig/Trig Notes.md",
+                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trig/Trig Notes.md"
+                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf"
               }
             }
           }
@@ -150,10 +151,10 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "85efe497ca15e5cc",
+  "active": "71b4e0f3cfcb63df",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Trig/Trig Notes.md",
+    "conflict-files-obsidian-git.md",
     "Trig/PDF/Trig_Cheat_Sheet.pdf",
     "APL/APL.md",
     "APL/PDF/adams1984.pdf",
