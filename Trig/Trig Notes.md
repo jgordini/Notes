@@ -13,3 +13,4 @@
 )load /users/jeremy/repos/APL/deg.dws
 ```
 
+[Factoring Polynomials](https://en.wikipedia.org/wiki/Factorization)
