@@ -165,9 +165,11 @@
             "id": "d9eab408d8f07576",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Trig/PDF/LaTeX_Guide_Title.pdf"
+                "file": "Work HTML/shipshapecodeshepherd Guide your users through a tour of your app-2022-11-04.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -238,7 +240,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trig/PDF/LaTeX_Guide_Title.pdf",
+                "file": "Work HTML/shipshapecodeshepherd Guide your users through a tour of your app-2022-11-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -255,7 +257,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trig/PDF/LaTeX_Guide_Title.pdf",
+                "file": "Work HTML/shipshapecodeshepherd Guide your users through a tour of your app-2022-11-04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -278,7 +280,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trig/PDF/LaTeX_Guide_Title.pdf"
+                "file": "Work HTML/shipshapecodeshepherd Guide your users through a tour of your app-2022-11-04.md"
               }
             }
           }
@@ -289,8 +291,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d9eab408d8f07576",
+  "active": "5a4e69478dd26ebf",
   "lastOpenFiles": [
+    "Trig/PDF/LaTeX_Guide_Title.pdf",
     "Websites/Invoker - Welcome - Beyond Code-2022-11-02.md",
     "APL/APL.md",
     "Trig/Trig Notes.md",
@@ -299,7 +302,6 @@
     "Websites/Certbot Instructions | Certbot-2022-11-02.md",
     "Solar/Solar Notes.md",
     "Solar/What Size Solar Panel to Charge 100Ah Battery? - Footprint Hero-2022-10-26.md",
-    "Solar/48V Offgrid Solar Power System - DIY Solar Power - Made Easy!-2022-10-26.md",
-    "Solar/index - SolarDIY-2022-10-26.md"
+    "Solar/48V Offgrid Solar Power System - DIY Solar Power - Made Easy!-2022-10-26.md"
   ]
 }
