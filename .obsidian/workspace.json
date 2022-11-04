@@ -165,11 +165,9 @@
             "id": "d9eab408d8f07576",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Websites/Invoker - Welcome - Beyond Code-2022-11-02.md",
-                "mode": "source",
-                "source": false
+                "file": "Trig/PDF/LaTeX_Guide_Title.pdf"
               }
             }
           }
@@ -240,7 +238,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Websites/Invoker - Welcome - Beyond Code-2022-11-02.md",
+                "file": "Trig/PDF/LaTeX_Guide_Title.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -257,7 +255,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Websites/Invoker - Welcome - Beyond Code-2022-11-02.md",
+                "file": "Trig/PDF/LaTeX_Guide_Title.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -280,7 +278,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Websites/Invoker - Welcome - Beyond Code-2022-11-02.md"
+                "file": "Trig/PDF/LaTeX_Guide_Title.pdf"
               }
             }
           }
@@ -293,6 +291,7 @@
   },
   "active": "d9eab408d8f07576",
   "lastOpenFiles": [
+    "Websites/Invoker - Welcome - Beyond Code-2022-11-02.md",
     "APL/APL.md",
     "Trig/Trig Notes.md",
     "conflict-files-obsidian-git.md",
@@ -301,7 +300,6 @@
     "Solar/Solar Notes.md",
     "Solar/What Size Solar Panel to Charge 100Ah Battery? - Footprint Hero-2022-10-26.md",
     "Solar/48V Offgrid Solar Power System - DIY Solar Power - Made Easy!-2022-10-26.md",
-    "Solar/index - SolarDIY-2022-10-26.md",
-    "Solar/How to Size your Solar Power System - YouTube-2022-10-26.md"
+    "Solar/index - SolarDIY-2022-10-26.md"
   ]
 }
