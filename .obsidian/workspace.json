@@ -11,11 +11,9 @@
             "id": "85efe497ca15e5cc",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Trig/Trig Notes.md",
-                "mode": "source",
-                "source": false
+                "file": "Trig/PDF/MTH 113 Emphasis Sheet (Me)(1).pdf"
               }
             }
           }
@@ -85,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trig/Trig Notes.md",
+                "file": "Trig/PDF/MTH 113 Emphasis Sheet (Me)(1).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trig/Trig Notes.md",
+                "file": "Trig/PDF/MTH 113 Emphasis Sheet (Me)(1).pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trig/Trig Notes.md"
+                "file": "Trig/PDF/MTH 113 Emphasis Sheet (Me)(1).pdf"
               }
             }
           }
@@ -141,13 +139,13 @@
   },
   "active": "85efe497ca15e5cc",
   "lastOpenFiles": [
+    "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf",
+    "Trig/Trig Notes.md",
     "APL/Images/Function Defs.png",
     "Trig/PDF/Algebra_Cheat_Sheet.pdf",
-    "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf",
     "Trig/PDF/MTH 113 Emphasis Sheet (Me)(1).pdf",
     "Trig/PDF/Trig_Cheat_Sheet.pdf",
     "Trig/PDF/LaTeX_Guide_Title.pdf",
-    "Trig/Trig Notes.md",
     "conflict-files-obsidian-git.md",
     "APL/APL.md",
     "APL/PDF/adams1984.pdf"
