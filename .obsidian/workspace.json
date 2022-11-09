@@ -16,8 +16,19 @@
                 "file": "Trig/PDF/Trig_Cheat_Sheet.pdf"
               }
             }
+          },
+          {
+            "id": "3344acd1b11f4dd8",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.0.3"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -134,10 +145,7 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "85efe497ca15e5cc",
+  "active": "3344acd1b11f4dd8",
   "lastOpenFiles": [
     "Trig/Trig Images/unit-circle-with-tangent-1634627448.png",
     "Trig/Trig Images/tan3.gif",
