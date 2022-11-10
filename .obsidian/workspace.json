@@ -1,26 +1,14 @@
 {
   "main": {
-    "id": "c78039367afdf84f",
+    "id": "b1e7b5ede1eb0f11",
     "type": "split",
     "children": [
       {
-        "id": "b791007fe593072c",
+        "id": "e965b067b39742ad",
         "type": "tabs",
         "children": [
           {
-            "id": "0602c32ce3c7fcc9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "APL/APL.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f9b6eac1b00fef36",
+            "id": "85efe497ca15e5cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,45 +18,32 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "5c19ccea772ef6f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statement Seperator.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "6db67445d99b9b66",
+    "id": "4c1ee8424cf3fb95",
     "type": "split",
     "children": [
       {
-        "id": "972f3f2622354e0e",
+        "id": "8c6f84c3d7139d0f",
         "type": "tabs",
         "children": [
           {
-            "id": "fdfc380643e1c9c2",
+            "id": "5a4e69478dd26ebf",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTimeReverse"
               }
             }
           },
           {
-            "id": "5e65897e521ff7e5",
+            "id": "03074444151a6085",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -83,7 +58,7 @@
             }
           },
           {
-            "id": "58ea0d71fbb9bfe0",
+            "id": "65529e1fa40356dd",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -94,23 +69,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 236.50260543823242
   },
   "right": {
-    "id": "61b06cb1739ee61c",
+    "id": "e8fd077a861a7cbb",
     "type": "split",
     "children": [
       {
-        "id": "53f1823fc58177c9",
+        "id": "5c7e3f54cd544740",
         "type": "tabs",
         "children": [
           {
-            "id": "6a5aac28a61b09d8",
+            "id": "a069eedefa27de23",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statement Seperator.md",
+                "file": "APL Quest/Seems a bit odd to me 2013-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,19 +97,19 @@
             }
           },
           {
-            "id": "26263c4f4bfff830",
+            "id": "8cb291b7680e5079",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statement Seperator.md",
+                "file": "APL Quest/Seems a bit odd to me 2013-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "0df76361ecbec9c4",
+            "id": "bf37aad46242b7ca",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -145,12 +120,12 @@
             }
           },
           {
-            "id": "2605b41431d40fd1",
+            "id": "dfdec0b4aef704c6",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statement Seperator.md"
+                "file": "APL Quest/Seems a bit odd to me 2013-1.md"
               }
             }
           }
@@ -161,9 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5c19ccea772ef6f2",
+  "active": "85efe497ca15e5cc",
   "lastOpenFiles": [
-    "APL Quest/Seems a bit odd to me 2013-1.md",
-    "APL/APL.md"
+    "Trig/PDF/unit-circle-with-tangent-1634627448.png",
+    "Trig/PDF/Trig_Cheat_Sheet.pdf",
+    "Trig/Trig Images/tan3.gif",
+    "Trig/PDF/MTH 113 Emphasis Sheet (Me)(1).pdf",
+    "Trig/PDF/Algebra_Cheat_Sheet.pdf",
+    "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf",
+    "Trig/Trig Notes.md",
+    "APL/Images/Function Defs.png",
+    "Trig/PDF/LaTeX_Guide_Title.pdf",
+    "conflict-files-obsidian-git.md"
   ]
 }
