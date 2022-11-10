@@ -4,5 +4,15 @@
 **Problem:** Write a dfn to produce a vector of the first n odd numbers.
 **Glyphs Used:**
 [Iota](https://aplwiki.com/wiki/Index_Generator)
+[Commute](https://aplwiki.com/wiki/Commute) aka Selfie
+[Quad](https://aplwiki.com/wiki/Quad_name)
+[Identity](https://aplwiki.com/wiki/Identity)
+[Reshape](https://aplwiki.com/wiki/Reshape)
+**Concepts Used:**
+[Dfn](https://aplwiki.com/wiki/Dfn)
+[Index Origin](https://aplwiki.com/wiki/Index_origin)
+[Zero based Numbering](https://en.wikipedia.org/wiki/Zero-based_numbering)
+[Tacit Programming](https://aplwiki.com/wiki/Tacit_programming)
+Boolean Mask
 
 
