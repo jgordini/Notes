@@ -15,7 +15,8 @@
 [Take](https://aplwiki.com/wiki/Take)
 [Scan](https://aplwiki.com/wiki/Scan)
 [Power](https://aplwiki.com/wiki/Power_(function))
-Branc
+[Branch](https://aplwiki.com/wiki/Branch)
+
 
 **Concepts Used:**
 [Dfn](https://aplwiki.com/wiki/Dfn)
