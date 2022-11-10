@@ -11,7 +11,7 @@
 [Identity](https://aplwiki.com/wiki/Identity)
 [Reshape](https://aplwiki.com/wiki/Reshape)
 [Indices](https://aplwiki.com/wiki/Indices) aka Where
-[Residue](https://aplwiki.com/wiki/Residue) aka Modulus
+[Residue](https://aplwiki.com/wiki/Residue) aka Modulus 
 [Take](https://aplwiki.com/wiki/Take)
 [Scan](https://aplwiki.com/wiki/Scan)
 
@@ -21,6 +21,7 @@
 [Zero based Numbering](https://en.wikipedia.org/wiki/Zero-based_numbering)
 [Tacit Programming](https://aplwiki.com/wiki/Tacit_programming)
 [Boolean Mask](https://aplwiki.com/wiki/Boolean)
+[Parity - Modulous 2](https://xpqz.github.io/cultivations/Functions2.html#magnitude-residue)
 
 
 
