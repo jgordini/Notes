@@ -1,20 +1,18 @@
 {
   "main": {
-    "id": "b1e7b5ede1eb0f11",
+    "id": "c78039367afdf84f",
     "type": "split",
     "children": [
       {
-        "id": "e965b067b39742ad",
+        "id": "b791007fe593072c",
         "type": "tabs",
         "children": [
           {
-            "id": "85efe497ca15e5cc",
+            "id": "0602c32ce3c7fcc9",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "Trig/PDF/unit-circle-with-tangent-1634627448.png"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -23,25 +21,25 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "4c1ee8424cf3fb95",
+    "id": "6db67445d99b9b66",
     "type": "split",
     "children": [
       {
-        "id": "8c6f84c3d7139d0f",
+        "id": "972f3f2622354e0e",
         "type": "tabs",
         "children": [
           {
-            "id": "5a4e69478dd26ebf",
+            "id": "fdfc380643e1c9c2",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse"
+                "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "03074444151a6085",
+            "id": "5e65897e521ff7e5",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -56,7 +54,7 @@
             }
           },
           {
-            "id": "65529e1fa40356dd",
+            "id": "58ea0d71fbb9bfe0",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -67,23 +65,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.50260543823242
+    "width": 300
   },
   "right": {
-    "id": "e8fd077a861a7cbb",
+    "id": "61b06cb1739ee61c",
     "type": "split",
     "children": [
       {
-        "id": "5c7e3f54cd544740",
+        "id": "53f1823fc58177c9",
         "type": "tabs",
         "children": [
           {
-            "id": "a069eedefa27de23",
+            "id": "6a5aac28a61b09d8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trig/PDF/unit-circle-with-tangent-1634627448.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,19 +92,18 @@
             }
           },
           {
-            "id": "8cb291b7680e5079",
+            "id": "26263c4f4bfff830",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trig/PDF/unit-circle-with-tangent-1634627448.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "bf37aad46242b7ca",
+            "id": "0df76361ecbec9c4",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -118,13 +114,11 @@
             }
           },
           {
-            "id": "dfdec0b4aef704c6",
+            "id": "2605b41431d40fd1",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Trig/PDF/unit-circle-with-tangent-1634627448.png"
-              }
+              "state": {}
             }
           }
         ]
@@ -134,17 +128,6 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "85efe497ca15e5cc",
-  "lastOpenFiles": [
-    "Trig/PDF/Trig_Cheat_Sheet.pdf",
-    "Trig/PDF/unit-circle-with-tangent-1634627448.png",
-    "Trig/Trig Images/tan3.gif",
-    "Trig/PDF/MTH 113 Emphasis Sheet (Me)(1).pdf",
-    "Trig/PDF/Algebra_Cheat_Sheet.pdf",
-    "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf",
-    "Trig/Trig Notes.md",
-    "APL/Images/Function Defs.png",
-    "Trig/PDF/LaTeX_Guide_Title.pdf",
-    "conflict-files-obsidian-git.md"
-  ]
+  "active": "0602c32ce3c7fcc9",
+  "lastOpenFiles": []
 }
