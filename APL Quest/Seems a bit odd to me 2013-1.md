@@ -14,14 +14,18 @@
 [Residue](https://aplwiki.com/wiki/Residue) aka Modulus 
 [Take](https://aplwiki.com/wiki/Take)
 [Scan](https://aplwiki.com/wiki/Scan)
+[Power](https://aplwiki.com/wiki/Power_(function))
+Branc
 
 **Concepts Used:**
 [Dfn](https://aplwiki.com/wiki/Dfn)
-[Index Origin](https://aplwiki.com/wiki/Index_origin)
+[Index Origin](https://aplwiki.com/wiki/Index_origin) - Generating Functions with that work with 0 or 1 origin
 [Zero based Numbering](https://en.wikipedia.org/wiki/Zero-based_numbering)
 [Tacit Programming](https://aplwiki.com/wiki/Tacit_programming)
 [Boolean Mask](https://aplwiki.com/wiki/Boolean)
 [Parity - Modulous 2](https://xpqz.github.io/cultivations/Functions2.html#magnitude-residue)
+[Fill Elements](https://aplwiki.com/wiki/Fill_element) - Padding with zeros
+[Control Structure](https://aplwiki.com/wiki/Control_structure)
 
 
 
