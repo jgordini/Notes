@@ -13,12 +13,15 @@
 [Indices](https://aplwiki.com/wiki/Indices) aka Where
 [Residue](https://aplwiki.com/wiki/Residue) aka Modulus
 [Take](https://aplwiki.com/wiki/Take)
+[Scan](https://aplwiki.com/wiki/Scan)
+
 **Concepts Used:**
 [Dfn](https://aplwiki.com/wiki/Dfn)
 [Index Origin](https://aplwiki.com/wiki/Index_origin)
 [Zero based Numbering](https://en.wikipedia.org/wiki/Zero-based_numbering)
 [Tacit Programming](https://aplwiki.com/wiki/Tacit_programming)
 [Boolean Mask](https://aplwiki.com/wiki/Boolean)
+
 
 
 
