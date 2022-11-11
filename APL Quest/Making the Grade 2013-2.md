@@ -16,6 +16,11 @@ J ← 100×+.≥∘65÷≢ ⍝ Tacit
 
 *65 is a bound constant to the inner product.* 
 
+**Comment:** 
+```APL
+0,⍳64 ⍝ Raveld with zero becuase ⎕IO←1
+```
+
 **Glyphs Used:**
 [Roll](https://aplwiki.com/wiki/Roll)
 [Reshape](https://aplwiki.com/wiki/Reshape)
@@ -27,10 +32,13 @@ J ← 100×+.≥∘65÷≢ ⍝ Tacit
 [Atop](https://aplwiki.com/wiki/Atop_(operator))
 [Identity](https://aplwiki.com/wiki/Identity)
 [Diamond](https://aplwiki.com/wiki/Statement_Separator)
+[Ravel](https://aplwiki.com/wiki/Ravel)
+[Iota](https://aplwiki.com/wiki/Index_Generator)
+[Without](https://aplwiki.com/wiki/Without) aka not
+[Over](https://aplwiki.com/wiki/Over)
 
 
 --
-[Iota](https://aplwiki.com/wiki/Index_Generator)
 [Commute](https://aplwiki.com/wiki/Commute) aka Selfie
 [Indices](https://aplwiki.com/wiki/Indices) aka Where
 [Residue](https://aplwiki.com/wiki/Residue) aka Modulus 
