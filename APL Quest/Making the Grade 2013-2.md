@@ -5,8 +5,10 @@
 **Code:** https://github.com/abrudz/apl_quest/blob/main/2013/2.apl
 
 **Glyphs Used:**
+[Roll](https://aplwiki.com/wiki/Roll)
 [Reshape](https://aplwiki.com/wiki/Reshape)
 [Tally](https://aplwiki.com/wiki/Tally)
+[Greater than or Equal to](https://aplwiki.com/wiki/Greater_than_or_Equal_to)
 [Scan](https://aplwiki.com/wiki/Scan) - Plus Scan
 
 [Iota](https://aplwiki.com/wiki/Index_Generator)
@@ -24,7 +26,10 @@
 
 
 **Concepts Used:**
+[Comparison Function](https://aplwiki.com/wiki/Comparison_function)
 [Dfn](https://aplwiki.com/wiki/Dfn)
+
+
 [Index Origin](https://aplwiki.com/wiki/Index_origin) - Generating Functions with that work with 0 or 1 origin
 [Zero based Numbering](https://en.wikipedia.org/wiki/Zero-based_numbering)
 [Tacit Programming](https://aplwiki.com/wiki/Tacit_programming)
