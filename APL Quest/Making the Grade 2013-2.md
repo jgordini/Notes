@@ -4,17 +4,17 @@
 **Problem:** Write a dfn which returns the percent (from 0 to 100) of passing (65 or higher) grades in a vector of grades.
 **Code:** https://github.com/abrudz/apl_quest/blob/main/2013/2.apl
 
-**Example Solution:**
+**Example Solutions:**
 2 Scaler functions and a reduction over a vectorized operation. 
 ```APL
 F ← {100×(+/⍵≥65)÷≢⍵}
-J ← 100×+.≥∘65÷≢
+J ← 100×+.≥∘65÷≢ ⍝ Tacit
 ```
 
-**Quote:**
-We are dealing with a scaler (65) and a vector (Scores). We should notice this pattern. We have a sum over a comparison of vectors. When we have that, we should think, Inner Product.
+**Quotes:**
+*We are dealing with a scaler (65) and a vector (Scores). We should notice this pattern. We have a sum over a comparison of vectors. When we have that, we should think, Inner Product.*
 
-65 is a bound constant to the inner product. 
+*65 is a bound constant to the inner product.* 
 
 **Glyphs Used:**
 [Roll](https://aplwiki.com/wiki/Roll)

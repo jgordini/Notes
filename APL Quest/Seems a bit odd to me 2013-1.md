@@ -4,6 +4,13 @@
 **Problem:** Write a dfn to produce a vector of the first n odd numbers.
 **Code:** https://github.com/abrudz/apl_quest/blob/main/2013/1.apl
 
+**Example Solutions:**
+```APL
+F←{1-⍨2×⍳⍵}
+F←(⍳+⍳-≢) ⍝ Tacit
+F←{⍸2|⍳2×⍵} ⍝ Any ⎕IO
+```
+
 **Glyphs Used:**
 [Iota](https://aplwiki.com/wiki/Index_Generator)
 [Commute](https://aplwiki.com/wiki/Commute) aka Selfie

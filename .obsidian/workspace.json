@@ -11,9 +11,11 @@
             "id": "631d285d515d3244",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf"
+                "file": "APL Quest/Seems a bit odd to me 2013-1.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf",
+                "file": "APL Quest/Seems a bit odd to me 2013-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf",
+                "file": "APL Quest/Seems a bit odd to me 2013-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf"
+                "file": "APL Quest/Seems a bit odd to me 2013-1.md"
               }
             }
           }
@@ -136,10 +138,10 @@
   },
   "active": "631d285d515d3244",
   "lastOpenFiles": [
-    "Trig/PDF/unit-circle-with-tangent-1634627448.png",
     "APL Quest/Making the Grade 2013-2.md",
     "APL Quest/Seems a bit odd to me 2013-1.md",
     "Trig/PDF/Trig_Cheat_Sheet.pdf",
+    "Trig/PDF/unit-circle-with-tangent-1634627448.png",
     "Trig/Trig Images/tan3.gif",
     "Trig/PDF/MTH 113 Emphasis Sheet (Me)(1).pdf",
     "Trig/PDF/Algebra_Cheat_Sheet.pdf",
