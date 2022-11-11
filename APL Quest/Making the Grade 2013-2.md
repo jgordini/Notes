@@ -8,11 +8,13 @@
 2 Scaler functions and a reduction over a vectorized operation. 
 ```APL
 F ← {100×(+/⍵≥65)÷≢⍵}
-I ← {100×(⍵+.≥65)÷≢⍵}
+J ← 100×+.≥∘65÷≢
 ```
 
 **Quote:**
-We are dealing with a scaler (65) and a vector (Scores). We should notice this pattern. We have a sum over a comparison of vectors. When we have that, we should think, Inner Product. 
+We are dealing with a scaler (65) and a vector (Scores). We should notice this pattern. We have a sum over a comparison of vectors. When we have that, we should think, Inner Product.
+
+65 is a bound constant to the inner product. 
 
 **Glyphs Used:**
 [Roll](https://aplwiki.com/wiki/Roll)
@@ -20,11 +22,15 @@ We are dealing with a scaler (65) and a vector (Scores). We should notice this p
 [Tally](https://aplwiki.com/wiki/Tally)
 [Greater than or Equal to](https://aplwiki.com/wiki/Greater_than_or_Equal_to)
 [Scan](https://aplwiki.com/wiki/Scan) - Plus Scan
+[Bind](https://aplwiki.com/wiki/Bind)
+[Atop](https://aplwiki.com/wiki/Atop_(operator))
+[Identity](https://aplwiki.com/wiki/Identity)
+
 
 [Iota](https://aplwiki.com/wiki/Index_Generator)
 [Commute](https://aplwiki.com/wiki/Commute) aka Selfie
 [Quad](https://aplwiki.com/wiki/Quad_name)
-[Identity](https://aplwiki.com/wiki/Identity)
+
 
 [Indices](https://aplwiki.com/wiki/Indices) aka Where
 [Residue](https://aplwiki.com/wiki/Residue) aka Modulus 
