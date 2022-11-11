@@ -22,16 +22,16 @@ We are dealing with a scaler (65) and a vector (Scores). We should notice this p
 [Tally](https://aplwiki.com/wiki/Tally)
 [Greater than or Equal to](https://aplwiki.com/wiki/Greater_than_or_Equal_to)
 [Scan](https://aplwiki.com/wiki/Scan) - Plus Scan
+[Quad](https://aplwiki.com/wiki/Quad_name)
 [Bind](https://aplwiki.com/wiki/Bind)
 [Atop](https://aplwiki.com/wiki/Atop_(operator))
 [Identity](https://aplwiki.com/wiki/Identity)
 [Diamond](https://aplwiki.com/wiki/Statement_Separator)
 
+
+--
 [Iota](https://aplwiki.com/wiki/Index_Generator)
 [Commute](https://aplwiki.com/wiki/Commute) aka Selfie
-[Quad](https://aplwiki.com/wiki/Quad_name)
-
-
 [Indices](https://aplwiki.com/wiki/Indices) aka Where
 [Residue](https://aplwiki.com/wiki/Residue) aka Modulus 
 [Take](https://aplwiki.com/wiki/Take)
@@ -54,10 +54,8 @@ We are dealing with a scaler (65) and a vector (Scores). We should notice this p
 [Tacit Programming](https://aplwiki.com/wiki/Tacit_programming)
 [Function Atop Tack](https://mastering.dyalog.com/Tacit-Programming.html?highlight=atop#function-atop-tack)
 [Default Left Arguments](https://aplwiki.com/wiki/Dfn#Default_left_arguments)
+[Fork](https://aplwiki.com/wiki/Train#2-trains) - 2 Train
 
-
-[Index Origin](https://aplwiki.com/wiki/Index_origin) - Generating Functions with that work with 0 or 1 origin
-[Zero based Numbering](https://en.wikipedia.org/wiki/Zero-based_numbering)
 
 [Boolean Mask](https://aplwiki.com/wiki/Boolean)
 [Parity - Modulous 2](https://xpqz.github.io/cultivations/Functions2.html#magnitude-residue)
