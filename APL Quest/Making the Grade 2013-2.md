@@ -36,18 +36,7 @@ J ← 100×+.≥∘65÷≢ ⍝ Tacit
 [Iota](https://aplwiki.com/wiki/Index_Generator)
 [Without](https://aplwiki.com/wiki/Without) aka not
 [Over](https://aplwiki.com/wiki/Over)
-
-
---
-[Commute](https://aplwiki.com/wiki/Commute) aka Selfie
 [Indices](https://aplwiki.com/wiki/Indices) aka Where
-[Residue](https://aplwiki.com/wiki/Residue) aka Modulus 
-[Take](https://aplwiki.com/wiki/Take)
-[Scan](https://aplwiki.com/wiki/Scan)
-[Power](https://aplwiki.com/wiki/Power_(function))
-[Branch](https://aplwiki.com/wiki/Branch)
-
-
 
 **Concepts Used:**
 [Comparison Function](https://aplwiki.com/wiki/Comparison_function)
@@ -63,13 +52,8 @@ J ← 100×+.≥∘65÷≢ ⍝ Tacit
 [Function Atop Tack](https://mastering.dyalog.com/Tacit-Programming.html?highlight=atop#function-atop-tack)
 [Default Left Arguments](https://aplwiki.com/wiki/Dfn#Default_left_arguments)
 [Fork](https://aplwiki.com/wiki/Train#2-trains) - 2 Train
-
-
 [Boolean Mask](https://aplwiki.com/wiki/Boolean)
-[Parity - Modulous 2](https://xpqz.github.io/cultivations/Functions2.html#magnitude-residue)
-[Fill Elements](https://aplwiki.com/wiki/Fill_element) - Padding with zeros
-[Control Structure](https://aplwiki.com/wiki/Control_structure)
-[Fork](https://aplwiki.com/wiki/Train#3-trains) - 3 Train
+
 
 
 
