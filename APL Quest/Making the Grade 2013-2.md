@@ -52,6 +52,7 @@ We are dealing with a scaler (65) and a vector (Scores). We should notice this p
 [Inner Product](https://aplwiki.com/wiki/Inner_Product)
 [Dot Product](https://en.wikipedia.org/wiki/Dot_product)
 [Tacit Programming](https://aplwiki.com/wiki/Tacit_programming)
+2-Train
 
 
 
