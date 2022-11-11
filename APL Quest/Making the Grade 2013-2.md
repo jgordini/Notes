@@ -28,7 +28,7 @@
 **Concepts Used:**
 [Comparison Function](https://aplwiki.com/wiki/Comparison_function)
 [Dfn](https://aplwiki.com/wiki/Dfn)
-
+[Scientific Notation](https://mastering.dyalog.com/Data-and-Variables.html#data-and-variables-representation-of-numbers)
 
 [Index Origin](https://aplwiki.com/wiki/Index_origin) - Generating Functions with that work with 0 or 1 origin
 [Zero based Numbering](https://en.wikipedia.org/wiki/Zero-based_numbering)
