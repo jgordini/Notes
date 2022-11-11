@@ -4,6 +4,16 @@
 **Problem:** Write a dfn which returns the percent (from 0 to 100) of passing (65 or higher) grades in a vector of grades.
 **Code:** https://github.com/abrudz/apl_quest/blob/main/2013/2.apl
 
+**Example Solution:**
+2 Scaler functions and a reduction over a vectorized operation. 
+```APL
+F ← {100×(+/⍵≥65)÷≢⍵}
+I ← {100×(⍵+.≥65)÷≢⍵}
+```
+
+**Quote:**
+We are dealing with a scaler (65) and a vector (Scores). We should notice this pattern. We have a sum over a comparison of vectors. When we have that, we should think, Inner Product. 
+
 **Glyphs Used:**
 [Roll](https://aplwiki.com/wiki/Roll)
 [Reshape](https://aplwiki.com/wiki/Reshape)
@@ -31,14 +41,17 @@
 [Dfns Workspace](https://aplwiki.com/wiki/Dfns_workspace)
 [Scientific Notation](https://mastering.dyalog.com/Data-and-Variables.html#data-and-variables-representation-of-numbers)
 [CMPX](http://dfns.dyalog.com/n_cmpx.htm)
+[Scalar Function](https://aplwiki.com/wiki/Scalar_function)
+[Reduction](https://aplwiki.com/wiki/Reduce)
 [Inner Product](https://aplwiki.com/wiki/Inner_Product)
 [Dot Product](https://en.wikipedia.org/wiki/Dot_product)
-[Scalar Function](https://aplwiki.com/wiki/Scalar_function)
+[Tacit Programming](https://aplwiki.com/wiki/Tacit_programming)
+
 
 
 [Index Origin](https://aplwiki.com/wiki/Index_origin) - Generating Functions with that work with 0 or 1 origin
 [Zero based Numbering](https://en.wikipedia.org/wiki/Zero-based_numbering)
-[Tacit Programming](https://aplwiki.com/wiki/Tacit_programming)
+
 [Boolean Mask](https://aplwiki.com/wiki/Boolean)
 [Parity - Modulous 2](https://xpqz.github.io/cultivations/Functions2.html#magnitude-residue)
 [Fill Elements](https://aplwiki.com/wiki/Fill_element) - Padding with zeros
