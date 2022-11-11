@@ -25,7 +25,7 @@ We are dealing with a scaler (65) and a vector (Scores). We should notice this p
 [Bind](https://aplwiki.com/wiki/Bind)
 [Atop](https://aplwiki.com/wiki/Atop_(operator))
 [Identity](https://aplwiki.com/wiki/Identity)
-
+[Diamond](https://aplwiki.com/wiki/Statement_Separator)
 
 [Iota](https://aplwiki.com/wiki/Index_Generator)
 [Commute](https://aplwiki.com/wiki/Commute) aka Selfie
@@ -52,8 +52,8 @@ We are dealing with a scaler (65) and a vector (Scores). We should notice this p
 [Inner Product](https://aplwiki.com/wiki/Inner_Product)
 [Dot Product](https://en.wikipedia.org/wiki/Dot_product)
 [Tacit Programming](https://aplwiki.com/wiki/Tacit_programming)
-2-Train
-
+[Function Atop Tack](https://mastering.dyalog.com/Tacit-Programming.html?highlight=atop#function-atop-tack)
+[Default Left Arguments](https://aplwiki.com/wiki/Dfn#Default_left_arguments)
 
 
 [Index Origin](https://aplwiki.com/wiki/Index_origin) - Generating Functions with that work with 0 or 1 origin
