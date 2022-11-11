@@ -28,8 +28,10 @@
 **Concepts Used:**
 [Comparison Function](https://aplwiki.com/wiki/Comparison_function)
 [Dfn](https://aplwiki.com/wiki/Dfn)
+[Dfns Workspace](https://aplwiki.com/wiki/Dfns_workspace)
 [Scientific Notation](https://mastering.dyalog.com/Data-and-Variables.html#data-and-variables-representation-of-numbers)
-
+[CMPX](http://dfns.dyalog.com/n_cmpx.htm)
+[Inner Product](https://aplwiki.com/wiki/Inner_Product)
 
 [Index Origin](https://aplwiki.com/wiki/Index_origin) - Generating Functions with that work with 0 or 1 origin
 [Zero based Numbering](https://en.wikipedia.org/wiki/Zero-based_numbering)
