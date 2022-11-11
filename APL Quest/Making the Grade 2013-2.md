@@ -32,6 +32,9 @@
 [Scientific Notation](https://mastering.dyalog.com/Data-and-Variables.html#data-and-variables-representation-of-numbers)
 [CMPX](http://dfns.dyalog.com/n_cmpx.htm)
 [Inner Product](https://aplwiki.com/wiki/Inner_Product)
+[Dot Product](https://en.wikipedia.org/wiki/Dot_product)
+[Scalar Function](https://aplwiki.com/wiki/Scalar_function)
+
 
 [Index Origin](https://aplwiki.com/wiki/Index_origin) - Generating Functions with that work with 0 or 1 origin
 [Zero based Numbering](https://en.wikipedia.org/wiki/Zero-based_numbering)
