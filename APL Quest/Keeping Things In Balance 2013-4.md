@@ -6,7 +6,7 @@
 
 **Example Solutions:**
 ```APL
-	Di ← {1 ¯1 0['()'⍳⍵]} ⍝ Indexing into an array, 1 is left paren, ¯1 is Right and 0 is all other characters
+	Di ← {1 ¯1 0['()'⍳⍵]} ⍝ Indexing into an array, 1 is left paren, ¯1 is Right and 0 is all other characters. 
 	
 	L ← {+/2</1,⍨' '=⍵} ⍝ fastest solution append a bit
 ```
@@ -18,17 +18,17 @@ If an element isn't found a lookup array. Then we get the next index.
 
 **Comment:** 
 ```APL
-t←'abc '[?1e6⍴4] ⍝ Interesting use of bracket index to generate random words array
+↑⍤,⍥⊂ ⍝ concatenate enclosure over the original, (mix)Increase the rank
 ```
 
 **Glyphs Used:**
 [Index of](https://aplwiki.com/wiki/Index_Of)
 [Bracket Indexing](https://xpqz.github.io/learnapl/indexing.html#bracket-indexing)  - Mapping 
 [Mix](https://aplwiki.com/wiki/Mix)
-https://aplwiki.com/wiki/Rank_(operator)
+[Rank](https://aplwiki.com/wiki/Rank_(operator))
 [Concatenation](https://aplwiki.com/wiki/Catenate)
-
-
+[Over](https://aplwiki.com/wiki/Over)
+[Enclose](https://aplwiki.com/wiki/Enclose)
 
 [Not equal to](https://aplwiki.com/wiki/Not_Equal_to)
 [Partition](https://aplwiki.com/wiki/Partition) - Uses ones to Partition
