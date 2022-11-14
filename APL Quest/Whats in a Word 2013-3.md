@@ -52,7 +52,7 @@
 [Boolean Mask](https://aplwiki.com/wiki/Boolean)
 [Regular Expressions](https://microapl.com/apl_help/ch_205_010.htm)
 [Windowed Reduce](https://aplwiki.com/wiki/Windowed_Reduce) - N-wise Reduction (pair-wise with left argument of 2)
-
+[Performance](https://aplwiki.com/wiki/Performance)
 
 [Dfns Workspace](https://aplwiki.com/wiki/Dfns_workspace)
 [Scientific Notation](https://mastering.dyalog.com/Data-and-Variables.html#data-and-variables-representation-of-numbers)
