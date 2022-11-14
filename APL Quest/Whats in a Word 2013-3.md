@@ -22,6 +22,12 @@ J ← 100×+.≥∘65÷≢ ⍝ Tacit
 ```
 
 **Glyphs Used:**
+[Not equal to](https://aplwiki.com/wiki/Not_Equal_to)
+[Partition](https://aplwiki.com/wiki/Partition) - Uses ones to Partition
+
+
+
+
 [Roll](https://aplwiki.com/wiki/Roll)
 [Reshape](https://aplwiki.com/wiki/Reshape)
 [Tally](https://aplwiki.com/wiki/Tally)
@@ -41,6 +47,10 @@ J ← 100×+.≥∘65÷≢ ⍝ Tacit
 **Concepts Used:**
 [Comparison Function](https://aplwiki.com/wiki/Comparison_function)
 [Dfn](https://aplwiki.com/wiki/Dfn)
+[Boolean Mask](https://aplwiki.com/wiki/Boolean)
+
+
+
 [Dfns Workspace](https://aplwiki.com/wiki/Dfns_workspace)
 [Scientific Notation](https://mastering.dyalog.com/Data-and-Variables.html#data-and-variables-representation-of-numbers)
 [CMPX](http://dfns.dyalog.com/n_cmpx.htm)
@@ -52,7 +62,7 @@ J ← 100×+.≥∘65÷≢ ⍝ Tacit
 [Function Atop Tack](https://mastering.dyalog.com/Tacit-Programming.html?highlight=atop#function-atop-tack)
 [Default Left Arguments](https://aplwiki.com/wiki/Dfn#Default_left_arguments)
 [Fork](https://aplwiki.com/wiki/Train#2-trains) - 2 Train
-[Boolean Mask](https://aplwiki.com/wiki/Boolean)
+
 
 
 
