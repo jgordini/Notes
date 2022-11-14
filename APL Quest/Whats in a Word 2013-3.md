@@ -7,7 +7,7 @@
 **Example Solutions:**
 ```APL
 	F ← ≢' '∘≠⊆, ⍝ Tacit - binding the space to the not equal to make monadic. 
-	J ← 100×+.≥∘65÷≢ ⍝ Tacit
+	L ← {+/2</1,⍨' '=⍵} ⍝ fastest solution append a bit
 ```
 
 **Quotes:**
@@ -29,10 +29,12 @@
 [Reduce](https://aplwiki.com/wiki/Reduce) - Pair wise and plus reduction
 [Ravel](https://aplwiki.com/wiki/Ravel) - adding a space or a 1
 [Commute](https://aplwiki.com/wiki/Commute) aka Selfie
-
-
+[Bracket Indexing](https://xpqz.github.io/learnapl/indexing.html#bracket-indexing) - Generating Random string using roll and reshape
 [Roll](https://aplwiki.com/wiki/Roll)
 [Reshape](https://aplwiki.com/wiki/Reshape)
+
+
+
 
 [Greater than or Equal to](https://aplwiki.com/wiki/Greater_than_or_Equal_to)
 [Scan](https://aplwiki.com/wiki/Scan) - Plus Scan
@@ -51,7 +53,7 @@
 [Comparison Function](https://aplwiki.com/wiki/Comparison_function)
 [Dfn](https://aplwiki.com/wiki/Dfn)
 [Boolean Mask](https://aplwiki.com/wiki/Boolean)
-[Regular Expressions](https://microapl.com/apl_help/ch_205_010.htm)
+[Regular Expressions](https://xpqz.github.io/cultivations/Regex.html)
 [Windowed Reduce](https://aplwiki.com/wiki/Windowed_Reduce) - N-wise Reduction (pair-wise with left argument of 2)
 [Performance](https://aplwiki.com/wiki/Performance#Performant_usage)
 [Dfns Workspace](https://aplwiki.com/wiki/Dfns_workspace)
