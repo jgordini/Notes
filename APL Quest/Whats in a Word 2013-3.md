@@ -5,10 +5,9 @@
 **Code:** https://github.com/abrudz/apl_quest/blob/main/2013/3.apl
 
 **Example Solutions:**
-2 Scaler functions and a reduction over a vectorized operation. 
 ```APL
-F ← {100×(+/⍵≥65)÷≢⍵}
-J ← 100×+.≥∘65÷≢ ⍝ Tacit
+	F ← ≢' '∘≠⊆, ⍝ Tacit - binding the space to the not equal to make monadic. 
+	J ← 100×+.≥∘65÷≢ ⍝ Tacit
 ```
 
 **Quotes:**
@@ -24,7 +23,7 @@ J ← 100×+.≥∘65÷≢ ⍝ Tacit
 [Partition](https://aplwiki.com/wiki/Partition) - Uses ones to Partition
 [Tally](https://aplwiki.com/wiki/Tally)
 [Bind](https://aplwiki.com/wiki/Bind)
-
+[String Search](http://help.dyalog.com/18.0/index.htm#Language/System%20Functions/r.htm)
 
 
 [Roll](https://aplwiki.com/wiki/Roll)
@@ -47,6 +46,7 @@ J ← 100×+.≥∘65÷≢ ⍝ Tacit
 [Comparison Function](https://aplwiki.com/wiki/Comparison_function)
 [Dfn](https://aplwiki.com/wiki/Dfn)
 [Boolean Mask](https://aplwiki.com/wiki/Boolean)
+[Regular Expressions](https://microapl.com/apl_help/ch_205_010.htm)
 
 
 
