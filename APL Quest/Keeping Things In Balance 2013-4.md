@@ -46,6 +46,8 @@ If an element isn't found a lookup array. Then we get the next index.
 [Nor](https://aplwiki.com/wiki/Nor) - tests if neither argument is true: it returns 1 if both are false (0) and 0 if at least one is true (1)
 [Enlist](https://aplwiki.com/wiki/Enlist) -Enlist flattens over all layers of nesting
 [Intersection](https://aplwiki.com/wiki/Intersection)
+[Power Match](https://aplwiki.com/wiki/Power_(operator)) ⍣≡ - Iterating until a fixed point is reached.
+[Atop](https://aplwiki.com/wiki/Atop_(operator)) - takes two (monadic) functions and glues them together.  Uses the left operand to process the right
 
 
 **Concepts Used:**
