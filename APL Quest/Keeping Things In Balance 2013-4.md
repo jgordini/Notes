@@ -9,7 +9,8 @@
 	Di ← {1 ¯1 0['()'⍳⍵]} ⍝ Indexing into an array, 1 is left paren, ¯1 is Right and 0 is all other characters. 
 	
 	Df ← '('∘= - =∘')' ⍝ Tacit, subtracts the comparisons to get the depth changes. 
-```
+	F ← (¯1∘∊⍱0≠⊢/)'('∘=+\⍤-=∘')' ⍝ 
+	```
 
 **Quotes:**
 Convert input into a normalized form. 
@@ -27,7 +28,7 @@ If an element isn't found a lookup array. Then we get the next index.
 [Mix](https://aplwiki.com/wiki/Mix)
 [Merge Axis](https://aplwiki.com/wiki/Rank_(operator)#Merge_axes) - ,⍤
 [Over](https://aplwiki.com/wiki/Over)
-[Enclose](https://aplwiki.com/wiki/Enclose)
+[Enclose](https://aplwiki.com/wiki/Enclose) - creates a nested scalar by wrapping its argument under one level of nesting
 [Outer Product](https://aplwiki.com/wiki/Outer_Product) using a comparison =
 [Laminate](https://aplwiki.com/wiki/Catenate) - Catenate First - Add a line to a matrix
 [Reduce](https://aplwiki.com/wiki/Reduce) - Vertical Minus Reduction
@@ -46,6 +47,7 @@ If an element isn't found a lookup array. Then we get the next index.
 [Enlist](https://aplwiki.com/wiki/Enlist) -Enlist flattens over all layers of nesting
 
 
+
 **Concepts Used:**
 [Comparison Function](https://aplwiki.com/wiki/Comparison_function)
 [Dfn](https://aplwiki.com/wiki/Dfn)
@@ -56,6 +58,7 @@ If an element isn't found a lookup array. Then we get the next index.
 [Dfns Workspace](https://aplwiki.com/wiki/Dfns_workspace)
 [Logical Conjunction](https://en.wikipedia.org/wiki/Logical_conjunction)
 [Logical Nor](https://en.wikipedia.org/wiki/Logical_NOR)
+[Fork and Atop Problem](https://aplwiki.com/wiki/Train#Problems_caused_by_function-operator_overloading)
 
 **Reference:**
 [Sixteen APL Amuse-Bouches](http://archive.vector.org.uk/art10501480) - #5
