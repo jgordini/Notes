@@ -6,12 +6,14 @@
 
 **Example Solutions:**
 ```APL
-	F ← ≢' '∘≠⊆, ⍝ Tacit - binding the space to the not equal to make monadic. 
+	Di ← {1 ¯1 0['()'⍳⍵]} ⍝ Indexing into an array, 1 is left paren, ¯1 is Right and 0 is all other characters
+	
 	L ← {+/2</1,⍨' '=⍵} ⍝ fastest solution append a bit
 ```
 
 **Approach:** Convert input into a normalized form. 
 **Quotes:**
+If an element isn't found a lookup array. Then we get the next index. 
 
 
 **Comment:** 
@@ -22,7 +24,9 @@ t←'abc '[?1e6⍴4] ⍝ Interesting use of bracket index to generate random wor
 **Glyphs Used:**
 [Index of](https://aplwiki.com/wiki/Index_Of)
 [Bracket Indexing](https://xpqz.github.io/learnapl/indexing.html#bracket-indexing)  - Mapping 
-
+[Mix](https://aplwiki.com/wiki/Mix)
+https://aplwiki.com/wiki/Rank_(operator)
+[Concatenation](https://aplwiki.com/wiki/Catenate)
 
 
 
