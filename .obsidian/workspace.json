@@ -1,39 +1,14 @@
 {
   "main": {
-    "id": "b1e7b5ede1eb0f11",
+    "id": "c051930a033b83fb",
     "type": "split",
     "children": [
       {
-        "id": "e965b067b39742ad",
+        "id": "f5fc0ce8bda236f8",
         "type": "tabs",
         "children": [
           {
-            "id": "631d285d515d3244",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-<<<<<<< HEAD
-                "file": "APL/APL.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f9b6eac1b00fef36",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "APL Quest/Seems a bit odd to me 2013-1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5c19ccea772ef6f2",
+            "id": "f8373b3f83dc5eb3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -41,9 +16,6 @@
                 "file": "2022-11-14.md",
                 "mode": "source",
                 "source": false
-=======
-                "file": "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf"
->>>>>>> c936998ba6045e0c34c5534ec2ec227de55fb32f
               }
             }
           }
@@ -53,25 +25,25 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "4c1ee8424cf3fb95",
+    "id": "29be921b0c5cd239",
     "type": "split",
     "children": [
       {
-        "id": "8c6f84c3d7139d0f",
+        "id": "0076b83a77577908",
         "type": "tabs",
         "children": [
           {
-            "id": "5a4e69478dd26ebf",
+            "id": "8f7507490d7d24c2",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse"
+                "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "03074444151a6085",
+            "id": "f89225b5208b7bef",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -86,7 +58,7 @@
             }
           },
           {
-            "id": "65529e1fa40356dd",
+            "id": "fc2ce12168fc49e3",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -97,27 +69,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.50260543823242
+    "width": 300
   },
   "right": {
-    "id": "e8fd077a861a7cbb",
+    "id": "f88822639d51b576",
     "type": "split",
     "children": [
       {
-        "id": "5c7e3f54cd544740",
+        "id": "5521d5c1d6d2bb4d",
         "type": "tabs",
         "children": [
           {
-            "id": "a069eedefa27de23",
+            "id": "c9126872f9016953",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
                 "file": "2022-11-14.md",
-=======
-                "file": "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf",
->>>>>>> c936998ba6045e0c34c5534ec2ec227de55fb32f
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,23 +97,19 @@
             }
           },
           {
-            "id": "8cb291b7680e5079",
+            "id": "947ce6f58aacdb1e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
                 "file": "2022-11-14.md",
-=======
-                "file": "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf",
->>>>>>> c936998ba6045e0c34c5534ec2ec227de55fb32f
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "bf37aad46242b7ca",
+            "id": "726deee758163871",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -156,16 +120,12 @@
             }
           },
           {
-            "id": "dfdec0b4aef704c6",
+            "id": "35c5af60f41cbb95",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
                 "file": "2022-11-14.md"
-=======
-                "file": "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf"
->>>>>>> c936998ba6045e0c34c5534ec2ec227de55fb32f
               }
             }
           }
@@ -176,21 +136,6 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "631d285d515d3244",
-  "lastOpenFiles": [
-<<<<<<< HEAD
-    "Statement Seperator.md",
-=======
-    "Trig/PDF/MTH 113 Emphasis Sheet (Me)(1).pdf",
-    "Trig/PDF/Trig_Cheat_Sheet.pdf",
-    "Trig/PDF/tan-unit-circle.png",
-    "Trig/PDF/Algebra_Cheat_Sheet.pdf",
-    "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf",
-    "APL Quest/Making the Grade 2013-2.md",
->>>>>>> c936998ba6045e0c34c5534ec2ec227de55fb32f
-    "APL Quest/Seems a bit odd to me 2013-1.md",
-    "Trig/Trig Images/tan3.gif",
-    "Trig/Trig Notes.md",
-    "APL/Images/Function Defs.png"
-  ]
+  "active": "f8373b3f83dc5eb3",
+  "lastOpenFiles": []
 }
