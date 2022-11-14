@@ -23,7 +23,9 @@
 [Partition](https://aplwiki.com/wiki/Partition) - Uses ones to Partition
 [Tally](https://aplwiki.com/wiki/Tally)
 [Bind](https://aplwiki.com/wiki/Bind)
-[String Search](http://help.dyalog.com/18.0/index.htm#Language/System%20Functions/r.htm)
+[String Search](http://help.dyalog.com/18.0/index.htm#Language/System%20Functions/r.htm) - ⎕S
+[Verify Fixed Input](http://help.dyalog.com/18.0/index.htm#Language/System%20Functions/vfi.htm?Highlight=Verify%20and%20Fix%20Input) - ⎕VFI
+[First](https://aplwiki.com/wiki/First)
 
 
 [Roll](https://aplwiki.com/wiki/Roll)
