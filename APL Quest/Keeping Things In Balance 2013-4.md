@@ -17,7 +17,7 @@ If an element isn't found a lookup array. Then we get the next index.
 
 **Comment:** 
 ```APL
-↑⍤,⍥⊂ ⍝ concatenate enclosure over the original, (mix)Increase the rank
+↑⍤,⍥⊂ ⍝ concatenate enclosure over the original, (mix)Increase the rank - used for vector - Laminate for Matrix
 ```
 
 **Glyphs Used:**
@@ -28,8 +28,9 @@ If an element isn't found a lookup array. Then we get the next index.
 [Concatenation](https://aplwiki.com/wiki/Catenate)
 [Over](https://aplwiki.com/wiki/Over)
 [Enclose](https://aplwiki.com/wiki/Enclose)
-[Outer Product](https://aplwiki.com/wiki/Outer_Product)
-
+[Outer Product](https://aplwiki.com/wiki/Outer_Product) using a comparison =
+[Laminate](https://aplwiki.com/wiki/Catenate) - Catenate First - Add a line to a matrix
+[Reduce](https://aplwiki.com/wiki/Reduce) - Vertical Minus Reduction
 
 
 
