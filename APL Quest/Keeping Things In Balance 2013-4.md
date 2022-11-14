@@ -24,8 +24,7 @@ If an element isn't found a lookup array. Then we get the next index.
 [Index of](https://aplwiki.com/wiki/Index_Of)
 [Bracket Indexing](https://xpqz.github.io/learnapl/indexing.html#bracket-indexing)  - Mapping 
 [Mix](https://aplwiki.com/wiki/Mix)
-[Rank](https://aplwiki.com/wiki/Rank_(operator))
-[Concatenation](https://aplwiki.com/wiki/Catenate)
+[Merge Axis](https://aplwiki.com/wiki/Rank_(operator)#Merge_axes)
 [Over](https://aplwiki.com/wiki/Over)
 [Enclose](https://aplwiki.com/wiki/Enclose)
 [Outer Product](https://aplwiki.com/wiki/Outer_Product) using a comparison =
@@ -33,6 +32,12 @@ If an element isn't found a lookup array. Then we get the next index.
 [Reduce](https://aplwiki.com/wiki/Reduce) - Vertical Minus Reduction
 [Bind](https://aplwiki.com/wiki/Bind)
 [Vector Representation](https://xpqz.github.io/cultivations/CodeManagement.html?highlight=vr#visual-representation-vr) - ⎕VR`
+[Rank](https://aplwiki.com/wiki/Rank_(operator)) - applies its left operand function to cells of its arguments specified by its right operand array. 
+[Identity](https://aplwiki.com/wiki/Identity)
+[Reshape](https://aplwiki.com/wiki/Reshape)
+[Commute](https://aplwiki.com/wiki/Commute) aka Selfie
+[Tally](https://aplwiki.com/wiki/Tally)
+[Each](https://aplwiki.com/wiki/Each)
 
 
 **Concepts Used:**
