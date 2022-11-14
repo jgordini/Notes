@@ -11,10 +11,9 @@
 	L ← {+/2</1,⍨' '=⍵} ⍝ fastest solution append a bit
 ```
 
-**Approach:** Convert input into a normalized form. 
 **Quotes:**
+Convert input into a normalized form. 
 If an element isn't found a lookup array. Then we get the next index. 
-
 
 **Comment:** 
 ```APL
@@ -29,6 +28,10 @@ If an element isn't found a lookup array. Then we get the next index.
 [Concatenation](https://aplwiki.com/wiki/Catenate)
 [Over](https://aplwiki.com/wiki/Over)
 [Enclose](https://aplwiki.com/wiki/Enclose)
+[Outer Product](https://aplwiki.com/wiki/Outer_Product)
+
+
+
 
 [Not equal to](https://aplwiki.com/wiki/Not_Equal_to)
 [Partition](https://aplwiki.com/wiki/Partition) - Uses ones to Partition
