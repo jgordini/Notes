@@ -21,6 +21,7 @@ t←'abc '[?1e6⍴4] ⍝ Interesting use of bracket index to generate random wor
 
 **Glyphs Used:**
 [Index of](https://aplwiki.com/wiki/Index_Of)
+[Bracket Indexing](https://xpqz.github.io/learnapl/indexing.html#bracket-indexing)  - Mapping 
 
 
 
