@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statement Seperator.md",
+                "file": "2022-11-14.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statement Seperator.md",
+                "file": "2022-11-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statement Seperator.md",
+                "file": "2022-11-14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statement Seperator.md"
+                "file": "2022-11-14.md"
               }
             }
           }
@@ -163,6 +163,7 @@
   },
   "active": "5c19ccea772ef6f2",
   "lastOpenFiles": [
+    "Statement Seperator.md",
     "APL Quest/Seems a bit odd to me 2013-1.md",
     "APL/APL.md"
   ]
