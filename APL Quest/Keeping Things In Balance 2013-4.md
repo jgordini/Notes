@@ -8,7 +8,7 @@
 ```APL
 	Di ← {1 ¯1 0['()'⍳⍵]} ⍝ Indexing into an array, 1 is left paren, ¯1 is Right and 0 is all other characters. 
 	
-	Df ← '('∘= - =∘')' ⍝ Tacit, subtracts the 
+	Df ← '('∘= - =∘')' ⍝ Tacit, subtracts the comparisons to get the depth changes. 
 ```
 
 **Quotes:**
@@ -31,6 +31,8 @@ If an element isn't found a lookup array. Then we get the next index.
 [Outer Product](https://aplwiki.com/wiki/Outer_Product) using a comparison =
 [Laminate](https://aplwiki.com/wiki/Catenate) - Catenate First - Add a line to a matrix
 [Reduce](https://aplwiki.com/wiki/Reduce) - Vertical Minus Reduction
+[Bind](https://aplwiki.com/wiki/Bind)
+[Vector Representation](https://xpqz.github.io/cultivations/CodeManagement.html?highlight=vr#visual-representation-vr) - ⎕VR`
 
 
 **Concepts Used:**
@@ -40,6 +42,7 @@ If an element isn't found a lookup array. Then we get the next index.
 [Boolean Mask](https://aplwiki.com/wiki/Boolean)
 [Reduction](https://aplwiki.com/wiki/Reduce)
 [Fork](https://aplwiki.com/wiki/Train#3-trains)
+[Dfns Workspace](https://aplwiki.com/wiki/Dfns_workspace)
 
 **Reference:**
 [Sixteen APL Amuse-Bouches](http://archive.vector.org.uk/art10501480) - #5
