@@ -27,7 +27,8 @@
 [Verify Fixed Input](http://help.dyalog.com/18.0/index.htm#Language/System%20Functions/vfi.htm?Highlight=Verify%20and%20Fix%20Input) - ⎕VFI
 [First](https://aplwiki.com/wiki/First)
 [Reduce](https://aplwiki.com/wiki/Reduce) - Pair wise and plus reduction
-[Ravel](https://aplwiki.com/wiki/Ravel) - adding a space
+[Ravel](https://aplwiki.com/wiki/Ravel) - adding a space or a 1
+[Commute](https://aplwiki.com/wiki/Commute) aka Selfie
 
 
 [Roll](https://aplwiki.com/wiki/Roll)
@@ -53,6 +54,9 @@
 [Regular Expressions](https://microapl.com/apl_help/ch_205_010.htm)
 [Windowed Reduce](https://aplwiki.com/wiki/Windowed_Reduce) - N-wise Reduction (pair-wise with left argument of 2)
 [Performance](https://aplwiki.com/wiki/Performance#Performant_usage)
+[Dfns Workspace](https://aplwiki.com/wiki/Dfns_workspace)
+[CMPX](http://dfns.dyalog.com/n_cmpx.htm)
+
 
 
 [Dfns Workspace](https://aplwiki.com/wiki/Dfns_workspace)
