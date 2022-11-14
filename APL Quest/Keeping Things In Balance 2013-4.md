@@ -7,9 +7,9 @@
 **Example Solutions:**
 ```APL
 	Di ← {1 ¯1 0['()'⍳⍵]} ⍝ Indexing into an array, 1 is left paren, ¯1 is Right and 0 is all other characters. 
-	
 	Df ← '('∘= - =∘')' ⍝ Tacit, subtracts the comparisons to get the depth changes. 
-	F ← (¯1∘∊⍱0≠⊢/)'('∘=+\⍤-=∘')' ⍝ 
+	Bn ← (¯1∊+\)⍱0≠+/ ⍝ checks for no ¯1 and no 0 in scan
+	F ← (¯1∘∊⍱0≠⊢/)'('∘=+\⍤-=∘')' ⍝ Moves scan to be atop on comparisons +\⍤ 
 	```
 
 **Quotes:**
@@ -45,7 +45,7 @@ If an element isn't found a lookup array. Then we get the next index.
 [And](https://aplwiki.com/wiki/And) - tests if both arguments are true: it returns 1 if both are true (1) and 0 if one or both are false (0)
 [Nor](https://aplwiki.com/wiki/Nor) - tests if neither argument is true: it returns 1 if both are false (0) and 0 if at least one is true (1)
 [Enlist](https://aplwiki.com/wiki/Enlist) -Enlist flattens over all layers of nesting
-
+[Intersection](https://aplwiki.com/wiki/Intersection)
 
 
 **Concepts Used:**
@@ -59,6 +59,8 @@ If an element isn't found a lookup array. Then we get the next index.
 [Logical Conjunction](https://en.wikipedia.org/wiki/Logical_conjunction)
 [Logical Nor](https://en.wikipedia.org/wiki/Logical_NOR)
 [Fork and Atop Problem](https://aplwiki.com/wiki/Train#Problems_caused_by_function-operator_overloading)
+[Regular Expressions](https://xpqz.github.io/cultivations/Regex.html)
+[Intersection](https://en.wikipedia.org/wiki/Intersection_(set_theory))
 
 **Reference:**
 [Sixteen APL Amuse-Bouches](http://archive.vector.org.uk/art10501480) - #5
