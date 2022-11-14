@@ -38,6 +38,10 @@ If an element isn't found a lookup array. Then we get the next index.
 [Commute](https://aplwiki.com/wiki/Commute) aka Selfie
 [Tally](https://aplwiki.com/wiki/Tally)
 [Each](https://aplwiki.com/wiki/Each)
+[Scan](https://aplwiki.com/wiki/Scan) - Plus Scan
+[Sum](https://aplwiki.com/wiki/Add#Reduction)
+[And](https://aplwiki.com/wiki/And) - tests if both arguments are true: it returns 1 if both are true (1) and 0 if one or both are false (0)
+[Nor](https://aplwiki.com/wiki/Nor) - tests if neither argument is true: it returns 1 if both are false (0) and 0 if at least one is true (1)
 
 
 **Concepts Used:**
@@ -48,6 +52,8 @@ If an element isn't found a lookup array. Then we get the next index.
 [Reduction](https://aplwiki.com/wiki/Reduce)
 [Fork](https://aplwiki.com/wiki/Train#3-trains)
 [Dfns Workspace](https://aplwiki.com/wiki/Dfns_workspace)
+[Logical Conjunction](https://en.wikipedia.org/wiki/Logical_conjunction)
+[Logical Nor](https://en.wikipedia.org/wiki/Logical_NOR)
 
 **Reference:**
 [Sixteen APL Amuse-Bouches](http://archive.vector.org.uk/art10501480) - #5
