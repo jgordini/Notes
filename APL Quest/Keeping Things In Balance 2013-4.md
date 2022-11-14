@@ -8,7 +8,7 @@
 ```APL
 	Di ← {1 ¯1 0['()'⍳⍵]} ⍝ Indexing into an array, 1 is left paren, ¯1 is Right and 0 is all other characters. 
 	
-	L ← {+/2</1,⍨' '=⍵} ⍝ fastest solution append a bit
+	Df ← '('∘= - =∘')' ⍝ Tacit, subtracts the 
 ```
 
 **Quotes:**
@@ -33,27 +33,18 @@ If an element isn't found a lookup array. Then we get the next index.
 [Reduce](https://aplwiki.com/wiki/Reduce) - Vertical Minus Reduction
 
 
-
-[Not equal to](https://aplwiki.com/wiki/Not_Equal_to)
-[Partition](https://aplwiki.com/wiki/Partition) - Uses ones to Partition
-[Tally](https://aplwiki.com/wiki/Tally)
-[Bind](https://aplwiki.com/wiki/Bind)
-[String Search](http://help.dyalog.com/18.0/index.htm#Language/System%20Functions/r.htm) - ⎕S
-[Verify Fixed Input](http://help.dyalog.com/18.0/index.htm#Language/System%20Functions/vfi.htm?Highlight=Verify%20and%20Fix%20Input) - ⎕VFI
-[First](https://aplwiki.com/wiki/First)
-[Reduce](https://aplwiki.com/wiki/Reduce) - Pair wise and plus reduction
-[Ravel](https://aplwiki.com/wiki/Ravel) - adding a space or a 1
-[Commute](https://aplwiki.com/wiki/Commute) aka Selfie
-[Bracket Indexing](https://xpqz.github.io/learnapl/indexing.html#bracket-indexing) - Generating Random string using roll and reshape
-[Roll](https://aplwiki.com/wiki/Roll)
-[Reshape](https://aplwiki.com/wiki/Reshape)
-
 **Concepts Used:**
 [Comparison Function](https://aplwiki.com/wiki/Comparison_function)
 [Dfn](https://aplwiki.com/wiki/Dfn)
 [Tacit Programming](https://aplwiki.com/wiki/Tacit_programming)
 [Boolean Mask](https://aplwiki.com/wiki/Boolean)
 [Reduction](https://aplwiki.com/wiki/Reduce)
+[Fork](https://aplwiki.com/wiki/Train#3-trains)
+
+**Reference:**
+[Sixteen APL Amuse-Bouches](http://archive.vector.org.uk/art10501480) - #5
+
+
 [Regular Expressions](https://xpqz.github.io/cultivations/Regex.html)
 [Windowed Reduce](https://aplwiki.com/wiki/Windowed_Reduce) - N-wise Reduction (pair-wise with left argument of 2)
 [Performance](https://aplwiki.com/wiki/Performance#Performant_usage)
