@@ -12,9 +12,7 @@ J ← 100×+.≥∘65÷≢ ⍝ Tacit
 ```
 
 **Quotes:**
-*We are dealing with a scaler (65) and a vector (Scores). We should notice this pattern. We have a sum over a comparison of vectors. When we have that, we should think, Inner Product.*
-
-*65 is a bound constant to the inner product.* 
+*Partition uses 1's and requrires an axis. So we must ravel first if we have a scaler.* 
 
 **Comment:** 
 ```APL
@@ -24,13 +22,14 @@ J ← 100×+.≥∘65÷≢ ⍝ Tacit
 **Glyphs Used:**
 [Not equal to](https://aplwiki.com/wiki/Not_Equal_to)
 [Partition](https://aplwiki.com/wiki/Partition) - Uses ones to Partition
-
+[Tally](https://aplwiki.com/wiki/Tally)
+[Bind](https://aplwiki.com/wiki/Bind)
 
 
 
 [Roll](https://aplwiki.com/wiki/Roll)
 [Reshape](https://aplwiki.com/wiki/Reshape)
-[Tally](https://aplwiki.com/wiki/Tally)
+
 [Greater than or Equal to](https://aplwiki.com/wiki/Greater_than_or_Equal_to)
 [Scan](https://aplwiki.com/wiki/Scan) - Plus Scan
 [Quad](https://aplwiki.com/wiki/Quad_name)
