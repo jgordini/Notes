@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3b5c6a447fdbd80e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "APL Quest/Making the Grade 2013-2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8e0ae7d7ccf8c32f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "APL Quest/Whats in a Word 2013-3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "APL Quest/Making the Grade 2013-2.md",
+                "file": "APL Quest/Whats in a Word 2013-3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "APL Quest/Making the Grade 2013-2.md",
+                "file": "APL Quest/Whats in a Word 2013-3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "APL Quest/Making the Grade 2013-2.md"
+                "file": "APL Quest/Whats in a Word 2013-3.md"
               }
             }
           }
@@ -136,9 +161,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f8373b3f83dc5eb3",
+  "active": "8e0ae7d7ccf8c32f",
   "lastOpenFiles": [
+    "APL Quest/Making the Grade 2013-2.md",
     "APL Quest/Seems a bit odd to me 2013-1.md",
+    "APL Quest/Untitled.md",
     "2022-11-14.md"
   ]
 }
