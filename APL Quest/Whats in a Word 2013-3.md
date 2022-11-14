@@ -26,6 +26,8 @@
 [String Search](http://help.dyalog.com/18.0/index.htm#Language/System%20Functions/r.htm) - ⎕S
 [Verify Fixed Input](http://help.dyalog.com/18.0/index.htm#Language/System%20Functions/vfi.htm?Highlight=Verify%20and%20Fix%20Input) - ⎕VFI
 [First](https://aplwiki.com/wiki/First)
+[Reduce](https://aplwiki.com/wiki/Reduce) - Pair wise and plus reduction
+[Ravel](https://aplwiki.com/wiki/Ravel) - adding a space
 
 
 [Roll](https://aplwiki.com/wiki/Roll)
@@ -49,7 +51,7 @@
 [Dfn](https://aplwiki.com/wiki/Dfn)
 [Boolean Mask](https://aplwiki.com/wiki/Boolean)
 [Regular Expressions](https://microapl.com/apl_help/ch_205_010.htm)
-[Windowed Reduce](https://aplwiki.com/wiki/Windowed_Reduce) - N-wise Reduction
+[Windowed Reduce](https://aplwiki.com/wiki/Windowed_Reduce) - N-wise Reduction (pair-wise with left argument of 2)
 
 
 [Dfns Workspace](https://aplwiki.com/wiki/Dfns_workspace)
