@@ -49,7 +49,7 @@
 [Dfn](https://aplwiki.com/wiki/Dfn)
 [Boolean Mask](https://aplwiki.com/wiki/Boolean)
 [Regular Expressions](https://microapl.com/apl_help/ch_205_010.htm)
-
+[Windowed Reduce](https://aplwiki.com/wiki/Windowed_Reduce) - N-wise Reduction
 
 
 [Dfns Workspace](https://aplwiki.com/wiki/Dfns_workspace)
