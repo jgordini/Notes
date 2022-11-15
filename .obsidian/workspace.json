@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2022-11-14.md",
+                "file": "Websites/Invoker - Welcome - Beyond Code-2022-11-02.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/2022-11-14.md",
+                "file": "Websites/Invoker - Welcome - Beyond Code-2022-11-02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/2022-11-14.md",
+                "file": "Websites/Invoker - Welcome - Beyond Code-2022-11-02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2022-11-14.md"
+                "file": "Websites/Invoker - Welcome - Beyond Code-2022-11-02.md"
               }
             }
           }
@@ -136,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5a4e69478dd26ebf",
+  "active": "b8b9b800d3490bea",
   "lastOpenFiles": [
+    "Websites/Certbot Instructions | Certbot-2022-11-02.md",
+    "Websites/Invoker - Welcome - Beyond Code-2022-11-02.md",
+    "Websites/GitHub - hauselinobsidian-alfred Alfred workflow for Obsidian note-taking app. Open vaults and files in Obsidian.-2022-11-15.md",
+    "Work HTML/Layouts Every Layout-2022-11-15.md",
+    "Websites/Have Obsidian be the handler of .md files (file association) - Feature requests - Obsidian Forum.md(1).md",
+    "Daily Notes/2022-11-14.md",
     "AI Stories/2nd.md",
     "AI Stories/4321.md",
     "Work HTML/shipshapecodeshepherd Guide your users through a tour of your app-2022-11-04.md",
-    "README.md",
-    "test.md",
-    "APL/Statement Seperator.md",
-    "Daily Notes/2022-11-14.md",
-    "Daily Notes/2022-11-15.md",
-    "Websites.md",
-    "Websites/GitHub - hauselinobsidian-alfred Alfred workflow for Obsidian note-taking app. Open vaults and files in Obsidian.-2022-11-15.md"
+    "README.md"
   ]
 }
