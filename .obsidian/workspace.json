@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Websites/GitHub - hauselinobsidian-alfred Alfred workflow for Obsidian note-taking app. Open vaults and files in Obsidian.-2022-11-15.md",
+                "file": "Daily Notes/2022-11-14.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Websites/GitHub - hauselinobsidian-alfred Alfred workflow for Obsidian note-taking app. Open vaults and files in Obsidian.-2022-11-15.md",
+                "file": "Daily Notes/2022-11-14.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Websites/GitHub - hauselinobsidian-alfred Alfred workflow for Obsidian note-taking app. Open vaults and files in Obsidian.-2022-11-15.md",
+                "file": "Daily Notes/2022-11-14.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Websites/GitHub - hauselinobsidian-alfred Alfred workflow for Obsidian note-taking app. Open vaults and files in Obsidian.-2022-11-15.md"
+                "file": "Daily Notes/2022-11-14.md"
               }
             }
           }
@@ -136,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b8b9b800d3490bea",
+  "active": "5a4e69478dd26ebf",
   "lastOpenFiles": [
-    "Websites/Layouts Every Layout.md",
-    "Websites/Layouts Every Layout-2022-11-15.md",
-    "Websites/Obsidian Clipper-2022-11-15.md",
-    "2022-11-15.md",
+    "AI Stories/2nd.md",
+    "AI Stories/4321.md",
+    "Work HTML/shipshapecodeshepherd Guide your users through a tour of your app-2022-11-04.md",
+    "README.md",
+    "test.md",
+    "APL/Statement Seperator.md",
+    "Daily Notes/2022-11-14.md",
+    "Daily Notes/2022-11-15.md",
     "Websites.md",
-    "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf",
-    "Trig/PDF/MTH 113 Emphasis Sheet (Me)(1).pdf",
-    "Trig/PDF/Trig_Cheat_Sheet.pdf",
-    "Trig/PDF/tan-unit-circle.png",
-    "Trig/PDF/Algebra_Cheat_Sheet.pdf"
+    "Websites/GitHub - hauselinobsidian-alfred Alfred workflow for Obsidian note-taking app. Open vaults and files in Obsidian.-2022-11-15.md"
   ]
 }
