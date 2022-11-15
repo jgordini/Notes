@@ -1,86 +1,49 @@
 {
   "main": {
-    "id": "c051930a033b83fb",
+    "id": "b1e7b5ede1eb0f11",
     "type": "split",
     "children": [
       {
-        "id": "f5fc0ce8bda236f8",
+        "id": "e965b067b39742ad",
         "type": "tabs",
         "children": [
           {
-            "id": "f8373b3f83dc5eb3",
+            "id": "631d285d515d3244",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "APL Quest/Making the Grade 2013-2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3b5c6a447fdbd80e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "APL Quest/Making the Grade 2013-2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8e0ae7d7ccf8c32f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "APL Quest/Whats in a Word 2013-3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0771e1fc94272421",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "APL Quest/Keeping Things In Balance 2013-4.md",
+                "file": "Websites/Obsidian Clipper-2022-11-15.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "29be921b0c5cd239",
+    "id": "4c1ee8424cf3fb95",
     "type": "split",
     "children": [
       {
-        "id": "0076b83a77577908",
+        "id": "8c6f84c3d7139d0f",
         "type": "tabs",
         "children": [
           {
-            "id": "8f7507490d7d24c2",
+            "id": "5a4e69478dd26ebf",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTimeReverse"
               }
             }
           },
           {
-            "id": "f89225b5208b7bef",
+            "id": "03074444151a6085",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -95,7 +58,7 @@
             }
           },
           {
-            "id": "fc2ce12168fc49e3",
+            "id": "65529e1fa40356dd",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -106,23 +69,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 236.50260543823242
   },
   "right": {
-    "id": "f88822639d51b576",
+    "id": "e8fd077a861a7cbb",
     "type": "split",
     "children": [
       {
-        "id": "5521d5c1d6d2bb4d",
+        "id": "5c7e3f54cd544740",
         "type": "tabs",
         "children": [
           {
-            "id": "c9126872f9016953",
+            "id": "a069eedefa27de23",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "APL Quest/Keeping Things In Balance 2013-4.md",
+                "file": "Websites/Obsidian Clipper-2022-11-15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,19 +97,19 @@
             }
           },
           {
-            "id": "947ce6f58aacdb1e",
+            "id": "8cb291b7680e5079",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "APL Quest/Keeping Things In Balance 2013-4.md",
+                "file": "Websites/Obsidian Clipper-2022-11-15.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "726deee758163871",
+            "id": "bf37aad46242b7ca",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -157,12 +120,12 @@
             }
           },
           {
-            "id": "35c5af60f41cbb95",
+            "id": "dfdec0b4aef704c6",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "APL Quest/Keeping Things In Balance 2013-4.md"
+                "file": "Websites/Obsidian Clipper-2022-11-15.md"
               }
             }
           }
@@ -173,13 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0771e1fc94272421",
+  "active": "631d285d515d3244",
   "lastOpenFiles": [
-    "APL Quest/Whats in a Word 2013-3.md",
-    "APL Quest/Seems a bit odd to me 2013-1.md",
+    "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf",
+    "Trig/PDF/MTH 113 Emphasis Sheet (Me)(1).pdf",
+    "Trig/PDF/Trig_Cheat_Sheet.pdf",
+    "Trig/PDF/tan-unit-circle.png",
+    "Trig/PDF/Algebra_Cheat_Sheet.pdf",
     "APL Quest/Making the Grade 2013-2.md",
-    "APL Quest/Keeping Things In Balance 2013-4.md",
-    "APL Quest/Untitled.md",
-    "2022-11-14.md"
+    "APL Quest/Seems a bit odd to me 2013-1.md",
+    "Trig/Trig Images/tan3.gif",
+    "Trig/Trig Notes.md",
+    "APL/Images/Function Defs.png"
   ]
 }
