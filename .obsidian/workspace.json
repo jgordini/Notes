@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e965b067b39742ad",
+        "id": "cb11f62b4a017933",
         "type": "tabs",
         "children": [
           {
-            "id": "631d285d515d3244",
+            "id": "b8b9b800d3490bea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Websites/Layouts Every Layout-2022-11-15.md",
+                "file": "Websites/GitHub - hauselinobsidian-alfred Alfred workflow for Obsidian note-taking app. Open vaults and files in Obsidian.-2022-11-15.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Websites/Layouts Every Layout-2022-11-15.md",
+                "file": "Websites/GitHub - hauselinobsidian-alfred Alfred workflow for Obsidian note-taking app. Open vaults and files in Obsidian.-2022-11-15.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Websites/Layouts Every Layout-2022-11-15.md",
+                "file": "Websites/GitHub - hauselinobsidian-alfred Alfred workflow for Obsidian note-taking app. Open vaults and files in Obsidian.-2022-11-15.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Websites/Layouts Every Layout-2022-11-15.md"
+                "file": "Websites/GitHub - hauselinobsidian-alfred Alfred workflow for Obsidian note-taking app. Open vaults and files in Obsidian.-2022-11-15.md"
               }
             }
           }
@@ -136,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "631d285d515d3244",
+  "active": "b8b9b800d3490bea",
   "lastOpenFiles": [
+    "Websites/Layouts Every Layout.md",
     "Websites/Layouts Every Layout-2022-11-15.md",
-    "Websites.md",
     "Websites/Obsidian Clipper-2022-11-15.md",
+    "2022-11-15.md",
+    "Websites.md",
     "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf",
     "Trig/PDF/MTH 113 Emphasis Sheet (Me)(1).pdf",
     "Trig/PDF/Trig_Cheat_Sheet.pdf",
     "Trig/PDF/tan-unit-circle.png",
-    "Trig/PDF/Algebra_Cheat_Sheet.pdf",
-    "APL Quest/Making the Grade 2013-2.md",
-    "APL Quest/Seems a bit odd to me 2013-1.md"
+    "Trig/PDF/Algebra_Cheat_Sheet.pdf"
   ]
 }

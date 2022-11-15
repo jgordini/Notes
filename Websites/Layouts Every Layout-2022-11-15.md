@@ -1,1 +1,2 @@
-Unable get contents of the clipUnable get contents of the clip
+> Each of the following _layout primitives_ is documented with a code generator, and includes a custom element implementation. You can use them together, in [composition](https://every-layout.dev/rudiments/composition), to create robust and responsive layouts without the need for `@media` breakpoints.
+Clipped from [Layouts: Every Layout](https://every-layout.dev/layouts/) at 2022-11-15.
