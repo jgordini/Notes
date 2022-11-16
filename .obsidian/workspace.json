@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f5fc0ce8bda236f8",
+        "id": "ad3e1b9f11de5142",
         "type": "tabs",
         "children": [
           {
-            "id": "9498a85fc3db5fb3",
+            "id": "7b4df3fc1a9cfd1d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -136,8 +136,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9498a85fc3db5fb3",
+  "active": "7b4df3fc1a9cfd1d",
   "lastOpenFiles": [
+    "APL Quest/Keeping Things In Balance 2013-4.md",
     "Daily Notes/2022-11-16.md",
     "README.md",
     "conflict-files-obsidian-git.md",
@@ -146,7 +147,6 @@
     "APL/PDF/Dyalog APL Idioms.pdf",
     "APL/PDF/adams1984.pdf",
     "APL/Images/tally-apl-cart.png",
-    "APL/Images/Function Defs.png",
-    "APL/Statement Seperator.md"
+    "APL/Images/Function Defs.png"
   ]
 }

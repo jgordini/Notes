@@ -23,15 +23,15 @@ If an element isn't found a lookup array. Then we get the next index.
 ```
 
 **Glyphs Used:**
-[Index of](https://aplwiki.com/wiki/Index_Of)
-[Bracket Indexing](https://xpqz.github.io/learnapl/indexing.html#bracket-indexing)  - Mapping 
-[Mix](https://aplwiki.com/wiki/Mix)
-[Merge Axis](https://aplwiki.com/wiki/Rank_(operator)#Merge_axes) - ,⍤
-[Over](https://aplwiki.com/wiki/Over)
-[Enclose](https://aplwiki.com/wiki/Enclose) - creates a nested scalar by wrapping its argument under one level of nesting
-[Outer Product](https://aplwiki.com/wiki/Outer_Product) using a comparison =
-[Laminate](https://aplwiki.com/wiki/Catenate) - Catenate First - Add a line to a matrix
-[Reduce](https://aplwiki.com/wiki/Reduce) - Vertical Minus Reduction
+[Index of](https://aplwiki.com/wiki/Index_Of) `⍳`
+[Bracket Indexing](https://xpqz.github.io/learnapl/indexing.html#bracket-indexing)  [ ]  Mapping 
+[Mix](https://aplwiki.com/wiki/Mix)  `↑`
+[Merge Axis](https://aplwiki.com/wiki/Rank_(operator)#Merge_axes)  ,⍤
+[Over](https://aplwiki.com/wiki/Over)  `⍥`
+[Enclose](https://aplwiki.com/wiki/Enclose) `⊂` - creates a nested scalar by wrapping its argument under one level of nesting
+[Outer Product](https://aplwiki.com/wiki/Outer_Product) `∘.`using a comparison =
+[Laminate](https://aplwiki.com/wiki/Catenate)  `⍪` Catenate First - Add a line to a matrix
+[Reduce](https://aplwiki.com/wiki/Reduce) `⌿` Vertical Minus Reduction
 [Bind](https://aplwiki.com/wiki/Bind)
 [Vector Representation](https://xpqz.github.io/cultivations/CodeManagement.html?highlight=vr#visual-representation-vr) - ⎕VR`
 [Rank](https://aplwiki.com/wiki/Rank_(operator)) - applies its left operand function to cells of its arguments specified by its right operand array. 
@@ -44,10 +44,12 @@ If an element isn't found a lookup array. Then we get the next index.
 [Sum](https://aplwiki.com/wiki/Add#Reduction)
 [And](https://aplwiki.com/wiki/And) - tests if both arguments are true: it returns 1 if both are true (1) and 0 if one or both are false (0)
 [Nor](https://aplwiki.com/wiki/Nor) - tests if neither argument is true: it returns 1 if both are false (0) and 0 if at least one is true (1)
-[Enlist](https://aplwiki.com/wiki/Enlist) -Enlist flattens over all layers of nesting
-[Intersection](https://aplwiki.com/wiki/Intersection)
+[Enlist](https://aplwiki.com/wiki/Enlist)   `∊` -Enlist flattens over all layers of nesting
+[Intersection](https://aplwiki.com/wiki/Intersection)  `∩`
 [Power Match](https://aplwiki.com/wiki/Power_(operator)) ⍣≡ - Iterating until a fixed point is reached.
-[Atop](https://aplwiki.com/wiki/Atop_(operator)) - takes two (monadic) functions and glues them together.  Uses the left operand to process the right
+[Atop](https://aplwiki.com/wiki/Atop_(operator)) `⍤` - takes two (monadic) functions and glues them together.  Uses the left operand to process the right
+[Variant](https://aplwiki.com/wiki/Variant) `⍠` - Switch Regex to plain text
+
 
 
 **Concepts Used:**
