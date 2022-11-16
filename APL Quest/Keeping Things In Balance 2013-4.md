@@ -45,7 +45,7 @@ Applying a function to a scaler doesn't change the function and will let APL eva
 [Sum](https://aplwiki.com/wiki/Add#Reduction)
 [And](https://aplwiki.com/wiki/And) - tests if both arguments are true: it returns 1 if both are true (1) and 0 if one or both are false (0)
 [Nor](https://aplwiki.com/wiki/Nor) - tests if neither argument is true: it returns 1 if both are false (0) and 0 if at least one is true (1)
-[Enlist](https://aplwiki.com/wiki/Enlist)   `∊` -Enlist flattens over all layers of nesting
+[Enlist](https://aplwiki.com/wiki/Enlist)  `∊` - Enlist flattens over all layers of nesting
 [Intersection](https://aplwiki.com/wiki/Intersection)  `∩`
 [Match](https://aplwiki.com/wiki/match) `≡`
 [Power Match](https://aplwiki.com/wiki/Power_(operator))  `⍣≡` - Iterating until a fixed point is reached.
@@ -56,8 +56,9 @@ Applying a function to a scaler doesn't change the function and will let APL eva
 [Or](https://aplwiki.com/wiki/or) `∨`
 [Compress](https://aplwiki.com/wiki/Replicate) `/` -  Outside of APL, [filter](https://en.wikipedia.org/wiki/filter_(higher-order_function) "wikipedia:filter (higher-order function)") typically provides the functionality of Compress
 [Execute](https://aplwiki.com/wiki/execute) ⍎
-Diamond
-
+[Diamond](https://aplwiki.com/wiki/Statement_separator) ⋄ - Statement Seperator
+[Format](https://aplwiki.com/wiki/format) ⍕ - Flatten
+[First](https://aplwiki.com/wiki/first) ⊃
 
 **Concepts Used:**
 [Comparison Function](https://aplwiki.com/wiki/Comparison_function)
@@ -73,14 +74,15 @@ Diamond
 [Regular Expressions](https://xpqz.github.io/cultivations/Regex.html)
 [Intersection](https://en.wikipedia.org/wiki/Intersection_(set_theory))
 [Error Guard](https://aplwiki.com/wiki/Dfn#Error-guards) `::`
+[Performance](https://aplwiki.com/wiki/Performance#Performant_usage)
+[CMPX](http://dfns.dyalog.com/n_cmpx.htm)
 
 
 **Reference:**
 [Sixteen APL Amuse-Bouches](http://archive.vector.org.uk/art10501480) - #5
 
 
-[Regular Expressions](https://xpqz.github.io/cultivations/Regex.html)
-[Windowed Reduce](https://aplwiki.com/wiki/Windowed_Reduce) - N-wise Reduction (pair-wise with left argument of 2)
+
 [Performance](https://aplwiki.com/wiki/Performance#Performant_usage)
 [Dfns Workspace](https://aplwiki.com/wiki/Dfns_workspace)
 [CMPX](http://dfns.dyalog.com/n_cmpx.htm)
