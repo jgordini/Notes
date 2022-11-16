@@ -8,7 +8,7 @@
 **Example Solutions:**
 ```APL
 	I←∘.=⍨⍳ ⍝ equality table for one dimensional indices
-	J← {⍵ ⍵⍴(⍵+1)↑1} ⍝ overtake to insert 1 before n 0s
+	J←{⍵ ⍵⍴(⍵+1)↑1} ⍝ overtake to insert 1 before n 0s
 	```
 
 **Quotes:**
