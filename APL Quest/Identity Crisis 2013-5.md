@@ -28,7 +28,9 @@
 [Each](https://aplwiki.com/wiki/Each) `¨`
 [Outer Product](https://aplwiki.com/wiki/Outer_Product) `∘.` 
 [Commute](https://aplwiki.com/wiki/Commute) `⍨`  - aka Selfie or Swap
-[Dyadic Transpose](https://aplwiki.com/wiki/Transpose#Dyadic_usage) 
+[Dyadic Transpose](https://xpqz.github.io/learnapl/dyadictrn.html?#dyadic-transpose-ab) `⍉` - Mapping Both dimensions to a single dimension
+[Reshape](https://aplwiki.com/wiki/Reshape) `⍴`
+
 
 [Index of](https://aplwiki.com/wiki/Index_Of) `⍳`
 [Bracket Indexing](https://xpqz.github.io/learnapl/indexing.html#bracket-indexing)  [ ]  - Mapping 
@@ -68,7 +70,7 @@
 
 **Concepts Used:**
 [Identity Matrix](https://en.wikipedia.org/wiki/Identity_matrix)
-
+[Dfn](https://aplwiki.com/wiki/Dfn)
 
 
 [Dfn](https://aplwiki.com/wiki/Dfn)

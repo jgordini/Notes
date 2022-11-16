@@ -69,6 +69,7 @@ Applying a function to a scaler doesn't change the function and will let APL eva
 [Reduction](https://aplwiki.com/wiki/Reduce)
 [Fork](https://aplwiki.com/wiki/Train#3-trains)
 [Dfns Workspace](https://aplwiki.com/wiki/Dfns_workspace)
+[Boolean Functions](https://aplwiki.com/wiki/Boolean#Boolean_functions)
 [Logical Conjunction](https://en.wikipedia.org/wiki/Logical_conjunction)
 [Logical Nor](https://en.wikipedia.org/wiki/Logical_NOR)
 [Fork and Atop Problem](https://aplwiki.com/wiki/Train#Problems_caused_by_function-operator_overloading)
