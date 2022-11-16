@@ -38,7 +38,13 @@
 [Power](https://aplwiki.com/wiki/Power_(operator)) `⍣¯1` - used to access function inverses
 [Power(Function)](https://aplwiki.com/wiki/Power_(function)) `*` -  `X*Y` is `X` raised to the power `Y`
 [Overtake](https://aplwiki.com/wiki/Take#Overtaking) `↑` - A length larger than the argument length causes [fills](https://aplwiki.com/wiki/Fill_element "Fill element") to be inserted
-[Constant](https://aplwiki.com/wiki/Constant) `A⍨` - 
+[Bind](https://aplwiki.com/wiki/Bind) `∘`
+[Constant](https://xpqz.github.io/cultivations/Operators.html#constant-a) `A⍨` - always returns the operator array
+[Signum](https://aplwiki.com/wiki/Signum) `×A` - Sign of number  - on a real argument are `0`, `1`, and `¯1` (zero, positive and negative)
+[Tally](https://aplwiki.com/wiki/Tally) `≢`
+[Expand](https://aplwiki.com/wiki/Expand) `\`
+
+
 
 [Index of](https://aplwiki.com/wiki/Index_Of) `⍳`
 [Bracket Indexing](https://xpqz.github.io/learnapl/indexing.html#bracket-indexing)  [ ]  - Mapping 
