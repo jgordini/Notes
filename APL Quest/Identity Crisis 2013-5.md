@@ -7,16 +7,12 @@
 
 **Example Solutions:**
 ```APL
-	Di ← {1 ¯1 0['()'⍳⍵]} ⍝ Indexing into an array, 1 is left paren, ¯1 is Right and 0 is all other characters. 
-	Df ← '('∘= - =∘')' ⍝ Tacit, subtracts the comparisons to get the depth changes. 
-	Bn ← (¯1∊+\)⍱0≠+/ ⍝ checks for no ¯1 and no 0 in scan
-	F ← (¯1∘∊⍱0≠⊢/)'('∘=+\⍤-=∘')' ⍝ Moves scan to be atop on comparisons +\⍤ 
+	I←∘.=⍨⍳ ⍝ equality table for one dimensional indices
+	
 	```
 
 **Quotes:**
-Convert input into a normalized form. 
-If an element isn't found a lookup array. Then we get the next index. 
-Applying a function to a scaler doesn't change the function and will let APL evaluate it. 
+
 
 **Comment:** 
 ```APL
@@ -27,9 +23,12 @@ Applying a function to a scaler doesn't change the function and will let APL eva
 **Glyphs Used:**
 [Catenate](https://aplwiki.com/wiki/Catenate) `,`
 [Index of](https://aplwiki.com/wiki/Index_Of) `⍳`
-[Compress](https://aplwiki.com/wiki/Replicate) `/`
+[Comparison Function](https://aplwiki.com/wiki/Comparison_function) =
+[Compress](https://aplwiki.com/wiki/Replicate) `/` - filters the right argument `=/¨` compare each
 [Each](https://aplwiki.com/wiki/Each) `¨`
-
+[Outer Product](https://aplwiki.com/wiki/Outer_Product) `∘.` 
+[Commute](https://aplwiki.com/wiki/Commute) `⍨`  - aka Selfie or Swap
+[Dyadic Transpose](https://aplwiki.com/wiki/Transpose#Dyadic_usage) 
 
 [Index of](https://aplwiki.com/wiki/Index_Of) `⍳`
 [Bracket Indexing](https://xpqz.github.io/learnapl/indexing.html#bracket-indexing)  [ ]  - Mapping 
@@ -45,7 +44,7 @@ Applying a function to a scaler doesn't change the function and will let APL eva
 [Rank](https://aplwiki.com/wiki/Rank_(operator))  `⍤` - applies its left operand function to cells of its arguments specified by its right operand array. 
 [Identity](https://aplwiki.com/wiki/Identity) `⊢`
 [Reshape](https://aplwiki.com/wiki/Reshape) `⍴`
-[Commute](https://aplwiki.com/wiki/Commute) `⍨`  - aka Selfie or Swap
+
 [Tally](https://aplwiki.com/wiki/Tally) `≢`
 [Each](https://aplwiki.com/wiki/Each) `¨`
 [Scan](https://aplwiki.com/wiki/Scan) `+\`  - Plus Scan
@@ -69,7 +68,7 @@ Applying a function to a scaler doesn't change the function and will let APL eva
 
 **Concepts Used:**
 [Identity Matrix](https://en.wikipedia.org/wiki/Identity_matrix)
-[Comparison Function](https://aplwiki.com/wiki/Comparison_function)
+
 
 
 [Dfn](https://aplwiki.com/wiki/Dfn)
