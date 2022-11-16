@@ -18,7 +18,8 @@
 ```APL
 =/¨  ⍝ Compare Each
 ∘.=⍨ ⍝ Equailty Table using same indeces for both sides
-⊢/ ⍝ Last element
+1 1⍉s ⍝ Selects the diagonal of s
+,⍨¨ ⍝ Catenate each to itself
 ```
 
 **Glyphs Used:**
@@ -31,6 +32,7 @@
 [Commute](https://aplwiki.com/wiki/Commute) `⍨`  - aka Selfie or Swap
 [Dyadic Transpose](https://xpqz.github.io/learnapl/dyadictrn.html?#dyadic-transpose-ab) ``x⍉y`` - allows you to select diagonals by giving one or more dimensions equal mapping
 [Reshape](https://aplwiki.com/wiki/Reshape) `⍴`
+[At](https://aplwiki.com/wiki/at) `@`
 
 [Index of](https://aplwiki.com/wiki/Index_Of) `⍳`
 [Bracket Indexing](https://xpqz.github.io/learnapl/indexing.html#bracket-indexing)  [ ]  - Mapping 
@@ -46,6 +48,8 @@
 [Rank](https://aplwiki.com/wiki/Rank_(operator))  `⍤` - applies its left operand function to cells of its arguments specified by its right operand array. 
 [Identity](https://aplwiki.com/wiki/Identity) `⊢`
 [Reshape](https://aplwiki.com/wiki/Reshape) `⍴`
+[Diamond](https://aplwiki.com/wiki/Statement_separator) ⋄ - Statement Seperator
+
 
 [Tally](https://aplwiki.com/wiki/Tally) `≢`
 [Each](https://aplwiki.com/wiki/Each) `¨`
