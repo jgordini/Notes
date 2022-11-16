@@ -1,6 +1,7 @@
 ## [Making the Grade](https://problems.tryapl.org/psets/2013.html?goto=P2_Making_The_Grade)
 
 **Problem:** Write a dfn which returns the percent (from 0 to 100) of passing (65 or higher) grades in a vector of grades.
+
 **Video:** https://youtu.be/pxo2BtoMxP4
 **Code:** https://github.com/abrudz/apl_quest/blob/main/2013/2.apl
 

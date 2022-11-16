@@ -1,6 +1,7 @@
 ## [ Keeping Things In Balance](https://problems.tryapl.org/psets/2013.html?goto=P4_Keeping_Things_In_Balance)
 
 **Problem:** Write an APL dfn which returns a 1 if the opening and closing parentheses in a character vector are balanced, or a zero otherwise.
+
 **Video:** https://youtu.be/El0_RB4TTPA
 **Code:** https://github.com/abrudz/apl_quest/blob/main/2013/4.apl
 
@@ -30,21 +31,21 @@ Applying a function to a scaler doesn't change the function and will let APL eva
 [Merge Axis](https://aplwiki.com/wiki/Rank_(operator)#Merge_axes)  ,⍤
 [Over](https://aplwiki.com/wiki/Over)  `⍥`
 [Enclose](https://aplwiki.com/wiki/Enclose) `⊂` - creates a nested scalar by wrapping its argument under one level of nesting
-[Outer Product](https://aplwiki.com/wiki/Outer_Product) `∘.`using a comparison =
+[Outer Product](https://aplwiki.com/wiki/Outer_Product) `∘.`  - using a comparison `∘.=`
 [Laminate](https://aplwiki.com/wiki/Catenate)  `⍪` Catenate First - Add a line to a matrix
 [Reduce](https://aplwiki.com/wiki/Reduce) `⌿` Vertical Minus Reduction
-[Bind](https://aplwiki.com/wiki/Bind)
+[Bind](https://aplwiki.com/wiki/Bind) `∘`
 [Vector Representation](https://xpqz.github.io/cultivations/CodeManagement.html?highlight=vr#visual-representation-vr) - ⎕VR`
-[Rank](https://aplwiki.com/wiki/Rank_(operator)) - applies its left operand function to cells of its arguments specified by its right operand array. 
+[Rank](https://aplwiki.com/wiki/Rank_(operator))  `⍤` - applies its left operand function to cells of its arguments specified by its right operand array. 
 [Identity](https://aplwiki.com/wiki/Identity) `⊢`
-[Reshape](https://aplwiki.com/wiki/Reshape)
-[Commute](https://aplwiki.com/wiki/Commute) aka Selfie
-[Tally](https://aplwiki.com/wiki/Tally)
-[Each](https://aplwiki.com/wiki/Each)
-[Scan](https://aplwiki.com/wiki/Scan) - Plus Scan
-[Sum](https://aplwiki.com/wiki/Add#Reduction)
-[And](https://aplwiki.com/wiki/And) - tests if both arguments are true: it returns 1 if both are true (1) and 0 if one or both are false (0)
-[Nor](https://aplwiki.com/wiki/Nor) - tests if neither argument is true: it returns 1 if both are false (0) and 0 if at least one is true (1)
+[Reshape](https://aplwiki.com/wiki/Reshape) `⍴`
+[Commute](https://aplwiki.com/wiki/Commute) `⍨`  - aka Selfie or Swap
+[Tally](https://aplwiki.com/wiki/Tally) `≢`
+[Each](https://aplwiki.com/wiki/Each) `¨`
+[Scan](https://aplwiki.com/wiki/Scan) `+\`  - Plus Scan
+[Sum](https://aplwiki.com/wiki/Add#Reduction) `+/` - [Reduction](https://aplwiki.com/wiki/Reduction "Reduction") with Add gives the sum of the whole list.
+[And](https://aplwiki.com/wiki/And) `∧` - tests if both arguments are true: it returns 1 if both are true (1) and 0 if one or both are false (0)
+[Nor](https://aplwiki.com/wiki/Nor) `⍱` - tests if neither argument is true: it returns 1 if both are false (0) and 0 if at least one is true (1)
 [Enlist](https://aplwiki.com/wiki/Enlist)  `∊` - Enlist flattens over all layers of nesting
 [Intersection](https://aplwiki.com/wiki/Intersection)  `∩`
 [Match](https://aplwiki.com/wiki/match) `≡`
@@ -80,9 +81,3 @@ Applying a function to a scaler doesn't change the function and will let APL eva
 
 **Reference:**
 [Sixteen APL Amuse-Bouches](http://archive.vector.org.uk/art10501480) - #5
-
-
-
-[Performance](https://aplwiki.com/wiki/Performance#Performant_usage)
-[Dfns Workspace](https://aplwiki.com/wiki/Dfns_workspace)
-[CMPX](http://dfns.dyalog.com/n_cmpx.htm)
