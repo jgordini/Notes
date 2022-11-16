@@ -16,7 +16,8 @@
 
 **Comment:** 
 ```APL
-↑⍤,⍥⊂ ⍝ concatenate enclosure over the original, (mix)Increase the rank - used for vector - Laminate for Matrix
+=/¨  ⍝ Compare Each
+∘.=⍨ ⍝ Equailty Table using same indeces for both sides
 ⊢/ ⍝ Last element
 ```
 
@@ -28,9 +29,8 @@
 [Each](https://aplwiki.com/wiki/Each) `¨`
 [Outer Product](https://aplwiki.com/wiki/Outer_Product) `∘.` 
 [Commute](https://aplwiki.com/wiki/Commute) `⍨`  - aka Selfie or Swap
-[Dyadic Transpose](https://xpqz.github.io/learnapl/dyadictrn.html?#dyadic-transpose-ab) `⍉` - Mapping Both dimensions to a single dimension
+[Dyadic Transpose](https://xpqz.github.io/learnapl/dyadictrn.html?#dyadic-transpose-ab) ``x⍉y`` - allows you to select diagonals by giving one or more dimensions equal mapping
 [Reshape](https://aplwiki.com/wiki/Reshape) `⍴`
-
 
 [Index of](https://aplwiki.com/wiki/Index_Of) `⍳`
 [Bracket Indexing](https://xpqz.github.io/learnapl/indexing.html#bracket-indexing)  [ ]  - Mapping 
