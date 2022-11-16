@@ -54,9 +54,105 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1759bff20a113553",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "APL/Statement Seperator.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0aadf1d3a8345638",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "APL/Performance.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d5d20784f3efc8ff",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "4594e8440f1fad7b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "e80d0be388611b5b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "e1a3efb1d883b38f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "5e97a8d40cf1c096",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "APL/Performance.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a67b36b8cff41df4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "376c32623fb9af42",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "9498a85fc3db5fb3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -122,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-11-16.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2022-11-16.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-11-16.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -173,13 +269,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0771e1fc94272421",
+  "active": "9498a85fc3db5fb3",
   "lastOpenFiles": [
-    "APL Quest/Whats in a Word 2013-3.md",
-    "APL Quest/Seems a bit odd to me 2013-1.md",
-    "APL Quest/Making the Grade 2013-2.md",
-    "APL Quest/Keeping Things In Balance 2013-4.md",
-    "APL Quest/Untitled.md",
-    "2022-11-14.md"
+    "conflict-files-obsidian-git.md",
+    "APL/Performance.md",
+    "2022-11-16.md",
+    "!CAS Wellness Scan by Dept and Program_2022-Oct-3.md",
+    "APL/PDF/Dyalog APL Idioms.pdf",
+    "APL/PDF/adams1984.pdf",
+    "APL/Images/tally-apl-cart.png",
+    "APL/Images/Function Defs.png",
+    "APL/Statement Seperator.md",
+    "APL/APL.md"
   ]
 }
