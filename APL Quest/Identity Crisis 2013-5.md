@@ -32,7 +32,11 @@
 [Commute](https://aplwiki.com/wiki/Commute) `⍨`  - aka Selfie or Swap
 [Dyadic Transpose](https://xpqz.github.io/learnapl/dyadictrn.html?#dyadic-transpose-ab) ``x⍉y`` - allows you to select diagonals by giving one or more dimensions equal mapping
 [Reshape](https://aplwiki.com/wiki/Reshape) `⍴`
-[At](https://aplwiki.com/wiki/at) `@`
+[At](https://xpqz.github.io/cultivations/Operators.html#at) `@` - What’s on its left gets done at the position indicated by its right operand. 
+[Identity](https://aplwiki.com/wiki/Identity) `⊢`
+[Where](https://aplwiki.com/wiki/Indices) `⍸` - returns the indices of a boolean array - mondadic
+[Power](https://aplwiki.com/wiki/Power_(operator)) `⍣¯1` - used to access function inverses
+
 
 [Index of](https://aplwiki.com/wiki/Index_Of) `⍳`
 [Bracket Indexing](https://xpqz.github.io/learnapl/indexing.html#bracket-indexing)  [ ]  - Mapping 
