@@ -8,7 +8,7 @@
 **Example Solutions:**
 ```APL
 	I←∘.=⍨⍳ ⍝ equality table for one dimensional indices
-	
+	J← {⍵ ⍵⍴(⍵+1)↑1} ⍝ overtake to insert 1 before n 0s
 	```
 
 **Quotes:**
@@ -36,7 +36,9 @@
 [Identity](https://aplwiki.com/wiki/Identity) `⊢`
 [Where](https://aplwiki.com/wiki/Indices) `⍸` - returns the indices of a boolean array - mondadic
 [Power](https://aplwiki.com/wiki/Power_(operator)) `⍣¯1` - used to access function inverses
-
+[Power(Function)](https://aplwiki.com/wiki/Power_(function)) `*` -  `X*Y` is `X` raised to the power `Y`
+[Overtake](https://aplwiki.com/wiki/Take#Overtaking) `↑` - A length larger than the argument length causes [fills](https://aplwiki.com/wiki/Fill_element "Fill element") to be inserted
+[Constant](https://aplwiki.com/wiki/Constant) `A⍨` - 
 
 [Index of](https://aplwiki.com/wiki/Index_Of) `⍳`
 [Bracket Indexing](https://xpqz.github.io/learnapl/indexing.html#bracket-indexing)  [ ]  - Mapping 
@@ -53,8 +55,6 @@
 [Identity](https://aplwiki.com/wiki/Identity) `⊢`
 [Reshape](https://aplwiki.com/wiki/Reshape) `⍴`
 [Diamond](https://aplwiki.com/wiki/Statement_separator) ⋄ - Statement Seperator
-
-
 [Tally](https://aplwiki.com/wiki/Tally) `≢`
 [Each](https://aplwiki.com/wiki/Each) `¨`
 [Scan](https://aplwiki.com/wiki/Scan) `+\`  - Plus Scan
@@ -82,10 +82,12 @@
 [Radix](https://en.wikipedia.org/wiki/Radix)
 [Index Origin](https://aplwiki.com/wiki/Index_origin) - Generating Functions with that work with 0 or 1 origin
 [Ravel Order](https://aplwiki.com/wiki/Ravel_order)
+[Tacit Programming](https://aplwiki.com/wiki/Tacit_programming)
+
+
 
 
 [Dfn](https://aplwiki.com/wiki/Dfn)
-[Tacit Programming](https://aplwiki.com/wiki/Tacit_programming)
 [Boolean Mask](https://aplwiki.com/wiki/Boolean)
 [Reduction](https://aplwiki.com/wiki/Reduce)
 [Fork](https://aplwiki.com/wiki/Train#3-trains)
