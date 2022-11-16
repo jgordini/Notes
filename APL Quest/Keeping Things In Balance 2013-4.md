@@ -82,3 +82,4 @@ Applying a function to a scaler doesn't change the function and will let APL eva
 
 **Reference:**
 [Sixteen APL Amuse-Bouches](http://archive.vector.org.uk/art10501480) - #5
+[Learn Regular Expressions](https://www.regular-expressions.info/)
