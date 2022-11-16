@@ -15,6 +15,7 @@
 **Quotes:**
 Convert input into a normalized form. 
 If an element isn't found a lookup array. Then we get the next index. 
+Applying a function to a scaler doesn't change the function and will let APL evaluate it. 
 
 **Comment:** 
 ```APL
@@ -53,7 +54,10 @@ If an element isn't found a lookup array. Then we get the next index.
 [Find](https://aplwiki.com/wiki/find) `⍷`
 [Rotate](https://aplwiki.com/wiki/rotate) `⌽`
 [Or](https://aplwiki.com/wiki/or) `∨`
-[Replicate](https://aplwiki.com/wiki/Replicate) -  Outside of APL, [filter](https://en.wikipedia.org/wiki/filter_(higher-order_function) "wikipedia:filter (higher-order function)") typically provides the functionality of Compress
+[Compress](https://aplwiki.com/wiki/Replicate) `/` -  Outside of APL, [filter](https://en.wikipedia.org/wiki/filter_(higher-order_function) "wikipedia:filter (higher-order function)") typically provides the functionality of Compress
+[Execute](https://aplwiki.com/wiki/execute) ⍎
+Diamond
+
 
 **Concepts Used:**
 [Comparison Function](https://aplwiki.com/wiki/Comparison_function)
@@ -68,6 +72,8 @@ If an element isn't found a lookup array. Then we get the next index.
 [Fork and Atop Problem](https://aplwiki.com/wiki/Train#Problems_caused_by_function-operator_overloading)
 [Regular Expressions](https://xpqz.github.io/cultivations/Regex.html)
 [Intersection](https://en.wikipedia.org/wiki/Intersection_(set_theory))
+[Error Guard](https://aplwiki.com/wiki/Dfn#Error-guards) `::`
+
 
 **Reference:**
 [Sixteen APL Amuse-Bouches](http://archive.vector.org.uk/art10501480) - #5
