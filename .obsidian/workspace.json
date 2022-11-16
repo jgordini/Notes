@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a48d749485f1e5c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "APL Quest/Identity Crisis 2013-5.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "APL Quest/Keeping Things In Balance 2013-4.md",
+                "file": "APL Quest/Identity Crisis 2013-5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "APL Quest/Keeping Things In Balance 2013-4.md",
+                "file": "APL Quest/Identity Crisis 2013-5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "APL Quest/Keeping Things In Balance 2013-4.md"
+                "file": "APL Quest/Identity Crisis 2013-5.md"
               }
             }
           }
@@ -136,17 +149,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7b4df3fc1a9cfd1d",
+  "active": "a48d749485f1e5c4",
   "lastOpenFiles": [
+    "APL Quest/Keeping Things In Balance 2013-4.md",
+    "APL Quest/Identity Crisis 2013-5.md",
     "APL Quest/Whats in a Word 2013-3.md",
     "APL Quest/Seems a bit odd to me 2013-1.md",
     "APL Quest/Making the Grade 2013-2.md",
-    "APL Quest/Keeping Things In Balance 2013-4.md",
     "Daily Notes/2022-11-16.md",
     "README.md",
     "conflict-files-obsidian-git.md",
     "APL/Performance.md",
-    "Work HTML/!CAS Wellness Scan by Dept and Program_2022-Oct-3.md",
-    "APL/PDF/Dyalog APL Idioms.pdf"
+    "Work HTML/!CAS Wellness Scan by Dept and Program_2022-Oct-3.md"
   ]
 }
