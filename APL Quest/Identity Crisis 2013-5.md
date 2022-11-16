@@ -79,6 +79,9 @@
 **Concepts Used:**
 [Identity Matrix](https://en.wikipedia.org/wiki/Identity_matrix)
 [Dfn](https://aplwiki.com/wiki/Dfn)
+[Radix](https://en.wikipedia.org/wiki/Radix)
+[Index Origin](https://aplwiki.com/wiki/Index_origin) - Generating Functions with that work with 0 or 1 origin
+[Ravel Order](https://aplwiki.com/wiki/Ravel_order)
 
 
 [Dfn](https://aplwiki.com/wiki/Dfn)
