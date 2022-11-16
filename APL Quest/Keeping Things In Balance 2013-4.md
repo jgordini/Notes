@@ -24,7 +24,7 @@ If an element isn't found a lookup array. Then we get the next index.
 
 **Glyphs Used:**
 [Index of](https://aplwiki.com/wiki/Index_Of) `⍳`
-[Bracket Indexing](https://xpqz.github.io/learnapl/indexing.html#bracket-indexing)  [ ]  Mapping 
+[Bracket Indexing](https://xpqz.github.io/learnapl/indexing.html#bracket-indexing)  [ ]  - Mapping 
 [Mix](https://aplwiki.com/wiki/Mix)  `↑`
 [Merge Axis](https://aplwiki.com/wiki/Rank_(operator)#Merge_axes)  ,⍤
 [Over](https://aplwiki.com/wiki/Over)  `⍥`
@@ -35,7 +35,7 @@ If an element isn't found a lookup array. Then we get the next index.
 [Bind](https://aplwiki.com/wiki/Bind)
 [Vector Representation](https://xpqz.github.io/cultivations/CodeManagement.html?highlight=vr#visual-representation-vr) - ⎕VR`
 [Rank](https://aplwiki.com/wiki/Rank_(operator)) - applies its left operand function to cells of its arguments specified by its right operand array. 
-[Identity](https://aplwiki.com/wiki/Identity)
+[Identity](https://aplwiki.com/wiki/Identity) `⊢`
 [Reshape](https://aplwiki.com/wiki/Reshape)
 [Commute](https://aplwiki.com/wiki/Commute) aka Selfie
 [Tally](https://aplwiki.com/wiki/Tally)
@@ -46,11 +46,14 @@ If an element isn't found a lookup array. Then we get the next index.
 [Nor](https://aplwiki.com/wiki/Nor) - tests if neither argument is true: it returns 1 if both are false (0) and 0 if at least one is true (1)
 [Enlist](https://aplwiki.com/wiki/Enlist)   `∊` -Enlist flattens over all layers of nesting
 [Intersection](https://aplwiki.com/wiki/Intersection)  `∩`
-[Power Match](https://aplwiki.com/wiki/Power_(operator)) ⍣≡ - Iterating until a fixed point is reached.
+[Match](https://aplwiki.com/wiki/match) `≡`
+[Power Match](https://aplwiki.com/wiki/Power_(operator))  `⍣≡` - Iterating until a fixed point is reached.
 [Atop](https://aplwiki.com/wiki/Atop_(operator)) `⍤` - takes two (monadic) functions and glues them together.  Uses the left operand to process the right
 [Variant](https://aplwiki.com/wiki/Variant) `⍠` - Switch Regex to plain text
-
-
+[Find](https://aplwiki.com/wiki/find) `⍷`
+[Rotate](https://aplwiki.com/wiki/rotate) `⌽`
+[Or](https://aplwiki.com/wiki/or) `∨`
+[Replicate](https://aplwiki.com/wiki/Replicate) -  Outside of APL, [filter](https://en.wikipedia.org/wiki/filter_(higher-order_function) "wikipedia:filter (higher-order function)") typically provides the functionality of Compress
 
 **Concepts Used:**
 [Comparison Function](https://aplwiki.com/wiki/Comparison_function)
