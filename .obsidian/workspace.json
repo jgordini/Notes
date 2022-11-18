@@ -23,9 +23,11 @@
             "id": "29b3fbd2c56c0e7a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf"
+                "file": "Websites/Prince - Convert HTML to PDF with CSS-2022-11-18.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf",
+                "file": "Websites/Prince - Convert HTML to PDF with CSS-2022-11-18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf",
+                "file": "Websites/Prince - Convert HTML to PDF with CSS-2022-11-18.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf"
+                "file": "Websites/Prince - Convert HTML to PDF with CSS-2022-11-18.md"
               }
             }
           }
@@ -149,9 +151,9 @@
   },
   "active": "29b3fbd2c56c0e7a",
   "lastOpenFiles": [
+    "Trig/PDF/Trig_Cheat_Sheet.pdf",
     "Trig/PDF/Algebra_Cheat_Sheet.pdf",
     "Trig/PDF/tan-unit-circle.png",
-    "Trig/PDF/Trig_Cheat_Sheet.pdf",
     "conflict-files-obsidian-git.md",
     "Daily Notes/2022-11-18.md",
     "Websites/Invoker - Welcome - Beyond Code-2022-11-02.md",
