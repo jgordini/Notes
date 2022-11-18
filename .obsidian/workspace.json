@@ -25,7 +25,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Trig/PDF/Algebra_Cheat_Sheet.pdf"
+                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf"
               }
             }
           }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trig/PDF/Algebra_Cheat_Sheet.pdf",
+                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trig/PDF/Algebra_Cheat_Sheet.pdf",
+                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trig/PDF/Algebra_Cheat_Sheet.pdf"
+                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf"
               }
             }
           }
@@ -149,6 +149,7 @@
   },
   "active": "29b3fbd2c56c0e7a",
   "lastOpenFiles": [
+    "Trig/PDF/Algebra_Cheat_Sheet.pdf",
     "Trig/PDF/tan-unit-circle.png",
     "Trig/PDF/Trig_Cheat_Sheet.pdf",
     "conflict-files-obsidian-git.md",
@@ -157,7 +158,6 @@
     "Websites/Certbot Instructions | Certbot-2022-11-02.md",
     "Websites/GitHub - hauselinobsidian-alfred Alfred workflow for Obsidian note-taking app. Open vaults and files in Obsidian.-2022-11-15.md",
     "Work HTML/Layouts Every Layout-2022-11-15.md",
-    "Websites/Have Obsidian be the handler of .md files (file association) - Feature requests - Obsidian Forum.md(1).md",
-    "Daily Notes/2022-11-14.md"
+    "Websites/Have Obsidian be the handler of .md files (file association) - Feature requests - Obsidian Forum.md(1).md"
   ]
 }
