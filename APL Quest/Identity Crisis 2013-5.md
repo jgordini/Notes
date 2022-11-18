@@ -20,7 +20,7 @@
 ∘.=⍨ ⍝ Equailty Table using same indeces for both sides
 1 1⍉s ⍝ Selects the diagonal of s
 ,⍨¨ ⍝ Catenate each to itself
-+.x ⍝ Matrix Multiplication
+x+.×y ⍝ matrix multiplication
 ```
 
 **Glyphs Used:**
@@ -45,7 +45,8 @@
 [Tally](https://aplwiki.com/wiki/Tally) `≢`
 [Expand](https://xpqz.github.io/cultivations/Functions7.html?#expand) `\` - copies each [element](https://aplwiki.com/wiki/Element "Element") of the right [argument](https://aplwiki.com/wiki/Argument "Argument") a given number of times
 [Roll](https://aplwiki.com/wiki/Roll) `?0` - When zero Roll chooses a floating-point number between 0 and 1
-
+[Matrix Divide](https://aplwiki.com/wiki/Matrix_Divide) `⌹`
+[Rank](https://aplwiki.com/wiki/Rank_(operator)) `⍤` - applies its left [operand](. https://aplwiki.com/wiki/Operand "Operand") function to [cells](https://aplwiki.com/wiki/Cells "Cells") of its arguments specified by its right operand array.
 
 
 [Index of](https://aplwiki.com/wiki/Index_Of) `⍳`
@@ -91,6 +92,7 @@
 [Index Origin](https://aplwiki.com/wiki/Index_origin) - Generating Functions with that work with 0 or 1 origin
 [Ravel Order](https://aplwiki.com/wiki/Ravel_order)
 [Tacit Programming](https://aplwiki.com/wiki/Tacit_programming)
+[Matrix Multiplication](https://en.wikipedia.org/wiki/Matrix_multiplication)
 
 
 

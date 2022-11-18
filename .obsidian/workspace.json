@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "APL Quest/Identity Crisis 2013-5.md",
+                "file": "APL Quest/Making the Grade 2013-2.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "APL Quest/Identity Crisis 2013-5.md",
+                "file": "APL Quest/Making the Grade 2013-2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "APL Quest/Identity Crisis 2013-5.md",
+                "file": "APL Quest/Making the Grade 2013-2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "APL Quest/Identity Crisis 2013-5.md"
+                "file": "APL Quest/Making the Grade 2013-2.md"
               }
             }
           }
@@ -151,6 +151,8 @@
   },
   "active": "29b3fbd2c56c0e7a",
   "lastOpenFiles": [
+    "APL Quest/Keeping Things In Balance 2013-4.md",
+    "APL Quest/Identity Crisis 2013-5.md",
     "Trig/PDF/MTH 113 Emphasis Sheet (Me)(1).pdf",
     "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf",
     "Websites/Tabulator-2022-11-18.md",
@@ -158,8 +160,6 @@
     "Websites/Prince - Convert HTML to PDF with CSS-2022-11-18.md",
     "Trig/PDF/Trig_Cheat_Sheet.pdf",
     "Trig/PDF/Algebra_Cheat_Sheet.pdf",
-    "Trig/PDF/tan-unit-circle.png",
-    "conflict-files-obsidian-git.md",
-    "Daily Notes/2022-11-18.md"
+    "Trig/PDF/tan-unit-circle.png"
   ]
 }
