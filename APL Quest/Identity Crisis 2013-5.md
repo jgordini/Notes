@@ -1,30 +1,52 @@
-## [ Keeping Things In Balance](https://problems.tryapl.org/psets/2013.html?goto=P4_Keeping_Things_In_Balance)
+## [Identity Crisis](https://problems.tryapl.org/psets/2013.html?goto=P5_Identity_Crisis)
 
-**Problem:** Write an APL dfn which returns a 1 if the opening and closing parentheses in a character vector are balanced, or a zero otherwise.
+**Problem:** An identity matrix is a square matrix (table) of 0 with 1’s in the main diagonal. Write an APL dfn which produces an n×n identity matrix.
 
-**Video:** https://youtu.be/El0_RB4TTPA
-**Code:** https://github.com/abrudz/apl_quest/blob/main/2013/4.apl
+**Video:** https://youtu.be/vVaZ3wEdmpQ
+**Code:** https://github.com/abrudz/apl_quest/blob/main/2013/5.apl
 
 **Example Solutions:**
 ```APL
-	Di ← {1 ¯1 0['()'⍳⍵]} ⍝ Indexing into an array, 1 is left paren, ¯1 is Right and 0 is all other characters. 
-	Df ← '('∘= - =∘')' ⍝ Tacit, subtracts the comparisons to get the depth changes. 
-	Bn ← (¯1∊+\)⍱0≠+/ ⍝ checks for no ¯1 and no 0 in scan
-	F ← (¯1∘∊⍱0≠⊢/)'('∘=+\⍤-=∘')' ⍝ Moves scan to be atop on comparisons +\⍤ 
+	I←∘.=⍨⍳ ⍝ equality table for one dimensional indices
+	J←{⍵ ⍵⍴(⍵+1)↑1} ⍝ overtake to insert 1 before n 0s
 	```
 
 **Quotes:**
-Convert input into a normalized form. 
-If an element isn't found a lookup array. Then we get the next index. 
-Applying a function to a scaler doesn't change the function and will let APL evaluate it. 
+
 
 **Comment:** 
 ```APL
-↑⍤,⍥⊂ ⍝ concatenate enclosure over the original, (mix)Increase the rank - used for vector - Laminate for Matrix
-⊢/ ⍝ Last element
+=/¨  ⍝ Compare Each
+∘.=⍨ ⍝ Equailty Table using same indeces for both sides
+1 1⍉s ⍝ Selects the diagonal of s
+,⍨¨ ⍝ Catenate each to itself
 ```
 
 **Glyphs Used:**
+[Catenate](https://aplwiki.com/wiki/Catenate) `,`
+[Index of](https://aplwiki.com/wiki/Index_Of) `⍳`
+[Comparison Function](https://aplwiki.com/wiki/Comparison_function) =
+[Compress](https://aplwiki.com/wiki/Replicate) `/` - filters the right argument `=/¨` compare each
+[Each](https://aplwiki.com/wiki/Each) `¨`
+[Outer Product](https://aplwiki.com/wiki/Outer_Product) `∘.` 
+[Commute](https://aplwiki.com/wiki/Commute) `⍨`  - aka Selfie or Swap
+[Dyadic Transpose](https://xpqz.github.io/learnapl/dyadictrn.html?#dyadic-transpose-ab) ``x⍉y`` - allows you to select diagonals by giving one or more dimensions equal mapping
+[Reshape](https://aplwiki.com/wiki/Reshape) `⍴`
+[At](https://xpqz.github.io/cultivations/Operators.html#at) `@` - What’s on its left gets done at the position indicated by its right operand. 
+[Identity](https://aplwiki.com/wiki/Identity) `⊢`
+[Where](https://aplwiki.com/wiki/Indices) `⍸` - returns the indices of a boolean array - mondadic
+[Power](https://aplwiki.com/wiki/Power_(operator)) `⍣¯1` - used to access function inverses
+[Power(Function)](https://aplwiki.com/wiki/Power_(function)) `*` -  `X*Y` is `X` raised to the power `Y`
+[Overtake](https://aplwiki.com/wiki/Take#Overtaking) `↑` - A length larger than the argument length causes [fills](https://aplwiki.com/wiki/Fill_element "Fill element") to be inserted
+[Bind](https://aplwiki.com/wiki/Bind) `∘`
+[Constant](https://xpqz.github.io/cultivations/Operators.html#constant-a) `A⍨` - always returns the operator array
+[Signum](https://aplwiki.com/wiki/Signum) `×A` - Sign of number  - on a real argument are `0`, `1`, and `¯1` (zero, positive and negative)
+[Tally](https://aplwiki.com/wiki/Tally) `≢`
+[Expand](https://xpqz.github.io/cultivations/Functions7.html?#expand) `\` - copies each [element](https://aplwiki.com/wiki/Element "Element") of the right [argument](https://aplwiki.com/wiki/Argument "Argument") a given number of times
+[Roll](https://aplwiki.com/wiki/Roll) `?0` - When zero Roll chooses a floating-point number between 0 and 1
+
+
+
 [Index of](https://aplwiki.com/wiki/Index_Of) `⍳`
 [Bracket Indexing](https://xpqz.github.io/learnapl/indexing.html#bracket-indexing)  [ ]  - Mapping 
 [Mix](https://aplwiki.com/wiki/Mix)  `↑`
@@ -39,7 +61,7 @@ Applying a function to a scaler doesn't change the function and will let APL eva
 [Rank](https://aplwiki.com/wiki/Rank_(operator))  `⍤` - applies its left operand function to cells of its arguments specified by its right operand array. 
 [Identity](https://aplwiki.com/wiki/Identity) `⊢`
 [Reshape](https://aplwiki.com/wiki/Reshape) `⍴`
-[Commute](https://aplwiki.com/wiki/Commute) `⍨`  - aka Selfie or Swap
+[Diamond](https://aplwiki.com/wiki/Statement_separator) ⋄ - Statement Seperator
 [Tally](https://aplwiki.com/wiki/Tally) `≢`
 [Each](https://aplwiki.com/wiki/Each) `¨`
 [Scan](https://aplwiki.com/wiki/Scan) `+\`  - Plus Scan
@@ -62,14 +84,21 @@ Applying a function to a scaler doesn't change the function and will let APL eva
 [First](https://aplwiki.com/wiki/first) ⊃
 
 **Concepts Used:**
-[Comparison Function](https://aplwiki.com/wiki/Comparison_function)
+[Identity Matrix](https://en.wikipedia.org/wiki/Identity_matrix)
 [Dfn](https://aplwiki.com/wiki/Dfn)
+[Radix](https://en.wikipedia.org/wiki/Radix)
+[Index Origin](https://aplwiki.com/wiki/Index_origin) - Generating Functions with that work with 0 or 1 origin
+[Ravel Order](https://aplwiki.com/wiki/Ravel_order)
 [Tacit Programming](https://aplwiki.com/wiki/Tacit_programming)
+
+
+
+
+[Dfn](https://aplwiki.com/wiki/Dfn)
 [Boolean Mask](https://aplwiki.com/wiki/Boolean)
 [Reduction](https://aplwiki.com/wiki/Reduce)
 [Fork](https://aplwiki.com/wiki/Train#3-trains)
 [Dfns Workspace](https://aplwiki.com/wiki/Dfns_workspace)
-[Boolean Functions](https://aplwiki.com/wiki/Boolean#Boolean_functions)
 [Logical Conjunction](https://en.wikipedia.org/wiki/Logical_conjunction)
 [Logical Nor](https://en.wikipedia.org/wiki/Logical_NOR)
 [Fork and Atop Problem](https://aplwiki.com/wiki/Train#Problems_caused_by_function-operator_overloading)
@@ -82,4 +111,3 @@ Applying a function to a scaler doesn't change the function and will let APL eva
 
 **Reference:**
 [Sixteen APL Amuse-Bouches](http://archive.vector.org.uk/art10501480) - #5
-[Learn Regular Expressions](https://www.regular-expressions.info/)

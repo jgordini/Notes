@@ -1,6 +1,7 @@
 ## [Whats in a Word](https://problems.tryapl.org/psets/2013.html?goto=P3_What_Is_In_a_Word)
 
 **Problem:** Write a dfn which returns the number of words in the given character scalar or vector.
+
 **Video:** https://youtu.be/MgkM2qCPWas 
 **Code:** https://github.com/abrudz/apl_quest/blob/main/2013/3.apl
 
