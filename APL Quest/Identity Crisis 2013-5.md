@@ -47,6 +47,10 @@ x+.×y ⍝ matrix multiplication
 [Roll](https://aplwiki.com/wiki/Roll) `?0` - When zero Roll chooses a floating-point number between 0 and 1
 [Matrix Divide](https://aplwiki.com/wiki/Matrix_Divide) `⌹`
 [Rank](https://aplwiki.com/wiki/Rank_(operator)) `⍤` - applies its left [operand](. https://aplwiki.com/wiki/Operand "Operand") function to [cells](https://aplwiki.com/wiki/Cells "Cells") of its arguments specified by its right operand array.
+[Depth](https://aplwiki.com/wiki/Depth) `≡` - returns an array's depth
+[Decode](https://aplwiki.com/wiki/Decode) `⊥` - aka base
+[Encode](https://aplwiki.com/wiki/Encode) `⊤` - aka antibase
+[Jot](https://aplwiki.com/wiki/Jot) `∘` 
 
 
 [Index of](https://aplwiki.com/wiki/Index_Of) `⍳`
