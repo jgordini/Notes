@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Websites/Prince - Convert HTML to PDF with CSS-2022-11-18.md",
+                "file": "Websites/Tabulator-2022-11-18.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Websites/Prince - Convert HTML to PDF with CSS-2022-11-18.md",
+                "file": "Websites/Tabulator-2022-11-18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Websites/Prince - Convert HTML to PDF with CSS-2022-11-18.md",
+                "file": "Websites/Tabulator-2022-11-18.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Websites/Prince - Convert HTML to PDF with CSS-2022-11-18.md"
+                "file": "Websites/Tabulator-2022-11-18.md"
               }
             }
           }
@@ -151,6 +151,8 @@
   },
   "active": "29b3fbd2c56c0e7a",
   "lastOpenFiles": [
+    "Websites/TanStack Table | React Table, Solid Table, Svelte Table, Vue Table-2022-11-18.md",
+    "Websites/Prince - Convert HTML to PDF with CSS-2022-11-18.md",
     "Trig/PDF/Trig_Cheat_Sheet.pdf",
     "Trig/PDF/Algebra_Cheat_Sheet.pdf",
     "Trig/PDF/tan-unit-circle.png",
@@ -158,8 +160,6 @@
     "Daily Notes/2022-11-18.md",
     "Websites/Invoker - Welcome - Beyond Code-2022-11-02.md",
     "Websites/Certbot Instructions | Certbot-2022-11-02.md",
-    "Websites/GitHub - hauselinobsidian-alfred Alfred workflow for Obsidian note-taking app. Open vaults and files in Obsidian.-2022-11-15.md",
-    "Work HTML/Layouts Every Layout-2022-11-15.md",
-    "Websites/Have Obsidian be the handler of .md files (file association) - Feature requests - Obsidian Forum.md(1).md"
+    "Websites/GitHub - hauselinobsidian-alfred Alfred workflow for Obsidian note-taking app. Open vaults and files in Obsidian.-2022-11-15.md"
   ]
 }
