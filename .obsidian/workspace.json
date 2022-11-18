@@ -11,9 +11,11 @@
             "id": "b8b9b800d3490bea",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf"
+                "file": "Daily Notes/2022-11-18.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf",
+                "file": "Daily Notes/2022-11-18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf",
+                "file": "Daily Notes/2022-11-18.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf"
+                "file": "Daily Notes/2022-11-18.md"
               }
             }
           }
@@ -136,6 +138,7 @@
   },
   "active": "b8b9b800d3490bea",
   "lastOpenFiles": [
+    "Trig/PDF/Trig_Cheat_Sheet.pdf",
     "Websites/Invoker - Welcome - Beyond Code-2022-11-02.md",
     "Websites/Certbot Instructions | Certbot-2022-11-02.md",
     "Websites/GitHub - hauselinobsidian-alfred Alfred workflow for Obsidian note-taking app. Open vaults and files in Obsidian.-2022-11-15.md",
@@ -144,7 +147,6 @@
     "Daily Notes/2022-11-14.md",
     "AI Stories/2nd.md",
     "AI Stories/4321.md",
-    "Work HTML/shipshapecodeshepherd Guide your users through a tour of your app-2022-11-04.md",
-    "README.md"
+    "Work HTML/shipshapecodeshepherd Guide your users through a tour of your app-2022-11-04.md"
   ]
 }
