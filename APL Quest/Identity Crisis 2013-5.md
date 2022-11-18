@@ -12,7 +12,7 @@
 	```
 
 **Quotes:**
-
+Use tally to get one without using 1
 
 **Comment:** 
 ```APL
@@ -21,6 +21,7 @@
 1 1⍉s ⍝ Selects the diagonal of s
 ,⍨¨ ⍝ Catenate each to itself
 x+.×y ⍝ matrix multiplication
+
 ```
 
 **Glyphs Used:**
@@ -39,7 +40,7 @@ x+.×y ⍝ matrix multiplication
 [Power](https://aplwiki.com/wiki/Power_(operator)) `⍣¯1` - used to access function inverses
 [Power(Function)](https://aplwiki.com/wiki/Power_(function)) `*` -  `X*Y` is `X` raised to the power `Y`
 [Overtake](https://aplwiki.com/wiki/Take#Overtaking) `↑` - A length larger than the argument length causes [fills](https://aplwiki.com/wiki/Fill_element "Fill element") to be inserted
-[Bind](https://aplwiki.com/wiki/Bind) `∘`
+[Bind](https://aplwiki.com/wiki/Bind) `∘` -  used to create a derived function with a single constant argument
 [Constant](https://xpqz.github.io/cultivations/Operators.html#constant-a) `A⍨` - always returns the operator array
 [Signum](https://aplwiki.com/wiki/Signum) `×A` - Sign of number  - on a real argument are `0`, `1`, and `¯1` (zero, positive and negative)
 [Tally](https://aplwiki.com/wiki/Tally) `≢`
@@ -50,7 +51,7 @@ x+.×y ⍝ matrix multiplication
 [Depth](https://aplwiki.com/wiki/Depth) `≡` - returns an array's depth
 [Decode](https://aplwiki.com/wiki/Decode) `⊥` - aka base
 [Encode](https://aplwiki.com/wiki/Encode) `⊤` - aka antibase
-[Jot](https://aplwiki.com/wiki/Jot) `∘` 
+[Bind](https://aplwiki.com/wiki/Bind) `∘` - used to create a derived function with a single constant argument
 
 
 [Index of](https://aplwiki.com/wiki/Index_Of) `⍳`
@@ -97,6 +98,7 @@ x+.×y ⍝ matrix multiplication
 [Ravel Order](https://aplwiki.com/wiki/Ravel_order)
 [Tacit Programming](https://aplwiki.com/wiki/Tacit_programming)
 [Matrix Multiplication](https://en.wikipedia.org/wiki/Matrix_multiplication)
+[Vector Prefix](https://aplwiki.com/wiki/Prefix)
 
 
 
