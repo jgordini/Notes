@@ -20,6 +20,7 @@
 ∘.=⍨ ⍝ Equailty Table using same indeces for both sides
 1 1⍉s ⍝ Selects the diagonal of s
 ,⍨¨ ⍝ Catenate each to itself
++.x ⍝ Matrix Multiplication
 ```
 
 **Glyphs Used:**
@@ -90,6 +91,7 @@
 [Index Origin](https://aplwiki.com/wiki/Index_origin) - Generating Functions with that work with 0 or 1 origin
 [Ravel Order](https://aplwiki.com/wiki/Ravel_order)
 [Tacit Programming](https://aplwiki.com/wiki/Tacit_programming)
+
 
 
 
