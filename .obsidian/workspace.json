@@ -23,9 +23,9 @@
             "id": "29b3fbd2c56c0e7a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "image",
               "state": {
-                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf"
+                "file": "Trig/PDF/tan-unit-circle.png"
               }
             }
           }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf",
+                "file": "Trig/PDF/tan-unit-circle.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf",
+                "file": "Trig/PDF/tan-unit-circle.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf"
+                "file": "Trig/PDF/tan-unit-circle.png"
               }
             }
           }
@@ -149,9 +149,9 @@
   },
   "active": "29b3fbd2c56c0e7a",
   "lastOpenFiles": [
+    "Trig/PDF/Trig_Cheat_Sheet.pdf",
     "conflict-files-obsidian-git.md",
     "Daily Notes/2022-11-18.md",
-    "Trig/PDF/Trig_Cheat_Sheet.pdf",
     "Websites/Invoker - Welcome - Beyond Code-2022-11-02.md",
     "Websites/Certbot Instructions | Certbot-2022-11-02.md",
     "Websites/GitHub - hauselinobsidian-alfred Alfred workflow for Obsidian note-taking app. Open vaults and files in Obsidian.-2022-11-15.md",
