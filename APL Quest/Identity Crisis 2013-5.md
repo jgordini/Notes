@@ -56,8 +56,8 @@ x+.×y ⍝ matrix multiplication
 [Reverse](https://aplwiki.com/wiki/Reverse) `⌽` - reorders [elements](https://aplwiki.com/wiki/Elements "Elements") of the argument to go in the opposite direction along a specified [axis](https://aplwiki.com/wiki/Axis "Axis").
 [Circular](https://aplwiki.com/wiki/Circular)  12○ - Phase of ⍵ (omega)
 [Pi Times](https://aplwiki.com/wiki/Pi_Times) ○ 
-[Magnitude](https://aplwiki.com/wiki/Magnitude) `|` - 
-
+[Magnitude](https://aplwiki.com/wiki/Magnitude) `|` aka absolute value
+[Residue](https://aplwiki.com/wiki/Residue) `|` aka remainder
 
 **Concepts Used:**
 [Identity Matrix](https://en.wikipedia.org/wiki/Identity_matrix)
@@ -72,24 +72,3 @@ x+.×y ⍝ matrix multiplication
 [Boolean Mask](https://aplwiki.com/wiki/Boolean)
 [Complex Numbers](https://aplwiki.com/wiki/Complex_number)
 [Phase](https://en.wikipedia.org/wiki/Phase_(waves))
-
-
-
-
-[Dfn](https://aplwiki.com/wiki/Dfn)
-[Boolean Mask](https://aplwiki.com/wiki/Boolean)
-[Reduction](https://aplwiki.com/wiki/Reduce)
-[Fork](https://aplwiki.com/wiki/Train#3-trains)
-[Dfns Workspace](https://aplwiki.com/wiki/Dfns_workspace)
-[Logical Conjunction](https://en.wikipedia.org/wiki/Logical_conjunction)
-[Logical Nor](https://en.wikipedia.org/wiki/Logical_NOR)
-[Fork and Atop Problem](https://aplwiki.com/wiki/Train#Problems_caused_by_function-operator_overloading)
-[Regular Expressions](https://xpqz.github.io/cultivations/Regex.html)
-[Intersection](https://en.wikipedia.org/wiki/Intersection_(set_theory))
-[Error Guard](https://aplwiki.com/wiki/Dfn#Error-guards) `::`
-[Performance](https://aplwiki.com/wiki/Performance#Performant_usage)
-[CMPX](http://dfns.dyalog.com/n_cmpx.htm)
-
-
-**Reference:**
-[Sixteen APL Amuse-Bouches](http://archive.vector.org.uk/art10501480) - #5
