@@ -54,8 +54,11 @@ x+.×y ⍝ matrix multiplication
 [Key](https://aplwiki.com/wiki/Key)  `⌸` - groups [major cells](https://aplwiki.com/wiki/Major_cell "Major cell") and applies the [function](https://aplwiki.com/wiki/Function "Function") for each cell
 [Enclose](https://aplwiki.com/wiki/Enclose) `⊂` - An enclosed array is a [scalar](https://aplwiki.com/wiki/Scalar "Scalar"), which is subject to [scalar extension](https://aplwiki.com/wiki/Scalar_extension "Scalar extension").
 [Reverse](https://aplwiki.com/wiki/Reverse) `⌽` - reorders [elements](https://aplwiki.com/wiki/Elements "Elements") of the argument to go in the opposite direction along a specified [axis](https://aplwiki.com/wiki/Axis "Axis").
-[Circular
-]()
+[Circular](https://aplwiki.com/wiki/Circular)  12○ - Phase of ⍵ (omega)
+[Pi Times](https://aplwiki.com/wiki/Pi_Times) ○ 
+[Magnitude](https://aplwiki.com/wiki/Magnitude) `|` - 
+
+
 **Concepts Used:**
 [Identity Matrix](https://en.wikipedia.org/wiki/Identity_matrix)
 [Dfn](https://aplwiki.com/wiki/Dfn)
@@ -68,6 +71,7 @@ x+.×y ⍝ matrix multiplication
 [Vector Prefix](https://aplwiki.com/wiki/Prefix)
 [Boolean Mask](https://aplwiki.com/wiki/Boolean)
 [Complex Numbers](https://aplwiki.com/wiki/Complex_number)
+[Phase](https://en.wikipedia.org/wiki/Phase_(waves))
 
 
 
