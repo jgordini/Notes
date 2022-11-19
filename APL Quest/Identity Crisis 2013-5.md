@@ -29,8 +29,7 @@ x+.×y ⍝ matrix multiplication
 [Index of](https://aplwiki.com/wiki/Index_Of) `⍳`
 [Comparison Function](https://aplwiki.com/wiki/Comparison_function) =
 [Compress](https://aplwiki.com/wiki/Replicate) `/` - filters the right argument `=/¨` compare each
-[Each](https://aplwiki.com/wiki/Each) `¨`
-[Outer Product](https://aplwiki.com/wiki/Outer_Product) `∘.` 
+[Each](https://aplwiki.com/wiki/Each) `¨` 
 [Commute](https://aplwiki.com/wiki/Commute) `⍨`  - aka Selfie or Swap
 [Dyadic Transpose](https://xpqz.github.io/learnapl/dyadictrn.html?#dyadic-transpose-ab) ``x⍉y`` - allows you to select diagonals by giving one or more dimensions equal mapping
 [Reshape](https://aplwiki.com/wiki/Reshape) `⍴`
@@ -55,18 +54,20 @@ x+.×y ⍝ matrix multiplication
 [Key](https://aplwiki.com/wiki/Key)  `⌸` - groups [major cells](https://aplwiki.com/wiki/Major_cell "Major cell") and applies the [function](https://aplwiki.com/wiki/Function "Function") for each cell
 [Enclose](https://aplwiki.com/wiki/Enclose) `⊂` - An enclosed array is a [scalar](https://aplwiki.com/wiki/Scalar "Scalar"), which is subject to [scalar extension](https://aplwiki.com/wiki/Scalar_extension "Scalar extension").
 [Reverse](https://aplwiki.com/wiki/Reverse) `⌽` - reorders [elements](https://aplwiki.com/wiki/Elements "Elements") of the argument to go in the opposite direction along a specified [axis](https://aplwiki.com/wiki/Axis "Axis").
-
-
+[Circular
+]()
 **Concepts Used:**
 [Identity Matrix](https://en.wikipedia.org/wiki/Identity_matrix)
 [Dfn](https://aplwiki.com/wiki/Dfn)
 [Radix](https://en.wikipedia.org/wiki/Radix)
 [Index Origin](https://aplwiki.com/wiki/Index_origin) - Generating Functions with that work with 0 or 1 origin
 [Ravel Order](https://aplwiki.com/wiki/Ravel_order)
+[Outer Product](https://aplwiki.com/wiki/Outer_Product) `∘.`
 [Tacit Programming](https://aplwiki.com/wiki/Tacit_programming)
 [Matrix Multiplication](https://en.wikipedia.org/wiki/Matrix_multiplication)
 [Vector Prefix](https://aplwiki.com/wiki/Prefix)
-
+[Boolean Mask](https://aplwiki.com/wiki/Boolean)
+[Complex Numbers](https://aplwiki.com/wiki/Complex_number)
 
 
 
