@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thanksgiving/Shopping List.md",
+                "file": "Trig/Trig Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thanksgiving/Shopping List.md",
+                "file": "Trig/Trig Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thanksgiving/Shopping List.md",
+                "file": "Trig/Trig Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thanksgiving/Shopping List.md"
+                "file": "Trig/Trig Notes.md"
               }
             }
           }
@@ -138,15 +138,15 @@
   },
   "active": "c1f99a6fa4b3766a",
   "lastOpenFiles": [
-    "Thanksgiving/Thanksgiving.md",
-    "Thanksgiving/Shopping List.md",
-    "Thanksgiving/Thanksg.pdf",
+    "Trig/PDF/MTH 113 Emphasis Sheet (Me)(1).pdf",
+    "Trig/PDF/tan-unit-circle.png",
     "Trig/PDF/Trig_Cheat_Sheet.pdf",
+    "Trig/PDF/Algebra_Cheat_Sheet.pdf",
+    "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf",
+    "Thanksgiving/Shopping List.md",
+    "Thanksgiving/Thanksgiving.md",
+    "Thanksgiving/Thanksg.pdf",
     "Daily Notes/2022-11-18.md",
-    "Daily Notes/2022-11-21.md",
-    "APL Quest/Identity Crisis 2013-5.md",
-    "APL Quest/Seems a bit odd to me 2013-1.md",
-    "APL Quest/Whats in a Word 2013-3.md",
-    "APL Quest/Making the Grade 2013-2.md"
+    "Daily Notes/2022-11-21.md"
   ]
 }
