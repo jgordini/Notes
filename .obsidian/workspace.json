@@ -11,9 +11,11 @@
             "id": "c1f99a6fa4b3766a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf"
+                "file": "Thanksgiving/Shopping List.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf",
+                "file": "Thanksgiving/Shopping List.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf",
+                "file": "Thanksgiving/Shopping List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf"
+                "file": "Thanksgiving/Shopping List.md"
               }
             }
           }
@@ -136,12 +138,12 @@
   },
   "active": "c1f99a6fa4b3766a",
   "lastOpenFiles": [
-    "Daily Notes/2022-11-18.md",
-    "Trig/PDF/Trig_Cheat_Sheet.pdf",
     "Thanksgiving/Thanksgiving.md",
-    "Daily Notes/2022-11-21.md",
     "Thanksgiving/Shopping List.md",
     "Thanksgiving/Thanksg.pdf",
+    "Trig/PDF/Trig_Cheat_Sheet.pdf",
+    "Daily Notes/2022-11-18.md",
+    "Daily Notes/2022-11-21.md",
     "APL Quest/Identity Crisis 2013-5.md",
     "APL Quest/Seems a bit odd to me 2013-1.md",
     "APL Quest/Whats in a Word 2013-3.md",
