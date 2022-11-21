@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b8b9b800d3490bea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/2022-11-18.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "29b3fbd2c56c0e7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/2022-11-21.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c1f99a6fa4b3766a",
             "type": "leaf",
             "state": {
@@ -41,8 +17,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -161,15 +136,15 @@
   },
   "active": "c1f99a6fa4b3766a",
   "lastOpenFiles": [
-    "Thanksgiving/Thanksgiving.md",
+    "Daily Notes/2022-11-18.md",
     "Trig/PDF/Trig_Cheat_Sheet.pdf",
+    "Thanksgiving/Thanksgiving.md",
     "Daily Notes/2022-11-21.md",
     "Thanksgiving/Shopping List.md",
     "Thanksgiving/Thanksg.pdf",
     "APL Quest/Identity Crisis 2013-5.md",
     "APL Quest/Seems a bit odd to me 2013-1.md",
     "APL Quest/Whats in a Word 2013-3.md",
-    "APL Quest/Making the Grade 2013-2.md",
-    "APL Quest/Keeping Things In Balance 2013-4.md"
+    "APL Quest/Making the Grade 2013-2.md"
   ]
 }
