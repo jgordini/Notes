@@ -11,5 +11,9 @@
 Cranberry Sauce
 - Grand Mariner
 - https://www.reddit.com/r/recipes/comments/1srr9g/comment/ce0k5po/?utm_source=share&utm_medium=web2x&context=3
-- 
+- https://www.allrecipes.com/recipe/155268/cranberry-relish-with-grand-marnier-and-pecans/
+## Sides
+**Califlower Gratin**
+- https://www.foodnetwork.com/recipes/ina-garten/cauliflower-gratin-recipe-1917463
+
 
