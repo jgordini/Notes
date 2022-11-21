@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thanksgiving/Shopping List.md",
+                "file": "Thanksgiving/Thanksgiving.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thanksgiving/Shopping List.md",
+                "file": "Thanksgiving/Thanksgiving.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thanksgiving/Shopping List.md"
+                "file": "Thanksgiving/Thanksgiving.md"
               }
             }
           }
@@ -173,10 +173,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c1f99a6fa4b3766a",
+  "active": "d03e52483d0116d3",
   "lastOpenFiles": [
-    "Thanksgiving/Thanksgiving.md",
     "Thanksgiving/Shopping List.md",
+    "Thanksgiving/Thanksgiving.md",
     "Daily Notes/2022-11-21.md",
     "Thanksgiving/Thanksg.pdf",
     "APL Quest/Identity Crisis 2013-5.md",
