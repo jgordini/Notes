@@ -35,11 +35,9 @@
             "id": "c1f99a6fa4b3766a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Thanksgiving/Shopping List.md",
-                "mode": "source",
-                "source": false
+                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf"
               }
             }
           },
@@ -122,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thanksgiving/Shopping List.md",
+                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thanksgiving/Shopping List.md",
+                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thanksgiving/Shopping List.md"
+                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf"
               }
             }
           }
