@@ -15,5 +15,13 @@ Cranberry Sauce
 ## Sides
 **Califlower Gratin**
 - https://www.foodnetwork.com/recipes/ina-garten/cauliflower-gratin-recipe-1917463
+**Cornbread Madelines**
+- https://www.myrecipes.com/recipe/cornbread-madeleines
+**Stuffing**
+- https://cooking.nytimes.com/recipes/147-bread-stuffing
+- https://www.seriouseats.com/stuffing-waffles-recipe
+- https://www.seriouseats.com/cornbread-stuffing-sausage-sage-recipe
+- https://unpeeledjournal.com/easy-thanksgiving-bread-stuffing-dressing/
+
 
 

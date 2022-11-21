@@ -35,9 +35,11 @@
             "id": "c1f99a6fa4b3766a",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Thanksgiving/Thanksg.pdf"
+                "file": "Thanksgiving/Thanksgiving.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -108,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thanksgiving/Thanksg.pdf",
+                "file": "Thanksgiving/Thanksgiving.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thanksgiving/Thanksg.pdf",
+                "file": "Thanksgiving/Thanksgiving.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thanksgiving/Thanksg.pdf"
+                "file": "Thanksgiving/Thanksgiving.md"
               }
             }
           }
@@ -161,9 +163,9 @@
   },
   "active": "c1f99a6fa4b3766a",
   "lastOpenFiles": [
-    "Thanksgiving/Thanksgiving.md",
     "Thanksgiving/Thanksg.pdf",
     "Daily Notes/2022-11-21.md",
+    "Thanksgiving/Thanksgiving.md",
     "APL Quest/Identity Crisis 2013-5.md",
     "APL Quest/Seems a bit odd to me 2013-1.md",
     "APL Quest/Whats in a Word 2013-3.md",
