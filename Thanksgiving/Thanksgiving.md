@@ -22,6 +22,9 @@ Cranberry Sauce
 - https://www.seriouseats.com/stuffing-waffles-recipe
 - https://www.seriouseats.com/cornbread-stuffing-sausage-sage-recipe
 - https://unpeeledjournal.com/easy-thanksgiving-bread-stuffing-dressing/
+## Desert
+**Apple Crisp**
+- https://www.thechunkychef.com/old-fashioned-easy-apple-crisp/
 
 
 
