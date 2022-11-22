@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "APL Quest/Home on the Range 2013-6.md",
+                "file": "Thanksgiving/Thanksgiving.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "APL Quest/Home on the Range 2013-6.md",
+                "file": "Thanksgiving/Thanksgiving.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "APL Quest/Home on the Range 2013-6.md",
+                "file": "Thanksgiving/Thanksgiving.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "APL Quest/Home on the Range 2013-6.md"
+                "file": "Thanksgiving/Thanksgiving.md"
               }
             }
           }
@@ -163,8 +163,11 @@
   },
   "active": "3eb2d93ae9f800c5",
   "lastOpenFiles": [
-    "APL Quest/Keeping Things In Balance 2013-4.md",
+    "Thanksgiving/Shopping List.md",
+    "Thanksgiving/Thanksg.pdf",
+    "Thanksgiving/Thanksgiving.md",
     "APL Quest/Home on the Range 2013-6.md",
+    "APL Quest/Keeping Things In Balance 2013-4.md",
     "APL Quest/Identity Crisis 2013-5.md",
     "Untitled.md",
     "Daily Notes/2022-11-22.md"
