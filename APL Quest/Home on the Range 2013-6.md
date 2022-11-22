@@ -17,6 +17,8 @@
 **Comment:** 
 ```APL
 ⌈/⍬ ⍝ Maximum of empty vector is smallest representable number. Minimum reduction produces the opposite value.
+⊃⍤⌽ ⍝ Choose the last element of a vector
+
 ```
 
 **Glyphs Used:**
@@ -31,7 +33,9 @@
 [Diamond](https://aplwiki.com/wiki/Statement_separator) ⋄ - Statement Seperator
 [Each](https://aplwiki.com/wiki/Each) `¨` 
 [Grade ](https://aplwiki.com/wiki/Grade) `⍋ ⍒`  - Grade returns a [permutation](https://aplwiki.com/index.php?title=Permutation&action=edit&redlink=1 "Permutation (page does not exist)") [vector](https://aplwiki.com/wiki/Vector "Vector") whose length equals the number of [major cells](https://aplwiki.com/wiki/Major_cell "Major cell") - See sort below.
-[Pick](https://mastering.dyalog.com/Nested-Arrays-Continued.html?highlight=pick#pick) `⊃` - 
+[Pick](https://mastering.dyalog.com/Nested-Arrays-Continued.html?highlight=pick#pick) `⊃` - Left argument is path, right argument is data. 
+[Atop](https://aplwiki.com/wiki/Atop_(operator)) `⍤` - Uses the left argument to process the result of the right. 
+
 
 [Catenate](https://aplwiki.com/wiki/Catenate) `,`
 [Index of](https://aplwiki.com/wiki/Index_Of) `⍳`
