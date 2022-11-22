@@ -7,15 +7,17 @@
 
 **Example Solutions:**
 ```APL
-	I←∘.=⍨⍳ ⍝ equality table for one dimensional indices
+	I←(⌈/-⌊/), ⍝ Tacit - ravel the array and the take the difference of the max and min
+	J←{0∊⍴⍵:0 ⋄ (⌈/-⌊/),⍵} ⍝ If zero is a member of the shape of the array return zero. Otherwise find the range. 
 	```
 
 **Quotes:**
-Use tally to get one without using 1
+
 
 **Comment:** 
 ```APL
-Calculate the numeric range by subtracting the smallest from the largest value. To apply this on a matrix ravel the array first. 
+⌈/⍬ ⍝ Maximum of empty vector is smallest representable number. Minimum reduction produces the opposite value.
+
 
 ```
 
@@ -25,7 +27,7 @@ Calculate the numeric range by subtracting the smallest from the largest value. 
 [Ravel](https://aplwiki.com/wiki/Ravel) `,` - an array's ravel is the [vector](https://aplwiki.com/wiki/Vector "Vector") containing all its [elements](https://aplwiki.com/wiki/Elements "Elements") in [ravel order](https://aplwiki.com/wiki/Ravel_order "Ravel order").
 [Over](https://aplwiki.com/wiki/over) `⍥` - both arguments are pre-processed using the right operand
 [Commute](https://aplwiki.com/wiki/Commute) `⍨`  - aka Selfie or Swap
-
+[Membership](https://aplwiki.com/wiki/Membership) `∊` - tests if each of the elements of the left [argument](https://aplwiki.com/wiki/Argument "Argument") appears as an element of the right argument.
 
 
 
