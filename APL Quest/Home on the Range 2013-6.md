@@ -30,7 +30,8 @@
 [Guards](https://aplwiki.com/wiki/Dfn#Guards) : - Return result
 [Diamond](https://aplwiki.com/wiki/Statement_separator) ⋄ - Statement Seperator
 [Each](https://aplwiki.com/wiki/Each) `¨` 
-
+[Grade ](https://aplwiki.com/wiki/Grade) `⍋ ⍒`  - Grade returns a [permutation](https://aplwiki.com/index.php?title=Permutation&action=edit&redlink=1 "Permutation (page does not exist)") [vector](https://aplwiki.com/wiki/Vector "Vector") whose length equals the number of [major cells](https://aplwiki.com/wiki/Major_cell "Major cell") - See sort below.
+[Pick](https://mastering.dyalog.com/Nested-Arrays-Continued.html?highlight=pick#pick) `⊃` - 
 
 [Catenate](https://aplwiki.com/wiki/Catenate) `,`
 [Index of](https://aplwiki.com/wiki/Index_Of) `⍳`
