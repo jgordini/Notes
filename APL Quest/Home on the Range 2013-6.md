@@ -15,14 +15,16 @@ Use tally to get one without using 1
 
 **Comment:** 
 ```APL
-Calculate the numeric range by subtracting the smallest from the largest value. 
+Calculate the numeric range by subtracting the smallest from the largest value. To apply this on a matrix ravel the array first. 
 
 ```
 
 **Glyphs Used:**
 [Maximum Reduce](https://aplwiki.com/wiki/Maximum) `⌈/` - returns the largest element of a [vector](https://aplwiki.com/wiki/Vector "Vector")
 [Minimum Reduce](https://aplwiki.com/wiki/Minimum) `⌊/` - returns the smallest element of a [vector](https://aplwiki.com/wiki/Vector "Vector")
-[Ravel](https://aplwiki.com/wiki/Ravel) `,` - 
+[Ravel](https://aplwiki.com/wiki/Ravel) `,` - an array's ravel is the [vector](https://aplwiki.com/wiki/Vector "Vector") containing all its [elements](https://aplwiki.com/wiki/Elements "Elements") in [ravel order](https://aplwiki.com/wiki/Ravel_order "Ravel order").
+[Over](https://aplwiki.com/wiki/over) `⍥` - both arguments are pre-processed using the right operand
+[Commute](https://aplwiki.com/wiki/Commute) `⍨`  - aka Selfie or Swap
 
 
 
@@ -62,16 +64,19 @@ Calculate the numeric range by subtracting the smallest from the largest value.
 [Residue](https://aplwiki.com/wiki/Residue) `|` aka remainder
 
 **Concepts Used:**
-
+[Ravel Order](https://aplwiki.com/wiki/Ravel_order)
+[Dfn](https://aplwiki.com/wiki/Dfn)
+[Tacit Programming](https://aplwiki.com/wiki/Tacit_programming)
+[Outer Product](https://aplwiki.com/wiki/Outer_Product) `∘.`
 
 
 [Identity Matrix](https://en.wikipedia.org/wiki/Identity_matrix)
-[Dfn](https://aplwiki.com/wiki/Dfn)
+
 [Radix](https://en.wikipedia.org/wiki/Radix)
 [Index Origin](https://aplwiki.com/wiki/Index_origin) - Generating Functions with that work with 0 or 1 origin
-[Ravel Order](https://aplwiki.com/wiki/Ravel_order)
+
 [Outer Product](https://aplwiki.com/wiki/Outer_Product) `∘.`
-[Tacit Programming](https://aplwiki.com/wiki/Tacit_programming)
+
 [Matrix Multiplication](https://en.wikipedia.org/wiki/Matrix_multiplication)
 [Vector Prefix](https://aplwiki.com/wiki/Prefix)
 [Boolean Mask](https://aplwiki.com/wiki/Boolean)
