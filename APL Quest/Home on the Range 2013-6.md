@@ -17,8 +17,6 @@
 **Comment:** 
 ```APL
 ⌈/⍬ ⍝ Maximum of empty vector is smallest representable number. Minimum reduction produces the opposite value.
-
-
 ```
 
 **Glyphs Used:**
@@ -28,7 +26,10 @@
 [Over](https://aplwiki.com/wiki/over) `⍥` - both arguments are pre-processed using the right operand
 [Commute](https://aplwiki.com/wiki/Commute) `⍨`  - aka Selfie or Swap
 [Membership](https://aplwiki.com/wiki/Membership) `∊` - tests if each of the elements of the left [argument](https://aplwiki.com/wiki/Argument "Argument") appears as an element of the right argument.
-
+[Shape](https://aplwiki.com/wiki/Shape) `⍴` - returns the _shape_ of its argument array
+[Guards](https://aplwiki.com/wiki/Dfn#Guards) : - Return result
+[Diamond](https://aplwiki.com/wiki/Statement_separator) ⋄ - Statement Seperator
+[Each](https://aplwiki.com/wiki/Each) `¨` 
 
 
 [Catenate](https://aplwiki.com/wiki/Catenate) `,`
@@ -70,6 +71,8 @@
 [Dfn](https://aplwiki.com/wiki/Dfn)
 [Tacit Programming](https://aplwiki.com/wiki/Tacit_programming)
 [Outer Product](https://aplwiki.com/wiki/Outer_Product) `∘.`
+[Sort](https://xpqz.github.io/learnapl/manip.html?highlight=sort#grade-up-down) `data[⍋data]` 
+
 
 
 [Identity Matrix](https://en.wikipedia.org/wiki/Identity_matrix)
