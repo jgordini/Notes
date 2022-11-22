@@ -18,6 +18,7 @@
 ```APL
 ⌈/⍬ ⍝ Maximum of empty vector is smallest representable number. Minimum reduction produces the opposite value.
 ⊃⍤⌽ ⍝ Choose the last element of a vector
+1⌈≢ ⍝ is the length larger than one. Using this as a check to make sure it is not an empty array. Taking this result returns the e
 
 ```
 
@@ -31,10 +32,12 @@
 [Shape](https://aplwiki.com/wiki/Shape) `⍴` - returns the _shape_ of its argument array
 [Guards](https://aplwiki.com/wiki/Dfn#Guards) : - Return result
 [Diamond](https://aplwiki.com/wiki/Statement_separator) ⋄ - Statement Seperator
-[Each](https://aplwiki.com/wiki/Each) `¨` 
+[Each](https://aplwiki.com/wiki/Each) `¨` - Apply to each element
 [Grade ](https://aplwiki.com/wiki/Grade) `⍋ ⍒`  - Grade returns a [permutation](https://aplwiki.com/index.php?title=Permutation&action=edit&redlink=1 "Permutation (page does not exist)") [vector](https://aplwiki.com/wiki/Vector "Vector") whose length equals the number of [major cells](https://aplwiki.com/wiki/Major_cell "Major cell") - See sort below.
 [Pick](https://mastering.dyalog.com/Nested-Arrays-Continued.html?highlight=pick#pick) `⊃` - Left argument is path, right argument is data. 
 [Atop](https://aplwiki.com/wiki/Atop_(operator)) `⍤` - Uses the left argument to process the result of the right. 
+[Tally](https://aplwiki.com/wiki/Tally) `≢` - Length of the array
+[Take](https://aplwiki.com/wiki/Take) `↑` - used to get the first few, or last few, elements of a vector
 
 
 [Catenate](https://aplwiki.com/wiki/Catenate) `,`
@@ -77,6 +80,7 @@
 [Tacit Programming](https://aplwiki.com/wiki/Tacit_programming)
 [Outer Product](https://aplwiki.com/wiki/Outer_Product) `∘.`
 [Sort](https://xpqz.github.io/learnapl/manip.html?highlight=sort#grade-up-down) `data[⍋data]` 
+[Overtake](https://aplwiki.com/wiki/Take#Overtaking) `↑` - A length larger than the argument length causes [fills](https://aplwiki.com/wiki/Fill_element "Fill element") to be inserted
 
 
 
