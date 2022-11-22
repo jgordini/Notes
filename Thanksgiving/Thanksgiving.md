@@ -8,6 +8,8 @@ The cranberry orange relish is simply a package of cranberries cooked with 1cup 
 - https://www.youtube.com/watch?v=nfY0lrdXar8
 - Cook the skin beween two sheet pans in a 400 degree oven. 
 - https://www.seriouseats.com/sous-vide-turkey-breast-crispy-skin-recipe-thanksgiving
+- https://youtu.be/mEofA0SvS1k
+
 
 **Brussel Sprouts**
 - serves this with puréed kimchee 
