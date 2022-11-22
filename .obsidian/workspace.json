@@ -8,11 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b8b9b800d3490bea",
+            "id": "c1f99a6fa4b3766a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "Daily Notes/2022-11-18.md",
                 "mode": "source",
                 "source": false
@@ -26,11 +27,15 @@
               "type": "image",
               "state": {
                 "file": "Trig/PDF/tan-unit-circle.png"
+=======
+                "file": "Trig/Trig Notes.md",
+                "mode": "source",
+                "source": false
+>>>>>>> 42fbb7995f10afd3871044ba95ca41c02656fe19
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +101,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "Trig/PDF/tan-unit-circle.png",
+=======
+                "file": "Trig/Trig Notes.md",
+>>>>>>> 42fbb7995f10afd3871044ba95ca41c02656fe19
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +122,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "Trig/PDF/tan-unit-circle.png",
+=======
+                "file": "Trig/Trig Notes.md",
+>>>>>>> 42fbb7995f10afd3871044ba95ca41c02656fe19
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +149,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "Trig/PDF/tan-unit-circle.png"
+=======
+                "file": "Trig/Trig Notes.md"
+>>>>>>> 42fbb7995f10afd3871044ba95ca41c02656fe19
               }
             }
           }
@@ -147,17 +164,25 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "29b3fbd2c56c0e7a",
+  "active": "c1f99a6fa4b3766a",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "APL Quest/Identity Crisis 2013-5.md",
     "APL Quest/Seems a bit odd to me 2013-1.md",
     "APL Quest/Whats in a Word 2013-3.md",
     "APL Quest/Making the Grade 2013-2.md",
     "APL Quest/Keeping Things In Balance 2013-4.md",
+=======
+>>>>>>> 42fbb7995f10afd3871044ba95ca41c02656fe19
     "Trig/PDF/MTH 113 Emphasis Sheet (Me)(1).pdf",
+    "Trig/PDF/tan-unit-circle.png",
+    "Trig/PDF/Trig_Cheat_Sheet.pdf",
+    "Trig/PDF/Algebra_Cheat_Sheet.pdf",
     "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf",
-    "Websites/Tabulator-2022-11-18.md",
-    "Websites/TanStack Table | React Table, Solid Table, Svelte Table, Vue Table-2022-11-18.md",
-    "Websites/Prince - Convert HTML to PDF with CSS-2022-11-18.md"
+    "Thanksgiving/Shopping List.md",
+    "Thanksgiving/Thanksgiving.md",
+    "Thanksgiving/Thanksg.pdf",
+    "Daily Notes/2022-11-18.md",
+    "Daily Notes/2022-11-21.md"
   ]
 }
