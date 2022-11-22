@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trig/Trig Notes.md",
+                "file": "Daily Notes/2022-11-22.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trig/Trig Notes.md",
+                "file": "Daily Notes/2022-11-22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trig/Trig Notes.md",
+                "file": "Daily Notes/2022-11-22.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trig/Trig Notes.md"
+                "file": "Daily Notes/2022-11-22.md"
               }
             }
           }
@@ -138,6 +138,7 @@
   },
   "active": "c1f99a6fa4b3766a",
   "lastOpenFiles": [
+    "Trig/Trig Notes.md",
     "Trig/PDF/MTH 113 Emphasis Sheet (Me)(1).pdf",
     "Trig/PDF/tan-unit-circle.png",
     "Trig/PDF/Trig_Cheat_Sheet.pdf",
@@ -146,7 +147,6 @@
     "Thanksgiving/Shopping List.md",
     "Thanksgiving/Thanksgiving.md",
     "Thanksgiving/Thanksg.pdf",
-    "Daily Notes/2022-11-18.md",
-    "Daily Notes/2022-11-21.md"
+    "Daily Notes/2022-11-18.md"
   ]
 }
