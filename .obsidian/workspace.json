@@ -1,74 +1,49 @@
 {
   "main": {
-    "id": "b1e7b5ede1eb0f11",
+    "id": "f899db4448416aaf",
     "type": "split",
     "children": [
       {
-        "id": "cb11f62b4a017933",
+        "id": "9e1df6be826909b0",
         "type": "tabs",
         "children": [
           {
-            "id": "b8b9b800d3490bea",
+            "id": "d950044ece8e15fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
                 "file": "Daily Notes/2022-11-22.md",
-=======
-                "file": "Daily Notes/2022-11-18.md",
->>>>>>> e2563c785619c9f7742f4560b730ba128e5e504b
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "29b3fbd2c56c0e7a",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Trig/PDF/tan-unit-circle.png"
-              }
-            }
-          },
-          {
-            "id": "023b1f396158695c",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf"
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "4c1ee8424cf3fb95",
+    "id": "2aee067a3d05a8cf",
     "type": "split",
     "children": [
       {
-        "id": "8c6f84c3d7139d0f",
+        "id": "d408faac50e139f5",
         "type": "tabs",
         "children": [
           {
-            "id": "5a4e69478dd26ebf",
+            "id": "4526b369581cbb34",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse"
+                "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "03074444151a6085",
+            "id": "bb93fe90243afb11",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -83,7 +58,7 @@
             }
           },
           {
-            "id": "65529e1fa40356dd",
+            "id": "ed29a4b15544e156",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -94,27 +69,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.50260543823242
+    "width": 300
   },
   "right": {
-    "id": "e8fd077a861a7cbb",
+    "id": "fe00dcc33819adc5",
     "type": "split",
     "children": [
       {
-        "id": "5c7e3f54cd544740",
+        "id": "07b1665191133056",
         "type": "tabs",
         "children": [
           {
-            "id": "a069eedefa27de23",
+            "id": "c0f9a3160f1fafb5",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
                 "file": "Daily Notes/2022-11-22.md",
-=======
-                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf",
->>>>>>> e2563c785619c9f7742f4560b730ba128e5e504b
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,23 +97,19 @@
             }
           },
           {
-            "id": "8cb291b7680e5079",
+            "id": "239a6629d9cf5423",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
                 "file": "Daily Notes/2022-11-22.md",
-=======
-                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf",
->>>>>>> e2563c785619c9f7742f4560b730ba128e5e504b
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "bf37aad46242b7ca",
+            "id": "304db826bc93e20b",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -153,16 +120,12 @@
             }
           },
           {
-            "id": "dfdec0b4aef704c6",
+            "id": "b840a4106faf3579",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
                 "file": "Daily Notes/2022-11-22.md"
-=======
-                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf"
->>>>>>> e2563c785619c9f7742f4560b730ba128e5e504b
               }
             }
           }
@@ -173,29 +136,6 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "023b1f396158695c",
-  "lastOpenFiles": [
-<<<<<<< HEAD
-    "Trig/Trig Notes.md",
-    "Trig/PDF/MTH 113 Emphasis Sheet (Me)(1).pdf",
-=======
-    "conflict-files-obsidian-git.md",
->>>>>>> e2563c785619c9f7742f4560b730ba128e5e504b
-    "Trig/PDF/tan-unit-circle.png",
-    "APL Quest/Identity Crisis 2013-5.md",
-    "APL Quest/Seems a bit odd to me 2013-1.md",
-    "APL Quest/Whats in a Word 2013-3.md",
-    "APL Quest/Making the Grade 2013-2.md",
-    "APL Quest/Keeping Things In Balance 2013-4.md",
-    "Trig/PDF/MTH 113 Emphasis Sheet (Me)(1).pdf",
-    "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf",
-<<<<<<< HEAD
-    "Thanksgiving/Shopping List.md",
-    "Thanksgiving/Thanksgiving.md",
-    "Thanksgiving/Thanksg.pdf",
-    "Daily Notes/2022-11-18.md"
-=======
-    "Websites/Tabulator-2022-11-18.md"
->>>>>>> e2563c785619c9f7742f4560b730ba128e5e504b
-  ]
+  "active": "d950044ece8e15fa",
+  "lastOpenFiles": []
 }
