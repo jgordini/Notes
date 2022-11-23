@@ -7,7 +7,7 @@
 
 **Example Solutions:**
 ```APL
-F ← {⍵/⍨⍵≠⌊⍵} ⍝ 
+F ← {⍵/⍨⍵≠⌊⍵} ⍝ Compare the number against it's rounded version. Same is int. Different is Float.  
 Ft ← /⍨∘(≠∘⌊⍨)⍨ ⍝
 	```
 
