@@ -27,7 +27,7 @@ X **Mashed Potatoes**
 - https://www.allrecipes.com/recipe/155268/cranberry-relish-with-grand-marnier-and-pecans/
 
 ## Sides
-**Califlower Gratin**
+X **Califlower Gratin**
 - https://www.foodnetwork.com/recipes/ina-garten/cauliflower-gratin-recipe-1917463
 **Cornbread Madelines**
 - https://www.myrecipes.com/recipe/cornbread-madeleines
