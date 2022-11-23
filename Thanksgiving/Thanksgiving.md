@@ -17,7 +17,7 @@ The cranberry orange relish is simply a package of cranberries cooked with 1cup 
 - https://peachykeen.momofuku.com/recipe/brussels-sprouts-kimchi-puree-bacon/
 
 
-**Mashed Potatoes**
+X **Mashed Potatoes**
 - https://www.reddit.com/r/Cooking/comments/x4ene8/best_things_to_add_to_mashed_potatoes/
 - https://addapinch.com/mashed-potatoes-with-horseradish-garlic-recipe/
 
