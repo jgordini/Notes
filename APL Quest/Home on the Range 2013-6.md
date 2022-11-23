@@ -19,6 +19,8 @@
 ⌈/⍬ ⍝ Maximum of empty vector is smallest representable number. Minimum reduction produces the opposite value.
 ⊃⍤⌽ ⍝ Choose the last element of a vector
 1⌈≢ ⍝ is the length larger than one. Using this as a check to make sure it is not an empty array. Taking this result returns the entire array or zero if empty. 
+,, ⍝ Catenate the ravel
+
 ```
 
 **Glyphs Used:**
@@ -38,6 +40,7 @@
 [Tally](https://aplwiki.com/wiki/Tally) `≢` - Length of the array
 [Take](https://aplwiki.com/wiki/Take) `↑` - used to get the first few, or last few, elements of a vector
 [Identity ](https://aplwiki.com/wiki/Identity)`⊢` functions and operators rather than names are used to direct the flow of arguments
+[Catenate](https://aplwiki.com/wiki/Catenate) `,` - combines two arrays along a shared [axis](https://aplwiki.com/wiki/Axis "Axis"), left to right
 
 
 **Concepts Used:**
