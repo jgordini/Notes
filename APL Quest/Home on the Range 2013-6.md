@@ -9,6 +9,7 @@
 ```APL
 	I←(⌈/-⌊/), ⍝ Tacit - ravel the array and the take the difference of the max and min
 	J←{0∊⍴⍵:0 ⋄ (⌈/-⌊/),⍵} ⍝ If zero is a member of the shape of the array return zero. Otherwise find the range. 
+	K←(⌈/-⌊/),,0/⍨0∊⍴ ⍝ catenate a 0 on the the ravel of the array. check if the shape contains a 0. take the difference of the max and min.  
 	```
 
 **Quotes:**
@@ -20,7 +21,6 @@
 ⊃⍤⌽ ⍝ Choose the last element of a vector
 1⌈≢ ⍝ is the length larger than one. Using this as a check to make sure it is not an empty array. Taking this result returns the entire array or zero if empty. 
 ,, ⍝ Catenate the ravel
-
 ```
 
 **Glyphs Used:**
