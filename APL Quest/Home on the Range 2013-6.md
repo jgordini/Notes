@@ -40,7 +40,9 @@
 [Tally](https://aplwiki.com/wiki/Tally) `≢` - Length of the array
 [Take](https://aplwiki.com/wiki/Take) `↑` - used to get the first few, or last few, elements of a vector
 [Identity ](https://aplwiki.com/wiki/Identity)`⊢` functions and operators rather than names are used to direct the flow of arguments
+[Replicate](https://aplwiki.com/wiki/Replicate) `/` - copies each [element](https://aplwiki.com/wiki/Element "Element") of the right [argument](https://aplwiki.com/wiki/Argument "Argument") a given number of times
 [Catenate](https://aplwiki.com/wiki/Catenate) `,` - combines two arrays along a shared [axis](https://aplwiki.com/wiki/Axis "Axis"), left to right
+
 
 
 **Concepts Used:**
