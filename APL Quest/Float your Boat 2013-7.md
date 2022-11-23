@@ -1,15 +1,12 @@
-## [Float your Boat](https://problems.tryapl.org/psets/2013.html?goto=P6_Home_On_The_Range)
+## [Float your Boat](https://problems.tryapl.org/psets/2013.html?goto=P7_Float_Your_Boat)
 
-**Problem:** Write a dfn which returns the magnitude of the range (i.e. the difference between the lowest and highest values) of a numeric array.
+**Problem:** Write a dfn which selects the floating point (non-integer) numbers from a numeric vector.
 
-**Video:** https://youtu.be/36HlHsEjUIQ
-**Code:** https://github.com/abrudz/apl_quest/blob/main/2013/6.apl
+**Video:** https://youtu.be/w5LvImFVi2M
+**Code:** https://github.com/abrudz/apl_quest/blob/main/2013/7.apl
 
 **Example Solutions:**
 ```APL
-	I←(⌈/-⌊/), ⍝ Tacit - ravel the array and the take the difference of the max and min
-	J←{0∊⍴⍵:0 ⋄ (⌈/-⌊/),⍵} ⍝ If zero is a member of the shape of the array return zero. Otherwise find the range. 
-	K←(⌈/-⌊/),,42/⍨0∊⍴ ⍝ If zero is a member of the shape of the array return 42. Otherwise return nothing. Catenate the result with the ravel of the array (See I). Take the difference of the max and min.  
 	```
 
 **Quotes:**
@@ -17,10 +14,6 @@
 
 **Comment:** 
 ```APL
-⌈/⍬ ⍝ Maximum of empty vector is smallest representable number. Minimum reduction produces the opposite value.
-⊃⍤⌽ ⍝ Choose the last element of a vector
-1⌈≢ ⍝ is the length larger than one. Using this as a check to make sure it is not an empty array. Taking this result returns the entire array or zero if empty. 
-,, ⍝ Catenate the ravel
 ```
 
 **Glyphs Used:**
