@@ -38,7 +38,7 @@ X **Califlower Gratin**
 - https://unpeeledjournal.com/easy-thanksgiving-bread-stuffing-dressing/
 
 ## Desert
-**Apple Crisp**
+X **Apple Crisp**
 - https://www.thechunkychef.com/old-fashioned-easy-apple-crisp/
 
 
