@@ -9,7 +9,7 @@
 ```APL
 	I←(⌈/-⌊/), ⍝ Tacit - ravel the array and the take the difference of the max and min
 	J←{0∊⍴⍵:0 ⋄ (⌈/-⌊/),⍵} ⍝ If zero is a member of the shape of the array return zero. Otherwise find the range. 
-	K←(⌈/-⌊/),,0/⍨0∊⍴ ⍝ catenate a 0 on the the ravel of the array. check if the shape contains a 0. take the difference of the max and min.  
+	K←(⌈/-⌊/),,42/⍨0∊⍴ ⍝ If zero is a member of the shape of the array return 42. Otherwise return nothing. Catenate the result with the ravel of the array (See I). Take the difference of the max and min.  
 	```
 
 **Quotes:**
@@ -42,6 +42,7 @@
 [Identity ](https://aplwiki.com/wiki/Identity)`⊢` functions and operators rather than names are used to direct the flow of arguments
 [Replicate](https://xpqz.github.io/cultivations/Functions7.html?#replicate) `/` - copies each [element](https://aplwiki.com/wiki/Element "Element") of the right [argument](https://aplwiki.com/wiki/Argument "Argument") a given number of times
 [Catenate](https://aplwiki.com/wiki/Catenate) `,` - combines two arrays along a shared [axis](https://aplwiki.com/wiki/Axis "Axis"), left to right
+[Intersection](https://aplwiki.com/wiki/Intersection) `∩` - computes the [set intersection](https://en.wikipedia.org/wiki/intersection_(set_theory) "wikipedia:intersection (set theory)") of the two [vector](https://aplwiki.com/wiki/Vector "Vector") [arguments](https://aplwiki.com/wiki/Argument "Argument").
 
 
 
