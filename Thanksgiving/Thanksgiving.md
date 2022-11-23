@@ -31,7 +31,7 @@ X **Califlower Gratin**
 - https://www.foodnetwork.com/recipes/ina-garten/cauliflower-gratin-recipe-1917463
 X **Cornbread Madelines**
 - https://www.myrecipes.com/recipe/cornbread-madeleines
-**Stuffing**
+X **Stuffing**
 - https://cooking.nytimes.com/recipes/147-bread-stuffing
 - https://www.seriouseats.com/stuffing-waffles-recipe
 - https://www.seriouseats.com/cornbread-stuffing-sausage-sage-recipe
