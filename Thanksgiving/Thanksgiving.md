@@ -29,7 +29,7 @@ X **Mashed Potatoes**
 ## Sides
 X **Califlower Gratin**
 - https://www.foodnetwork.com/recipes/ina-garten/cauliflower-gratin-recipe-1917463
-**Cornbread Madelines**
+X **Cornbread Madelines**
 - https://www.myrecipes.com/recipe/cornbread-madeleines
 **Stuffing**
 - https://cooking.nytimes.com/recipes/147-bread-stuffing
