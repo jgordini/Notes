@@ -40,9 +40,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7d97e5230aa22a91",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "APL Quest/Float your Boat 2013-7.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -108,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "APL Quest/Home on the Range 2013-6.md",
+                "file": "APL Quest/Float your Boat 2013-7.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "APL Quest/Home on the Range 2013-6.md",
+                "file": "APL Quest/Float your Boat 2013-7.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "APL Quest/Home on the Range 2013-6.md"
+                "file": "APL Quest/Float your Boat 2013-7.md"
               }
             }
           }
@@ -159,8 +171,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "023b1f396158695c",
+  "active": "7d97e5230aa22a91",
   "lastOpenFiles": [
+    "APL Quest/Home on the Range 2013-6.md",
     "APL Quest/Identity Crisis 2013-5.md",
     "APL Quest/Keeping Things In Balance 2013-4.md",
     "Websites/Anna’s Archive-2022-11-23.md",
@@ -169,7 +182,6 @@
     "Trig/PDF/Trig_Cheat_Sheet.pdf",
     "Trig/PDF/tan-unit-circle.png",
     "APL Quest/Seems a bit odd to me 2013-1.md",
-    "APL Quest/Whats in a Word 2013-3.md",
-    "APL Quest/Making the Grade 2013-2.md"
+    "APL Quest/Whats in a Word 2013-3.md"
   ]
 }

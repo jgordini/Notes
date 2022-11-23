@@ -1,4 +1,4 @@
-## [Home on the range](https://problems.tryapl.org/psets/2013.html?goto=P6_Home_On_The_Range)
+## [Float your Boat](https://problems.tryapl.org/psets/2013.html?goto=P6_Home_On_The_Range)
 
 **Problem:** Write a dfn which returns the magnitude of the range (i.e. the difference between the lowest and highest values) of a numeric array.
 
