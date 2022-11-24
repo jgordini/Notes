@@ -11,7 +11,7 @@ The cranberry orange relish is simply a package of cranberries cooked with 1cup 
 - https://youtu.be/mEofA0SvS1k
 
 
-**Brussel Sprouts**
+X **Brussel Sprouts**
 - X serves this with puréed kimchee 
 - https://forums.egullet.org/topic/110467-brussels-sprouts/?do=findComment&comment=1502075
 - https://peachykeen.momofuku.com/recipe/brussels-sprouts-kimchi-puree-bacon/
