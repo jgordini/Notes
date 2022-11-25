@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "cb11f62b4a017933",
+        "id": "9ad8d5be55c2c425",
         "type": "tabs",
         "children": [
           {
-            "id": "b8b9b800d3490bea",
+            "id": "a4f1ac195a11b5b1",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf"
+                "file": "Daily Notes/2022-11-24.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.50260543823242
+    "width": 300
   },
   "right": {
     "id": "e8fd077a861a7cbb",
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf",
+                "file": "Daily Notes/2022-11-24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf",
+                "file": "Daily Notes/2022-11-24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf"
+                "file": "Daily Notes/2022-11-24.md"
               }
             }
           }
@@ -134,17 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b8b9b800d3490bea",
+  "active": "a4f1ac195a11b5b1",
   "lastOpenFiles": [
-    "Websites/Invoker - Welcome - Beyond Code-2022-11-02.md",
-    "Websites/Certbot Instructions | Certbot-2022-11-02.md",
-    "Websites/GitHub - hauselinobsidian-alfred Alfred workflow for Obsidian note-taking app. Open vaults and files in Obsidian.-2022-11-15.md",
-    "Work HTML/Layouts Every Layout-2022-11-15.md",
-    "Websites/Have Obsidian be the handler of .md files (file association) - Feature requests - Obsidian Forum.md(1).md",
-    "Daily Notes/2022-11-14.md",
+    "!CAS Wellness Scan by Dept and Program_2022-Oct-3.md",
+    "README.md",
+    "test.md",
+    "conflict-files-obsidian-git.md",
     "AI Stories/2nd.md",
-    "AI Stories/4321.md",
-    "Work HTML/shipshapecodeshepherd Guide your users through a tour of your app-2022-11-04.md",
-    "README.md"
+    "Work HTML/Table-of-Contents.md",
+    "APL/APL.md",
+    "Annual Report 2022/Annual Report Images/micro.png",
+    "Solar/Solar Notes.md",
+    "Solar/48V Offgrid Solar Power System - DIY Solar Power - Made Easy!-2022-10-26.md"
   ]
 }
