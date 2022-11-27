@@ -33,9 +33,9 @@
             "id": "023b1f396158695c",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "pdf",
               "state": {
-                "file": "Trig/PDF/tan-unit-circle.png"
+                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf"
               }
             }
           },
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trig/PDF/tan-unit-circle.png",
+                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trig/PDF/tan-unit-circle.png",
+                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trig/PDF/tan-unit-circle.png"
+                "file": "Trig/PDF/Trig_Cheat_Sheet.pdf"
               }
             }
           }
@@ -171,6 +171,7 @@
   },
   "active": "023b1f396158695c",
   "lastOpenFiles": [
+    "Trig/PDF/tan-unit-circle.png",
     "Trig/PDF/Trig_Cheat_Sheet.pdf",
     "Trig/PDF/Algebra_Cheat_Sheet.pdf",
     "Thanksgiving/Thanksg.pdf",
@@ -179,7 +180,6 @@
     "Daily Notes/2022-11-24.md",
     "Thanksgiving/Thanksgiving.md",
     "APL Quest/Identity Crisis 2013-5.md",
-    "APL Quest/Keeping Things In Balance 2013-4.md",
-    "Websites/Anna’s Archive-2022-11-23.md"
+    "APL Quest/Keeping Things In Balance 2013-4.md"
   ]
 }
