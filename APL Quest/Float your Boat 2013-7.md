@@ -13,13 +13,16 @@ Ft ← /⍨∘(≠∘⌊⍨)⍨ ⍝ Tacit Version - See Note
 
 **Quotes:**
 Tacit Version:
-1.  `⍵≠⌊` - Compare Argument with it's own Floor: Selfie
-2.  Preprocess the right argument with `≠` using the floor: Jot
-3. Again preprocess the right argumet and same on both sides: Jot Selfie
+1.  ≠∘⌊⍨ - Compare Argument with it's own Floor:  Selfie - ⍨
+2.  ≠∘⌊⍨ - Preprocess the right argument with `≠` using the floor: Jot - ∘
+3. ⍨∘ - Again preprocess the right argument and same on both sides: Jot Selfie 
 
 
 **Comment:** 
+Selfie - ⍺ f⍨ ⍵  is  ⍵ f ⍺ **and** f⍨ ⍵  is  ⍵ f ⍵
+
 ```APL
+
 ```
 
 **Glyphs Used:**
@@ -28,6 +31,7 @@ Tacit Version:
 [Not Equal to](https://aplwiki.com/wiki/Not_Equal_to) `≠` - a [comparison function](https://aplwiki.com/wiki/Comparison_function "Comparison function") which tests whether argument elements are unequal.
 [Compress](https://aplwiki.com/wiki/Replicate) `/` - aka FIlter - requires the number of copies to be [Boolean](https://aplwiki.com/wiki/Boolean "Boolean"): each element is either retained (1 copy) or discarded (0 copies)
 [Commute](https://aplwiki.com/wiki/Commute) `⍨` - aka Swap - used dyadically, the arguments are swapped. 
+
 
 
 **Concepts Used:**
