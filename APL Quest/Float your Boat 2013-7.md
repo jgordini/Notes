@@ -21,7 +21,7 @@ Ft ← /⍨∘(≠∘⌊⍨)⍨ ⍝ Tacit Version - See Note
 **Comment:** 
 Commute - <mark style="background: #FFB8EBA6;">⍺ f ⍨ ⍵</mark>  is  <mark style="background: #FFB8EBA6;">⍵ f ⍺</mark>  
 Selfie- <mark style="background: #ADCCFFA6;"> f ⍨ ⍵</mark>  is  <mark style="background: #ADCCFFA6;">⍵ f ⍵</mark>
-Jot - <mark style="background: #BBFABBA6;">(f g)Y</mark> is <mark style="background: #BBFABBA6;">f∘g Y</mark>
+Jot - {R}←{X} f∘g Y
 
 ```APL
 
@@ -41,7 +41,7 @@ Jot - <mark style="background: #BBFABBA6;">(f g)Y</mark> is <mark style="backgro
 [Tacit Programming](https://aplwiki.com/wiki/Tacit_programming)
 [Comparison Tolerance](https://www.jsoftware.com/papers/satn23.htm) - The tolerance is controlled by the value of a system variable ⎕ct .
 [Commute](https://aplwiki.com/wiki/Commute) `⍨` - can be used to emulate a monadic `f g h` [Fork](https://aplwiki.com/wiki/Fork "Fork") when combined with [Compose](https://aplwiki.com/wiki/Compose "Compose")
-
+[Function Composition](http://help.dyalog.com/latest/index.htm#Language/Primitive%20Operators/Operator%20Syntax.htm#Function_Composition)
 
 
 
