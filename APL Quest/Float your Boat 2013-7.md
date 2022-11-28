@@ -41,6 +41,10 @@ Selfie- <mark style="background: #ADCCFFA6;"> f ⍨ ⍵</mark>  is  <mark style=
 [Each](https://aplwiki.com/wiki/Each) `¨` - applies its [operand](https://aplwiki.com/wiki/Operand "Operand") to each [element](https://aplwiki.com/wiki/Element "Element") of the [arguments](https://aplwiki.com/wiki/Argument "Argument")
 [Membership](https://aplwiki.com/wiki/Membership) `∊` - tests if each of the elements of the left [argument](https://aplwiki.com/wiki/Argument "Argument") appears as an element of the right argument
 [Print Precision](https://help.dyalog.com/latest/Content/Language/System%20Functions/pp.htm) `⎕PP` - number of significant digits in the display of numeric output
+[Residue](https://aplwiki.com/wiki/Residue) `|` - aka Modulo - gives the [remainder](https://en.wikipedia.org/wiki/Remainder "wikipedia:Remainder") of [division](https://aplwiki.com/wiki/Divide "Divide") between two real numbers.
+[Signum](https://aplwiki.com/wiki/Signum) `×` -  three poss ible results of Signum on a real argument are `0`, `1`, and `¯1` : Positive, Negative and Zero
+[Encode](https://aplwiki.com/wiki/Encode) `⊤` - convert numbers between bases
+
 
 **Concepts Used:**
 [Dfn](https://aplwiki.com/wiki/Dfn)
@@ -49,7 +53,7 @@ Selfie- <mark style="background: #ADCCFFA6;"> f ⍨ ⍵</mark>  is  <mark style=
 [Function Composition](http://help.dyalog.com/latest/index.htm#Language/Primitive%20Operators/Operator%20Syntax.htm#Function_Composition)
 [Hook](https://aplwiki.com/wiki/Hook)
 [Derived Function](https://aplwiki.com/wiki/Derived_function)
-
+[Modulo Operation](https://en.wikipedia.org/wiki/Modulo_operation)
 
 
 
