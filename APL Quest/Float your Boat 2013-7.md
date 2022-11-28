@@ -8,16 +8,16 @@
 **Example Solutions:**
 ```APL
 F ← {⍵/⍨⍵≠⌊⍵} ⍝ Compare the number against it's rounded version. Same is int. Different is Float.  
-Ft ← /⍨∘(≠∘⌊⍨)⍨ ⍝ Tacit Version - See Note
+Ft ← (/⍨)∘(≠∘⌊⍨)⍨ ⍝ Tacit Version - See Note
 	```
 
 **Note:**
 <mark style="background: #FFF3A3A6;">Ft </mark> ← Tacit Derived Function - Composed of Operators
-Beginning with the Parenthesis `(≠∘⌊⍨)`
+Beginning with the first Parenthesis `(≠∘⌊⍨)`
 1.  ⌊<mark style="background: #ADCCFFA6;">⍨</mark> ⍵ - Compare Argument with it's own Floor:  Selfie - ⍨
 2.  ≠<mark style="background: #BBFABBA6;">∘</mark>⌊⍨ ⍵ - Preprocess the right argument with `≠` using the floor: Jot - ∘
-3.   /<mark style="background: #ADCCFFA6;">⍨</mark><mark style="background: #BBFABBA6;">∘</mark>⍺⍺- Preprocess the parenthesis expression using Jot and then Swap
-4.    <mark style="background: #FFB8EBA6;">⍺⍺/ ⍵ ⍨ ⍵</mark> - Filter initial array using result: Selfie - ⍨
+3.   <mark style="background: #FFB8EBA6;">/⍨</mark><mark style="background: #BBFABBA6;">∘</mark>⍺⍺- Preprocess the right parenthesis expression using Jot and then Swap
+4.   <mark style="background: #ADCCFFA6;">⍺⍺/ ⍵ ⍨ ⍵</mark> - Filter initial array using result: Selfie - ⍨
 
 **Comment:** 
 Swap - <mark style="background: #FFB8EBA6;">⍺ f ⍨ ⍵</mark>  is  <mark style="background: #FFB8EBA6;">⍵ f ⍺</mark>  
