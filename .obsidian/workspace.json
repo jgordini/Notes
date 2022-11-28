@@ -1,62 +1,82 @@
 {
   "main": {
-    "id": "f899db4448416aaf",
+    "id": "b1e7b5ede1eb0f11",
     "type": "split",
     "children": [
       {
-        "id": "375b92ff98282d5c",
+        "id": "cb11f62b4a017933",
         "type": "tabs",
         "children": [
           {
-            "id": "a34f7745f9939e6c",
+            "id": "b8b9b800d3490bea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "APL Quest/Float your Boat 2013-7.md",
+                "file": "Daily Notes/2022-11-18.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "aef63917872a60f0",
+            "id": "29b3fbd2c56c0e7a",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Trig/PDF/tan-unit-circle.png"
+              }
+            }
+          },
+          {
+            "id": "023b1f396158695c",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf"
+              }
+            }
+          },
+          {
+            "id": "7d97e5230aa22a91",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "APL Quest/Go Forth and Multiply 2013-8.md",
+                "file": "Daily Notes/2022-11-24.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "2aee067a3d05a8cf",
+    "id": "4c1ee8424cf3fb95",
     "type": "split",
     "children": [
       {
-        "id": "d408faac50e139f5",
+        "id": "8c6f84c3d7139d0f",
         "type": "tabs",
         "children": [
           {
-            "id": "4526b369581cbb34",
+            "id": "5a4e69478dd26ebf",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "byCreatedTimeReverse"
               }
             }
           },
           {
-            "id": "bb93fe90243afb11",
+            "id": "03074444151a6085",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -71,7 +91,7 @@
             }
           },
           {
-            "id": "ed29a4b15544e156",
+            "id": "65529e1fa40356dd",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -82,23 +102,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 302.5026054382324
   },
   "right": {
-    "id": "fe00dcc33819adc5",
+    "id": "e8fd077a861a7cbb",
     "type": "split",
     "children": [
       {
-        "id": "07b1665191133056",
+        "id": "5c7e3f54cd544740",
         "type": "tabs",
         "children": [
           {
-            "id": "c0f9a3160f1fafb5",
+            "id": "a069eedefa27de23",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "APL Quest/Go Forth and Multiply 2013-8.md",
+                "file": "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,19 +130,19 @@
             }
           },
           {
-            "id": "239a6629d9cf5423",
+            "id": "8cb291b7680e5079",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "APL Quest/Go Forth and Multiply 2013-8.md",
+                "file": "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "304db826bc93e20b",
+            "id": "bf37aad46242b7ca",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -133,12 +153,12 @@
             }
           },
           {
-            "id": "b840a4106faf3579",
+            "id": "dfdec0b4aef704c6",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "APL Quest/Go Forth and Multiply 2013-8.md"
+                "file": "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf"
               }
             }
           }
@@ -149,17 +169,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "aef63917872a60f0",
+  "active": "023b1f396158695c",
   "lastOpenFiles": [
-    "APL Quest/Seems a bit odd to me 2013-1.md",
-    "APL Quest/Go Forth and Multiply 2013-8.md",
+    "Trig/PDF/Mth_125s_Precalculus_Review.pdf",
+    "Trig/PDF/Trig_Cheat_Sheet.pdf",
+    "Trig/PDF/tan-unit-circle.png",
+    "Trig/PDF/Algebra_Cheat_Sheet.pdf",
+    "Thanksgiving/Thanksg.pdf",
     "APL Quest/Float your Boat 2013-7.md",
     "APL Quest/Home on the Range 2013-6.md",
-    "Daily Notes/2022-11-22.md",
-    "APL Quest/Identity Crisis 2013-5.md",
-    "Daily Notes/2022-11-28.md",
-    "APL Quest/Keeping Things In Balance 2013-4.md",
-    "APL Quest/Whats in a Word 2013-3.md",
-    "APL Quest/Making the Grade 2013-2.md"
+    "Daily Notes/2022-11-24.md",
+    "Thanksgiving/Thanksgiving.md",
+    "APL Quest/Identity Crisis 2013-5.md"
   ]
 }
