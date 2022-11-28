@@ -42,7 +42,7 @@ Jot - {R}←{X} f∘g Y
 [Comparison Tolerance](https://www.jsoftware.com/papers/satn23.htm) - The tolerance is controlled by the value of a system variable ⎕ct .
 [Commute](https://aplwiki.com/wiki/Commute) `⍨` - can be used to emulate a monadic `f g h` [Fork](https://aplwiki.com/wiki/Fork "Fork") when combined with [Compose](https://aplwiki.com/wiki/Compose "Compose")
 [Function Composition](http://help.dyalog.com/latest/index.htm#Language/Primitive%20Operators/Operator%20Syntax.htm#Function_Composition)
-
+[Hook](https://aplwiki.com/wiki/Hook)
 
 
 [Outer Product](https://aplwiki.com/wiki/Outer_Product) `∘.`
