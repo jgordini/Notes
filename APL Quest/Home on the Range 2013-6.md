@@ -12,8 +12,6 @@
 	K←(⌈/-⌊/),,42/⍨0∊⍴ ⍝ If zero is a member of the shape of the array return 42. Otherwise return nothing. Catenate the result with the ravel of the array (See I). Take the difference of the max and min.  
 	```
 
-**Quotes:**
-
 
 **Comment:** 
 ```APL
