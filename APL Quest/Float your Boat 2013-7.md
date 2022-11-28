@@ -13,13 +13,13 @@ Ft ← /⍨∘(≠∘⌊⍨)⍨ ⍝ Tacit Version - See Note
 
 **Quotes:**
 Tacit Version:
-1.  ≠∘⌊⍨ - Compare Argument with it's own Floor:  Selfie - ⍨
-2.  ≠∘⌊⍨ - Preprocess the right argument with `≠` using the floor: Jot - ∘
-3. ⍨∘ - Again preprocess the right argument and same on both sides: Jot Selfie 
+1.  ≠⌊<mark style="background: #ADCCFFA6;">⍨</mark>⍵ - Compare Argument with it's own Floor:  Selfie - ⍨
+2.  ≠<mark style="background: #BBFABBA6;">∘</mark>⌊⍨⍵ - Preprocess the right argument with `≠` using the floor: Jot - ∘
+3. <mark style="background: #ADCCFFA6;">⍨</mark><mark style="background: #BBFABBA6;">∘</mark> - Again preprocess the right argument and same on both sides: Jot Selfie 
 
 
 **Comment:** 
-Selfie - ⍺ f⍨ ⍵  is  ⍵ f ⍺ **and** f⍨ ⍵  is  ⍵ f ⍵
+Selfie - <mark style="background: #FFB8EBA6;">⍺ f⍨ ⍵</mark>  is  <mark style="background: #FFB8EBA6;">⍵ f ⍺</mark> **and**<mark style="background: #ADCCFFA6;"> f⍨ ⍵</mark>  is  <mark style="background: #ADCCFFA6;">⍵ f ⍵</mark>
 
 ```APL
 
