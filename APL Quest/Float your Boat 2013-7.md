@@ -11,18 +11,17 @@ F ← {⍵/⍨⍵≠⌊⍵} ⍝ Compare the number against it's rounded version.
 Ft ← /⍨∘(≠∘⌊⍨)⍨ ⍝ Tacit Version - See Note
 	```
 
-**Quotes:**
+**Note:**
 <mark style="background: #FFF3A3A6;">Ft </mark> ← Tacit Derived Function - Composed of Operators
 1.  ⌊<mark style="background: #ADCCFFA6;">⍨</mark> ⍵ - Compare Argument with it's own Floor:  Selfie - ⍨
 2.  ≠<mark style="background: #BBFABBA6;">∘</mark>⌊⍨ ⍵ - Preprocess the right argument with `≠` using the floor: Jot - ∘
 3.   ⍵/ <mark style="background: #ADCCFFA6;">⍨</mark><mark style="background: #BBFABBA6;">∘</mark> - Again preprocess the right argument with Selfie
-4.    <mark style="background: #FFB8EBA6;">⍺ /f ⍨ ⍵</mark> - Filter using Commute
-5. 
-
+4.    <mark style="background: #FFB8EBA6;">⍺ / ⍨ ⍵</mark> - Filter array using Commute
 
 **Comment:** 
 Commute - <mark style="background: #FFB8EBA6;">⍺ f ⍨ ⍵</mark>  is  <mark style="background: #FFB8EBA6;">⍵ f ⍺</mark>  
 Selfie- <mark style="background: #ADCCFFA6;"> f ⍨ ⍵</mark>  is  <mark style="background: #ADCCFFA6;">⍵ f ⍵</mark>
+Jot - <mark style="background: #BBFABBA6;">(f g)Y</mark> is <mark style="background: #BBFABBA6;">f∘g Y</mark>
 
 ```APL
 
