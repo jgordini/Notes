@@ -13,9 +13,9 @@ Ft ← /⍨∘(≠∘⌊⍨)⍨ ⍝ Tacit Version - See Note
 
 **Quotes:**
 Tacit Version:
-1.  `⍵≠⌊` - Compare Argument with it's own Floor:Selfie
-2.  Preprocess the right argument with `≠` using the floor. Jot
-3. 
+1.  `⍵≠⌊` - Compare Argument with it's own Floor: Selfie
+2.  Preprocess the right argument with `≠` using the floor: Jot
+3. Again preprocess the right argumet and same on both sides: Jot Selfie
 
 
 **Comment:** 
