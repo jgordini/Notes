@@ -8,10 +8,14 @@
 **Example Solutions:**
 ```APL
 F ← {⍵/⍨⍵≠⌊⍵} ⍝ Compare the number against it's rounded version. Same is int. Different is Float.  
-Ft ← /⍨∘(≠∘⌊⍨)⍨ ⍝ Tacit Version
+Ft ← /⍨∘(≠∘⌊⍨)⍨ ⍝ Tacit Version - See Note
 	```
 
 **Quotes:**
+Tacit Version:
+1.  `⍵≠⌊` - Compare Argument with it's own Floor:Selfie
+2.  Preprocess the right argument with `≠` using the floor. Jot
+3. 
 
 
 **Comment:** 
@@ -24,13 +28,13 @@ Ft ← /⍨∘(≠∘⌊⍨)⍨ ⍝ Tacit Version
 [Not Equal to](https://aplwiki.com/wiki/Not_Equal_to) `≠` - a [comparison function](https://aplwiki.com/wiki/Comparison_function "Comparison function") which tests whether argument elements are unequal.
 [Compress](https://aplwiki.com/wiki/Replicate) `/` - aka FIlter - requires the number of copies to be [Boolean](https://aplwiki.com/wiki/Boolean "Boolean"): each element is either retained (1 copy) or discarded (0 copies)
 [Commute](https://aplwiki.com/wiki/Commute) `⍨` - aka Swap - used dyadically, the arguments are swapped. 
-[Commute](https://aplwiki.com/wiki/Commute) `⍨` - aka Seflie - used dyadically, the arguments are swapped. 
+
 
 **Concepts Used:**
 [Dfn](https://aplwiki.com/wiki/Dfn)
 [Tacit Programming](https://aplwiki.com/wiki/Tacit_programming)
 [Comparison Tolerance](https://www.jsoftware.com/papers/satn23.htm) - The tolerance is controlled by the value of a system variable ⎕ct .
-
+[Commute](https://aplwiki.com/wiki/Commute) `⍨` - can be used to emulate a monadic `f g h` [Fork](https://aplwiki.com/wiki/Fork "Fork") when combined with [Compose](https://aplwiki.com/wiki/Compose "Compose")
 
 
 
