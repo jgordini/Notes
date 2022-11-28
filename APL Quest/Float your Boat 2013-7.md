@@ -19,7 +19,8 @@ Tacit Version:
 
 
 **Comment:** 
-Selfie - <mark style="background: #FFB8EBA6;">⍺ f⍨ ⍵</mark>  is  <mark style="background: #FFB8EBA6;">⍵ f ⍺</mark> **and**<mark style="background: #ADCCFFA6;"> f⍨ ⍵</mark>  is  <mark style="background: #ADCCFFA6;">⍵ f ⍵</mark>
+Commute - <mark style="background: #FFB8EBA6;">⍺ f ⍨ ⍵</mark>  is  <mark style="background: #FFB8EBA6;">⍵ f ⍺</mark>  
+Selfie- <mark style="background: #ADCCFFA6;"> f ⍨ ⍵</mark>  is  <mark style="background: #ADCCFFA6;">⍵ f ⍵</mark>
 
 ```APL
 
