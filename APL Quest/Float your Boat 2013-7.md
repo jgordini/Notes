@@ -34,14 +34,13 @@ Selfie- <mark style="background: #ADCCFFA6;"> f ⍨ ⍵</mark>  is  <mark style=
 [Not Equal to](https://aplwiki.com/wiki/Not_Equal_to) `≠` - a [comparison function](https://aplwiki.com/wiki/Comparison_function "Comparison function") which tests whether argument elements are unequal.
 [Compress](https://aplwiki.com/wiki/Replicate) `/` - aka FIlter - requires the number of copies to be [Boolean](https://aplwiki.com/wiki/Boolean "Boolean"): each element is either retained (1 copy) or discarded (0 copies)
 [Commute](https://aplwiki.com/wiki/Commute) `⍨` - aka Swap - used dyadically, the arguments are swapped. 
-[Selfie](https://xpqz.github.io/learnapl/manip.html?highlight=selfie#selfie-commute-constant) `⍨` - 
-
+[Selfie](https://mastering.dyalog.com/Tacit-Programming.html?highlight=selfie#commute-selfie-and-constant) `⍨` - used monadically, the same argument gets used on both sides of the function. Thus, `F⍨y` is equivalent to - `y F y`.
+[Format](https://aplwiki.com/wiki/Format) - 
 
 **Concepts Used:**
 [Dfn](https://aplwiki.com/wiki/Dfn)
 [Tacit Programming](https://aplwiki.com/wiki/Tacit_programming)
 [Comparison Tolerance](https://www.jsoftware.com/papers/satn23.htm) - The tolerance is controlled by the value of a system variable ⎕ct .
-[Commute](https://aplwiki.com/wiki/Commute) `⍨` - can be used to emulate a monadic `f g h` [Fork](https://aplwiki.com/wiki/Fork "Fork") when combined with [Compose](https://aplwiki.com/wiki/Compose "Compose")
 [Function Composition](http://help.dyalog.com/latest/index.htm#Language/Primitive%20Operators/Operator%20Syntax.htm#Function_Composition)
 [Hook](https://aplwiki.com/wiki/Hook)
 [Derived Function](https://aplwiki.com/wiki/Derived_function)
