@@ -13,16 +13,16 @@ Ft ← /⍨∘(≠∘⌊⍨)⍨ ⍝ Tacit Version - See Note
 
 **Note:**
 <mark style="background: #FFF3A3A6;">Ft </mark> ← Tacit Derived Function - Composed of Operators
-Beginning with the Parenthesis (≠∘⌊⍨)
+Beginning with the Parenthesis `(≠∘⌊⍨)`
 1.  ⌊<mark style="background: #ADCCFFA6;">⍨</mark> ⍵ - Compare Argument with it's own Floor:  Selfie - ⍨
 2.  ≠<mark style="background: #BBFABBA6;">∘</mark>⌊⍨ ⍵ - Preprocess the right argument with `≠` using the floor: Jot - ∘
-3.   ⍺/ <mark style="background: #ADCCFFA6;">⍨</mark><mark style="background: #BBFABBA6;">∘</mark>⍵- Again preprocess the right argument with Selfie
-4.    <mark style="background: #FFB8EBA6;">⍺ /  ⍨ ⍵</mark> - Filter array using Commute
+3.   ⍺/ <mark style="background: #ADCCFFA6;">⍨</mark><mark style="background: #BBFABBA6;">∘</mark>⍵- Preprocess the parenthesis expression using Selfie
+4.    <mark style="background: #FFB8EBA6;">⍺/ ⍵⍵ ⍨ ⍵</mark> - Filter result using initial array: Commute - ⍨
 
 **Comment:** 
 Commute - <mark style="background: #FFB8EBA6;">⍺ f ⍨ ⍵</mark>  is  <mark style="background: #FFB8EBA6;">⍵ f ⍺</mark>  
 Selfie- <mark style="background: #ADCCFFA6;"> f ⍨ ⍵</mark>  is  <mark style="background: #ADCCFFA6;">⍵ f ⍵</mark>
-<mark style="background: #BBFABBA6;">Jot </mark> - {R}←{X} f∘g Y - Preprocess the right argument
+<mark style="background: #BBFABBA6;">Jot </mark> - {R}←{X} f∘g Y - Preprocess the right argument. Then apply the left.
 
 ```APL
 
@@ -44,6 +44,9 @@ Selfie- <mark style="background: #ADCCFFA6;"> f ⍨ ⍵</mark>  is  <mark style=
 [Commute](https://aplwiki.com/wiki/Commute) `⍨` - can be used to emulate a monadic `f g h` [Fork](https://aplwiki.com/wiki/Fork "Fork") when combined with [Compose](https://aplwiki.com/wiki/Compose "Compose")
 [Function Composition](http://help.dyalog.com/latest/index.htm#Language/Primitive%20Operators/Operator%20Syntax.htm#Function_Composition)
 [Hook](https://aplwiki.com/wiki/Hook)
+[Derived Function](https://aplwiki.com/wiki/Derived_function)
+
+
 
 
 [Outer Product](https://aplwiki.com/wiki/Outer_Product) `∘.`
