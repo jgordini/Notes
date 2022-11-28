@@ -51,6 +51,7 @@ Applying a function to a scaler doesn't change the function and will let APL eva
 [Match](https://aplwiki.com/wiki/match) `≡`
 [Power Match](https://aplwiki.com/wiki/Power_(operator))  `⍣≡` - Iterating until a fixed point is reached.
 [Atop](https://aplwiki.com/wiki/Atop_(operator)) `⍤` - takes two (monadic) functions and glues them together.  Uses the left operand to process the right
+<mark style="background: #BBFABBA6;">Regular Expressions</mark>
 [Variant](https://aplwiki.com/wiki/Variant) `⍠` - Switch Regex to plain text
 [Find](https://aplwiki.com/wiki/find) `⍷`
 [Rotate](https://aplwiki.com/wiki/rotate) `⌽`

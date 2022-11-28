@@ -4,59 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "9e1df6be826909b0",
+        "id": "375b92ff98282d5c",
         "type": "tabs",
         "children": [
           {
-            "id": "d950044ece8e15fa",
+            "id": "a34f7745f9939e6c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/2022-11-22.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "385fb9126a869adb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "APL Quest/Identity Crisis 2013-5.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3eb2d93ae9f800c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/2022-11-28.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "da6ac83b238fa6cf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "APL Quest/Whats in a Word 2013-3.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "APL Quest/Whats in a Word 2013-3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "APL Quest/Whats in a Word 2013-3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "APL Quest/Whats in a Word 2013-3.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -173,17 +128,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "da6ac83b238fa6cf",
+  "active": "a34f7745f9939e6c",
   "lastOpenFiles": [
+    "Daily Notes/2022-11-22.md",
+    "APL Quest/Identity Crisis 2013-5.md",
+    "Daily Notes/2022-11-28.md",
+    "APL Quest/Keeping Things In Balance 2013-4.md",
+    "APL Quest/Whats in a Word 2013-3.md",
     "APL Quest/Making the Grade 2013-2.md",
     "APL Quest/Float your Boat 2013-7.md",
-    "APL Quest/Whats in a Word 2013-3.md",
     "APL Quest/Seems a bit odd to me 2013-1.md",
-    "APL Quest/Keeping Things In Balance 2013-4.md",
-    "APL Quest/Identity Crisis 2013-5.md",
     "APL Quest/Home on the Range 2013-6.md",
-    "conflict-files-obsidian-git.md",
-    "Daily Notes/2022-11-28.md",
-    "Untitled.md"
+    "conflict-files-obsidian-git.md"
   ]
 }
