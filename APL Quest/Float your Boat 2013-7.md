@@ -16,11 +16,11 @@ Ft ← /⍨∘(≠∘⌊⍨)⍨ ⍝ Tacit Version - See Note
 Beginning with the Parenthesis `(≠∘⌊⍨)`
 1.  ⌊<mark style="background: #ADCCFFA6;">⍨</mark> ⍵ - Compare Argument with it's own Floor:  Selfie - ⍨
 2.  ≠<mark style="background: #BBFABBA6;">∘</mark>⌊⍨ ⍵ - Preprocess the right argument with `≠` using the floor: Jot - ∘
-3.    <mark style="background: #ADCCFFA6;">⍨</mark><mark style="background: #BBFABBA6;">∘</mark>⍵⍵- Preprocess the parenthesis expression using Selfie
-4.    <mark style="background: #FFB8EBA6;">⍺/ ⍵⍵ ⍨ ⍵</mark> - Filter result using initial array: Commute - ⍨
+3.   /<mark style="background: #ADCCFFA6;">⍨</mark><mark style="background: #BBFABBA6;">∘</mark>⍵⍵- Preprocess the parenthesis expression using Jot and then Swap
+4.    <mark style="background: #FFB8EBA6;">⍺/ ⍵⍵ ⍨ ⍵</mark> - Filter result using initial array: Swap - ⍨
 
 **Comment:** 
-Commute - <mark style="background: #FFB8EBA6;">⍺ f ⍨ ⍵</mark>  is  <mark style="background: #FFB8EBA6;">⍵ f ⍺</mark>  
+Swap - <mark style="background: #FFB8EBA6;">⍺ f ⍨ ⍵</mark>  is  <mark style="background: #FFB8EBA6;">⍵ f ⍺</mark>  
 Selfie- <mark style="background: #ADCCFFA6;"> f ⍨ ⍵</mark>  is  <mark style="background: #ADCCFFA6;">⍵ f ⍵</mark>
 <mark style="background: #BBFABBA6;">Jot </mark> - {R}←{X} f∘g Y - Preprocess the right argument. Then apply the left.
 
