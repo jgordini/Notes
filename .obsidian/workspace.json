@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Thanksgiving/Thanksgiving.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thanksgiving/Thanksgiving.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thanksgiving/Thanksgiving.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thanksgiving/Thanksgiving.md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -163,9 +163,9 @@
   },
   "active": "3eb2d93ae9f800c5",
   "lastOpenFiles": [
+    "Thanksgiving/Thanksgiving.md",
     "Thanksgiving/Shopping List.md",
     "Thanksgiving/Thanksg.pdf",
-    "Thanksgiving/Thanksgiving.md",
     "APL Quest/Home on the Range 2013-6.md",
     "APL Quest/Keeping Things In Balance 2013-4.md",
     "APL Quest/Identity Crisis 2013-5.md",
