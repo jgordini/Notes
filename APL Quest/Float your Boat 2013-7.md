@@ -45,7 +45,7 @@ Selfie- <mark style="background: #ADCCFFA6;"> f ⍨ ⍵</mark>  is  <mark style=
 [Signum](https://aplwiki.com/wiki/Signum) `×` -  three poss ible results of Signum on a real argument are `0`, `1`, and `¯1` : Positive, Negative and Zero
 [Encode](https://mastering.dyalog.com/Mathematical-Functions.html?highlight=encode#encode) `⊤` - `A⊤B`, turns `B` into a list(s) of digits in (mixed) base
 [Replicate](https://aplwiki.com/wiki/Replicate) `/` - copies each [element](https://aplwiki.com/wiki/Element "Element") of the right [argument](https://aplwiki.com/wiki/Argument "Argument") a given number of times
-Error Guard
+[Error Guard](http://help.dyalog.com/18.0/index.htm#Language/Defined%20Functions%20and%20Operators/DynamicFunctions/Error%20Guards.htm) `::` - vector of error numbers :: expression to be evaluated
 
 **Concepts Used:**
 [Dfn](https://aplwiki.com/wiki/Dfn)
