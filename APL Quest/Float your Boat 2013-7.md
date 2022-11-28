@@ -15,8 +15,9 @@ Ft ← /⍨∘(≠∘⌊⍨)⍨ ⍝ Tacit Version - See Note
 <mark style="background: #FFF3A3A6;">Ft </mark> ← Tacit Derived Function - Composed of Operators
 1.  ⌊<mark style="background: #ADCCFFA6;">⍨</mark> ⍵ - Compare Argument with it's own Floor:  Selfie - ⍨
 2.  ≠<mark style="background: #BBFABBA6;">∘</mark>⌊⍨ ⍵ - Preprocess the right argument with `≠` using the floor: Jot - ∘
-3.   ⍵/ <mark style="background: #ADCCFFA6;">⍨</mark><mark style="background: #BBFABBA6;">∘</mark> - Again preprocess the right argument and same on both sides: Jot Selfie and then Filter
-4. 
+3.   ⍵/ <mark style="background: #ADCCFFA6;">⍨</mark><mark style="background: #BBFABBA6;">∘</mark> - Again preprocess the right argument with Selfie
+4.    <mark style="background: #FFB8EBA6;">⍺ /f ⍨ ⍵</mark> - Filter using Commute
+5. 
 
 
 **Comment:** 
