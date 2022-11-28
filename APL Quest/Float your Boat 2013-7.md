@@ -16,7 +16,7 @@ Ft ← /⍨∘(≠∘⌊⍨)⍨ ⍝ Tacit Version - See Note
 Beginning with the Parenthesis `(≠∘⌊⍨)`
 1.  ⌊<mark style="background: #ADCCFFA6;">⍨</mark> ⍵ - Compare Argument with it's own Floor:  Selfie - ⍨
 2.  ≠<mark style="background: #BBFABBA6;">∘</mark>⌊⍨ ⍵ - Preprocess the right argument with `≠` using the floor: Jot - ∘
-3.   ⍺/ <mark style="background: #ADCCFFA6;">⍨</mark><mark style="background: #BBFABBA6;">∘</mark>⍵- Preprocess the parenthesis expression using Selfie
+3.    <mark style="background: #ADCCFFA6;">⍨</mark><mark style="background: #BBFABBA6;">∘</mark>⍵⍵- Preprocess the parenthesis expression using Selfie
 4.    <mark style="background: #FFB8EBA6;">⍺/ ⍵⍵ ⍨ ⍵</mark> - Filter result using initial array: Commute - ⍨
 
 **Comment:** 
