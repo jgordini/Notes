@@ -9,6 +9,7 @@
 ```APL
 	I←(⌈/-⌊/), ⍝ Tacit - ravel the array and the take the difference of the max and min
 	J←{0∊⍴⍵:0 ⋄ (⌈/-⌊/),⍵} ⍝ If zero is a member of the shape of the array return zero. Otherwise find the range. 
+	K←(⌈/-⌊/),,42/⍨0∊⍴ ⍝ If zero is a member of the shape of the array return 42. Otherwise return nothing. Catenate the result with the ravel of the array (See I). Take the difference of the max and min.  
 	```
 
 **Quotes:**
@@ -19,6 +20,7 @@
 ⌈/⍬ ⍝ Maximum of empty vector is smallest representable number. Minimum reduction produces the opposite value.
 ⊃⍤⌽ ⍝ Choose the last element of a vector
 1⌈≢ ⍝ is the length larger than one. Using this as a check to make sure it is not an empty array. Taking this result returns the entire array or zero if empty. 
+,, ⍝ Catenate the ravel
 ```
 
 **Glyphs Used:**
@@ -38,7 +40,11 @@
 [Tally](https://aplwiki.com/wiki/Tally) `≢` - Length of the array
 [Take](https://aplwiki.com/wiki/Take) `↑` - used to get the first few, or last few, elements of a vector
 [Identity ](https://aplwiki.com/wiki/Identity)`⊢` functions and operators rather than names are used to direct the flow of arguments
-
+[Replicate](https://xpqz.github.io/cultivations/Functions7.html?#replicate) `/` - copies each [element](https://aplwiki.com/wiki/Element "Element") of the right [argument](https://aplwiki.com/wiki/Argument "Argument") a given number of times
+[Catenate](https://aplwiki.com/wiki/Catenate) `,` - combines two arrays along a shared [axis](https://aplwiki.com/wiki/Axis "Axis"), left to right
+[Intersection](https://aplwiki.com/wiki/Intersection) `∩` - removes elements from the left which are not present in the right. Duplicates in the right do not matter.
+[Enlist](https://aplwiki.com/wiki/enlist) `∊` - Flattens over all levels of nesting
+[Match](https://aplwiki.com/wiki/match) `≡` - indicates whether the left and right [argument](https://aplwiki.com/wiki/Argument "Argument") arrays are identical
 
 **Concepts Used:**
 [Ravel Order](https://aplwiki.com/wiki/Ravel_order)
@@ -48,14 +54,3 @@
 [Sort](https://xpqz.github.io/learnapl/manip.html?highlight=sort#grade-up-down) `data[⍋data]` 
 [Overtake](https://aplwiki.com/wiki/Take#Overtaking) `↑` - A length larger than the argument length causes [fills](https://aplwiki.com/wiki/Fill_element "Fill element") to be inserted
 [Fork](https://aplwiki.com/wiki/Train#3-trains)
-
-
-
-[Radix](https://en.wikipedia.org/wiki/Radix)
-[Index Origin](https://aplwiki.com/wiki/Index_origin) - Generating Functions with that work with 0 or 1 origin
-[Outer Product](https://aplwiki.com/wiki/Outer_Product) `∘.`
-[Matrix Multiplication](https://en.wikipedia.org/wiki/Matrix_multiplication)
-[Vector Prefix](https://aplwiki.com/wiki/Prefix)
-[Boolean Mask](https://aplwiki.com/wiki/Boolean)
-[Complex Numbers](https://aplwiki.com/wiki/Complex_number)
-[Phase](https://en.wikipedia.org/wiki/Phase_(waves))
