@@ -11,11 +11,28 @@
             "id": "a34f7745f9939e6c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "APL Quest/Float your Boat 2013-7.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aef63917872a60f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "APL Quest/Go Forth and Multiply 2013-8.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "APL Quest/Go Forth and Multiply 2013-8.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "APL Quest/Go Forth and Multiply 2013-8.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +137,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "APL Quest/Go Forth and Multiply 2013-8.md"
+              }
             }
           }
         ]
@@ -128,17 +149,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a34f7745f9939e6c",
+  "active": "aef63917872a60f0",
   "lastOpenFiles": [
+    "APL Quest/Seems a bit odd to me 2013-1.md",
+    "APL Quest/Go Forth and Multiply 2013-8.md",
+    "APL Quest/Float your Boat 2013-7.md",
+    "APL Quest/Home on the Range 2013-6.md",
     "Daily Notes/2022-11-22.md",
     "APL Quest/Identity Crisis 2013-5.md",
     "Daily Notes/2022-11-28.md",
     "APL Quest/Keeping Things In Balance 2013-4.md",
     "APL Quest/Whats in a Word 2013-3.md",
-    "APL Quest/Making the Grade 2013-2.md",
-    "APL Quest/Float your Boat 2013-7.md",
-    "APL Quest/Seems a bit odd to me 2013-1.md",
-    "APL Quest/Home on the Range 2013-6.md",
-    "conflict-files-obsidian-git.md"
+    "APL Quest/Making the Grade 2013-2.md"
   ]
 }
