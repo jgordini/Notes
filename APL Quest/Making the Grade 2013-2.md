@@ -54,7 +54,7 @@ J ← 100×+.≥∘65÷≢ ⍝ Tacit
 [Default Left Arguments](https://aplwiki.com/wiki/Dfn#Default_left_arguments)
 [Fork](https://aplwiki.com/wiki/Train#2-trains) - 2 Train
 [Boolean Mask](https://aplwiki.com/wiki/Boolean)
-
+[Code Reuse](https://en.wikipedia.org/wiki/Code_reuse)
 
 
 

@@ -20,13 +20,16 @@ t←'abc '[?1e6⍴4] ⍝ Interesting use of bracket index to generate random wor
 ```
 
 **Glyphs Used:**
+<mark style="background: #BBFABBA6;">Split on Sequence of Spaces</mark>
 [Not equal to](https://aplwiki.com/wiki/Not_Equal_to)
+<mark style="background: #BBFABBA6;">Partition Function</mark>
 [Partition](https://aplwiki.com/wiki/Partition) - Uses ones to Partition
 [Tally](https://aplwiki.com/wiki/Tally)
 [Bind](https://aplwiki.com/wiki/Bind)
 [String Search](http://help.dyalog.com/18.0/index.htm#Language/System%20Functions/r.htm) - ⎕S
 [Verify Fixed Input](http://help.dyalog.com/18.0/index.htm#Language/System%20Functions/vfi.htm?Highlight=Verify%20and%20Fix%20Input) - ⎕VFI
 [First](https://aplwiki.com/wiki/First)
+<mark style="background: #BBFABBA6;">Compating Adjacent Elements</mark>
 [Reduce](https://aplwiki.com/wiki/Reduce) - Pair wise and plus reduction
 [Ravel](https://aplwiki.com/wiki/Ravel) - adding a space or a 1
 [Commute](https://aplwiki.com/wiki/Commute) aka Selfie
