@@ -33,9 +33,9 @@
             "id": "023b1f396158695c",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "image",
               "state": {
-                "file": "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf"
+                "file": "Trig/PDF/tan-unit-circle.png"
               }
             }
           },
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf",
+                "file": "Trig/PDF/tan-unit-circle.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf",
+                "file": "Trig/PDF/tan-unit-circle.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf"
+                "file": "Trig/PDF/tan-unit-circle.png"
               }
             }
           }
@@ -171,15 +171,15 @@
   },
   "active": "023b1f396158695c",
   "lastOpenFiles": [
-    "Trig/PDF/Mth_125s_Precalculus_Review.pdf",
     "Trig/PDF/Trig_Cheat_Sheet.pdf",
+    "Trig/PDF/Cunningham MTH 113 Couse Outline Online Fall 2022 Sheet1.pdf",
+    "Trig/PDF/Mth_125s_Precalculus_Review.pdf",
     "Trig/PDF/tan-unit-circle.png",
     "Trig/PDF/Algebra_Cheat_Sheet.pdf",
     "Thanksgiving/Thanksg.pdf",
     "APL Quest/Float your Boat 2013-7.md",
     "APL Quest/Home on the Range 2013-6.md",
     "Daily Notes/2022-11-24.md",
-    "Thanksgiving/Thanksgiving.md",
-    "APL Quest/Identity Crisis 2013-5.md"
+    "Thanksgiving/Thanksgiving.md"
   ]
 }
