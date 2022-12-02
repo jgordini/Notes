@@ -8,9 +8,16 @@
 **Example Solutions:**
 ```APL
 F←{1-⍨2×⍳⍵}
-F←(⍳+⍳-≢) ⍝ Tacit
-F←{⍸2|⍳2×⍵} ⍝ Any ⎕IO
+G←(⍳+⍳-≢) ⍝ Tacit
+H←{⍸2|⍳2×⍵} ⍝ Any ⎕IO
 ```
+**Explanation:**
+F←{1-⍨2×⍳⍵}
+1. 
+
+
+
+
 
 **Glyphs Used:**
 [Iota](https://aplwiki.com/wiki/Index_Generator)
