@@ -8,13 +8,23 @@
 **Example Solutions:**
 ```APL
 F←{1-⍨2×⍳⍵}
-F←(⍳+⍳-≢) ⍝ Tacit
-F←{⍸2|⍳2×⍵} ⍝ Any ⎕IO
+G←(⍳+⍳-≢) ⍝ Tacit
+H←{⍸2|⍳2×⍵} ⍝ Any ⎕IO
 ```
+**Explanation:**
+F←{1-⍨2×⍳⍵}
+1. `⍳⍵` - Use [Iota](https://aplwiki.com/wiki/Index_Generator) to generate the first `⍵` natural numbers (1, 2, 3, 4 etc.)
+2.  `1-⍨2×` - [Swap](https://xpqz.github.io/learnapl/manip.html?#selfie-commute-constant)  ⍨ - `(2×⍳5)-1` - Preserves the right to left order. 
+3. Multiply the values by 2
+4. Subtract one from each of the array values.
+
+
+
 
 **Glyphs Used:**
-[Iota](https://aplwiki.com/wiki/Index_Generator)
-[Commute](https://aplwiki.com/wiki/Commute) aka Selfie
+[Index](https://aplwiki.com/wiki/Index_Generator) - aka Iota - The notation `⍳N` where `N` is a natural number, describes a vector of the first `N` natural numbers. Starting from 0 or 1 depending on the [Index Origin](https://aplwiki.com/wiki/Index_origin) 
+
+[Commute](https://aplwiki.com/wiki/Commute) aka Swap
 [Quad](https://aplwiki.com/wiki/Quad_name)
 [Identity](https://aplwiki.com/wiki/Identity)
 [Reshape](https://aplwiki.com/wiki/Reshape)
