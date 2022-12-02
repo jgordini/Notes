@@ -14,8 +14,8 @@ H←{⍸2|⍳2×⍵} ⍝ Any ⎕IO
 **Explanation:**
 F←{1-⍨2×⍳⍵}
 1. `⍳⍵` - Use [Iota](https://aplwiki.com/wiki/Index_Generator) to generate the first `⍵` natural numbers (1, 2, 3, 4 etc.)
-2.  `1-⍨2×` - [Swap](https://aplwiki.com/wiki/Commute)  subract with multiply. Subtract 1 from each value
-3. Mulitply each value by 2.
+2.  `1-⍨2×` - [Swap](https://aplwiki.com/wiki/Commute)  
+3. Mulitply each value by 2. ex `(2×⍳5)-1`
 
 
 
