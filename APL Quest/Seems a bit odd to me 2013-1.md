@@ -14,9 +14,9 @@ H←{⍸2|⍳2×⍵} ⍝ Any ⎕IO
 **Explanation:**
 F←{1-⍨2×⍳⍵}
 1. `⍳⍵` - Use [Iota](https://aplwiki.com/wiki/Index_Generator) to generate the first `⍵` natural numbers (1, 2, 3, 4 etc.)
-2.  `1-⍨2×` - [Swap](https://aplwiki.com/wiki/Commute)  ⍨ - `(2×⍳5)-1` - Preserves the right to left order. 
-3. Multiply values by 2
-4. Subtract one from each of the array values 
+2.  `1-⍨2×` - [Swap](https://xpqz.github.io/learnapl/manip.html?#selfie-commute-constant)  ⍨ - `(2×⍳5)-1` - Preserves the right to left order. 
+3. Multiply the values by 2
+4. Subtract one from each of the array values.
 
 
 
