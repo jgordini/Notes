@@ -13,14 +13,16 @@ H←{⍸2|⍳2×⍵} ⍝ Any ⎕IO
 ```
 **Explanation:**
 F←{1-⍨2×⍳⍵}
-1. 
+1. `⍳⍵` - Use [Iota](https://aplwiki.com/wiki/Index_Generator) to generate the first `⍵` natural numbers (1, 2, 3, 4 etc.)
+2.  `-⍨` - 
 
 
 
 
 
 **Glyphs Used:**
-[Iota](https://aplwiki.com/wiki/Index_Generator)
+[Index](https://aplwiki.com/wiki/Index_Generator) - aka Iota - The notation `⍳N` where `N` is a natural number, describes a vector of the first `N` natural numbers. Starting from 0 or 1 depending on the [Index Origin](https://aplwiki.com/wiki/Index_origin) 
+
 [Commute](https://aplwiki.com/wiki/Commute) aka Selfie
 [Quad](https://aplwiki.com/wiki/Quad_name)
 [Identity](https://aplwiki.com/wiki/Identity)
