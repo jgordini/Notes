@@ -29,6 +29,8 @@ G←(⍸1 0⍴⍨2×⊢)
 2. `1 0⍴⍨2×⊢` [Swap](https://xpqz.github.io/learnapl/manip.html?#selfie-commute-constant)  ⍨ - parses as `((2×⍵)⍴1 0)` 
 3. `1 0⍴` [Reshape](https://aplwiki.com/wiki/Reshape)  see above -  returns the argument as boolean vector of ones and zeros
 4. `⍸` [Where](https://aplwiki.com/wiki/Identity)  gives the indices of ones in a Boolean [vector](https://aplwiki.com/wiki/Vector "Vector")
+
+
 ```APL
 H←{⍸2|⍳2×⍵} ⍝ Either Index Origin
 ```
@@ -51,11 +53,11 @@ I←{+\2-⍵↑1} ⍝ Works with ⎕IO←0 or 1
 3. `+\` - [Plus Scan](https://mastering.dyalog.com/Operators.html?highlight=scan#scan) returns the running sums from the vector in step two. (1 3 5 7 9)
 
 ```APL
-I←(⍳+⍳-≢) ⍝ Tacit 
+I←(⍳+⍳-≢) ⍝ {(⍳⍵)+((⍳⍵)-(≢⍵))}
 ```
 
-1. `⍳-≢` - [Indices](https://aplwiki.com/wiki/Indices)  of argument, subtracted from the [Tally](https://aplwiki.com/wiki/Tally) of the argument `((⍳⍵)-(≢⍵))` *ex* (5 4 3 2 1) - (5)
-
+1. `⍳-≢` - [Indices](https://aplwiki.com/wiki/Indices)  of argument, subtracted from the [Tally](https://aplwiki.com/wiki/Tally) of the argument `((⍳⍵)-(≢⍵))` *ex*  1-⍨⍳5 (0 1 2 3 4)
+2. `⍳+⍳-≢` -  [Indices](https://aplwiki.com/wiki/Indices)  of argument added to the result from step 1. 
 
 **Glyphs Used:**
 [Index](https://aplwiki.com/wiki/Index_Generator) - aka Iota - The notation `⍳N` where `N` is a natural number, describes a vector of the first `N` natural numbers. Starting from 0 or 1 depending on the [Index Origin](https://aplwiki.com/wiki/Index_origin) 
