@@ -30,7 +30,6 @@ G←(⍸1 0⍴⍨2×⊢)
 3. `1 0⍴` [Reshape](https://aplwiki.com/wiki/Reshape)  see above -  returns the argument as boolean vector of ones and zeros
 4. `⍸` [Where](https://aplwiki.com/wiki/Identity)  gives the indices of ones in a Boolean [vector](https://aplwiki.com/wiki/Vector "Vector")
 
-
 ```APL
 H←{⍸2|⍳2×⍵} ⍝ Either Index Origin
 ```
@@ -56,32 +55,20 @@ I←{+\2-⍵↑1} ⍝ Works with ⎕IO←0 or 1
 I←(⍳+⍳-≢) ⍝ {(⍳⍵)+((⍳⍵)-(≢⍵))}
 ```
 
-1. `⍳-≢` - [Indices](https://aplwiki.com/wiki/Indices)  of argument, subtracted from the [Tally](https://aplwiki.com/wiki/Tally) of the argument `((⍳⍵)-(≢⍵))` *ex*  1-⍨⍳5 (0 1 2 3 4)
+1. `⍳-≢` - [Indices](https://aplwiki.com/wiki/Indices)  of argument, subtracted from the [Tally](https://aplwiki.com/wiki/Tally) of the argument (1 item)  *ex*  1-⍨⍳5 (0 1 2 3 4)
 2. `⍳+⍳-≢` -  [Indices](https://aplwiki.com/wiki/Indices)  of argument added to the result from step 1. 
+*ex* `(⍳5)+(⍳5)-1` (1 3 5 7 9)
 
 **Glyphs Used:**
 [Index](https://aplwiki.com/wiki/Index_Generator) - aka Iota - The notation `⍳N` where `N` is a natural number, describes a vector of the first `N` natural numbers. Starting from 0 or 1 depending on the [Index Origin](https://aplwiki.com/wiki/Index_origin) 
 
-[Commute](https://aplwiki.com/wiki/Commute) aka Swap
-[Quad](https://aplwiki.com/wiki/Quad_name)
-[Identity](https://aplwiki.com/wiki/Identity)
-[Reshape](https://aplwiki.com/wiki/Reshape)
-[Indices](https://aplwiki.com/wiki/Indices) aka Where
-[Residue](https://aplwiki.com/wiki/Residue) aka Modulus 
-[Take](https://aplwiki.com/wiki/Take)
-[Scan](https://aplwiki.com/wiki/Scan)
-[Power](https://aplwiki.com/wiki/Power_(function))
-[Branch](https://aplwiki.com/wiki/Branch)
-[Tally](https://aplwiki.com/wiki/Tally)
-
-
 **Concepts Used:**
 [Dfn](https://aplwiki.com/wiki/Dfn)
 [Tacit Programming](https://aplwiki.com/wiki/Tacit_programming)
+https://tacit.help/
 [Boolean Mask](https://aplwiki.com/wiki/Boolean)
 [Parity - Modulous 2](https://xpqz.github.io/cultivations/Functions2.html#magnitude-residue)
 [Fill Elements](https://aplwiki.com/wiki/Fill_element) - Padding with zeros
-[Control Structure](https://aplwiki.com/wiki/Control_structure)
 [Fork](https://aplwiki.com/wiki/Train#3-trains) - 3 Train
 
 
