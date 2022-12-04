@@ -12,6 +12,36 @@ F ← {100×(+/⍵≥65)÷≢⍵}
 J ← 100×+.≥∘65÷≢ ⍝ Tacit
 ```
 
+**Explanation:**
+```APL
+F ← {100×(+/⍵≥65)÷≢⍵}
+```
+
+1.  `(+/⍵≥65)` use [greater than or equal to](https://aplwiki.com/wiki/Greater_than_or_Equal_to) as a [Comparison Function](https://aplwiki.com/wiki/Comparison_function) return ing a boolean vector of 1 if true and 0 if false. Then [sum](https://aplwiki.com/wiki/Reduce) the result - `+/`. 
+2. `÷≢⍵`  [Tally](https://aplwiki.com/wiki/Tally) the length of your argument and divde that by the result in step 1. 
+3. Multiply this by 100 to get your percentage of passing grades. 
+
+**Performance:**
+```APL
+F ← {100×(+/⍵≥65)÷≢⍵}
+G ← {100×+/(⍵≥65)÷≢⍵}
+H ← {+/100×(⍵≥65)÷≢⍵}
+```
+Note that it does not matter where we do the sum mathmatically. However there are siginificant performance penalties for summing after the division.
+
+```APL
+s←?1e6⍴100
+'cmpx'⎕cy'dfns'
+cmpx'F s' 'G s' 'H s'
+```
+We can evalute the performance of each function by importing the [CMPX](http://dfns.dyalog.com/n_cmpx.htm) function from the [DFNS](http://dfns.dyalog.com/n_contents.htm) library. 
+1.  We [Roll](https://aplwiki.com/wiki/Roll)1 million `1e6` random numbers between 1 and 100
+2.  We [copy](http://help.dyalog.com/latest/Content/Language/System%20Functions/cy.htm) `⎕cy` CMPX from the DFNS library into our workspace
+3.  We use cmpx to evalute the performance of each function. With the first function as our baseline. 
+
+
+
+
 **Quotes:**
 *We are dealing with a scaler (65) and a vector (Scores). We should notice this pattern. We have a sum over a comparison of vectors. When we have that, we should think, Inner Product.*
 
