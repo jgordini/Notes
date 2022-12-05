@@ -17,15 +17,16 @@ J ← 100×+.≥∘65÷≢ ⍝ Tacit
 F ← {100×(+/⍵≥65)÷≢⍵}
 ```
 
-1.  `(+/⍵≥65)` use [greater than or equal to](https://aplwiki.com/wiki/Greater_than_or_Equal_to) as a [Comparison Function](https://aplwiki.com/wiki/Comparison_function) return ing a boolean vector of 1 if true and 0 if false. Then [sum](https://aplwiki.com/wiki/Reduce) the result - `+/`. 
-2. `÷≢⍵`  [Tally](https://aplwiki.com/wiki/Tally) the length of your argument and divde that by the result in step 1. 
-3. Multiply this by 100 to get your percentage of passing grades. 
+1.  `(+/⍵≥65)` use [greater than or equal to](https://aplwiki.com/wiki/Greater_than_or_Equal_to) as a [Comparison Function](https://aplwiki.com/wiki/Comparison_function) returning a boolean vector of 1 if true and 0 if false. 
+2. Then [sum](https://aplwiki.com/wiki/Reduce) the result - `+/`. 
+3. `÷≢⍵`  [Tally](https://aplwiki.com/wiki/Tally) the length of your argument and divde that by the result in step 1. 
+4. Multiply this by 100 to get your percentage of passing grades. 
 
 **Performance:**
 ```APL
-F ← {100×(+/⍵≥65)÷≢⍵}
-G ← {100×+/(⍵≥65)÷≢⍵}
-H ← {+/100×(⍵≥65)÷≢⍵}
+F ← {100×(+/⍵≥65)÷≢⍵} ⍝ n:≥ n-1:+ 1:÷ 1:×
+G ← {100×+/(⍵≥65)÷≢⍵} ⍝ n:≥ n-1:+ n:÷ 1:×
+H ← {+/100×(⍵≥65)÷≢⍵} ⍝ n:≥ n-1:+ n:÷ n:×
 ```
 Note that it does not matter where we do the sum mathmatically. However there are siginificant performance penalties for summing after the division.
 
@@ -33,19 +34,32 @@ Note that it does not matter where we do the sum mathmatically. However there ar
 s←?1e6⍴100
 'cmpx'⎕cy'dfns'
 cmpx'F s' 'G s' 'H s'
+⍝ F s → 6.6E¯5 | 0%
+⍝ G s → 2.4E¯3 | +3451%
+⍝ H s → 2.8E¯3 | +4126% 
 ```
 We can evalute the performance of each function by importing the [CMPX](http://dfns.dyalog.com/n_cmpx.htm) function from the [DFNS](http://dfns.dyalog.com/n_contents.htm) library. 
 1.  We [Roll](https://aplwiki.com/wiki/Roll)1 million `1e6` random numbers between 1 and 100
 2.  We [copy](http://help.dyalog.com/latest/Content/Language/System%20Functions/cy.htm) `⎕cy` CMPX from the DFNS library into our workspace
 3.  We use cmpx to evalute the performance of each function. With the first function as our baseline. 
+```APL
+F ← {100×(+/⍵≥65)÷≢⍵}
+I ← {100×(⍵+.≥65)÷≢⍵}
+J ← 100×+.≥∘65÷≢ ⍝ Tacit
+K ← 100×+.≤÷≢⍤⊢
+```
 
+We are dealing with a scaler (65) and a vector (Scores). We should notice this pattern. We have a sum over a comparison of vectors. When we have that, we should think, [Inner Product](https://aplwiki.com/wiki/Inner_Product). 
 
+1.  `+.≥`  Replace reduce in `+/` with inner product
+2. (J) 65 is a [Bound](https://aplwiki.com/wiki/Bind) constant to the inner product allowing us to remove the parenthesis.
+3. J is parsed as `{100×((⍵(+.≥)65)÷(≢⍵))}`
 
+**Generalization:** Adding the cutoff point as an additional argument
+1. K is parsed as `{100×((⍺(+.≤)⍵)÷(≢⍵))}` 
+2. We are reversing the `≥` so that the Cuttoff Point (65) can be taken as the left argument. Represented by `⍺` in step 1. 
+3. `≢⍤⊢` We use Atop so that we can apply [Tally](https://aplwiki.com/wiki/Tally) monadically. (Dyadic Tally is [Not Match](https://aplwiki.com/wiki/Not_Match)) We could also use Jot `≢∘⊢` in this case and achieve the same result. 
 
-**Quotes:**
-*We are dealing with a scaler (65) and a vector (Scores). We should notice this pattern. We have a sum over a comparison of vectors. When we have that, we should think, Inner Product.*
-
-*65 is a bound constant to the inner product.* 
 
 **Comment:** 
 ```APL
@@ -85,7 +99,8 @@ We can evalute the performance of each function by importing the [CMPX](http://d
 [Fork](https://aplwiki.com/wiki/Train#2-trains) - 2 Train
 [Boolean Mask](https://aplwiki.com/wiki/Boolean)
 [Code Reuse](https://en.wikipedia.org/wiki/Code_reuse)
-
+[Scalar Extension](https://aplwiki.com/wiki/Scalar_extension)
+[Conformability](https://aplwiki.com/wiki/Conformability)
 
 
 
