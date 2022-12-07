@@ -316,11 +316,9 @@ To solve this problem, we can use the law of cosines. The law of cosines states 
 
 c^2 = a^2 + b^2 - 2ab * cos(C)
 
-In our case, we have side a = 450, side b = 390, and angle C = 34 degrees, so we can plug these values into the equation to find the value of c:
+In our case, we have side a = 450, side b = 390, and angle C = 34 degrees, so we can plug these values into the equation to find the value of c
 
-c^2 = 450^2 + 390^2 - 2 * 450 * 390 * cos(34) c^2 = 202500 + 152100 - 271800 * 0.819 c^2 = 354600 c = 595
-
-Therefore, the distance between the kites is approximately 595 feet.
+c=252.205
 ```
 
 28. Simplify the following trigonometric expression. sin(z) + cos(–z) + sin(–z)
@@ -340,7 +338,9 @@ Finally, we can use the fact that the sum of the sines of two angles is equal to
 
 Therefore, the simplified expression is cos(z).
 ```
+
 29. simplify (1-cosx)/sinx + sinx/(1-cosx) as 2cscx
+
 ```
 prove this identity, we can begin by expanding both sides of the equation using the definition of the `Divide` function. This gives us:
 
