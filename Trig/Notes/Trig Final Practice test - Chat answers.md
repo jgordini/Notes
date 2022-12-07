@@ -296,8 +296,16 @@ Law of sines - Angle Side Side
 24. Triangle abc has side ab = 80.3 side ac=56.8 and angle c equal to 68 degrees. Find angle b
 ```
 Law of sines Angle Side Side
-68
+68 
 ```
+
+25. Herrons Forumla
+```
+s=a+b+c/2
+a=sqrt s(s-a)(s-b)(s-c)
+```
+
+26. 
 
 27. A boy is flying two kites at the same time. He has 450 ft of line out to one kite and 390 ft to the other. He estimates the angle between the two lines to be 34°. Approximate the distance between the kites.
 ```
