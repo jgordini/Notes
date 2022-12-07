@@ -305,7 +305,10 @@ s=a+b+c/2
 a=sqrt s(s-a)(s-b)(s-c)
 ```
 
-26. 
+26. Law of cosines
+```
+c^2 = a^2+b^2-2ab(cos(c))
+```
 
 27. A boy is flying two kites at the same time. He has 450 ft of line out to one kite and 390 ft to the other. He estimates the angle between the two lines to be 34°. Approximate the distance between the kites.
 ```
