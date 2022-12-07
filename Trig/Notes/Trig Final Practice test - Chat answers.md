@@ -281,123 +281,22 @@ Note: This is just a rough approximation and assumes that the ground is flat. In
 
 22. in triangle ABC a=109 degrees b=22 degrees and the hypotenuse is 187 feet. Find the distance between a and b
 ```
-In order to find the distance between points A and B in this triangle, we can use the law of cosines. This states that the square of the length of the hypotenuse of a right triangle is equal to the sum of the squares of the lengths of the other two sides.
-
-In this case, the length of the hypotenuse is 187 feet, and we are given the angles A and B, so we can set up the following equation:
-
-`187^2 = x^2 + y^2`
-
-where x and y are the lengths of the sides opposite angles A and B, respectively.
-
-We can use the fact that the cosine of an angle is equal to the adjacent side divided by the hypotenuse to find the values of x and y. In this case, we have:
-
-`cos A = x / 187 cos B = y / 187`
-
-We are given the values of the angles A and B, so we can use a calculator to find the cosines of these angles, which are approximately 0.8020 and 0.9397, respectively. Plugging these values into the equations above, we get:
-
-`x = 187 * 0.8020 = 150.17 feet y = 187 * 0.9397 = 175.94 feet`
-
-Finally, we can use the Pythagorean theorem to find the distance between points A and B, which is the square root of the sum of the squares of x and y. This gives us a distance of approximately 202.23 feet.
-
-`distance = sqrt(150.17^2 + 175.94^2) = 202.23 feet`
-
-Again, this is just a rough approximation and may not be completely accurate due to factors such as rounding errors and the assumptions made in the calculation.
+Law of Sines -  Side Angle Angle
+187 lsin 49 109
 ```
 
 23. Use the Law of Sines to solve for all possible triangles that satisfy b = 23, c = 35, ∠B = 25º conditions.
 
 ```
-Since b = 23, c = 35, and ∠B = 25º are given, we can use the Law of Sines to find the remaining sides and angles of the triangle.
-
-First, we find the value of ∠A:
-
-sin(A) = sin(180 - B - C) = sin(180 - 25 - 90) = sin(65)
-
-Then, we find the value of a:
-
-a/sin(A) = b/sin(B) = c/sin(C)
-
-Substituting the given values, we get:
-
-a/sin(65) = 23/sin(25) = 35/sin(90)
-
-Solving for a, we get:
-
-a = (23/sin(25)) * sin(65) = 29.45
-
-Next, we find the value of ∠C:
-
-sin(C) = sin(180 - A - B) = sin(180 - 65 - 25) = sin(90)
-
-Since sin(C) = sin(90), ∠C = 90º.
-
-Finally, we can use the Law of Sines to find the value of ∠B:
-
-sin(B) = sin(180 - A - C) = sin(180 - 65 - 90) = sin(25)
-
-Since sin(B) = sin(25), ∠B = 25º.
-
-Thus, the possible triangles that satisfy the given conditions are:
-
-Triangle 1: a = 29.45, b = 23, c = 35, ∠A = 65º, ∠B = 25º, ∠C = 90º
-
-Triangle 2: a = 29.45, b = 23, c = 35, ∠A = 65º, ∠B = 25º, ∠C = 90º
-
-Triangle 3: a = 29.45, b = 23, c = 35, ∠A = 65º, ∠B = 25º, ∠C = 90º
-
-Triangle 4: a = 29.45, b = 23, c = 35, ∠A = 65º, ∠B = 25º, ∠C = 90º
+Law of sines - Angle Side Side
+25 lsr 35 23
+180-25+40 = angle A
 ```
 
 24. Triangle abc has side ab = 80.3 side ac=56.8 and angle c equal to 68 degrees. Find angle b
 ```
-To find the angle B, we can use the law of cosines. The law of cosines states that in a triangle with sides a, b, and c and opposite angles A, B, and C, the following equation holds:
-
-c^2 = a^2 + b^2 - 2ab * cos(C)
-
-In our case, we have side a = 56.8, side b = 80.3, and angle C = 68 degrees, so we can plug these values into the equation to find the value of c^2:
-
-c^2 = 56.8^2 + 80.3^2 - 2 * 56.8 * 80.3 * cos(68) c^2 = 3225.064 + 6464.09 - 9105.664 * 0.867 c^2 = 9690.154 c = 98.68
-
-Now that we know the value of side c, we can use the law of sines to find angle B. The law of sines states that in a triangle with sides a, b, and c and opposite angles A, B, and C, the following equation holds:
-
-a / sin(A) = b / sin(B) = c / sin(C)
-
-In our case, we have side a = 56.8, side b = 80.3, angle C = 68 degrees, and side c = 98.68, so we can plug these values into the equation to find the value of angle B:
-
-56.8 / sin(A) = 80.3 / sin(B) = 98.68 / sin(68) sin(B) = 56.8 / (80.3 / sin(68)) sin(B) = 56.8 / 0.711 B = sin^-1(0.794) B = 67.16 degrees
-
-Therefore, the angle B is approximately 67.16 degrees.
-```
-
-25. Find the area of the triangle whose sides have the given lengths. a = 4, b = 13, c =15
-```
-To find the area of a triangle with sides of length 4, 13, and 15, we can use Heron's formula. Heron's formula states that the area of a triangle with sides of lengths a, b, and c is equal to the square root of s(s - a)(s - b)(s - c), where s is the semiperimeter of the triangle, which is equal to (a + b + c) / 2.
-
-s = (4 + 13 + 15) / 2 s = 32 / 2 s = 16 A = sqrt(16 * (16 - 4) * (16 - 13) * (16 - 15)) A = sqrt(16 * 12 * 3 * 1) A = sqrt(576) A = 24
-
-Therefore, the area of the triangle is approximately 24.
-```
-26. Solve triangle ABC, if a = 17, b = 10, and angle c = 117 degrees
-```
-To solve a triangle means to find all of its unknown sides and angles. To do this, we need to know at least three pieces of information about the triangle. In the case of triangle ABC, we are given three pieces of information: the length of side a (17), the length of side b (10), and the measure of angle C (117 degrees).
-
-First, we can use the law of cosines to find the length of side c. The law of cosines states that in a triangle with sides a, b, and c and opposite angles A, B, and C, the following equation holds:
-
-c^2 = a^2 + b^2 - 2ab * cos(C)
-
-In our case, we have side a = 17, side b = 10, and angle C = 117 degrees, so we can plug these values into the equation to find the value of c:
-
-c^2 = 17^2 + 10^2 - 2 * 17 * 10 * cos(117) c^2 = 289 + 100 - 306 * 0.224 c^2 = 289 + 100 - 68.64 c^2 = 301.36 c = 17.35
-
-Now that we know the length of side c, we can use the law of sines to find the measure of angles A and B. The law of sines states that in a triangle with sides a, b, and c and opposite angles A, B, and C, the following equation holds:
-
-a / sin(A) = b / sin(B) = c / sin(C)
-
-In our case, we have side a = 17, side b = 10, angle C = 117 degrees, and side c = 17.35, so we can use the equation to find the values of angles A and B:
-
-17 / sin(A) = 10 / sin(B) = 17.35 / sin(117) sin(A) = 10 * sin(117) / 17 A = sin^-1(0.599) A = 37.31 degrees sin(B) = 17 * sin(117) / 17.35 B = sin^-1(0.998) B = 87.62 degrees
-
-Therefore, the triangle ABC has sides of length 17, 10, and 17.35 and angles of measure 37.31 degrees, 87.62 degrees, and 117 degrees.
+Law of sines Angle Side Side
+68
 ```
 
 27. A boy is flying two kites at the same time. He has 450 ft of line out to one kite and 390 ft to the other. He estimates the angle between the two lines to be 34°. Approximate the distance between the kites.
