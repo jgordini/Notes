@@ -11,8 +11,26 @@
 	L ← {+/2</1,⍨' '=⍵} ⍝ fastest solution append a bit
 ```
 
-**Quotes:**
-*Partition uses 1's and requrires an axis. So we must ravel first if we have a scaler.* 
+**Examples:**
+
+```APL
+F ← ≢' '∘≠⊆, ⍝ Tacit - binding the space to the not equal to make monadic. 
+```
+1.  Split on sequences of spaces
+2. `' '=s` [Equal To](https://aplwiki.com/wiki/Equal_to) compares arrays one [element](https://aplwiki.com/wiki/Element "Element") at a time. Returns a boolean vector of 1 for match and 0 for no-match. 
+3. `⊆` [Partition](https://aplwiki.com/wiki/Partition)  splits on the 0s when the left argument is boolean.. So we use [Not equal to](https://aplwiki.com/wiki/Not_Equal_to) `≠⊆` to create runs of 1s. 
+4. `⊆` [Partition](https://aplwiki.com/wiki/Partition) also requires an axis. So to use a [Comparison Function](https://aplwiki.com/wiki/Comparison_function) on a scaler we must [Ravel](https://aplwiki.com/wiki/Ravel)  `⊆,`first. 
+5. `' '∘≠` We [Bind](https://aplwiki.com/wiki/Bind) the space to the [Not equal to](https://aplwiki.com/wiki/Not_Equal_to) to achieve a monadic function. 
+6. `≢` Last we [Tally](https://aplwiki.com/wiki/Tally) to count the number of major cells or items. 
+
+```APL
+G ← ≢'[^ ]+'⎕S 3
+```
+
+1. Use [Regular Expressions](https://xpqz.github.io/cultivations/Regex.html)
+2. `⎕S` [String Search](http://help.dyalog.com/18.0/index.htm#Language/System%20Functions/r.htm) 
+
+
 
 **Comment:** 
 ```APL
