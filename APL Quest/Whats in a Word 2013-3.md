@@ -27,8 +27,28 @@ F ← ≢' '∘≠⊆, ⍝ Tacit - binding the space to the not equal to make mo
 G ← ≢'[^ ]+'⎕S 3
 ```
 
-1. Use [Regular Expressions](https://xpqz.github.io/cultivations/Regex.html)
-2. `⎕S` [String Search](http://help.dyalog.com/18.0/index.htm#Language/System%20Functions/r.htm) 
+1. Use [Regular Expressions](https://xpqz.github.io/cultivations/Regex.html) You can use [regexr.com](https://regexr.com/) to evaluate.
+2. `⎕S` [String Search](http://help.dyalog.com/18.0/index.htm#Language/System%20Functions/r.htm) -regex enclosed in single quotes
+3. `[^ ]+` Matches anything that is not a space
+4. [Transformation Codes](http://help.dyalog.com/18.0/index.htm#Language/System%20Functions/r.htm) for each match in the input document, a numeric scalar or vector of the same shape as the transformation codes is created.
+5. `3`  - Pattern number which matched the input document, origin Zero
+6.  [Tally](https://aplwiki.com/wiki/Tally) to count the number of patterns
+
+```APL
+H ← ≢∘⊃⎕VFI
+```
+1. `⎕VFI` - [Verify and Fix Input](https://xpqz.github.io/cultivations/Constants.html?highlight=fix%20input#verify-and-fix-input-vfi) - takes a string and returns two lists. It cuts the string into space separated fields. Then it attempts to convert each field to a number.
+2. `⊃` - Monadic [Pick](https://xpqz.github.io/learnapl/indexing.html?highlight=first#pick) picks the first element. In this case the first vector.
+3. `≢∘⊃` - [Bind](https://mastering.dyalog.com/Tacit-Programming.html?highlight=bind#binding) When we use the operator _bind_, we create a single derived function that is monadic.  That way we can give it a name. 
+
+```APL
+I ← {+/2</' '≠' ',⍵}
+J ← {+/2</0,' '≠⍵}
+K ← {(⊃m)++/2</m←' '≠,⍵}
+L ← {+/2</1,⍨' '=⍵}
+```
+
+
 
 
 
