@@ -11,8 +11,46 @@
 	L ← {+/2</1,⍨' '=⍵} ⍝ fastest solution append a bit
 ```
 
-**Quotes:**
-*Partition uses 1's and requrires an axis. So we must ravel first if we have a scaler.* 
+**Examples:**
+
+```APL
+F ← ≢' '∘≠⊆, ⍝ Tacit - binding the space to the not equal to make monadic. 
+```
+1.  Split on sequences of spaces
+2. `' '=s` [Equal To](https://aplwiki.com/wiki/Equal_to) compares arrays one [element](https://aplwiki.com/wiki/Element "Element") at a time. Returns a boolean vector of 1 for match and 0 for no-match. 
+3. `⊆` [Partition](https://aplwiki.com/wiki/Partition)  splits on the 0s when the left argument is boolean.. So we use [Not equal to](https://aplwiki.com/wiki/Not_Equal_to) `≠⊆` to create runs of 1s. 
+4. `⊆` [Partition](https://aplwiki.com/wiki/Partition) also requires an axis. So to use a [Comparison Function](https://aplwiki.com/wiki/Comparison_function) on a scaler we must [Ravel](https://aplwiki.com/wiki/Ravel)  `⊆,`first. 
+5. `' '∘≠` We [Bind](https://aplwiki.com/wiki/Bind) the space to the [Not equal to](https://aplwiki.com/wiki/Not_Equal_to) to achieve a monadic function. 
+6. `≢` Last we [Tally](https://aplwiki.com/wiki/Tally) to count the number of major cells or items. 
+
+```APL
+G ← ≢'[^ ]+'⎕S 3
+```
+
+1. Use [Regular Expressions](https://xpqz.github.io/cultivations/Regex.html) You can use [regexr.com](https://regexr.com/) to evaluate.
+2. `⎕S` [String Search](http://help.dyalog.com/18.0/index.htm#Language/System%20Functions/r.htm) -regex enclosed in single quotes
+3. `[^ ]+` Matches anything that is not a space
+4. [Transformation Codes](http://help.dyalog.com/18.0/index.htm#Language/System%20Functions/r.htm) for each match in the input document, a numeric scalar or vector of the same shape as the transformation codes is created.
+5. `3`  - Pattern number which matched the input document, origin Zero
+6.  [Tally](https://aplwiki.com/wiki/Tally) to count the number of patterns
+
+```APL
+H ← ≢∘⊃⎕VFI
+```
+1. `⎕VFI` - [Verify and Fix Input](https://xpqz.github.io/cultivations/Constants.html?highlight=fix%20input#verify-and-fix-input-vfi) - takes a string and returns two lists. It cuts the string into space separated fields. Then it attempts to convert each field to a number.
+2. `⊃` - Monadic [Pick](https://xpqz.github.io/learnapl/indexing.html?highlight=first#pick) picks the first element. In this case the first vector.
+3. `≢∘⊃` - [Bind](https://mastering.dyalog.com/Tacit-Programming.html?highlight=bind#binding) When we use the operator _bind_, we create a single derived function that is monadic.  That way we can give it a name. 
+
+```APL
+I ← {+/2</' '≠' ',⍵}
+J ← {+/2</0,' '≠⍵}
+K ← {(⊃m)++/2</m←' '≠,⍵}
+L ← {+/2</1,⍨' '=⍵}
+```
+
+
+
+
 
 **Comment:** 
 ```APL
