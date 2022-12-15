@@ -13,6 +13,19 @@
 	F ← (¯1∘∊⍱0≠⊢/)'('∘=+\⍤-=∘')' ⍝ Moves scan to be atop on comparisons +\⍤ 
 	```
 
+**Parenthesis depth changes**
+Examples:
+
+```APL
+Di ← {1 ¯1 0['()'⍳⍵]}
+Do ← -⌿'()'∘.=⊢
+Df ← '('∘= - =∘')'
+```
+**Di**
+1. 
+
+
+
 **Quotes:**
 Convert input into a normalized form. 
 If an element isn't found a lookup array. Then we get the next index. 
