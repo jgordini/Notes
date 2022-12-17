@@ -17,23 +17,23 @@
 Examples:
 
 ```APL
-Di ← {1 ¯1 0['()'⍳⍵]}
+Di ← {⍵ ↑⍤,⍥⊂ 1 ¯1 0['()'⍳⍵]} ⍝ Convert the data to norrmalized form. 
 Do ← -⌿'()'∘.=⊢
 Df ← '('∘= - =∘')'
 ```
 **Di**
-1. 
-
-
+1. `['()'⍳⍵]` - [Index of](https://aplwiki.com/wiki/Index_Of) `⍳` shows a 1 if left paren, 2 if right paren, and 3 if not found. 
+2. `1 ¯1 0` - map the result of step 1  to (1 left,  -1 right, 0 not found)
+3. `↑⍤,⍥⊂` -  [Enclose](https://aplwiki.com/wiki/Enclose) `⊂`  - Create a nested scaler  [Over](https://aplwiki.com/wiki/Over)  `⍥` -  Preprocess the right argument  [Merge Axis](https://aplwiki.com/wiki/Rank_(operator)#Merge_axes) -  `⍤,` concatenate the two axis  [Mix](https://aplwiki.com/wiki/Mix)  `↑` - trades one level of [depth](https://aplwiki.com/wiki/Depth) (nesting) into one level of [rank](https://aplwiki.com/wiki/Rank). 
 
 **Quotes:**
-Convert input into a normalized form. 
+
 If an element isn't found a lookup array. Then we get the next index. 
 Applying a function to a scaler doesn't change the function and will let APL evaluate it. 
 
 **Comment:** 
 ```APL
-↑⍤,⍥⊂ ⍝ concatenate enclosure over the original, (mix)Increase the rank - used for vector - Laminate for Matrix
+
 ⊢/ ⍝ Last element
 ```
 
