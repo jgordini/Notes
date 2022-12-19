@@ -26,6 +26,13 @@ Df ← '('∘= - =∘')'
 2. `1 ¯1 0` - map the result of step 1  to (1 left,  -1 right, 0 not found)
 3. `↑⍤,⍥⊂` -  [Enclose](https://aplwiki.com/wiki/Enclose) `⊂`  - Create a nested scaler  [Over](https://aplwiki.com/wiki/Over)  `⍥` -  Preprocess the right argument  [Merge Axis](https://aplwiki.com/wiki/Rank_(operator)#Merge_axes) -  `⍤,` concatenate the two axis  [Mix](https://aplwiki.com/wiki/Mix)  `↑` - trades one level of [depth](https://aplwiki.com/wiki/Depth) (nesting) into one level of [rank](https://aplwiki.com/wiki/Rank). 
 
+Do
+1. `'()'∘.=⊢` Applying an [Outer Product](https://mastering.dyalog.com/Operators.html?highlight=outer%20product#outer-product) using a comparison `=` Because this is a tacit function [Right Tack](https://aplwiki.com/wiki/Identity) acts as omega `⍵` and just returns the function it is pointing to. 
+2. `'()'∘.=⊢` The `'()'` is the comparison that the outer product is applying against the identity.
+3. 
+
+
+
 **Quotes:**
 
 If an element isn't found a lookup array. Then we get the next index. 
@@ -44,10 +51,12 @@ Applying a function to a scaler doesn't change the function and will let APL eva
 [Merge Axis](https://aplwiki.com/wiki/Rank_(operator)#Merge_axes)  ,⍤
 [Over](https://aplwiki.com/wiki/Over)  `⍥`
 [Enclose](https://aplwiki.com/wiki/Enclose) `⊂` - creates a nested scalar by wrapping its argument under one level of nesting
+
 [Outer Product](https://aplwiki.com/wiki/Outer_Product) `∘.`  - using a comparison `∘.=`
 [Laminate](https://aplwiki.com/wiki/Catenate)  `⍪` Catenate First - Add a line to a matrix
 [Reduce](https://aplwiki.com/wiki/Reduce) `⌿` Vertical Minus Reduction
 [Bind](https://aplwiki.com/wiki/Bind) `∘`
+
 [Vector Representation](https://xpqz.github.io/cultivations/CodeManagement.html?highlight=vr#visual-representation-vr) - ⎕VR`
 [Rank](https://aplwiki.com/wiki/Rank_(operator))  `⍤` - applies its left operand function to cells of its arguments specified by its right operand array. 
 [Identity](https://aplwiki.com/wiki/Identity) `⊢`
