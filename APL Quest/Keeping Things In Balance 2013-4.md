@@ -15,7 +15,6 @@
 
 **Parenthesis depth changes**
 Examples:
-
 ```APL
 Di ← {⍵ ↑⍤,⍥⊂ 1 ¯1 0['()'⍳⍵]} ⍝ Convert the data to norrmalized form. 
 Do ← -⌿'()'∘.=⊢
@@ -26,10 +25,54 @@ Df ← '('∘= - =∘')'
 2. `1 ¯1 0` - map the result of step 1  to (1 left,  -1 right, 0 not found)
 3. `↑⍤,⍥⊂` -  [Enclose](https://aplwiki.com/wiki/Enclose) `⊂`  - Create a nested scaler  [Over](https://aplwiki.com/wiki/Over)  `⍥` -  Preprocess the right argument  [Merge Axis](https://aplwiki.com/wiki/Rank_(operator)#Merge_axes) -  `⍤,` concatenate the two axis  [Mix](https://aplwiki.com/wiki/Mix)  `↑` - trades one level of [depth](https://aplwiki.com/wiki/Depth) (nesting) into one level of [rank](https://aplwiki.com/wiki/Rank). 
 
-Do
+**Do**
 1. `'()'∘.=⊢` Applying an [Outer Product](https://mastering.dyalog.com/Operators.html?highlight=outer%20product#outer-product) using a comparison `=` Because this is a tacit function [Right Tack](https://aplwiki.com/wiki/Identity) acts as omega `⍵` and just returns the function it is pointing to. 
-2. `'()'∘.=⊢` The `'()'` is the comparison that the outer product is applying against the identity.
-3. 
+2. `'()'∘.=⊢` The `'()'` is the comparison that the outer product is applying against the identity. This creates a table. 
+3. The first row a [Boolean Mask](https://aplwiki.com/wiki/Boolean) of 1's (true) where the left parenthesis is found and 0 (false) where is it not found. 
+4. The second row is 1's where the right parenthesis is found. 
+5. The result of step 2 is already a matrix. So we can use [Table](https://xpqz.github.io/cultivations/Functions7.html#table) `⍪`  - to ravel the major cells of the array and make each one of them into a row with the identity on top. This is just explanatory. 
+6. -⌿ Subtracting the bottom row from step 2 from the top row in step 2 using a vertical minus [Reduction](https://aplwiki.com/wiki/Reduce) gives us the  depth changes.  
+
+**Df**
+1. We can do the two [Comparison Functions](https://aplwiki.com/wiki/Comparison_function) independently
+2. `'('∘=` Making a boolean mask of the left parenthesis. 
+3. `=∘')'` Making a boolean mask of the right parenthesis.
+4. After subtracting the two results to give us the depth changes we can turn this into a [Tacit Function](https://aplwiki.com/wiki/Tacit_programming) 
+5.   [Bind](https://aplwiki.com/wiki/Bind) `∘` is used to create a derived function with a single constant argument for each comparison. 
+6. This creates a [3-train Fork](https://aplwiki.com/wiki/Train#3-trains) where the two outer functions are applied first, and their results are used as arguments to the middle function in this case subtract `-`. 
+
+**Performance**
+Examples:
+```APL
+'turtle' 'joy' 'cmpx'⎕cy'dfns'
+(y n)←(⊢⍴⍨100×⍴)⍤⎕VR¨'turtle' 'joy'
+cmpx'D',¨'iof',¨⊂' y'
+```
+
+We can evalute the performance of each function by importing the [CMPX](http://dfns.dyalog.com/n_cmpx.htm) function from the [DFNS](http://dfns.dyalog.com/n_contents.htm) library. 
+
+1.  We can  [copy](http://help.dyalog.com/latest/Content/Language/System%20Functions/cy.htm) `⎕cy` CMPX  along with TURTLE and JOY from the DFNS library into our workspace.
+2. We know that Turtle has matched parenthesis and Joy has unmatched parenthesis so we can use these two functions as our test cases. 
+3. In the next line we are taking the [Vector Representation](https://xpqz.github.io/cultivations/CodeManagement.html?highlight=vr#visual-representation-vr) - ⎕VR of [Each](https://aplwiki.com/wiki/Each) `¨` function.
+4. [Rank](https://aplwiki.com/wiki/Rank_(operator)) `⍤` - applies its left [operand](. https://aplwiki.com/wiki/Operand "Operand") function to [cells](https://aplwiki.com/wiki/Cells "Cells") of its arguments specified by its right operand array.
+5. `⊢⍴⍨100×⍴` Using [Commute](https://aplwiki.com/wiki/Commute) `⍨`  - we first take the [Shape](https://aplwiki.com/wiki/Shape) of the idenitity `⊢⍴` and and then  [Reshape](https://aplwiki.com/wiki/Reshape) `100×⍴` it using 100 times it's current shape. 
+6.  In the next line we are doing some meta programming to use cmpx to evalute the performance of each function. 
+7. Every function begins with a D. We [Concatenate](https://aplwiki.com/wiki/Catenate)  [Each](https://aplwiki.com/wiki/Each) `,¨` of the suffixes 'iof' and then  [Concatenate](https://aplwiki.com/wiki/Catenate)  [Each](https://aplwiki.com/wiki/Each) `,¨` to the entire function ' y' using [Enclose](https://aplwiki.com/wiki/Enclose) `⊂` - An enclosed array is a [scalar](https://aplwiki.com/wiki/Scalar "Scalar"), which is subject to [scalar extension](https://aplwiki.com/wiki/Scalar_extension "Scalar extension").
+
+**Balanced?**
+Comment:
+```
+We are checking if two condtions are realized. 
+1. Our final parenthesis level needs to be zero. 
+2. As our function proceeds our parenthesis level should not drop below zero. 
+```
+Examples:
+```APL
+Ba ← (∧/0≤+\)∧0=+/
+Bn ← (¯1∊+\)⍱0≠+/
+```
+BA
+1. `+\` Doing a plus scan gives us the parenthesis depth. 
 
 
 
