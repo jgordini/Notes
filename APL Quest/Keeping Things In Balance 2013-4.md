@@ -72,8 +72,8 @@ Ba ← (∧/0≤+\)∧0=+/
 Bn ← (¯1∊+\)⍱0≠+/
 ```
 BA
-1. `+\` Doing a plus scan gives us the parenthesis depth. 
-
+1. `0≤+\` Plus [Scan](https://aplwiki.com/wiki/Scan) gives us the parenthesis depth. Then we check wether 0
+3. `∧` [And](https://aplwiki.com/wiki/And)  tests if both arguments are true: it returns 1 if both are true (1) and 0 if one or both are false (0).
 
 
 **Quotes:**
