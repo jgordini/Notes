@@ -71,7 +71,8 @@ Examples:
 ```APL
 Ba ← (∧/0≤+\)∧0=+/
 Bn ← (¯1∊+\)⍱0≠+/
-Bns ← (¯1∊+\)⍱0≠+/
+Bns ← (¯1∘∊⍱0≠⊢/)+\
+F ← (¯1∘∊⍱0≠⊢/)'('∘=+\⍤-=∘')'
 ```
 BA
 1. `∧/` [And](https://aplwiki.com/wiki/And) [Reduction](https://aplwiki.com/wiki/Reduction "Reduction")  tests if it is true for ALL that the parenthesis depth is greater than or equal to zero. 
@@ -84,22 +85,39 @@ BN
 2.  `0≠+/` Checks if zero is not equal to the total. 
 3. `⍱` [Nor](https://aplwiki.com/wiki/Nor) tests if neither argument (Step 1 or 2) is true: it returns 1 if both are false (0) and 0 if at least one is true (1)
 
-**Find and Replace**
+BNS
+1. Move the Scan to outside the parenthesis
+2. `∘` [Bind](https://aplwiki.com/wiki/Bind) the enclose to the scaler. Tacit so the identity element is implied. 
+3. `⊢/` Right Reduction picks the last element of the Scan we moved in step 1. 
+4. Evaluate for performance. 
+
+F
+1. Take our BNS solution which is an [Atop](https://aplwiki.com/wiki/Train#2-trains) or 2-train. The left function is applied [monadically](https://aplwiki.com/wiki/Monadic_function "Monadic function") on the result of the right function.
+2. Take our Df Solution which is a [Fork](https://aplwiki.com/wiki/Train#3-trains) or 3-Train. The two outer functions are applied first, and their results are used as arguments to the middle function.
+3. `+\⍤-` To combine these solutions we use an [Atop](https://aplwiki.com/wiki/Atop_(operator)) `⍤` operator  on Df to post process the result of the subtraction using a scan `+\`. 
+4.  The depth change in Step 3 is then passed to BNS. 
+
+**Find and Replace** - Regular Expressions
 Comment:
-```APL
-Regular Expressions
 ```
+Find all the parenthesis and eliminate pairs of parenthesis until none are found. 
+If we have an empty set Parenthesis are matched.
+Any parenthesis are left means they are unbalanced.
+```
+Examples:
+```APL
+Re ← ''≡'\(\)'⎕R''⍣≡⍤∩∘'()'
+Re0 ← ''≡'()'⎕R''⍠'Regex'0⍣≡⍤∩∘'()'
+Fi ← ''≡(⊢(/⍨)¯1(⊢⍱⌽)'()'∘⍷)⍣≡⍤∩∘'()'
+```
+
+RE
+1.  `∩∘'()'` Intersection `∩` removes elements from the left which are not present in the right. In this case we remove everything but the parenthesis. 
+2. 
 
 **Quotes:**
-
 If an element isn't found a lookup array. Then we get the next index. 
 Applying a function to a scaler doesn't change the function and will let APL evaluate it. 
-
-**Comment:** 
-```APL
-
-⊢/ ⍝ Last element
-```
 
 **Glyphs Used:**
 [Index of](https://aplwiki.com/wiki/Index_Of) `⍳`
@@ -130,6 +148,7 @@ Applying a function to a scaler doesn't change the function and will let APL eva
 [Match](https://aplwiki.com/wiki/match) `≡`
 [Power Match](https://aplwiki.com/wiki/Power_(operator))  `⍣≡` - Iterating until a fixed point is reached.
 [Atop](https://aplwiki.com/wiki/Atop_(operator)) `⍤` - takes two (monadic) functions and glues them together.  Uses the left operand to process the right
+
 <mark style="background: #BBFABBA6;">Regular Expressions</mark>
 [Variant](https://aplwiki.com/wiki/Variant) `⍠` - Switch Regex to plain text
 [Find](https://aplwiki.com/wiki/find) `⍷`
