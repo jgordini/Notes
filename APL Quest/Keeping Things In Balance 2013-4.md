@@ -65,6 +65,7 @@ Comment:
 We are checking if two condtions are realized. 
 1. Our final parenthesis level needs to be zero. 
 2. As our function proceeds our parenthesis level should not drop below zero. 
+3. Both expressions are then evaluted for performance using simlar steps to above
 ```
 Examples:
 ```APL
@@ -72,9 +73,21 @@ Ba ← (∧/0≤+\)∧0=+/
 Bn ← (¯1∊+\)⍱0≠+/
 ```
 BA
-1. `0≤+\` Plus [Scan](https://aplwiki.com/wiki/Scan) gives us the parenthesis depth. Then we check wether 0
-3. `∧` [And](https://aplwiki.com/wiki/And)  tests if both arguments are true: it returns 1 if both are true (1) and 0 if one or both are false (0).
+1. `∧/` [And](https://aplwiki.com/wiki/And) [Reduction](https://aplwiki.com/wiki/Reduction "Reduction")  tests if it is true for ALL that the parenthesis depth is greater than or equal to zero. 
+2.  `0≤+\` Plus [Scan](https://aplwiki.com/wiki/Scan) `+\` gives us the parenthesis depth. The [Comparison Function](https://aplwiki.com/wiki/Comparison_function) `0≤` checks if zero is less than or equal to the running sum. 
+3. `∧0=+/` [And](https://aplwiki.com/wiki/And)  also checking if it is true that zero = the full sum `0=+/`. 
+4. Both conditions must be true for BA to return 1 (for true).
 
+BN 
+1. `¯1∊+\` Checks if -1 is a [member](https://aplwiki.com/wiki/Membership) `∊` of the running sum or [Scan](https://aplwiki.com/wiki/Scan) `+\`. 
+2.  `0≠+/` Checks if zero is not equal to the total. 
+3. `⍱` [Nor](https://aplwiki.com/wiki/Nor) tests if neither argument (Step 1 or 2) is true: it returns 1 if both are false (0) and 0 if at least one is true (1)
+
+**Find and Replace**
+Comment:
+```APL
+Regular Expressions
+```
 
 **Quotes:**
 
