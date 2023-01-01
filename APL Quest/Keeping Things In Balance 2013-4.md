@@ -71,6 +71,7 @@ Examples:
 ```APL
 Ba ← (∧/0≤+\)∧0=+/
 Bn ← (¯1∊+\)⍱0≠+/
+Bns ← (¯1∊+\)⍱0≠+/
 ```
 BA
 1. `∧/` [And](https://aplwiki.com/wiki/And) [Reduction](https://aplwiki.com/wiki/Reduction "Reduction")  tests if it is true for ALL that the parenthesis depth is greater than or equal to zero. 
