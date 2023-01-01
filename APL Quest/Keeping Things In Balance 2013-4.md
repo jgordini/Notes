@@ -112,8 +112,21 @@ Fi ← ''≡(⊢(/⍨)¯1(⊢⍱⌽)'()'∘⍷)⍣≡⍤∩∘'()'
 ```
 
 RE
-1.  `∩∘'()'` Intersection `∩` removes elements from the left which are not present in the right. In this case we remove everything but the parenthesis. 
-2. 
+1.  `∩∘'()'` [Intersection](https://aplwiki.com/wiki/Intersection) `∩` removes elements from the left which are not present in the right. In this case we remove everything but the parenthesis. 
+2. `'\(\)'⎕R''` [Regular Expression](https://xpqz.github.io/cultivations/Regex.html?highlight=regular%20expressions) using `⎕R` to find parenthesis and replace with an empty string. Each parenthesis is escaped using `\` Performs this operation one time. 
+3. `''≡` [Match](https://aplwiki.com/wiki/match) `≡` is checking if the result matches an empty string. 
+4. `⍣≡`  [Power Match](https://xpqz.github.io/cultivations/ConditionControlledLoops.html?highlight=power)  `⍣≡` - Iterating until a fixed point is reached. In this case when no more parens are found. 
+5. `⍤` [Atop Operator](https://aplwiki.com/wiki/Atop_(operator)) takes the two monadic functions and glues them together. 
+
+RE0
+1. [Variant](https://aplwiki.com/wiki/Variant) `⍠` - Switch Regex to plain text using `'Regex'0`
+2. This allows us to use `⎕R` to search and replace parenthesis without escaping them
+3. The same function is then applied. 
+
+FI
+1. 
+
+
 
 **Quotes:**
 If an element isn't found a lookup array. Then we get the next index. 
