@@ -125,8 +125,8 @@ RE0
 
 FI
 1. `'()'∘⍷` Using the [Find](https://aplwiki.com/wiki/find) `⍷` function returns a boolean mask where 1 indicates the start of an set of open and closed parens. 
-2. `¯1(⊢⍱⌽)` Identity or Rotated Identity. 
-3.  `⊢(/⍨)` Filter the idenity against itself
+2. `¯1(⊢⍱⌽)` [Identity](https://aplwiki.com/wiki/Identity) `⊢` [Nor](https://aplwiki.com/wiki/Nor) `⍱`  [Rotated](https://mastering.dyalog.com/Working-on-Data-Shape.html?highlight=rotate#rotate-vectors) `⌽` Identity. 
+3.  `⊢(/⍨)`  [Filter](https://en.wikipedia.org/wiki/filter_(higher-order_function) "wikipedia:filter (higher-order function)") the identity against itself using [Compress](https://aplwiki.com/wiki/Replicate) `/`  
 4. `⍣≡` Stop when there are no more parens
 
 
