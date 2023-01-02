@@ -124,7 +124,10 @@ RE0
 3. The same function is then applied. 
 
 FI
-1. 
+1. `'()'∘⍷` Using the [Find](https://aplwiki.com/wiki/find) `⍷` function returns a boolean mask where 1 indicates the start of an set of open and closed parens. 
+2. `¯1(⊢⍱⌽)` Identity or Rotated Identity. 
+3.  `⊢(/⍨)` Filter the idenity against itself
+4. `⍣≡` Stop when there are no more parens
 
 
 
