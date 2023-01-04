@@ -124,10 +124,12 @@ RE0
 3. The same function is then applied. 
 
 FI
-1. `'()'∘⍷` Using the [Find](https://aplwiki.com/wiki/find) `⍷` function returns a boolean mask where 1 indicates the start of an set of open and closed parens. 
-2. `¯1(⊢⍱⌽)` [Identity](https://aplwiki.com/wiki/Identity) `⊢` [Nor](https://aplwiki.com/wiki/Nor) `⍱`  [Rotated](https://mastering.dyalog.com/Working-on-Data-Shape.html?highlight=rotate#rotate-vectors) `⌽` Identity. 
-3.  `⊢(/⍨)`  [Filter](https://en.wikipedia.org/wiki/filter_(higher-order_function) "wikipedia:filter (higher-order function)") the identity against itself using [Compress](https://aplwiki.com/wiki/Replicate) `/`  
-4. `⍣≡` Stop when there are no more parens
+1. `⍣≡⍤∩∘'()'` Step 1,4,5 from RE
+2. `'()'∘⍷` Using the [Find](https://aplwiki.com/wiki/find) `⍷` function returns a boolean mask where 1 indicates the start of an set of open and closed parens. 
+3. `¯1(⊢⍱⌽)`  Takes the [mask]([Boolean Mask](https://aplwiki.com/wiki/Boolean)) generated in Step 2 `⊢` and [Rotates](https://mastering.dyalog.com/Working-on-Data-Shape.html?highlight=rotate#rotate-vectors) `⌽` it one step `¯1`.  This indicates where the closed parens are.  We want to remove parens with the mask so we are using  [Nor](https://aplwiki.com/wiki/Nor) `⍱`. To retain parens we would use [Or](https://aplwiki.com/wiki/Or)  
+6.  `(/⍨)`  [Filter](https://en.wikipedia.org/wiki/filter_(higher-order_function) "wikipedia:filter (higher-order function)") the result against [itself](https://aplwiki.com/wiki/Commute) `⍨` using [Compress](https://aplwiki.com/wiki/Replicate) `/`
+7.  `⊢` [Identity](https://aplwiki.com/wiki/Identity) Returns everything to the right inside the parenthesis. 
+8. `''≡`  Step 3 from RE
 
 
 
