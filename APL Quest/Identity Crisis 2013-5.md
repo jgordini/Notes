@@ -1,17 +1,28 @@
 ## [Identity Crisis](https://problems.tryapl.org/psets/2013.html?goto=P5_Identity_Crisis)
 
-**Problem:** An identity matrix is a square matrix (table) of 0 with 1’s in the main diagonal. Write an APL dfn which produces an n×n identity matrix.
+**Problem:** An [Identity Matrix](https://en.wikipedia.org/wiki/Identity_matrix) is a square matrix (table) of 0 with 1’s in the main diagonal. Write an APL dfn which produces an n×n identity matrix.
 
 **Video:** https://youtu.be/vVaZ3wEdmpQ
 **Code:** https://github.com/abrudz/apl_quest/blob/main/2013/5.apl
 
 **Example Solutions:**
 ```APL
-	A←(=/¨⍤⍳,⍨) ⍝ equality of x and y in all indices
-	B←(∘.=⍨⍳) ⍝ equality table for one dimensional indices
-	```
+n←5
+A←(=/¨⍤⍳,⍨) ⍝ equality of x and y in all indices
+B←(∘.=⍨⍳) ⍝ equality table for one dimensional indices
+```
 
 A
+1. [Catenate](https://aplwiki.com/wiki/Catenate) `,` **n** to [Itself](https://aplwiki.com/wiki/Commute) `⍨` we get a vector of 5 5
+2. We can take that vector and use it as an input for the [Index Generator](https://aplwiki.com/wiki/Index_Generator). `⍳` this generates an array of shape 5 5 where the elements are the indices for each element.
+3. [Equality](https://aplwiki.com/wiki/Comparison_function) Reduction of Each pair `=/¨` we can see where the horizontal and vertical indexes are equal.  This forms our identity matrix. 
+4. `⍤` The [Atop](https://aplwiki.com/wiki/Atop_(operator)) operator `f⍤g Y` performs  performs f on the result of g on Y.  This allows the expression to be [Tacit](https://aplwiki.com/wiki/Tacit_programming). 
+
+```APL
+{({(=/)⍵}¨)(⍳(⍵,⍵))} ⍝ The expression as a Dfn from tacit.help
+```
+
+B
 1. 
 
 **Quotes:**
