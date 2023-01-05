@@ -7,15 +7,19 @@
 
 **Example Solutions:**
 ```APL
-	I←∘.=⍨⍳ ⍝ equality table for one dimensional indices
-	J←{⍵ ⍵⍴(⍵+1)↑1} ⍝ overtake to insert 1 before n 0s
+	A←(=/¨⍤⍳,⍨) ⍝ equality of x and y in all indices
+	B←(∘.=⍨⍳) ⍝ equality table for one dimensional indices
 	```
+
+A
+1. 
 
 **Quotes:**
 Use tally to get one without using 1
 
 **Comment:** 
 ```APL
+J←{⍵ ⍵⍴(⍵+1)↑1} ⍝ overtake to insert 1 before n 0s
 =/¨  ⍝ Compare Each
 ∘.=⍨ ⍝ Equailty Table using same indeces for both sides
 1 1⍉s ⍝ Selects the diagonal of s
