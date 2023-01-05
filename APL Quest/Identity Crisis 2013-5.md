@@ -6,24 +6,43 @@
 **Code:** https://github.com/abrudz/apl_quest/blob/main/2013/5.apl
 
 **Example Solutions:**
+
+**A**
+
 ```APL
 n←5
 A←(=/¨⍤⍳,⍨) ⍝ equality of x and y in all indices
-B←(∘.=⍨⍳) ⍝ equality table for one dimensional indices
 ```
 
-A
 1. [Catenate](https://aplwiki.com/wiki/Catenate) `,` **n** to [Itself](https://aplwiki.com/wiki/Commute) `⍨` we get a vector of 5 5
 2. We can take that vector and use it as an input for the [Index Generator](https://aplwiki.com/wiki/Index_Generator). `⍳` this generates an array of shape 5 5 where the elements are the indices for each element.
-3. [Equality](https://aplwiki.com/wiki/Comparison_function) Reduction of Each pair `=/¨` we can see where the horizontal and vertical indexes are equal.  This forms our identity matrix. 
+3. [Equality](https://aplwiki.com/wiki/Comparison_function) [Reduction](https://aplwiki.com/wiki/Reduce) of [Each](https://aplwiki.com/wiki/Each) pair `=/¨` we can see where the horizontal and vertical indexes are equal.  This forms our identity matrix. 
 4. `⍤` The [Atop](https://aplwiki.com/wiki/Atop_(operator)) operator `f⍤g Y` performs  performs f on the result of g on Y.  This allows the expression to be [Tacit](https://aplwiki.com/wiki/Tacit_programming). 
 
 ```APL
 {({(=/)⍵}¨)(⍳(⍵,⍵))} ⍝ The expression as a Dfn from tacit.help
 ```
 
-B
-1. 
+**B** - Equailty Table using same indeces for both sides
+
+```APL
+B←(∘.=⍨⍳) ⍝ equality table for one dimensional indices
+```
+
+1. `∘.` [Outer Product](https://aplwiki.com/wiki/Outer_Product) `∘.` generates a table from the input vector
+2. `⍨⍳` Same input vector on both sides. Uses [Index Generator](https://aplwiki.com/wiki/Index_Generator) `⍳` to create the values. 
+3. `=` [Comparison Function](https://aplwiki.com/wiki/Comparison_function) = checks for eqality beween the elements. 
+4. This forms our identity matrix. 
+
+**C** - Assign to diagonal
+
+```APL
+{s←⍵ ⍵⍴0 ⋄ (1 1⍉s)←1 ⋄ s} ⍝ assign to diagonal
+```
+
+1. `⍵ ⍵⍴0` Reshape 0 to a 5 by 5 matrix and assign it to s
+2. `(1 1⍉s)←1` Giving 1 1 to dyadic transpose returns the leading diagonal. 1 replaces those values
+
 
 **Quotes:**
 Use tally to get one without using 1
