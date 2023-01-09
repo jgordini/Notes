@@ -8,7 +8,6 @@
 **Example Solutions:**
 
 **A**
-
 ```APL
 n←5
 A←(=/¨⍤⍳,⍨) ⍝ equality of x and y in all indices
@@ -24,7 +23,6 @@ A←(=/¨⍤⍳,⍨) ⍝ equality of x and y in all indices
 ```
 
 **B** - Equailty Table using same indeces for both sides
-
 ```APL
 B←(∘.=⍨⍳) ⍝ equality table for one dimensional indices
 ```
@@ -35,13 +33,37 @@ B←(∘.=⍨⍳) ⍝ equality table for one dimensional indices
 4. This forms our identity matrix. 
 
 **C** - Assign to diagonal
-
 ```APL
 {s←⍵ ⍵⍴0 ⋄ (1 1⍉s)←1 ⋄ s} ⍝ assign to diagonal
 ```
 
 1. `⍵ ⍵⍴0` Reshape 0 to a 5 by 5 matrix and assign it to s
-2. `(1 1⍉s)←1` Giving 1 1 to dyadic transpose returns the leading diagonal. 1 replaces those values
+2. `(1 1⍉s)←1` Giving 1 1 to [dyadic transpose ](https://xpqz.github.io/learnapl/dyadictrn.html?highlight=assignment#dyadic-transpose-ab)returns the leading diagonal. 1 replaces those values becuase dyadic transpose allows for modified assignment. 
+3. `s` returns the new identity matrix. Diamond is the statement seperator. 
+
+D - amend at (i,i)
+```APL
+{1@(,⍨¨⍳⍵)⊢⍵ ⍵⍴0} ⍝ amend at (i,i)
+```
+1. `,⍨¨⍳⍵` By using the Index Generator `⍳`  and [catenating](https://aplwiki.com/wiki/Catenate) `,` [each](https://aplwiki.com/wiki/Each) `¨`  value to [itself](https://aplwiki.com/wiki/Commute) `⍨` we can generate all the indices that need to be set to 1.  (1 1) (2 2) (3 3) (4 4) (5 5)
+2. `1@` Sets 1 [At](https://xpqz.github.io/cultivations/Operators.html#at) each location.
+3. `⊢⍵ ⍵⍴0` [Identity](https://aplwiki.com/wiki/Identity) `⊢` returns the  [Reshaped](https://aplwiki.com/wiki/Reshape) `⍴` array of ⍵ ⍵ filled with zeros. 
+
+E - 1s at (i,i)
+```APL
+⍸⍣¯1,⍨¨⍳ ⍝ 1s at (i,i)
+```
+1. `,⍨¨⍳` Step 1 of D (1 1) (2 2) (3 3) (4 4) (5 5)
+2.  `⍸⍣¯1`  [Where](https://aplwiki.com/wiki/Indices) `⍸` returns the [indices](https://aplwiki.com/wiki/Index "Index") of all ones in a [Boolean](https://aplwiki.com/wiki/Boolean "Boolean") array. The [Power Operator](https://aplwiki.com/wiki/Power_(operator))  with `¯1` returns the inverse of the Where function. Given the indices in Step 1 it returns a boolean vector with ones at each position. The [inverse of indices](https://aplwiki.com/wiki/Indices#Inverse). 
+3. This generates our identity matrix. 
+
+F
+
+```APL
+
+```
+
+
 
 
 **Quotes:**
