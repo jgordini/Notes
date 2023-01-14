@@ -60,8 +60,12 @@ E - 1s at (i,i)
 F
 
 ```APL
-
+{⎕IO←0 ⋄ d←i+⍵×i←⍳⍵ ⋄ ⍵ ⍵⍴1@d⊢0↑⍨⍵*2} ⍝ amend at (i,i)ₙ
 ```
+1. `⎕IO←0` Sets [Index Origin](https://aplwiki.com/wiki/Index_origin)  to 0
+2. `d←i+⍵×i←⍳⍵` Taking the indices `⍳⍵` we can multiply by their length `w` we get the indices for the [leading axis](https://aplwiki.com/wiki/Leading_axis_theory) in [ravel order](https://aplwiki.com/wiki/Ravel_order) (0 5 10 15 20 25), adding the indices `⍳⍵` returns the diagonal (0 6 12 18 24). This is then assigned to `d` which we use in the next step. 
+4. `1@d` We then set 1s [At](https://xpqz.github.io/cultivations/Operators.html#at) `1@d` these indices in a vector `⊢` of 0s with length of `⍵*2` using [Overtake](https://aplwiki.com/wiki/Take#Overtaking)  `↑` 
+5. `⍵ ⍵⍴` The result is shaped into a matrix using [Reshape](https://aplwiki.com/wiki/Reshape) `⍴`
 
 
 
