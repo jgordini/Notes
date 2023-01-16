@@ -94,6 +94,13 @@ D  - Signum
 E - Tally
 1.  [Tally](https://aplwiki.com/wiki/Tally) `≢` The tally of a Scalar is 1
 
+Expand
+```APL
+,⍨⍴1\⍨1,- ⍝ expand 1 into one 1 and n 0s
+```
+
+1. [Expand](https://xpqz.github.io/cultivations/Functions7.html?#expand) `\` - copies each [element](https://aplwiki.com/wiki/Element "Element") of the right [argument](https://aplwiki.com/wiki/Argument "Argument") a given number of times
+2. 
 
 **Comment:** 
 ```APL
