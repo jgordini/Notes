@@ -96,10 +96,12 @@ E - Tally
 
 Expand
 ```APL
-,⍨⍴1\⍨1,- ⍝ expand 1 into one 1 and n 0s
+⍵ ⍵⍴1(-⍵)\1 ⍝ expand 1 into one 1 and n 0s
+,⍨⍴1\⍨1,- ⍝ tacit
+{(⍵,⍵)⍴((1,(-⍵))\1)} ⍝ tacit.help
 ```
 
-1. [Expand](https://xpqz.github.io/cultivations/Functions7.html?#expand) `\` - copies each [element](https://aplwiki.com/wiki/Element "Element") of the right [argument](https://aplwiki.com/wiki/Argument "Argument") a given number of times
+1. [Expand](https://xpqz.github.io/cultivations/Functions7.html?#expand) `\` - copies each [element](https://aplwiki.com/wiki/Element "Element") of the right [argument](https://aplwiki.com/wiki/Argument "Argument") a given number of times. Positive numbers on the left also replicate like with `/` but negative numbers insert that many prototypical elements at that position.
 2. 
 
 **Comment:** 
