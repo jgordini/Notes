@@ -58,7 +58,6 @@ E - 1s at (i,i)
 3. This generates our identity matrix. 
 
 F
-
 ```APL
 {⎕IO←0 ⋄ d←i+⍵×i←⍳⍵ ⋄ ⍵ ⍵⍴1@d⊢0↑⍨⍵*2} ⍝ amend at (i,i)ₙ
 ```
@@ -67,12 +66,34 @@ F
 4. `1@d` We then set 1s [At](https://xpqz.github.io/cultivations/Operators.html#at) `1@d` these indices in a vector `⊢` of 0s with length of `⍵*2` using [Overtake](https://aplwiki.com/wiki/Take#Overtaking)  `↑` 
 5. `⍵ ⍵⍴` The result is shaped into a matrix using [Reshape](https://aplwiki.com/wiki/Reshape) `⍴`
 
+I - Industrial Versions
+```APL
+A ←{⍵ ⍵⍴1,⍵↑0} ⍝ insert 1 before n 0s
+B ←{⍵ ⍵⍴(⍵+1)↑1} ⍝ overtake
+C ←(,⍨⍴+∘1↑1⍨) ⍝ tacit form
+D ←(,⍨⍴+∘1↑×) ⍝ sign gives 1 (or 0 for 0)
+E ←(,⍨⍴+∘1↑≢) ⍝ tally of scalar is 1
+```
 
+A 
+1. There are n zeros to the next 1. (1 0 0 0 0 0 1) ex. n=5
+2. `1,⍵↑0` [Overtake](https://aplwiki.com/wiki/Take#Overtaking) `↑` A length larger than the argument length causes [fills](https://aplwiki.com/wiki/Fill_element "Fill element") to be inserted. In this case we use it to pad zero with `⍵-1` additional zeros. `1,` [Catenate](https://aplwiki.com/wiki/Catenate) a 1 to the result. 
+3.  [Reshape](https://aplwiki.com/wiki/Reshape) `⍴` repeats an argument of any length, singleton or otherwise. We prefix it with `⍵ ⍵` to indicate the desired final shape.  A 5x5 matrix using the example in Step 1. 
 
+B
+1.  Using the concept of Overtake we saw in Step 1 of A we can pad 1 with `⍵+1`  zeros and then reshape the result. Obtaining the same matrix. 
 
+C - Tacit
+1.  `,⍨⍴` Ravel the argument against itself and use it to reshape
+2. `+∘1` Bind + to 1 making it monadic. Add one to the argument. 
+3. `↑1⍨` Use step 2 to Overtake 1. The Selfie `⍨` is used as a [Constant](https://aplwiki.com/wiki/Constant). 
 
-**Quotes:**
-Use tally to get one without using 1
+D  - Signum
+1.  [Signum](https://aplwiki.com/wiki/Signum) `×A` - Sign of number  - on a real argument are `0`, `1`, and `¯1` (zero, positive and negative)
+
+E - Tally
+1.  [Tally](https://aplwiki.com/wiki/Tally) `≢` The tally of a Scalar is 1
+
 
 **Comment:** 
 ```APL
