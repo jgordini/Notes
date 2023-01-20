@@ -101,8 +101,9 @@ Expand
 {(⍵,⍵)⍴((1,(-⍵))\1)} ⍝ tacit.help
 ```
 
-1. [Expand](https://xpqz.github.io/cultivations/Functions7.html?#expand) `\` - copies each [element](https://aplwiki.com/wiki/Element "Element") of the right [argument](https://aplwiki.com/wiki/Argument "Argument") a given number of times. Positive numbers on the left also replicate like with `/` but negative numbers insert that many prototypical elements at that position.
-2. 
+1. [Expand](https://xpqz.github.io/cultivations/Functions7.html?#expand) `\` - copies each [element](https://aplwiki.com/wiki/Element "Element") of the right [argument](https://aplwiki.com/wiki/Argument "Argument") a given number of times. Positive numbers on the left also replicate like with `/` but negative numbers insert that many prototypical elements at that position. 
+2. `1(-⍵)\1`  `-⍵` is the number of zeros. `\1` is the number to prepend with. `1(-⍵)` is the number of times to prepend with a 1. 
+3. `⍵ ⍵⍴`  Reshape into a `⍵ ⍵` matrix. 
 
 **Comment:** 
 ```APL
