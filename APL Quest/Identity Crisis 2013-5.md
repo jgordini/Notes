@@ -96,14 +96,18 @@ E - Tally
 
 Expand
 ```APL
-⍵ ⍵⍴1(-⍵)\1 ⍝ expand 1 into one 1 and n 0s
-,⍨⍴1\⍨1,- ⍝ tacit
-{(⍵,⍵)⍴((1,(-⍵))\1)} ⍝ tacit.help
+A ←{⍵ ⍵⍴1(-⍵)\1} ⍝ expand 1 into one 1 and n 0s
+B ←(,⍨⍴1\⍨1,-) ⍝ tacit
+C ←{(⍵,⍵)⍴((1,(-⍵))\1)} ⍝ tacit.help
 ```
 
+A
 1. [Expand](https://xpqz.github.io/cultivations/Functions7.html?#expand) `\` - copies each [element](https://aplwiki.com/wiki/Element "Element") of the right [argument](https://aplwiki.com/wiki/Argument "Argument") a given number of times. Positive numbers on the left also replicate like with `/` but negative numbers insert that many prototypical elements at that position.
 2. `1(-⍵)\1`  `-⍵` is the number of zeros. `\1` is the number to prepend with. `1(-⍵)` is the number of times to prepend with a 1.
 3. `⍵ ⍵⍴`  Reshape into a `⍵ ⍵` matrix.
+
+B
+
 
 **Comment:**
 ```APL
