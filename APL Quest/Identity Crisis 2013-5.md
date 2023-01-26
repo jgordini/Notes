@@ -107,7 +107,19 @@ A
 3. `⍵ ⍵⍴`  Reshape into a `⍵ ⍵` matrix.
 
 B
+1. `,⍨⍴1` Self concatenation of the argument reshaped by 
+2. `1\⍨1` 1 expanded by 1 (See A step 2)
+3. `,-` followed by the negation of the argument (generates zeros)
+4. See C for more clarification
 
+Matrix
+```APL
+A ←{⌹⍨?⍵ ⍵⍴0} ⍝ M × I = M
+B ←(⌹⍨⍤?,⍨⍴≡) ⍝ depth of simple scalar is 0
+```
+
+A
+1. 
 
 **Comment:**
 ```APL
