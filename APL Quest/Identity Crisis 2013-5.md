@@ -112,14 +112,16 @@ B
 3. `,-` followed by the negation of the argument (generates zeros)
 4. See C for more clarification
 
-Matrix
+Matrix - [Matrix Multiplication](https://en.wikipedia.org/wiki/Matrix_multiplication)
+
 ```APL
 A ←{⌹⍨?⍵ ⍵⍴0} ⍝ M × I = M
 B ←(⌹⍨⍤?,⍨⍴≡) ⍝ depth of simple scalar is 0
 ```
 
 A
-1. 
+1. Reshape a matrix of random numbers against it's inverse. 
+2. [Matrix Divide](https://aplwiki.com/wiki/Matrix_Divide) `⌹` 
 
 **Comment:**
 ```APL
