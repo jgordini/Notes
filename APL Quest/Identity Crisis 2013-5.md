@@ -110,18 +110,48 @@ B
 1. `,⍨⍴1` Self concatenation of the argument reshaped by 
 2. `1\⍨1` 1 expanded by 1 (See A step 2)
 3. `,-` followed by the negation of the argument (generates zeros)
-4. See C for more clarification
+4. See C for [Dfn](https://aplwiki.com/wiki/Dfn) form
 
 Matrix - [Matrix Multiplication](https://en.wikipedia.org/wiki/Matrix_multiplication)
 
 ```APL
 A ←{⌹⍨?⍵ ⍵⍴0} ⍝ M × I = M
 B ←(⌹⍨⍤?,⍨⍴≡) ⍝ depth of simple scalar is 0
+C ←{(?((⍵,⍵)⍴(≡⍵)))⌹(?((⍵,⍵)⍴(≡⍵)))} ⍝ tacit.help
 ```
 
 A
 1. Reshape a matrix of random numbers against it's inverse. 
-2. [Matrix Divide](https://aplwiki.com/wiki/Matrix_Divide) `⌹` 
+2. `?⍵ ⍵⍴0` This gives us a matrix of random floats between zero and one. 
+3. [Matrix Divide](https://aplwiki.com/wiki/Matrix_Divide) `⌹` Using [Selfie](https://mastering.dyalog.com/Tacit-Programming.html?highlight=selfie#commute-and-selfie) `⍨` we echo the right argument to its left. In this case the matrix generated in Step 2 is divided by itself.
+4. This produces the identity matrix using [matrix multiplication](https://en.wikipedia.org/wiki/Matrix_multiplication)
+B
+1. Makes A a [Tacit Function]([Tacit Programming](https://aplwiki.com/wiki/Tacit_programming))
+2. Can be read as Matrix division `⌹`, Selfie `⍨` , On `⍤`, random numbers `?` shaped `⍴` as the self concatentation `,⍨`(takes one input and makes it two) of [Depth](https://aplwiki.com/wiki/Depth) `≡` - returns an array's depth. On a scaler (our input) it reurns zero. 
+3. See C for [Dfn](https://aplwiki.com/wiki/Dfn) form
+
+Base conversion
+
+```APL
+A ← (⍴∘2⊤2*⊢-⍳) ⍝ powers of two are 1 0 0 …
+B ← {(⍵⍴2)⊤(2*(⍵-(⍳⍵)))} ⍝ tacit.help
+```
+
+A
+1.  Looking at our identiry matrix we can see that each column is a power of two spelled out in binary. 
+2. `2*⊢-⍳` We can generate these numbers by subtracting the initial [Identity](https://aplwiki.com/wiki/Identity) `⊢` from the  [Index Generator](https://aplwiki.com/wiki/Index_Generator)`⍳` of the argument and raising the result to the [power of](https://aplwiki.com/wiki/Exponential) 2. 
+3. We can then perform a base conversion. The left argument to [Encode](https://mastering.dyalog.com/Mathematical-Functions.html?highlight=encode#encode) `⊤` defines the number of digits in the new number system. In this case we are prefixing it with a 2.
+4. We [Bind](https://aplwiki.com/wiki/Bind) `∘` -  the Encode `⊤` with [Reshape](https://aplwiki.com/wiki/Reshape) `⍴` creating a derived function and a tacit result. 
+5. See B for [Dfn](https://aplwiki.com/wiki/Dfn) form
+
+Overtake, Mix and Scan
+```APL
+A ← (-⍤⍳↑⍤0≢) ⍝ suffixes of 1
+B ← (↑,⍨\↑∘1) ⍝ cumulative reverse-concatenations
+```
+
+A
+
 
 **Comment:**
 ```APL
