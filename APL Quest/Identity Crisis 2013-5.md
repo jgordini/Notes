@@ -151,6 +151,13 @@ B ← (↑,⍨\↑∘1) ⍝ cumulative reverse-concatenations
 ```
 
 A
+1. `-⍤⍳` Negation of the indices
+2. Paired with the rank operator. Take using a length which is larger than the argument length causes [fills](https://aplwiki.com/wiki/Fill_element "Fill element") of 0's to be inserted.
+3. Use tally to get a 1 allows function to be tacit. 
+4. `{(-(⍳⍵))(↑⍤0)(≢⍵)}` is the Dfn version
+
+B
+1. 
 
 
 **Comment:**
