@@ -23,3 +23,11 @@ Also looking for a solution that identifies the answer by quadrants
 
 There is a math dyalog plugin for windows and linux
 https://github.com/Dyalog/Math
+```APL
+(F G H x) K y → y K⍨ F G H x ⍝ Commute
+
+((2*0.1)-1)÷0.1
+0.1÷⍨(2*0.1)-1
+0.1÷⍨1-⍨2*0.1
+10×¯1+2*0.1 ⍝ Was trying to show ¯1+ and X× patterns for replacing - and ÷
+```
