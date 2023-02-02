@@ -101,10 +101,10 @@ B ←(,⍨⍴1\⍨1,-) ⍝ tacit
 C ←{(⍵,⍵)⍴((1,(-⍵))\1)} ⍝ tacit.help
 ```
 
-A
-1. [Expand](https://xpqz.github.io/cultivations/Functions7.html?#expand) `\` - copies each [element](https://aplwiki.com/wiki/Element "Element") of the right [argument](https://aplwiki.com/wiki/Argument "Argument") a given number of times. Positive numbers on the left also replicate like with `/` but negative numbers insert that many prototypical elements at that position.
-2. `1(-⍵)\1`  `-⍵` is the number of zeros. `\1` is the number to prepend with. `1(-⍵)` is the number of times to prepend with a 1.
-3. `⍵ ⍵⍴`  Reshape into a `⍵ ⍵` matrix.
+1. [Expand](https://xpqz.github.io/cultivations/Functions7.html?#expand) `\` - copies each [element](https://aplwiki.com/wiki/Element "Element") of the right [argument](https://aplwiki.com/wiki/Argument "Argument") a given number of times. Positive numbers on the left also replicate like with `/` but negative numbers insert that many prototypical (spaces for characters and zeros for numbers) elements at that position. 
+2. `1(-⍵)\1`  `-⍵` is the number of zeros. `\1` is the number to prepend with. `1(-⍵)` is the number of times to prepend with a 1. 
+3. `⍵ ⍵⍴`  Reshape into a `⍵ ⍵` matrix. 
+
 
 B
 1. `,⍨⍴1` Self concatenation of the argument reshaped by 
@@ -151,6 +151,13 @@ B ← (↑,⍨\↑∘1) ⍝ cumulative reverse-concatenations
 ```
 
 A
+1. `-⍤⍳` Negation of the indices
+2. Paired with the rank operator. Take using a length which is larger than the argument length causes [fills](https://aplwiki.com/wiki/Fill_element "Fill element") of 0's to be inserted.
+3. Use tally to get a 1 allows function to be tacit. 
+4. `{(-(⍳⍵))(↑⍤0)(≢⍵)}` is the Dfn version
+
+B
+1. 
 
 
 **Comment:**
