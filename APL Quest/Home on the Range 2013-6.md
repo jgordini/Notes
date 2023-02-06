@@ -9,8 +9,8 @@
 
 **A**
 ```APL
-n←5
-A←(=/¨⍤⍳,⍨) ⍝ equality of x and y in all indices
+	N←5
+	A←(⌈/-⌊/), ⍝ Tacit - ravel the array and the take the difference of the max and min
 ```
 
 1. [Catenate](https://aplwiki.com/wiki/Catenate) `,` **n** to [Itself](https://aplwiki.com/wiki/Commute) `⍨` we get a vector of 5 5
