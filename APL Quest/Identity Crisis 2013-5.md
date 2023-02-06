@@ -196,8 +196,8 @@ A
 B
 1. `⍵∘.+0j1×⍵` Again using [Outer Product](https://aplwiki.com/wiki/Outer_Product) `∘.+` of the real part plus the imaginary part `+0j1` and Multiplying the imaginary part `0j1×⍵` by the Index `⍳` to create a table.  
 2. When two complex numbers are added, they form the two sides of a right triangle in the complex plane, with the resulting complex number being the hypotenuse. The magnitude of the resulting complex number is equal to the length of the hypotenuse.
-3. Becuase the horizontal and the vertical parts of this triangle are equal to each other( the same index is used on both sides of the outer product). The diagnals length is a multpile of the square root of 2. 
-4. `(2*÷2)||` The first vertial bar takes the [Magnitude](https://aplwiki.com/wiki/Magnitude) `|` of the reusult of Step 1. The second bar calculates the remainder or [Residue](https://aplwiki.com/wiki/Residue) when the table is divided by the square root of two `(2*÷2)` 
+3. Becuase the horizontal and the vertical parts of this triangle are equal to each other( the same index is used on both sides of the outer product). The diagnals length is a multiple of the square root of 2. 
+4. `(2*÷2)||` The first vertial bar takes the [Magnitude](https://aplwiki.com/wiki/Magnitude) `|` of the result of Step 1. The second bar calculates the remainder or [Residue](https://aplwiki.com/wiki/Residue) when the table is divided by the square root of two `(2*÷2)` 
 5. `0=` Everywhere there is no remainder we are on the diagonal. 
 
 **Comment:**
