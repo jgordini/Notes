@@ -147,7 +147,8 @@ A
 Overtake, Mix and Scan
 ```APL
 A ← (-⍤⍳↑⍤0≢) ⍝ suffixes of 1
-B ← (↑,⍨\↑∘1) ⍝ cumulative reverse-concatenations
+B ← (↑,⍨\⍤↑∘1) ⍝ cumulative reverse-concatenations
+C ← {↑(({⍵,⍺}\)(⍵↑1))} ⍝ tacit.help
 ```
 
 A
@@ -157,8 +158,31 @@ A
 4. `{(-(⍳⍵))(↑⍤0)(≢⍵)}` is the Dfn version
 
 B
-1. 
+1. `,⍨\` Swapped concatentation of scan returns the reversed prefixes of a vector
+2. `↑∘1` Take binded with one. Overtakes one with the arguments number of zeros. In this case n=5
+3. `⍤` Atop seperates the functions returns the right and then the left. 
 
+Key Operator
+```APL
+A←(×⌽⍤↑⌸⍤⍳) ⍝ reversal of each index's overtake of its position
+B←(⍸⍣¯1⍤⊢⌸⍳) ⍝ Boolean vectors with 1 in each position
+```
+
+A
+1. Signum reversal atop of the the taking of the two arguments
+B
+1. Where inverse atop the right argument. 
+
+Complex Numbers
+```APL
+A ← {4=○÷12○⍵∘.+0j1×⍵}⍳ ⍝ π÷4 = arg(a+ai)
+B ← {0=(2*÷2)||⍵∘.+0j1×⍵}⍳ ⍝ |a+ai| = 0 mod √2
+```
+
+A
+1. 45 degrees divide by pi is 4. Where are the 4's
+B
+1.  Diagonals length is a multiple of the square root of 2. No remander we are on the diagonal. 
 
 **Comment:**
 ```APL
