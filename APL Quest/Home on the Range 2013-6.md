@@ -6,11 +6,23 @@
 **Code:** https://github.com/abrudz/apl_quest/blob/main/2013/6.apl
 
 **Example Solutions:**
+
+**A**
 ```APL
-	I←(⌈/-⌊/), ⍝ Tacit - ravel the array and the take the difference of the max and min
-	J←{0∊⍴⍵:0 ⋄ (⌈/-⌊/),⍵} ⍝ If zero is a member of the shape of the array return zero. Otherwise find the range. 
-	K←(⌈/-⌊/),,42/⍨0∊⍴ ⍝ If zero is a member of the shape of the array return 42. Otherwise return nothing. Catenate the result with the ravel of the array (See I). Take the difference of the max and min.  
-	```
+n←5
+A←(=/¨⍤⍳,⍨) ⍝ equality of x and y in all indices
+```
+
+1. [Catenate](https://aplwiki.com/wiki/Catenate) `,` **n** to [Itself](https://aplwiki.com/wiki/Commute) `⍨` we get a vector of 5 5
+2. We can take that vector and use it as an input for the [Index Generator](https://aplwiki.com/wiki/Index_Generator). `⍳` this generates an array of shape 5 5 where the elements are the indices for each element.
+3. [Equality](https://aplwiki.com/wiki/Comparison_function) [Reduction](https://aplwiki.com/wiki/Reduce) of [Each](https://aplwiki.com/wiki/Each) pair `=/¨` we can see where the horizontal and vertical indexes are equal.  This forms our identity matrix.
+4. `⍤` The [Atop](https://aplwiki.com/wiki/Atop_(operator)) operator `f⍤g Y` performs  performs f on the result of g on Y.  This allows the expression to be [Tacit](https://aplwiki.com/wiki/Tacit_programming).
+
+
+
+
+
+
 
 
 **Comment:** 
@@ -19,6 +31,11 @@
 ⊃⍤⌽ ⍝ Choose the last element of a vector
 1⌈≢ ⍝ is the length larger than one. Using this as a check to make sure it is not an empty array. Taking this result returns the entire array or zero if empty. 
 ,, ⍝ Catenate the ravel
+
+	I←(⌈/-⌊/), ⍝ Tacit - ravel the array and the take the difference of the max and min
+	J←{0∊⍴⍵:0 ⋄ (⌈/-⌊/),⍵} ⍝ If zero is a member of the shape of the array return zero. Otherwise find the range. 
+	K←(⌈/-⌊/),,42/⍨0∊⍴ ⍝ If zero is a member of the shape of the array return 42. Otherwise return nothing. Catenate the result with the ravel of the array (See I). Take the difference of the max and min.  
+
 ```
 
 **Glyphs Used:**
