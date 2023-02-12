@@ -7,22 +7,45 @@
 
 **Example Solutions:**
 
-**A**
+Non empty Vectors
 ```APL
-	N←5
-	A←(⌈/-⌊/), ⍝ Tacit - ravel the array and the take the difference of the max and min
+	V ←¯1 4 1 5 9 2 6
+	A ← (⌈/-⌊/), ⍝ Tacit - ravel the array and the take the difference of the max and min {(⌈/,⍵)-(⌊/,⍵)}
+	
+	B ← (⌈/∘,∘.-⍨) ⍝ {(⌈/)(,(⍵(∘.-)⍵))}
 ```
 
-1. [Catenate](https://aplwiki.com/wiki/Catenate) `,` **n** to [Itself](https://aplwiki.com/wiki/Commute) `⍨` we get a vector of 5 5
-2. We can take that vector and use it as an input for the [Index Generator](https://aplwiki.com/wiki/Index_Generator). `⍳` this generates an array of shape 5 5 where the elements are the indices for each element.
-3. [Equality](https://aplwiki.com/wiki/Comparison_function) [Reduction](https://aplwiki.com/wiki/Reduce) of [Each](https://aplwiki.com/wiki/Each) pair `=/¨` we can see where the horizontal and vertical indexes are equal.  This forms our identity matrix.
-4. `⍤` The [Atop](https://aplwiki.com/wiki/Atop_(operator)) operator `f⍤g Y` performs  performs f on the result of g on Y.  This allows the expression to be [Tacit](https://aplwiki.com/wiki/Tacit_programming).
+A
+1. `,` We [Ravel](https://aplwiki.com/wiki/Ravel) `,` the array first to convert it into a [vector](https://aplwiki.com/wiki/Vector)  so that it works on a [Matrix](https://aplwiki.com/wiki/Rank), a two dimensional array.  
+2. Then we apply a [fork](https://aplwiki.com/wiki/Train#3-trains) The two outer functions are applied first, and their results are used as arguments to the middle function.
+3. `⌈/-⌊/` The two outer arguments are [Maximum Reduce](https://aplwiki.com/wiki/Maximum) `⌈/`  returns the largest element of a vector and [Minimum Reduce](https://aplwiki.com/wiki/Minimum) `⌊/` returns the smallest element of a vector. 
+4. `-` The middle function is [Subtract](https://aplwiki.com/wiki/Subtract). 
 
+B
+1.  `∘.-` Using our vector we create a Subtraction Table ([Outer Product](https://aplwiki.com/wiki/Outer_Product) `∘.`). This will give us all the possible differences between values.
+2. `⌈/,⍵∘.-⍵` We then ravel this and [Maximum Reduce](https://aplwiki.com/wiki/Maximum) `⌈/,` returning the largest value in our table. 
+3. To make this [Tacit](https://aplwiki.com/wiki/Tacit_programming) we [Bind](https://aplwiki.com/wiki/Bind) `∘` the Maximum Reduce with the Ravel `⌈∘,` and use [Commute](https://aplwiki.com/wiki/Commute) `∘.-⍨`  to put our argument on either side of the Outer Product. 
 
+Empty Arrays
+```APL
+⌈/⍬ ⍝ Maximum of empty vector is smallest representable number. Minimum reduction produces the opposite value.
+C ←{0∊⍴⍵:0 ⋄ (⌈/-⌊/),⍵} ⍝ If zero is a member of the shape of the array return zero. Otherwise find the range.
+D ←(⊃⍤⌽-⊃){⍵[⍋⍵]}⍤, ⍝ {(⊃(⌽⍵))-(⊃⍵)}
+E ←((⌈/-⌊/)⊢↑⍨1⌈≢),
+```
 
+C
+1.  [Membership](https://aplwiki.com/wiki/Membership) `∊` - tests if each of the elements of the left [argument](https://aplwiki.com/wiki/Argument "Argument") appears as an element of the right argument. 
+2. [Shape](https://aplwiki.com/wiki/Shape) `⍴` - returns the _shape_ of its argument array
+3. `0∊⍴⍵` So we are testing if 0 is a member of the shape of the array `⍵`. 
+4. The [Guard](https://aplwiki.com/wiki/Dfn#Guards) :  Returns 0 if the left argument is true. 
+5.  [Diamond](https://aplwiki.com/wiki/Statement_separator) ⋄ - Statement Seperator divides the two statements. The left one (with the guard) is evaluated first. 
+6. `(⌈/-⌊/),⍵` Once we have confirmed that the vector is not an empty array we then move on to Solution A. It's details are above. 
 
-
-
+D
+1. `⍵[⍋⍵]` Uses [Grade Up](https://aplwiki.com/wiki/Grade) `⍋` to generate an index from lowest to highest. We can then [Sort](https://xpqz.github.io/learnapl/manip.html?highlight=sort#grade-up-down) `data[⍋data]` the array using that [index](https://xpqz.github.io/learnapl/indexing.html#bracket-indexing). 
+2. `(⊃⍤⌽-⊃)` Now that it's been sorted we can subtract the first element from the last. Here we use [First](https://aplwiki.com/wiki/First) `⊃`  to grab the first element. We then use [Atop](https://aplwiki.com/wiki/Atop_(operator)) `⍤`  to apply [First](https://aplwiki.com/wiki/First) `⊃` to the result of the [Rotate](https://aplwiki.com/wiki/Rotate) `⌽`  See the [Dfn](https://aplwiki.com/wiki/Dfn) in the comment for more details. 
+E
 
 
 **Comment:** 
@@ -49,7 +72,7 @@
 [Guards](https://aplwiki.com/wiki/Dfn#Guards) : - Return result
 [Diamond](https://aplwiki.com/wiki/Statement_separator) ⋄ - Statement Seperator
 [Each](https://aplwiki.com/wiki/Each) `¨` - Apply to each element
-[Grade ](https://aplwiki.com/wiki/Grade) `⍋ ⍒`  - Grade returns a [permutation](https://aplwiki.com/index.php?title=Permutation&action=edit&redlink=1 "Permutation (page does not exist)") [vector](https://aplwiki.com/wiki/Vector "Vector") whose length equals the number of [major cells](https://aplwiki.com/wiki/Major_cell "Major cell") - See sort below.
+[Grade ](https://aplwiki.com/wiki/Grade) `⍋ ⍒`  - ⍋ 'foo' 'bar' 'baz'  - **Example** resulting in 2 3 1 means( the second item is first, The 3rd item is second, The first item is third.) This can then be used to index into the array and alphabeticlaly Sort it. 
 [Pick](https://mastering.dyalog.com/Nested-Arrays-Continued.html?highlight=pick#pick) `⊃` - Left argument is path, right argument is data. 
 [Atop](https://aplwiki.com/wiki/Atop_(operator)) `⍤` - Uses the left argument to process the result of the right. 
 [Tally](https://aplwiki.com/wiki/Tally) `≢` - Length of the array
