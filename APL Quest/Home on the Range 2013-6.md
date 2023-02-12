@@ -31,7 +31,7 @@ Empty Arrays
 ⌈/⍬ ⍝ Maximum of empty vector is smallest representable number. Minimum reduction produces the opposite value.
 C ←{0∊⍴⍵:0 ⋄ (⌈/-⌊/),⍵} ⍝ If zero is a member of the shape of the array return zero. Otherwise find the range.
 D ←(⊃⍤⌽-⊃){⍵[⍋⍵]}⍤, ⍝ {(⊃(⌽⍵))-(⊃⍵)} ⍵ is the sorted array. 
-E ←((⌈/-⌊/)⊢↑⍨1⌈≢),
+E ←((⌈/-⌊/)⊢↑⍨1⌈≢), ⍝ {(1⌈(≢(,⍵)))↑(,⍵)}
 ```
 
 C
