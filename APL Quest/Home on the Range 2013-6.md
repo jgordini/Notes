@@ -30,7 +30,7 @@ Empty Arrays
 ```APL
 ⌈/⍬ ⍝ Maximum of empty vector is smallest representable number. Minimum reduction produces the opposite value.
 C ←{0∊⍴⍵:0 ⋄ (⌈/-⌊/),⍵} ⍝ If zero is a member of the shape of the array return zero. Otherwise find the range.
-D ←(⊃⍤⌽-⊃){⍵[⍋⍵]}⍤, ⍝ {(⊃(⌽⍵))-(⊃⍵)}
+D ←(⊃⍤⌽-⊃){⍵[⍋⍵]}⍤, ⍝ {(⊃(⌽⍵))-(⊃⍵)} ⍵ is the sorted array. 
 E ←((⌈/-⌊/)⊢↑⍨1⌈≢),
 ```
 
@@ -45,8 +45,9 @@ C
 D
 1. `⍵[⍋⍵]` Uses [Grade Up](https://aplwiki.com/wiki/Grade) `⍋` to generate an index from lowest to highest. We can then [Sort](https://xpqz.github.io/learnapl/manip.html?highlight=sort#grade-up-down) `data[⍋data]` the array using that [index](https://xpqz.github.io/learnapl/indexing.html#bracket-indexing). 
 2. `(⊃⍤⌽-⊃)` Now that it's been sorted we can subtract the first element from the last. Here we use [First](https://aplwiki.com/wiki/First) `⊃`  to grab the first element. We then use [Atop](https://aplwiki.com/wiki/Atop_(operator)) `⍤`  to apply [First](https://aplwiki.com/wiki/First) `⊃` to the result of the [Rotate](https://aplwiki.com/wiki/Rotate) `⌽`  See the [Dfn](https://aplwiki.com/wiki/Dfn) in the comment for more details. 
-E
 
+E
+1. 
 
 **Comment:** 
 ```APL
