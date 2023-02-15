@@ -71,8 +71,9 @@ F
 3. `(⌈/-⌊/)` We then move on to Solution A passing it the result of Shape. It's details are above. 
 4. We use [Identity ](https://aplwiki.com/wiki/Identity)`⊢`  [Commute](https://aplwiki.com/wiki/Commute) `⍨` and [Atop](https://aplwiki.com/wiki/Atop_(operator)) `⍤` to make the solution Tacit. See the Dfn in the comments. 
 G
+1. If zero is a member of the shape of the array return 42. Otherwise return nothing. Catenate the result with the ravel of the array. Take the difference of the max and min.  
 1. `⍨0∊⍴` [Shape](https://aplwiki.com/wiki/Shape) `⍴` returns the _shape_ of its argument array. [Enlist](https://aplwiki.com/wiki/enlist) `∊` - Flattens over all levels of nesting. [Commute](https://aplwiki.com/wiki/Commute) `⍨`
-2. `,,0/` [Catenate](https://aplwiki.com/wiki/Catenate) `,` - combines two arrays along a shared [axis](https://aplwiki.com/wiki/Axis "Axis"), left to right [Reduction](https://aplwiki.com/wiki/Reduce)  `0/`
+2. `,,0/` [Catenate](https://aplwiki.com/wiki/Catenate) `,0` - combines two arrays along a shared [axis](https://aplwiki.com/wiki/Axis "Axis"), left to right Appends a 0.  [Reduction](https://aplwiki.com/wiki/Reduce)  `/`
 3. `(⌈/-⌊/)` We then move on to Solution A passing it the result of Shape. It's details are above. 
 
 **Comment:** 
