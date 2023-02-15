@@ -27,8 +27,14 @@ B
 3. To make this [Tacit](https://aplwiki.com/wiki/Tacit_programming) we [Bind](https://aplwiki.com/wiki/Bind) `∘` the Maximum Reduce with the Ravel `⌈∘,` and use [Commute](https://aplwiki.com/wiki/Commute) `∘.-⍨`  to put our argument on either side of the Outer Product. 
 
 Empty Arrays
+Comments
 ```APL
 ⌈/⍬ ⍝ Maximum of empty vector is smallest representable number. Minimum reduction produces the opposite value.
+1⌈≢ ⍝ is the length larger than one. Using this as a check to make sure it is not an empty array. Taking this result returns the entire array or zero if empty. 
+```
+
+Examples
+```APL
 C ←{0∊⍴⍵:0 ⋄ (⌈/-⌊/),⍵} ⍝ If zero is a member of the shape of the array return zero. Otherwise find the range.
 D ←(⊃⍤⌽-⊃){⍵[⍋⍵]}⍤, ⍝ {(⊃(⌽⍵))-(⊃⍵)} ⍵ is the sorted array. 
 E ←((⌈/-⌊/)⊢↑⍨1⌈≢), ⍝ {(1⌈(≢(,⍵)))↑(,⍵)}
@@ -47,7 +53,27 @@ D
 2. `(⊃⍤⌽-⊃)` Now that it's been sorted we can subtract the first element from the last. Here we use [First](https://aplwiki.com/wiki/First) `⊃`  to grab the first element. We then use [Atop](https://aplwiki.com/wiki/Atop_(operator)) `⍤`  to apply [First](https://aplwiki.com/wiki/First) `⊃` to the result of the [Rotate](https://aplwiki.com/wiki/Rotate) `⌽`  See the [Dfn](https://aplwiki.com/wiki/Dfn) in the comment for more details. 
 
 E
-1. 
+1. `1⌈≢,` [Tally](https://aplwiki.com/wiki/Tally) `≢`  the [Raveled](https://aplwiki.com/wiki/Ravel) `,` array. Then do a [Maximum](https://aplwiki.com/wiki/Maximum) `⌈`  with 1 as the left argument. If the array is length zero we get 1. Otherwise we get the tally of the array.
+2. `⊢↑⍨` [Take](https://aplwiki.com/wiki/Take) `↑` the result. If the array is empty it [Overtakes](https://aplwiki.com/wiki/Take#Overtaking) `↑`  (pads with a zero) otherwise it just returns the array. We use [Identity ](https://aplwiki.com/wiki/Identity)`⊢` and [Commute](https://aplwiki.com/wiki/Commute) `⍨` to make the solution Tacit. See the Dfn in the comments. 
+3. `(⌈/-⌊/)` We then move on to Solution A passing it the result of take. It's details are above. 
+
+Using Reshape
+```APL
+,, ⍝ Catenate the ravel
+F ← (⌈/-⌊/)⊢⍴⍨1⌈×/⍤⍴ ⍝ {((⌈/)((1⌈((×/)(⍴⍵)))⍴⍵))-((⌊/)((1⌈((×/)(⍴⍵)))⍴⍵))}
+G ← (⌈/-⌊/),,0/⍨0∊⍴ ⍝ {((⌈/)((,⍵),((0∊(⍴⍵))/0)))-((⌊/)((,⍵),((0∊(⍴⍵))/0)))}
+H ← (⌈/-⌊/),,0∩⍴ ⍝ {((⌈/)((,⍵),(0∩(⍴⍵))))-((⌊/)((,⍵),(0∩(⍴⍵))))}
+```
+
+F
+1. `1⌈×/⍤⍴` [Shape](https://aplwiki.com/wiki/Shape) `⍴` returns the _shape_ of its argument array. [Times Reduction](https://aplwiki.com/wiki/Reduce)  `×/`  [Maximum](https://aplwiki.com/wiki/Maximum) `⌈`  with 1 as the left argument. If the array is length zero we get 1. 
+2. `⊢⍴⍨` [Shape](https://aplwiki.com/wiki/Shape) `⍴` returns the _shape_ of its argument array. 
+3. `(⌈/-⌊/)` We then move on to Solution A passing it the result of Shape. It's details are above. 
+4. We use [Identity ](https://aplwiki.com/wiki/Identity)`⊢`  [Commute](https://aplwiki.com/wiki/Commute) `⍨` and [Atop](https://aplwiki.com/wiki/Atop_(operator)) `⍤` to make the solution Tacit. See the Dfn in the comments. 
+G
+1. `⍨0∊⍴` [Shape](https://aplwiki.com/wiki/Shape) `⍴` returns the _shape_ of its argument array. [Enlist](https://aplwiki.com/wiki/enlist) `∊` - Flattens over all levels of nesting. [Commute](https://aplwiki.com/wiki/Commute) `⍨`
+2. `,,0/` [Catenate](https://aplwiki.com/wiki/Catenate) `,` - combines two arrays along a shared [axis](https://aplwiki.com/wiki/Axis "Axis"), left to right [Reduction](https://aplwiki.com/wiki/Reduce)  `0/`
+3. `(⌈/-⌊/)` We then move on to Solution A passing it the result of Shape. It's details are above. 
 
 **Comment:** 
 ```APL
