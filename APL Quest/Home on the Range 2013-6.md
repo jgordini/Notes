@@ -71,10 +71,27 @@ F
 3. `(⌈/-⌊/)` We then move on to Solution A passing it the result of Shape. It's details are above. 
 4. We use [Identity ](https://aplwiki.com/wiki/Identity)`⊢`  [Commute](https://aplwiki.com/wiki/Commute) `⍨` and [Atop](https://aplwiki.com/wiki/Atop_(operator)) `⍤` to make the solution Tacit. See the Dfn in the comments. 
 G
-1. If zero is a member of the shape of the array return 42. Otherwise return nothing. Catenate the result with the ravel of the array. Take the difference of the max and min.  
-1. `⍨0∊⍴` [Shape](https://aplwiki.com/wiki/Shape) `⍴` returns the _shape_ of its argument array. [Enlist](https://aplwiki.com/wiki/enlist) `∊` - Flattens over all levels of nesting. [Commute](https://aplwiki.com/wiki/Commute) `⍨`
-2. `,,0/` [Catenate](https://aplwiki.com/wiki/Catenate) `,0` - combines two arrays along a shared [axis](https://aplwiki.com/wiki/Axis "Axis"), left to right Appends a 0.  [Reduction](https://aplwiki.com/wiki/Reduce)  `/`
-3. `(⌈/-⌊/)` We then move on to Solution A passing it the result of Shape. It's details are above. 
+1. `0/⍨0∊⍴` [Shape](https://aplwiki.com/wiki/Shape) `⍴` returns a [vector](https://aplwiki.com/wiki/Vector "Vector") of lengths of the array along each [axis](https://aplwiki.com/wiki/Axis "Axis"). 
+2. [Membership]([Membership - APL Wiki](https://aplwiki.com/wiki/Membership) `∊` Tests if each of the elements of the left argument appears in the right argument.  If 0 appears in the shape of the array this returns a 1 for true.
+3. [Replicate ](https://aplwiki.com/wiki/Replicate) `/` will then add a zero 1 time. If membership is false it returns a 0 so replicate does not add a zero. 
+4. `,,0/` [Catenate](https://aplwiki.com/wiki/Catenate) `,`  add the zero (or nothing) to the [Ravel](https://aplwiki.com/wiki/Ravel) `,`  of the array. 
+5. `(⌈/-⌊/)` We then move on to Solution A passing it the result of Shape. It's details are above. 
+
+H
+1. `0∩⍴` [Intersection](https://aplwiki.com/wiki/Intersection) `∩` -For each element to the left, keep it if it’s also in the right. So if there is a zero in the [Shape](https://aplwiki.com/wiki/Shape) `⍴` we keep it and Catentate it to ravel of the array. 
+
+Nested Arrays
+
+Examples
+```APL 
+I ← ((⌈/-⌊/)⊢↑⍨1⌈≢ )∊ ⍝ adds enlist to solution E
+J ← ((⌈/-⌊/)⊢,0/⍨⍬≡⊢)∊ ⍝ Checks if zero matches the Identity
+K ← ((⌈/-⌊/)⊢,0∩⍴)∊ ⍝ adds enlist to solution H
+```
+I
+1. [Enlist](https://aplwiki.com/wiki/enlist) `∊` - Flattens over all levels of nesting
+2. [Match](https://aplwiki.com/wiki/match) `≡` - indicates whether the left and right [argument](https://aplwiki.com/wiki/Argument "Argument") arrays are identical
+
 
 **Comment:** 
 ```APL
