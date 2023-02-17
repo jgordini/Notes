@@ -7,9 +7,20 @@
 
 **Example Solutions:**
 ```APL
-F ← {⍵/⍨⍵≠⌊⍵} ⍝ Compare the number against it's rounded version. Same is int. Different is Float.  
-Ft ← (/⍨)∘(≠∘⌊⍨)⍨ ⍝ Tacit Version - See Note
+v ← ¯3.1 4 1.5 92.6 ¯5 ⍝ Test Data
+A ← {⍵/⍨⍵≠⌊⍵} ⍝ Compare the number against it's rounded version. Same is int. Different is Float.  
+B ← (/⍨)∘(≠∘⌊⍨)⍨ ⍝ {(⍵≠(⌊⍵))/⍵}
 	```
+
+A
+1. `⍵≠⌊⍵` [Floor](https://aplwiki.com/wiki/Floor) `⌊` Rounds down to the nearest real number.
+2. [Not Equal to](https://aplwiki.com/wiki/Not_Equal_to) `≠` a [comparison function](https://aplwiki.com/wiki/Comparison_function "Comparison function")  tests whether arguments are unequal. This returns a boolean array where 1 indicates the non-integers. 
+3. `⍵/`  [Compress](https://mastering.dyalog.com/Some-Primitive-Functions.html?highlight=compress#replicate) filters the right argument using the boolean array on the left. 
+4. [Commute](https://aplwiki.com/wiki/Commute) `⍨` aka Swap used to put the boolean array generated in Step 1 on the left of the Compress. 
+
+B
+1. `(≠∘⌊⍨)`  [Selfie](https://mastering.dyalog.com/Tacit-Programming.html?highlight=selfie#commute-selfie-and-constant) `⍨` - used monadically, the same argument gets used on both sides of the function. Thus, `F⍨y` is equivalent to - `y F y`.
+2. 
 
 **Note:**
 <mark style="background: #FFF3A3A6;">Ft </mark> ← Tacit Derived Function - Composed of Operators
