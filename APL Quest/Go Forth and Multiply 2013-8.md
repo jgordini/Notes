@@ -49,10 +49,11 @@ Q ← ∘.{≢#,⍣⍺⍣⍵⊢⍬}⍨⍳
 
 
 **Concepts Used:**
+[Ravel Order](https://aplwiki.com/wiki/Ravel_order)
 [Dfn](https://aplwiki.com/wiki/Dfn)
 [Tacit Programming](https://aplwiki.com/wiki/Tacit_programming)
-[Comparison Tolerance](https://www.jsoftware.com/papers/satn23.htm) 
-[Function Composition](http://help.dyalog.com/latest/index.htm#Language/Primitive%20Operators/Operator%20Syntax.htm#Function_Composition)
-[Hook](https://aplwiki.com/wiki/Hook)
-[Derived Function](https://aplwiki.com/wiki/Derived_function)
-[Modulo Operation](https://en.wikipedia.org/wiki/Modulo_operation)
+[Outer Product](https://aplwiki.com/wiki/Outer_Product) `∘.`
+[Sort](https://xpqz.github.io/learnapl/manip.html?highlight=sort#grade-up-down) `data[⍋data]` 
+[Overtake](https://aplwiki.com/wiki/Take#Overtaking) `↑` - A length larger than the argument length causes [fills](https://aplwiki.com/wiki/Fill_element "Fill element") to be inserted
+[Fork](https://aplwiki.com/wiki/Train#3-trains)
+
