@@ -11,8 +11,6 @@ A ← ∘.×⍨⍳
 A
 1. 
 
-
-
 **Without Outer Product**
 ```APL
 B ← {×/¨⍳⍵ ⍵}
