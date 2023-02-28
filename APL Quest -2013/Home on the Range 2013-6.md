@@ -138,6 +138,8 @@ I
 [Overtake](https://aplwiki.com/wiki/Take#Overtaking) `↑` - A length larger than the argument length causes [fills](https://aplwiki.com/wiki/Fill_element "Fill element") to be inserted
 [Fork](https://aplwiki.com/wiki/Train#3-trains)
 
+**Transcript:**
+
 Hi and welcome to the APL Quest-C APL Wiki. Today's quest is the sixth problem from the 2013 round of the APL Problem Solving Competition. It's a very simple problem of just finding out the numeric range of an array, that is, the highest value minus the lowest value. But we'll see that there is a special edge case that we need to take action for, and we'll look into some generalization as well.
 
 Without further ado, let's generate some data we can work on. Here's a numeric vector, and the highest value is the maximum reduction of that vector, and the lowest value is the minimum reduction over the vector. Then we can take those two values and subtract the smaller from the larger, and we get the full numeric range. So that's really all there is to the basic problem.

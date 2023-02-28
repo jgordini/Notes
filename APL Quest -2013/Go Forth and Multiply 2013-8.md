@@ -59,6 +59,8 @@ Q ← ∘.{≢#,⍣⍺⍣⍵⊢⍬}⍨⍳
 [Overtake](https://aplwiki.com/wiki/Take#Overtaking) `↑` - A length larger than the argument length causes [fills](https://aplwiki.com/wiki/Fill_element "Fill element") to be inserted
 [Fork](https://aplwiki.com/wiki/Train#3-trains)
 
+**Transcript:**
+
 Welcome to the APL quest! See APL Wiki for details. Today's quest is called "Go Forth and Multiply". It's really simple, we just need to make a multiplication table. It's the eighth problem from the 2013 round of the APL problem solving competition. For once, we're going to go straight to the obvious solution.
 
 Well, we can generate the indices from one to a certain target number, and then we simply need to provide the outer product using that argument both on the left and the right side, so both vertically and horizontally in our table, and this gives us our solution. Just get rid of the argument, and we can give it a name, and now we can apply it as we want, and it works even on zero.

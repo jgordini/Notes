@@ -60,6 +60,8 @@ G ← {⎕PP←34 ⋄ ⍵/⍨'.'∊∘⍕¨⍵}
 
 F
 1. [Format](https://aplwiki.com/wiki/Format) `⍕` - Dydactic column width and the number of decimal places for formatting [numeric](https://aplwiki.com/index.php?title=Numeric&action=edit&redlink=1 "Numeric (page does not exist)") arrays
+2. Is . a member of the each formated element of omega.
+3. filter against that. 
 
 G
 1. [Print Precision](https://help.dyalog.com/latest/Content/Language/System%20Functions/pp.htm) `⎕PP` - number of significant digits in the display of numeric output

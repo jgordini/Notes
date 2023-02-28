@@ -38,6 +38,8 @@
 [Derived Function](https://aplwiki.com/wiki/Derived_function)
 [Modulo Operation](https://en.wikipedia.org/wiki/Modulo_operation)
 
+**Transcript:**
+
 Hello and welcome to this APL quest episode. See APL wiki for details. Today's quest is the last problem from the 2013 round of the APL problem-solving competition. We are simply given a set of linear equations and the values that those equations add up to, and then we are to find the solution for the variables.
 
 Let's start by creating this equation system, so we'll have a simple example of just three equations with three variables. This is saying: 4x + 1y + z = 2, 2x + 2y + 2z = 6, and so on. A solution to that is if x is -1, y is 3, and z is 1, and we can check this.

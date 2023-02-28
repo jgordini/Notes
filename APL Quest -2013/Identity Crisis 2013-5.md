@@ -260,6 +260,8 @@ x+.×y ⍝ matrix multiplication
 [Complex Numbers](https://aplwiki.com/wiki/Complex_number)
 [Phase](https://en.wikipedia.org/wiki/Phase_(waves))
 
+**Transcript:**
+
 Welcome to this episode of the apl quest see APL wiki for details. Today's quest is generating an identity matrix of order n. It's a very simple task, but there are a lot of interesting ways we can do this. Let's get started with some serious solutions and then look at some more fun innovative solutions after that.
 
 The first thing we can do is that we have a number n. Let's, for argument, say that n is five and we want to make a matrix that is five by five. So we can calculate n to itself, giving us five by five.

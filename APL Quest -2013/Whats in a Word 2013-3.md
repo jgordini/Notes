@@ -95,6 +95,8 @@ We can evalute the performance of each function by importing the [CMPX](http://d
 [Dfns Workspace](https://aplwiki.com/wiki/Dfns_workspace)
 [CMPX](http://dfns.dyalog.com/n_cmpx.htm)
 
+**Transcript:**
+
 Welcome to this third Apl Quest! See the Apl Wiki for details. 
 
 Today's quest is the third problem from the 2013 round of the Apl problem solving competition. What is in a Word? The task is to write a function which returns the number of words in a given text, which can be given either as a single character or as a vector of characters. 
@@ -115,7 +117,7 @@ If you come from other programming language background and especially Perl, you 
 
 And we have our string and then we have the quad s that's a string search regular expression search and the pattern we want here are with the inverted character class none spaces any number of of those one or more and then it doesn't really matter what we're going to return because we just want to count them, we don't actually want them. So the best option here is use code three which means the pattern num in is in the offset from the left and that since there's only one pattern that's just zero. 
 
-So we get a bunch of zeros and then we can see we get one zero per word there and that works and also on the scalar letter. Um, and it works also on on the empty we just get nothing and then we just need to count them as you can see here. So that and that's our second solution right there. 
+So we get a bunch of zeros and then we can see we get one zero per word there and that works and also on the scalar letter, and it works also on the empty we just get nothing and then we just need to count them as you can see here. So that and that's our second solution right there. 
 
 Okay, here's an interesting solution that I came up with that's it's kind of abusing a built-in functionality a system function called vfi that's verified and fixed input and really what it does is it parses numbers. So we can see if we give it some text then um it looks at this input as a space a space separate the fields we can also have multiple spaces and that's fine. Um, it removes all such extraneous spaces and it returns a two element vector. 
 

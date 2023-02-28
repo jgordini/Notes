@@ -31,3 +31,7 @@ https://github.com/Dyalog/Math
 0.1÷⍨1-⍨2*0.1
 10×¯1+2*0.1 ⍝ Was trying to show ¯1+ and X× patterns for replacing - and ÷
 ```
+add dfn into ride
+`'cmpx'⎕cy'dfns'`
+`]get dfns -o=cmpx`
+`]help xyz`

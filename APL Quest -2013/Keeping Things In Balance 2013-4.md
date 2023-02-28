@@ -223,6 +223,8 @@ NP
 [Learn Regular Expressions](https://www.regular-expressions.info/)
 
 
+**Transcript:**
+
 Hello and welcome to this fourth APL Quest. Check APL Wiki for details. Today's Quest is called 'Keeping Things in Balance'. Here, we take a character vector and it has parentheses in it. We need to check whether the parentheses are balanced, so it looks like a normal mathematical expression, or whether things are wrong. Say we begin with closing parentheses that aren't there, or we end with some open parenthesis. 
 
 Let's get started. Let's start by having a test data just to see how this works. So, we create a character vector, and let's put in some expression there. For example, something like this: okay this is a balanced one. 

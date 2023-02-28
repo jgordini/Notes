@@ -38,6 +38,8 @@
 [Derived Function](https://aplwiki.com/wiki/Derived_function)
 [Modulo Operation](https://en.wikipedia.org/wiki/Modulo_operation)
 
+**Transcript:**
+
 Hi and welcome to the APL quest (see APL wiki for details). Today's quest is the ninth problem from the 2013 round of the FPL problem solving competition. The problem is to find the average over a sub-period of a year's worth of data of numbers.
 
 Starting off with some data, these are some cells. The obvious approach here is to use n-wise reduction, and maybe the simplest, at least for simple data, way to visualize n-wise reduction is using the additive reduction using concatenation. So, we have the sales and then we can say, for example, a three-wise reduction of the sales using concatenation, where that just concatenates together groups of three elements moving over one step each time. You can see we get these little windows, and now what we want is the average of each one of those.
