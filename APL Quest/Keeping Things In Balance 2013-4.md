@@ -223,9 +223,9 @@ NP
 [Learn Regular Expressions](https://www.regular-expressions.info/)
 
 
-Hello and welcome to this fourth APL Quest. Check APL Wiki for details. Today's Quest is called 'Keeping Things in Balance'. Here, we take a character vector and it has parentheses in it. We need to check whether the parentheses are balanced, so it looks like a normal mathematical expression, or whether things are wrong. 
+Hello and welcome to this fourth APL Quest. Check APL Wiki for details. Today's Quest is called 'Keeping Things in Balance'. Here, we take a character vector and it has parentheses in it. We need to check whether the parentheses are balanced, so it looks like a normal mathematical expression, or whether things are wrong. Say we begin with closing parentheses that aren't there, or we end with some open parenthesis. 
 
-Say we begin with closing parentheses that aren't there, or we end with some open parenthesis. Let's get started. Let's start by having a test data just to see how this works. So, we create a character vector, and let's put in some expression there. For example, something like this: okay this is a balanced one. 
+Let's get started. Let's start by having a test data just to see how this works. So, we create a character vector, and let's put in some expression there. For example, something like this: okay this is a balanced one. 
 
 And the approach we're going to start off with today is that we're going to find out where the depth of the parenthesis nesting changes, and there are a few different ways we can do that. Then later, we'll move on to actually finding out whether or not the parentheses are balanced or not. 
 
@@ -243,7 +243,9 @@ Then we can do this clever thing that we can subtract the bottom row from the to
 
 So we can even do this as a tacit function because it's so simple and the argument is just the identity right there. But there are more ways we can do this. We can also do the two comparisons each by themselves. So let's say we take the comparison to the left parenthesis and the comparison with the right parenthesis and put them next to each other. That gives us these two vectors. We could of course stack them on top of each other and then we get just like the other product. 
 
-But since we're going to subtract them from each other we can just put the minus in between and that gives us the parenthesis depth changes right away. We can give this a name and we can again make it into a tested function because it's really simple. So we can and it looks very nice as well symmetric like this. So we can bind this to equal making equal equals and left parenthesis in a magnetic function and subtract the same thing. We can put the because equal is computed so we can put the argument on either side. I'd like to put it like this because it looks really cool. So this is the depth using a fork with the two outer tines equality to the two parenthesis and then subtracting the two from each other.
+But since we're going to subtract them from each other we can just put the minus in between and that gives us the parenthesis depth changes right away. We can give this a name and we can again make it into a tested function because it's really simple. So we can and it looks very nice as well symmetric like this. 
+
+So we can bind this to equal making equal equals and left parenthesis in a magnetic function and subtract the same thing. We can put the because equal is computed so we can put the argument on either side. I'd like to put it like this because it looks really cool. So this is the depth using a fork with the two outer tines equality to the two parenthesis and then subtracting the two from each other.
 
 Now this is on a tiny little test case. Let's get some real data that we can try this on and then let's do some performance comparison before we move on to the second part of the problem because we haven't solved the whole thing yet. We need to find out are they balanced or not. So for that, I'm going to copy in some functions from the defense workspace and we're not going to use these functions other than just their source as example data. So there's a turtle function, there's a joy programming language interpreter, and then we need the comparison and performance comparison as well. We copy those from defense right and they are large functions. 
 
@@ -257,13 +259,17 @@ So we want the running total of the parenthesis depth, that's very simple we can
 
 But we can also do it a different way, a little bit more succinct at least the first part. If we're saying it has to be all true, that's the end reduction that all of the elements have to be greater than or equal to zero. Now the parenthesis level can only change by one step at a time, there's no double open parenthesis there's only single open parenthesis and they can only go down one level. 
 
-So the first condition which is to check that we never reach a negative level, it would have to pass negative one in order to become negative. It might continue further on but it's a sufficient check to see whether or not we have any negative ones. So we can say negative one is a member of the running sum means it's invalid and the second and then so now we're doing it in reverse we're using a negative conditions and similarly we have to say that 0 is different from the sum. These are things that are not allowed to be present and therefore if neither of them are present then our expression is well balanced. So instead of having an and we have to use a nor so we can call this balanced using nor.
+So the first condition which is to check that we never reach a negative level, it would have to pass negative one in order to become negative. It might continue further on but it's a sufficient check to see whether or not we have any negative ones. 
+
+So we can say negative one is a member of the running sum means it's invalid and the second and then so now we're doing it in reverse we're using a negative conditions and similarly we have to say that 0 is different from the sum. These are things that are not allowed to be present and therefore if neither of them are present then our expression is well balanced. So instead of having an and we have to use a nor so we can call this balanced using nor.
 
 Let's compare the performance of these two and similarly we can create the expressions that we want. So we start off with ba and bn we could we can just spell it out since the only two of them bn and each one of them concatenated to the entire yd here so we have we haven't assigned this yet we should go up and assign this so this is the depth for y and we should do the depth fun for n as well and then we can get these two expressions and cmpx on that and yeah it's about the same. 
 
 You can do the same thing for the nose and that's a bit faster and we can probably reason our way for that because in ba we did the comparison of everything in the running sum and then we check whether they're all true whereas in bn we're not doing any comparisons and for we're not doing comparisons for all of the elements we just start looking for negative one and as soon as we hit any negative one we're done. So the membership function will just terminate right there it doesn't have to look through the entire array so in some cases that can be faster and so here bn in some cases can be faster than ba. And that means we can potentially put together a whole solution here based on these.
 
-Then we can get these two expressions and cmpx on that and yeah it's about the same you can do the same thing for the nose and that's a bit faster and we can probably reason our way for that because in ba we did the comparison of everything in the running sum and then we check whether they're all true whereas in bn we're not doing any comparisons and for we're not doing comparisons for all of the elements we just start looking for negative one and as soon as we hit any negative one we're done so the membership function will just terminate right there it doesn't have to look through the entire array so in some cases that can be faster and so here bn in some cases can be faster than ba and that means we can potentially put together a whole solution here based on these.
+Then we can get these two expressions and cmpx on that and yeah it's about the same you can do the same thing for the nose and that's a bit faster and we can probably reason our way for that because in ba we did the comparison of everything in the running sum and then we check whether they're all true. 
+
+Whereas in bn we're not doing any comparisons and for we're not doing comparisons for all of the elements we just start looking for negative one and as soon as we hit any negative one we're done so the membership function will just terminate right there it doesn't have to look through the entire array so in some cases that can be faster and so here bn in some cases can be faster than ba and that means we can potentially put together a whole solution here based on these.
 
 We take the dfn from before and supply its results to bn, which should give us the answer. We can do f on each of y and n, which should give it one and zero, and that worked. We can also spell it out.
 
@@ -283,7 +289,7 @@ Finally, we can kind of circumvent the problem, because the same kind of parenth
 
 We can wrap this in a DFN, put in an error guard, and if we don't get an error, we need to apply this function in a way that won't error. We can take this function and reduce over a scalar or one element vector, and APL will never actually use the function. 
 
-Finally, we can use the nesting depth of parentheses and use a STRANDING of parenthesis to try and parse the expression. We can flatten it in case it's nested, and see whether or not that works. 
+Finally, we can use the nesting depth of parentheses and use a stranding of parenthesis to try and parse the expression. We can flatten it in case it's nested, and see whether or not that works. 
 
 These are just some fun solutions of abusing the system.
 

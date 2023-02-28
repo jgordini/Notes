@@ -103,7 +103,7 @@ What defines a word for this problem is a space delimited, but there could be mu
 
 Let's begin by creating some test data. So this is a normal text but I put in a dash here so that we make sure that we're splitting on the right thing. This is a single letter and we can also have an empty input and then we have a text with more spaces so we can have some leading spaces and maybe some trailing spaces as well. 
 
-Okay, let's get started. Um, maybe the most obvious approach is to split on sequences of spaces and we can do that. Or let's say if we start by comparing an input string with a space and this gives us a Boolean vector indicating where the spaces are. 
+Okay, let's get started. Maybe the most obvious approach is to split on sequences of spaces and we can do that. Or let's say if we start by comparing an input string with a space and this gives us a Boolean vector indicating where the spaces are. 
 
 Now the partition function groups runs of ones or elements corresponding to runs of one. So we want to invert this and then we can use this to split. So we use partition on the string itself and that gives us the individual words and we can count them. 
 
@@ -117,7 +117,7 @@ And we have our string and then we have the quad s that's a string search regula
 
 So we get a bunch of zeros and then we can see we get one zero per word there and that works and also on the scalar letter. Um, and it works also on on the empty we just get nothing and then we just need to count them as you can see here. So that and that's our second solution right there. 
 
-Okay, here's a um an interesting solution that I came up with that's it's kind of abusing a built-in functionality a system function called vfi that's verified and fixed input and really what it does is it parses numbers. So we can see if we give it some text then um it looks at this input as a space a space separate the fields we can also have multiple spaces and that's fine. Um, it removes all such extraneous spaces and it returns a two element vector. 
+Okay, here's an interesting solution that I came up with that's it's kind of abusing a built-in functionality a system function called vfi that's verified and fixed input and really what it does is it parses numbers. So we can see if we give it some text then um it looks at this input as a space a space separate the fields we can also have multiple spaces and that's fine. Um, it removes all such extraneous spaces and it returns a two element vector. 
 
 The first element is the success and it says one e3 that successfully was converted and the word 3 was not successfully converted 2.5 was and 2.5 and was not successfully converted and then the second vector are the values that we converted to and with zeros for those tokens that could not be converted correctly. Now we're not interested in what the actual values are we just want to count how many such space superior the tokens there were whether or not they could be converted successfully or not. 
 
@@ -133,7 +133,7 @@ That's one way to do it and the way we can do this is by comparing adjacent elem
 
 One is not less than one and zero is not less than zero and one is not less than zero. So that's the only time when it will match and we can see here if we it gets one element shorter because we're doing pairs. If we line them up, we can see how this one corresponds to this zero one here or every time we have a one, we begin a word. 
 
-Um, so this is fine then we can we can sum this and that gives us a number of words. For however, there's a problem if we look at our string again where it doesn't begin with any spaces. Then let's go back and see what happens here. We compare this space and so far so good. But now when we do the pairwise less than then we're missing one element at the beginning because sure enough there is um and and um there's none space at the beginning of the string but we never go from zero to one because there's no zeros there. So we're missing a one at the front so how can we fix this? 
+So this is fine then we can we can sum this and that gives us a number of words. For however, there's a problem if we look at our string again where it doesn't begin with any spaces. Then let's go back and see what happens here. We compare this space and so far so good. But now when we do the pairwise less than then we're missing one element at the beginning because sure enough there is um and and um there's none space at the beginning of the string but we never go from zero to one because there's no zeros there. So we're missing a one at the front so how can we fix this? 
 
 And we can insert a space. So by inserting one space doesn't matter if we have multiple spaces because you know from from space to space is just zero zero and that doesn't trigger. But this will insert a 1 at the beginning. You can see if we go back to the one that already has spaces then it doesn't add any additional ones. So this gives us the solution and we can sum it like this it gives us the number of number of words and we can just wrap this in braces and then we have our solution oops. 
 

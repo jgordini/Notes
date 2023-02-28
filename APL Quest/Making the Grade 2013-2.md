@@ -102,7 +102,7 @@ We are dealing with a scaler (65) and a vector (Scores). We should notice this p
 [Scalar Extension](https://aplwiki.com/wiki/Scalar_extension)
 [Conformability](https://aplwiki.com/wiki/Conformability)
 
-
+**Transcript**
 
 Welcome to this second episode of the APL Quest! Check out the APL Wiki for details. Today's quest is called "Making the Grade" and it's the second problem from the 2013 APL Problem Solving Competition's Phase 1. Here we are to write a function which takes a list of numbers representing the points that people scored on some type of test. If they scored 65 or higher, then they've passed in the test, and we are to compute the percentage of people who passed. 
 

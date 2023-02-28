@@ -71,82 +71,50 @@ https://tacit.help/
 [Fill Elements](https://aplwiki.com/wiki/Fill_element) - Padding with zeros
 [Fork](https://aplwiki.com/wiki/Train#3-trains) - 3 Train
 
+Welcome to the inaugural episode of "The APL Quest," where we will examine a different problem each week from past APL problem-solving competitions. In Phase One, please refer to the APL Wiki for details. Today, we will focus on the first problem from 2013, which asks us to write a DFN to generate odd numbers.
 
-Hello and welcome to this very first episode of The APL Quest, where we go through one problem every week from a past APL problem solving competitions. Phase One have a look at apl wiki for the details. Today's problem is the first problem from 2013, where we are asked to write a DFN to generate odd numbers.
+Let us discuss the generation of numbers. Suppose we want to generate the first ten numbers. We can use iota to genterate them however, the issue is that these are all consecutive integers.
 
-Let's talk about generating some numbers. Let's say we want to generate the first ten numbers. Problem here is that these are all the adjacent integers.
+To resolve this, we multiply by two to obtain every other number, which we can then offset by one. For example, we can subtract one from one.
 
-So we multiply by two, getting us every other number. And then we can offset it by one. For example, we can take a one and subtract it.
+We can switch the arguments on the minus operation. There are other options available, such as adding negative one or using parentheses.
 
-So we're swapping the arguments on the minus. There are other alternatives. We could as well add negative one to this, or we could parenthesize it.
+We can construct our argument name omega to build this and try it out. As we can see, APL starts counting from one by default.
 
-And for this we can build our defense that's the argument name omega, and we can try it. And there we go. Now, as you can see, by default, apl starts counting from one.
+Many individuals, particularly computer scientists and some mathematicians, prefer starting from zero instead of one. APL allows you to choose this option. Therefore, we can set the index origin to zero, and we will now count from zero instead.
 
-A lot of people, computer scientists especially some mathematicians, prefer starting counting from zero instead. And apl allows you to choose that. So we can set the index origin to zero.
+This has both advantages and disadvantages. The benefit is that you can choose whichever option fits your problem and personal preference. However, the disadvantage is that if you share your code with others, you must ensure that you obtain the correct index origin. You may need to set it yourself, and writing code that works with any index origin is a classic issue.
 
-And now we count from zero instead. This has upsides and downsides. Upside, of course, is you can choose whatever fits your problem and your comfort.
+If we attempt to apply a function now, we will obtain an entirely incorrect result. The corresponding function for index origin zero would be to add one instead of subtracting one.
 
-Thedownside is that if you share code with others, you need to make sure you get the right index origin. You might need to set it yourself. And so it's a classic problem to try to write code that works with any index origin.
+There are alternative methods for generating this output. Although the problem requests a DFN, we can also write tested functions in APL. Here is another approach.
 
-We can see that if we now try to apply a function, it gives an entirely wrong result. So that's no good. The corresponding function for index origin zero instead of subtracting one would be to add one.
+We can begin by creating the framework for a tested function, and then multiply the argument by two to generate those integers. Next, we reshape a series of zeros and ones using the zero one reshape function, with the shape on the right and the content on the left. We must now determine the indices where the true or one values are located, which we can accomplish using the where function.
 
-There are other ways of generating this. Yes, the problem asks for a defen, but we can also write tested functions in apl. So here's another approach.
+This was the index origin zero case. Let us now switch back to index origin one. Naturally, this will no longer work. Instead, we must merely switch the ones and zeros.
 
-Let's start by writing the framework for a tested function. So we put some parentheses here, and then we can do two times, and not the name of the argument, but rather the identity of the argument. So it's an identity function and we can get 20 there.
+However, suppose we wished to write a function that could function with either setting of quad I o, the index origin. In that case, there are numerous ways to accomplish this. Here are some fantastic ideas that were generated during the live event.
 
-Then we can use this to reshape a bunch of zeros and ones. So this is zero one reshape. We swapped the arguments on the reshapes.
+Suppose we start by multiplying the argument by two and generating those integers. Then we take the parity of that, or the two residue or modulus two of that. Finally, we determine where the ones are. This approach is beneficial because it works with either origin.
 
-It's a shape on the right and the content on the left. And now the only thing we miss is asking for the indices where we have the true who values or the ones. So the where function.
+Let us name this argument, and what is occurring is that the index generator Iota and the where function's Iota underbar are counterbalancing one another. Therefore, quad io equals one, and this approach works. Similarly, quad io equals zero, and it still functions correctly. It is a clever solution because it does not matter which index origin you are employing.
 
-And there we go. This was index origin zero. Now let's switch back to index origin one.
+The reason we are encountering this issue is that we are dealing with indices. We have the index generator and the where function, which is the indices of the true values. However, we could approach this in a completely different manner, namely in a mathematical sense. If we observe that we begin with one and then increase by two each time, this is a fascinating property.
 
-And of course this won't work anymore. Rather, we just have to flip the ones and the zeros. And there we go.
+Suppose we take overtaken here, and we are taking the first ten elements of a one. There are not ten elements in the one, so APL will pad with appropriate fill elements, which are zeros. We can then subtract this from two. Notice that we have the beginning element, the one, and then the offset to the next number repeatedly.
 
-Okay, that's all very nice, but how about if we wanted to write a function that could work with either setting of quad I o the index origin. And there are various approaches to that. Here are some cool ones that came up in the live event.
+This means that if we ask for the cumulative sum or the plus scan of that, we will obtain all the odd numbers. As we did not utilize any index-related functionality, there is no influence from the index origin. We can also put this into a function.
 
-Let's say we start by multiplying the argument by two and then generating those integers. And now we take the parity of that. So that's the two residue, or modulars two of that.
+Suppose we wanted to return to our original formulation, where we began with two times the indices. In that case, we would subtract one if quad io equals one and add one if quad io equals zero. How can we adjust this?
 
-And now we ask for where we have the ones. Okay, that's good. Now, what happens if we change to quaterio zero? Okay, so this part up here starts off differently, and then when we ask for the parity, we get the opposite.
+Both subtraction and addition can be viewed as an addition. We simply need to add negative one or one. Therefore, if quad io equals one, we will subtract one, and if quad io equals zero, we will add one, which we can map mathematically. We can accomplish this by raising negative one to the power of quad io.
 
-But that's exactly what we want when we're using quadrant zero. Which means if we ask where are the ones, we get the right result. So we can see that this function works with either origin.
+This will take whatever global quad I O is currently in effect and add it to twice the indices. We can now test this for quad io equal to one and quad io equal to zero, and it will still function correctly.
 
-Let's give it a name. Argument goes here. And really what's happening is the Iota, the index generator and the Iota underbar the where function are canceling each other out.
+Allow me to demonstrate another clever solution. It is as follows: iota plus Iota minus the tally. This is a tested function. We can apply it and see that it functions correctly.
 
-So quad io gets one and this works, and quad io gets zero and it still works. So it's a really clever solution for writing it in a way that doesn't matter which index origin you're using. Now, the reason we're bumping into this is because we're dealing with indices at all.
+It is a fork where the right tie-in of the fork is a fork itself. We begin by subtracting the tally from the indices. The tally represents the number of major cells in the argument. A symbol number is just one, so this is a clever method of subtracting one from the indices.
 
-We have the index generator, we have the where function, which is the indices of the true values. But we could also go about this in a very different way, in a mathematical way. So if we observe that we start with a one and then we increase with two every time, that's an interesting property.
+We use this as the right argument for plus. The left argument is Iota applied to the argument or the indices once more. If we add these together, we will obtain precisely what we desire. We can write all of this as indices plus indices minus the tally and give it a name to apply it.
 
-So let's say like this. Let's take overtake here. We're taking the first ten elements of a one.
-
-Now there aren't ten elements in the one, so apo will pad with appropriate fill elements which are zeros. We can subtract this from two. And notice here that we have the beginning element, the one, and then the offset to the next number over and over.
-
-Which means if we ask for the cumulative sum or the plus scan of that, we get all the odd numbers. And since we didn't use any index related functionality, then there is no influence from the index origin. So we can put this into a function as well.
-
-Argument goes here and we can try it. F ten and quarter one. F ten.
-
-There we go. Now, let's say we wanted to go back to our original formulation where we started off with two times the integers indices. So in one case we wanted to subtract one.
-
-That's when quad io is one. And in the other case we want to add one. That's in the case when quad io is zero.
-
-So how could we adjust this? Of course, both the subtraction and addition can be seen as an addition. You just need to either add negative one or you need to add one. So that means if quad io is one, then we want to subtract one and if quad io is zero, then we need to add one and we can map this in a mathematical way.
-
-So we have either a zero or a one. And if we take negative one and we raise it to the power of those two, then for the zero we get one, and for one we get negative one, which is exactly what we want. So now we can write our function as negative one raised to the power of the quad io.
-
-And this will just take whatever global quad I O is currently in effect and we add that to twice the indices. So now we can try this was quad io one and quad io zero. And it still works.
-
-Let me show you another very clever solution. It is as follows iota plus Iota minus the tally. This is a tested function.
-
-We can apply it and we can see that indeed it works. Let's see what the structure looks like. It is a fork where the right tie in of the fork is itself a fork.
-
-We start off by subtracting the tally from the indices. Now, what is the telly? That's how many major cells there are in the argument. A symbol number is just one.
-
-So this is a clever way of subtracting one from the indices. So let's try that. We have the indices and we're subtracting one.
-
-And then we're using that as right argument for plus. And the left argument is Iota applied on the argument. So the indices again.
-
-Now, if we add these up, then well, you cannot probably see this already that we get exactly what we want. And so the way we can write all this together is the indices plus the indices minus the tally. And we can give this a name and apply it like that.
-
-And that's all for today. Thank you for following along.
-
-
-
+That concludes today's discussion. Thank you for following along.
