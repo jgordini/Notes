@@ -71,6 +71,8 @@ https://tacit.help/
 [Fill Elements](https://aplwiki.com/wiki/Fill_element) - Padding with zeros
 [Fork](https://aplwiki.com/wiki/Train#3-trains) - 3 Train
 
+**Summary**
+
 Welcome to the inaugural episode of "The APL Quest," where we will examine a different problem each week from past APL problem-solving competitions. In Phase One, please refer to the APL Wiki for details. Today, we will focus on the first problem from 2013, which asks us to write a DFN to generate odd numbers.
 
 Let us discuss the generation of numbers. Suppose we want to generate the first ten numbers. We can use iota to genterate them however, the issue is that these are all consecutive integers.
@@ -109,11 +111,11 @@ Suppose we wanted to return to our original formulation, where we began with two
 
 Both subtraction and addition can be viewed as an addition. We simply need to add negative one or one. Therefore, if quad io equals one, we will subtract one, and if quad io equals zero, we will add one, which we can map mathematically. We can accomplish this by raising negative one to the power of quad io.
 
-This will take whatever global quad I O is currently in effect and add it to twice the indices. We can now test this for quad io equal to one and quad io equal to zero, and it will still function correctly.
+This will take whatever global quad IO is currently in effect and add it to twice the indices. We can now test this for quad io equal to one and quad io equal to zero, and it will still function correctly.
 
-Allow me to demonstrate another clever solution. It is as follows: iota plus Iota minus the tally. This is a tested function. We can apply it and see that it functions correctly.
+Allow me to demonstrate another clever solution. It is as follows: iota plus Iota minus the tally. This is a tacit function. We can apply it and see that it functions correctly.
 
-It is a fork where the right tie-in of the fork is a fork itself. We begin by subtracting the tally from the indices. The tally represents the number of major cells in the argument. A symbol number is just one, so this is a clever method of subtracting one from the indices.
+It is a fork where the right tie of the fork is a fork itself. We begin by subtracting the tally from the indices. The tally represents the number of major cells in the argument. A symbol number is just one, so this is a clever method of subtracting one from the indices.
 
 We use this as the right argument for plus. The left argument is Iota applied to the argument or the indices once more. If we add these together, we will obtain precisely what we desire. We can write all of this as indices plus indices minus the tally and give it a name to apply it.
 

@@ -30,25 +30,27 @@ Comparison Tolerance
 T ← 1e¯13+⍳15 ⍝ Test Data using 13 decimals
 14⍕w ⍝ Format using 14 decimals
 
-C ← {⎕CT←0 ⋄ ⍵/⍨⍵≠⌊⍵} ⍝ Test Data
+C ← {⎕CT←0 ⋄ ⍵/⍨⍵≠⌊⍵} ⍝ Set the comparison tolerance to zero and apply solution A. 
 	```
 
 C
-1. [Comparison Tolerance](https://help.dyalog.com/latest/Content/Language/System%20Functions/ct.htm) `⎕CT` - determines the precision with which two numbers are judged to be equal. Can be set to zero.
+1. [Comparison Tolerance](https://help.dyalog.com/latest/Content/Language/System%20Functions/ct.htm) `⎕CT` - determines the precision with which two numbers are judged to be equal. A value of 0 ensures exact comparison. 
 2. Apply solution A 
 
 Data Representation
 ```APL
-D ← {⍵/⍨645=⎕DR¨⍵} ⍝ Test Data
-x ← v,1e400 ⍝ Test Data 
-E ← {⍵/⍨645 1287∊⍨⎕DR¨⍵} ⍝ Test Data
+D ← {⍵/⍨645=⎕DR¨⍵} ⍝ 645 is 64 bit per element and 5 means it's floating point
+x ← v,1e400 ⍝ Test Data
+E ← {⍵/⍨645 1287∊⍨⎕DR¨⍵} ⍝ 1287 is a 128-bit decimal float. 7 indicates Decimal.  
 	```
 
 D 
-1. [Data Representation](https://help.dyalog.com/latest/Content/Language/System%20Functions/Data%20Representation%20Dyadic.htm) `⎕DR` - converts the data type of its argument Y according to the type specification X
-2.  [Each](https://aplwiki.com/wiki/Each) `¨` - applies its [operand](https://aplwiki.com/wiki/Operand "Operand") to each [element](https://aplwiki.com/wiki/Element "Element") of the [arguments](https://aplwiki.com/wiki/Argument "Argument")
+1. [Data Representation](https://help.dyalog.com/latest/Content/Language/System%20Functions/Data%20Representation%20Dyadic.htm) `⎕DR` - converts the data type of its argument Y according to the type specification X. Here we check if `⎕DR` at 645 (64 means the 64 bit per element and 5 means it's floating point) is equal to [Each](https://aplwiki.com/wiki/Each) `¨` element of omega. 
+2.  `⍵/⍨` First [Swapping](https://mastering.dyalog.com/Tacit-Programming.html?highlight=selfie#commute-selfie-and-constant) `⍨`  the arguments. [Compress](https://mastering.dyalog.com/Some-Primitive-Functions.html?highlight=compress#replicate) `⍵/` filters the right argument using the boolean array (Result of Step 1) on the left. 
+
 E
-1. [Membership](https://aplwiki.com/wiki/Membership) `∊` - tests if each of the elements of the left [argument](https://aplwiki.com/wiki/Argument "Argument") appears as an element of the right argument
+1. `645 1287∊⍨⎕DR¨⍵` Swapping the arguments and checking if 645 or 1287 are [Members](https://aplwiki.com/wiki/Membership) `∊` of the Data Representiaton of Each element in omega. 
+2. `⍵/⍨` We then filter the result against the original.  First [Swapping](https://mastering.dyalog.com/Tacit-Programming.html?highlight=selfie#commute-selfie-and-constant) `⍨`  the arguments. [Compress](https://mastering.dyalog.com/Some-Primitive-Functions.html?highlight=compress#replicate) `⍵/` filters the right argument using the boolean array (Result of Step 1) on the left. 
 
 Print Precision
 ```APL
@@ -70,7 +72,7 @@ J ← {⍵/⍨×1⊤⍵}
 	```
 
 H
-1. [Signum](https://aplwiki.com/wiki/Signum) `×` -  three poss ible results of Signum on a real argument are `0`, `1`, and `¯1` : Positive, Negative and Zero.
+1. [Signum](https://aplwiki.com/wiki/Signum) `×` -  three possible results of Signum on a real argument are `0`, `1`, and `¯1` : Positive, Negative and Zero.
 I
 1. [Comparison Tolerance](https://help.dyalog.com/latest/Content/Language/System%20Functions/ct.htm) `⎕CT` - determines the precision with which two numbers are judged to be equal
 J
@@ -135,6 +137,7 @@ Swap - <mark style="background: #FFB8EBA6;">⍺ f ⍨ ⍵</mark>  is  <mark styl
 Selfie- <mark style="background: #ADCCFFA6;"> f ⍨ ⍵</mark>  is  <mark style="background: #ADCCFFA6;">⍵ f ⍵</mark>
 <mark style="background: #BBFABBA6;">Jot </mark> - {R}←{X} f∘g Y - Preprocess the right argument. Then apply the left.
 
+**Transcript:**
 Hello and welcome to the APL quest. See APL wiki for details. Today's quest is called Floaty Boat. We are to select the numbers from a vector of numbers that are floating point or non-integers, and this is problem seven from the 2013 APL problem-solving competition. It's a bit of an interesting thing that it's not well defined what exactly constitutes a floating point number or a non-integer number because in APL, a number is a number. There's not really any good distinction, but we'll do our best, and any of these solutions would be considered correct.
 
 Let's start off by creating some data for ourselves. What constitutes a number that isn't an integer? Well, there are various ways to approach this. A very simple one and probably the best method really is to compare the number to what would happen to it if we were to round it. So any number that's integer stays the same when rounded, and any number that isn't integer would change. The floor of this vector gives us these integers, and then we can compare, and these give us the integers, but we're actually interested in the non-integers, so let's go change that, and then we can use this to filter, and this gives us the non-integers.
@@ -143,13 +146,17 @@ We can put this into a function. Let's call that f and use the name of the argum
 
 So let's have this tacit form. First, we want to compare the argument with its own floor, so the way we can do it is we want to use the function unequal dyadically using the same argument on both sides, so that means we need a selfie or commute operator here.
 
-Let's get rid of some of this noise, and then we want to preprocess the right argument to unequal using the floor, keeping the left argument just the outer argument itself. This places the same argument on both sides, and we flow the right side, and then we feed it into unequal. I like to think of the jot or compose or beside and as preprocessing the right argument. So this is unequal while preprocessing the right argument with a floor using the same argument on both sides, and we can use that to filter.
+Let's get rid of some of this noise, and then we want to preprocess the right argument to unequal using the floor, keeping the left argument just the outer argument itself. 
+
+This places the same argument on both sides, and we flow the right side, and then we feed it into unequal. I like to think of the jot or compose or beside and as preprocessing the right argument. So this is unequal while preprocessing the right argument with a floor using the same argument on both sides, and we can use that to filter.
 
 And so this is the same pattern again. We have this filtering function, and we want to use the same argument, but the right side is preprocessed by this function, and the left argument is just the way it is. So we can do the same thing again. We use the preprocessing the right argument operator with parentheses like that and then use commute to put the same argument over on both sides.
 
 So this is a fully tested version of f. However, I don't consider this very readable. It's perfectly correct. It's more for exercise sake that we do this conversion.
 
-Now, as I mentioned, there are some interesting questions regarding what exactly is considered a non-integer and what exactly do we mean by floating point. Let's create some interesting data. Let's say we take a very small value, 1 times 10 to the power of negative 13, and we add it to the numbers 1 through 15. If we print these numbers, then they look like integers, and that is because by default, APL will round to about 10 digits of precision, and then because we've only added 10 to the power of negative 13 to each one of these, we don't notice this.
+Now, as I mentioned, there are some interesting questions regarding what exactly is considered a non-integer and what exactly do we mean by floating point. Let's create some interesting data. Let's say we take a very small value, 1 times 10 to the power of negative 13, and we add it to the numbers 1 through 15. 
+
+If we print these numbers, then they look like integers, and that is because by default, APL will round to about 10 digits of precision, and then because we've only added 10 to the power of negative 13 to each one of these, we don't notice this.
 
 However, if we format using 14 decimals, then we can see that there is actually more to it. We could also, of course, say "w minus the floor of w," and then we can see that there's a bit of a difference there. It isn't exactly 1 times 10 to the power of "and," and that is because there are some floating-point inaccuracies at that level.
 
@@ -163,9 +170,9 @@ Now we can counteract that by making a version of f, say, the comparison toleran
 
 Another definition is the internal representation. Normally in APL, you don't care much about how things are represented internally unless possibly you're doing some performance optimizations but usually not for the values themselves. But we can actually ask APL what is the data representation of such values.
 
-If we go back to v, we can see that v which we have here is stored as a 6 4 5 6 4 5 and the 6 4 means the 64 bit per element and 5 means it's floating point, a binary floating point. So, this is a 64 bit binary float array.
+If we go back to v, we can see that v which we have here is stored as a 6 4 5 and the 6 4 means the 64 bit per element and 5 means it's floating point, a binary floating point. So, this is a 64 bit binary float array.
 
-However, quad dr also tries to compact every argument you give it before it tells you what the data type is. And if we apply quad r on each of these then we can see that trying separately on each element to compact them as much as possible, the first number can fit in a 64-bit float only and the second number 4 can fit in 8-3. That means 8-bit and 3 means integer. So, that's an 8 bit integer or 1 byte integer.
+However, Quad DR also tries to compact every argument you give it before it tells you what the data type is. And if we apply Quad DR on each of these then we can see that trying separately on each element to compact them as much as possible, the first number can fit in a 64-bit float only and the second number 4 can fit in 8-3. That means 8-bit and 3 means integer. So, that's an 8 bit integer or 1 byte integer.
 
 We can exploit this then. We can create a function g that selects the argument filtered by whether or not 645 is equal to the data representation of each element. And this will work on v. If we try it on w then we'll see that it also considers all these numbers to be floating point values because they're, in fact, stored as floating point even when they're compacted the most because they have this additional 1 times 10 to the power of negative 13 added to them. So, here comparison tolerance doesn't matter at all.
 
@@ -175,11 +182,13 @@ This is not a 64-bit float because 64-bit floats do not reach such large magnitu
 
 Now we have our x, and if we try to run g on x, then things fail spectacularly, and the reason is that apl will internally upgrade all of these numbers to be decimal floats, and then they get stuck there, and we compare them. So if you say the data representation of each one of x, then we can see that the floats all became decimal floats, and the integers are filtered away, of course. And then since we're only looking for binary floats, we're not finding anything.
 
-But we can amend this function. So let's say we have a g which is also children for decimal values, and for that, we just check for membership in 645 or 1287. And now we can run gd on x, and it matches all of these. So this considers 1 times 10 to the power 400 floating point, which is correct as to the internal representation.
+But we can amend this function. So let's say we have a g which is also contains decimal values, and for that, we just check for membership in 645 or 1287. And now we can run gd on x, and it matches all of these. So this considers 1 times 10 to the power 400 floating point, which is correct as to the internal representation.
 
 However, the problem specification also said none integer, and I'm sure you'll agree that 1 times 10 to the power 400 is very much an integer, not a non-integer. But this depends on how exactly you understand the problem.
 
-So a very simplistic understanding would be from a human perspective: well, it's an integer if it's just a bunch of digits together, possibly negative, and it's not an integer if you need a decimal point to write out the number. And we can write this in APL as well. So what we'll do is we'll format each number to a character vector, and we can look whether or not there is a dot in each of these. And if there's a dot in the character representation of the number, then it would be a non-integer number. This is not going to work when you use this scaled format with an e inside, but for normal numbers, it's going to work.
+So a very simplistic understanding would be from a human perspective: well, it's an integer if it's just a bunch of digits together, possibly negative, and it's not an integer if you need a decimal point to write out the number. And we can write this in APL as well. 
+
+So what we'll do is we'll format each number to a character vector, and we can look whether or not there is a dot in each of these. And if there's a dot in the character representation of the number, then it would be a non-integer number. This is not going to work when you use this scaled format with an e inside, but for normal numbers, it's going to work.
 
 You can also combine these two. Instead of running two loops, we can fuse the loops by saying we want membership, but we want the right argument to membership to be preprocessed with format. So this is a dot member of the format for each one of the numbers, and if there's a dot, then we want them; otherwise, we discard them. So we simply filter by that. And now we can try this on x, and we can see that the 1 times 10 to the power 400 is going to be filtered away.
 
