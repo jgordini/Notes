@@ -71,8 +71,8 @@ https://tacit.help/
 [Fill Elements](https://aplwiki.com/wiki/Fill_element) - Padding with zeros
 [Fork](https://aplwiki.com/wiki/Train#3-trains) - 3 Train
 
-Notes
-Hello and welcome to this very first episode of The apl Quest, where we go through one problem every week from a past apl problem solving competitions. Phase One have a look at apl wiki for the details. Today's problem is the first problem from 2013, where we are asked to write a definite odd numbers.
+
+Hello and welcome to this very first episode of The APL Quest, where we go through one problem every week from a past APL problem solving competitions. Phase One have a look at apl wiki for the details. Today's problem is the first problem from 2013, where we are asked to write a DFN to generate odd numbers.
 
 Let's talk about generating some numbers. Let's say we want to generate the first ten numbers. Problem here is that these are all the adjacent integers.
 
@@ -86,7 +86,7 @@ A lot of people, computer scientists especially some mathematicians, pr
 
 And now we count from zero instead. This has upsides and downsides. Upside, of course, is you can choose whatever fits your problem and your comfort.
 
-downside is that if you share code with others, you need to make sure you get the right index origin. You might need to set it yourself. And so it's a classic problem to try to write code that works with any index origin.
+Thedownside is that if you share code with others, you need to make sure you get the right index origin. You might need to set it yourself. And so it's a classic problem to try to write code that works with any index origin.
 
 We can see that if we now try to apply a function, it gives an entirely wrong result. So that's no good. The corresponding function for index origin zero instead of subtracting one would be to add one.
 
