@@ -55,30 +55,44 @@ E
 Print Precision
 ```APL
 F ← {⍵/⍨'.'∊∘⍕¨⍵}
-G ← {⎕PP←34 ⋄ ⍵/⍨'.'∊∘⍕¨⍵}
+G ← {⎕PP←34 ⋄ ⍵/⍨'.'∊∘⍕¨⍵} ⍝ Solution for near integers
 	```
 
 F
-1. [Format](https://aplwiki.com/wiki/Format) `⍕` - Dydactic column width and the number of decimal places for formatting [numeric](https://aplwiki.com/index.php?title=Numeric&action=edit&redlink=1 "Numeric (page does not exist)") arrays
-2. Is . a member of the each formated element of omega.
-3. filter against that. 
+1. `⍕¨⍵` [Format](https://aplwiki.com/wiki/Format) `⍕` Each `¨` formats the right [argument](https://aplwiki.com/wiki/Argument "Argument") into a [simple](https://aplwiki.com/wiki/Simple "Simple") [character](https://aplwiki.com/index.php?title=Character&action=edit&redlink=1 "Character (page does not exist)") array.
+2. `'.'∊` Checks if `'.'` is a member of the each formated element of Omega `⍵`.
+3. `⍵/⍨` Filters the original argument against the result of Step 2.  
 
 G
-1. [Print Precision](https://help.dyalog.com/latest/Content/Language/System%20Functions/pp.htm) `⎕PP` - number of significant digits in the display of numeric output
-
+1. `⎕PP←34` [Print Precision](https://help.dyalog.com/latest/Content/Language/System%20Functions/pp.htm) `⎕PP` - number of significant digits in the display of numeric output. Default is 10. Max is 34. 
+2. Apply the Function in F.
+   
+ 
 Signum
 ```APL
 H ← {⍵/⍨×1|⍵}
-I ← {⎕CT←0 ⋄ ⍵/⍨×1|⍵}
+I ← {⎕CT←0 ⋄ ⍵/⍨×1|⍵} ⍝ Solution for near integers
 J ← {⍵/⍨×1⊤⍵}
 	```
 
 H
-1. [Signum](https://aplwiki.com/wiki/Signum) `×` -  three possible results of Signum on a real argument are `0`, `1`, and `¯1` : Positive, Negative and Zero.
+1. `1|⍵` [Residue](https://aplwiki.com/wiki/Residue) `|` - aka Modulo - gives the [remainder](https://en.wikipedia.org/wiki/Remainder "wikipedia:Remainder") of [division](https://aplwiki.com/wiki/Divide "Divide") between two real numbers.
+2. `×`  [Signum](https://aplwiki.com/wiki/Signum) `×` -  three possible results of Signum on a real argument are `0`, `1`, and `¯1` : Positive, Negative and Zero. Signum will always be positive or zero in this case. 
+3. If we check the remainder when divding by 1 we can filter the result based on if the Signum is 1 or 0.
+4. Floating point numbers will have a positive signum of the remainder or 1. 
+5. `⍵/⍨` We can then apply this [Boolean Mask](https://aplwiki.com/wiki/Boolean) against our orginal argument. 
+
 I
-1. [Comparison Tolerance](https://help.dyalog.com/latest/Content/Language/System%20Functions/ct.htm) `⎕CT` - determines the precision with which two numbers are judged to be equal
+1. `⎕CT←0` [Comparison Tolerance](https://help.dyalog.com/latest/Content/Language/System%20Functions/ct.htm) `⎕CT` - determines the precision with which two numbers are judged to be equal. Setting this to zero means all our numbers are considered to be floating point. 
+2. We can then Apply the function in H. 
+
+
 J
-1. [Encode](https://mastering.dyalog.com/Mathematical-Functions.html?highlight=encode#encode) `⊤` - `A⊤B`, turns `B` into a list(s) of digits in (mixed) base
+1. `1⊤⍵` [Encode](https://mastering.dyalog.com/Mathematical-Functions.html?highlight=encode#encode) `⊤` - Checking if the smallest unit in the base is a one and how many ones there are. This is exactly the same as division remainder. Encode doesn't care about [Comparison Tolerance](https://help.dyalog.com/latest/Content/Language/System%20Functions/ct.htm) `⎕CT` it is always 0. 
+2. `×`  [Signum](https://aplwiki.com/wiki/Signum) `×` -  three possible results of Signum on a real argument are `0`, `1`, and `¯1` : Positive, Negative and Zero. Signum will always be positive or zero in this case. 
+3. `⍵/⍨` We can then apply this [Boolean Mask](https://aplwiki.com/wiki/Boolean) against our orginal argument. 
+
+
 
 Subtract
 ```APL
@@ -200,9 +214,11 @@ Another way is using something called the print precision, which by default is 1
 
 Let's look at a little bit more exotic ways of solving this problem, and here's one. Let's say we have these numbers v. We can take the division remainder with one, so this is also known as modulus one or what is left over if I was to try to create this number just by adding ones together, and that is a non-integer if the number is non-integer and zero if it is an integer because you can create any zero any integer by multiplying an integer with one. Of course, that same number, and that means that we can compare with zero. 
 
-So wherever we have zero, we want to get rid of that, and whenever we have a positive value and none nonzero, then we want to keep it. We could just do a comparison with zero; however, we can also just take the sign or signum of this because we'll never have any negative results from the division remainder or modulus. And so this gives us our mask, and we can select the values based on that. Let's put this into a function i. There we go. And now we can try it on these values.
+So wherever we have zero, we want to get rid of that, and whenever we have a positive value and none nonzero, then we want to keep it. We could just do a comparison with zero; however, we can also just take the sign or signum of this because we'll never have any negative results from the division remainder or modulus. And so this gives us our mask, and we can select the values based on that. Let's put this into a function. There we go. And now we can try it on these values.
 
-Here we can see we hit this problem again with near integers, and we could solve this by changing the comparison tolerance locally. So let's do ic with comparison tolerance so we can set that to zero. And then we have the same form as before, ic and w, and now it works for all these values. And then there is a tricky thing, which is the represent or encode. Encode with a takes a possibly mixed radix as on the left and represents the number or numbers on the right as in this base. However, here we're not actually interested in a full representation. We're not even interested in any representation. The only thing we want to know is that if the smallest unit in the base is a one, then would there or would there not be a one there, and how many ones would there be?
+Here we can see we hit this problem again with near integers, and we could solve this by changing the comparison tolerance locally. So let's do ic with comparison tolerance so we can set that to zero. And then we have the same form as before, ic and w, and now it works for all these values. 
+
+And then there is a tricky thing, which is the represent or encode. Encode with a takes a possibly mixed radix as on the left and represents the number or numbers on the right as in this base. However, here we're not actually interested in a full representation. We're not even interested in any representation. The only thing we want to know is that if the smallest unit in the base is a one, then would there or would there not be a one there, and how many ones would there be?
 
 It's a bit interesting to explain like this, but let's have a look at what it looks like with v. And you can notice that this is exactly the same as division remainder, which is actually makes sense because when you're trying to convert to a base, then you keep subtracting as large units as possible, and then the remainder is left over here. So what's happening here is that we end up with how many ones are there that cannot be represented in the larger unit, and then we end up with a division remainder. Now what's interesting with encode is that it doesn't care about comparison tolerance; it's always precise. 
 
