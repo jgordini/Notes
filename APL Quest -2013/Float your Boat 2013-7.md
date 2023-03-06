@@ -92,24 +92,24 @@ J
 2. `×`  [Signum](https://aplwiki.com/wiki/Signum) `×` -  three possible results of Signum on a real argument are `0`, `1`, and `¯1` : Positive, Negative and Zero. Signum will always be positive or zero in this case. 
 3. `⍵/⍨` We can then apply this [Boolean Mask](https://aplwiki.com/wiki/Boolean) against our orginal argument. 
 
-
-
 Subtract
 ```APL
-K ← {⍵/⍨0≠⍵-⌊⍵}
+K ← {⍵/⍨0≠⍵-⌊⍵} ⍝ In any comparison with a true zero, the comparison tolerance doesn't matter
 	```
 
 K
-1. 
+1. `0≠⍵-⌊⍵` Subtracting the argument from it's [Floor](https://aplwiki.com/wiki/Floor) `⌊`  and comparing the result against [Not Equal to](https://aplwiki.com/wiki/Not_Equal_to) `≠` Zero. 
+2. `⍵/⍨` Use the result to filter the argument. 
 
 Replicate and Error Guard
 ```APL
-L ← ∊{0::⍵⋄⍵/⍬}¨
+L ← ∊{0::⍵⋄⍵/⍬}¨ ⍝ If any error happens, that means that the test that the argument is non-integer, and we want it. Otherwise, we replicate the empty vector, which gives us the empty vector.
 	```
 
 L
-1. [Error Guard](http://help.dyalog.com/18.0/index.htm#Language/Defined%20Functions%20and%20Operators/DynamicFunctions/Error%20Guards.htm) `::` vector of error numbers :: expression to be evaluated
-2. [Replicate](https://aplwiki.com/wiki/Replicate) `/` - copies each [element](https://aplwiki.com/wiki/Element "Element") of the right [argument](https://aplwiki.com/wiki/Argument "Argument") a given number of times
+1. `⍵/⍬` [Replicate](https://aplwiki.com/wiki/Replicate) `/` - copies each [element](https://aplwiki.com/wiki/Element "Element") of the right [argument](https://aplwiki.com/wiki/Argument "Argument") a given number of times - left argument will error on any non integer. Apply Omega `⍵` against Zilde `⍬` - the empty vector.
+2. `0::⍵` [Error Guard](http://help.dyalog.com/18.0/index.htm#Language/Defined%20Functions%20and%20Operators/DynamicFunctions/Error%20Guards.htm) `::` is a vector of error numbers :: expression to be evaluated
+3. `∊{}¨` [Membership](https://aplwiki.com/wiki/Membership) `∊` - tests if [Each](https://aplwiki.com/wiki/Each) `¨` of the elements of the left [argument](https://aplwiki.com/wiki/Argument "Argument") appears as an element of the right argument. 
 
 
 **Glyphs Used:**
