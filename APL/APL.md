@@ -35,3 +35,5 @@ add dfn into ride
 `'cmpx'⎕cy'dfns'`
 `]get dfns -o=cmpx`
 `]help xyz`
+
+c←{+/1.5≥(+⍨2*?⍵⍴0)} Pi so far. 
