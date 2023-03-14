@@ -23,7 +23,7 @@ G ← +⍀,⍨+\⍤⍴≢
 	```
 
 B
-1. Using the definition of Outer Product we pairs up every element from the list on the left with every element from the list on its right.
+1. Using the definition of Outer Product we pair up every element from the list on the left with every element from the list on its right.
 2. `⍳⍵ ⍵` Builds a table where every element is a pair of indices. 
 3. `×/¨` Multiply Each pair of indices and return the result. Multiply Reduction by itself would only give the product of the colums. 
 
