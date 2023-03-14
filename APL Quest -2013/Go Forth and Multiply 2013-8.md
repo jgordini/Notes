@@ -6,10 +6,11 @@
 
 **Outer Product**
 ```APL
-A ← ∘.×⍨⍳
+A ← ∘.×⍨⍳ ⍝ for n=4 : same as 1 2 3 4 ∘.× 1 2 3 4
 	```
 A
-1. 
+1. `⍨⍳` [Index of](https://aplwiki.com/wiki/Index_Of) `⍳` generates the integers 1 through n.
+2. `∘.×`  [Outer Product](https://mastering.dyalog.com/Operators.html?highlight=outer%20product#outer-product) builds a "times table". It has no left argument so [Selfie](https://aplwiki.com/wiki/Commute) `⍨`  puts the index from Step one on both sides. 
 
 **Without Outer Product**
 ```APL
@@ -20,6 +21,11 @@ E ← +⍀,⍨⍴⍳
 F ← +⍀,⍨⍴+⍀⍤⍴∘1
 G ← +⍀,⍨+\⍤⍴≢
 	```
+
+B
+1. Using the definition of Outer Product we pair up every element from the list on the left with every element from the list on its right.
+2. `⍳⍵ ⍵` Builds a table where every element is a pair of indices. 
+3. `×/¨` Multiply Each pair of indices and return the result. Multiply Reduction by itself would only give the product of the colums. 
 
 **Without Operators**
 ```APL
@@ -46,6 +52,40 @@ Q ← ∘.{≢#,⍣⍺⍣⍵⊢⍬}⍨⍳
 
 
 **Glyphs Used:**
+[Catenate](https://aplwiki.com/wiki/Catenate) `,`
+[Index of](https://aplwiki.com/wiki/Index_Of) `⍳`
+[Comparison Function](https://aplwiki.com/wiki/Comparison_function) =
+[Compress](https://aplwiki.com/wiki/Replicate) `/` - filters the right argument `=/¨` compare each
+[Each](https://aplwiki.com/wiki/Each) `¨`
+[Commute](https://aplwiki.com/wiki/Commute) `⍨`  - aka Selfie or Swap
+[Dyadic Transpose](https://xpqz.github.io/learnapl/dyadictrn.html?#dyadic-transpose-ab) ``x⍉y`` - allows you to select diagonals by giving one or more dimensions equal mapping
+[Reshape](https://aplwiki.com/wiki/Reshape) `⍴`
+[At](https://xpqz.github.io/cultivations/Operators.html#at) `@` - What’s on its left gets done at the position indicated by its right operand.
+[Identity](https://aplwiki.com/wiki/Identity) `⊢`
+[Where](https://aplwiki.com/wiki/Indices) `⍸` - returns the indices of a boolean array - mondadic
+[Power](https://aplwiki.com/wiki/Power_(operator)) `⍣¯1` - used to access function inverses
+[Power(Function)](https://aplwiki.com/wiki/Power_(function)) `*` -  `X*Y` is `X` raised to the power `Y`
+[Overtake](https://aplwiki.com/wiki/Take#Overtaking) `↑` - A length larger than the argument length causes [fills](https://aplwiki.com/wiki/Fill_element "Fill element") to be inserted
+[Bind](https://aplwiki.com/wiki/Bind) `∘` -  used to create a derived function with a single constant argument
+[Constant](https://xpqz.github.io/cultivations/Operators.html#constant-a) `A⍨` - always returns the operator array
+[Signum](https://aplwiki.com/wiki/Signum) `×A` - Sign of number  - on a real argument are `0`, `1`, and `¯1` (zero, positive and negative)
+[Tally](https://aplwiki.com/wiki/Tally) `≢`
+[Expand](https://xpqz.github.io/cultivations/Functions7.html?#expand) `\` - copies each [element](https://aplwiki.com/wiki/Element "Element") of the right [argument](https://aplwiki.com/wiki/Argument "Argument") a given number of times
+[Roll](https://aplwiki.com/wiki/Roll) `?0` - When zero Roll chooses a floating-point number between 0 and 1
+[Matrix Divide](https://aplwiki.com/wiki/Matrix_Divide) `⌹`
+[Rank](https://aplwiki.com/wiki/Rank_(operator)) `⍤` - applies its left [operand](. https://aplwiki.com/wiki/Operand "Operand") function to [cells](https://aplwiki.com/wiki/Cells "Cells") of its arguments specified by its right operand array.
+[Depth](https://aplwiki.com/wiki/Depth) `≡` - returns an array's depth
+[Decode](https://aplwiki.com/wiki/Decode) `⊥` - aka base
+[Encode](https://aplwiki.com/wiki/Encode) `⊤` - aka antibase
+[Bind](https://aplwiki.com/wiki/Bind) `∘` - used to create a derived function with a single constant argument
+[Key](https://aplwiki.com/wiki/Key)  `⌸` - groups [major cells](https://aplwiki.com/wiki/Major_cell "Major cell") and applies the [function](https://aplwiki.com/wiki/Function "Function") for each cell
+[Enclose](https://aplwiki.com/wiki/Enclose) `⊂` - An enclosed array is a [scalar](https://aplwiki.com/wiki/Scalar "Scalar"), which is subject to [scalar extension](https://aplwiki.com/wiki/Scalar_extension "Scalar extension").
+[Reverse](https://aplwiki.com/wiki/Reverse) `⌽` - reorders [elements](https://aplwiki.com/wiki/Elements "Elements") of the argument to go in the opposite direction along a specified [axis](https://aplwiki.com/wiki/Axis "Axis").
+[Circular](https://aplwiki.com/wiki/Circular)  12○ - Phase of ⍵ (omega)
+[Pi Times](https://aplwiki.com/wiki/Pi_Times) ○
+[Magnitude](https://aplwiki.com/wiki/Magnitude) `|` aka absolute value
+[Residue](https://aplwiki.com/wiki/Residue) `|` aka remainder
+
 [Floor](https://aplwiki.com/wiki/Floor) `⌊` - a [monadic](https://aplwiki.com/wiki/Monadic "Monadic") [scalar function](https://aplwiki.com/wiki/Scalar_function "Scalar function") that gives the [floor](https://en.wikipedia.org/wiki/floor_and_ceiling_functions "wikipedia:floor and ceiling functions") of a real number
 [Equal to](https://aplwiki.com/wiki/Equal_to)  `=` - a [comparison function](https://aplwiki.com/wiki/Comparison_function "Comparison function") which tests whether argument elements are equal to each other.
 
