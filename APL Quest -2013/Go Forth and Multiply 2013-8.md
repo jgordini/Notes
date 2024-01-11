@@ -1,4 +1,4 @@
-## [Go Forth and Multiply](https://problems.tryapl.org/psets/2013.html?goto=P8_Go_Forth_And_Multiply)
+(https://problems.tryapl.org/psets/2013.html?goto=P8_Go_Forth_And_Multiply)
 **Problem:** Write a dfn which produces a multiplication table.
 
 **Video:** https://youtu.be/O_l-nJYmDrs 
@@ -25,7 +25,26 @@ G ← +⍀,⍨+\⍤⍴≢
 B
 1. Using the definition of Outer Product we pair up every element from the list on the left with every element from the list on its right.
 2. `⍳⍵ ⍵` Builds a table where every element is a pair of indices. 
-3. `×/¨` Multiply Each pair of indices and return the result. Multiply Reduction by itself would only give the product of the colums. 
+3. `×/¨` Multiply Each pair of indices and return the result. Multiply Reduction by itself would only give the product of the columns. 
+C
+1. Multiplying a list of scalers (rank 0)  on the left and pairing with the entire vector (rank 1) `×⍤0 1` on the right. 
+2. Using `⍨⍳7` as both right and left argument. 
+3. Uses the definition of Outer product applies the [operand](https://aplwiki.com/wiki/Operand "Operand") function on each [element](https://aplwiki.com/wiki/Element "Element") of the left array with each element of the right array.
+D
+1. Build a 7 row table with the numbers 1 to 7. 
+2. use cumulative addition to create the multiplication table
+3. `7 7⍴⍳7` [reshapes](https://aplwiki.com/wiki/Reshape) [iota](https://aplwiki.com/wiki/Index_Generator) 7 into a table with 7 rows and 7 columns. 
+4. `+⍀` sum [scans](https://aplwiki.com/wiki/Scan) the columns showing each summed iteration
+E
+1. Tacit equivalent of D. 
+2. Recognizes that `⍵,⍵` is duplication or self [concatenation](https://aplwiki.com/wiki/Catenate).  `,⍨` 
+F
+1. Build Iota from first principles
+2. Cumulative addition on the reshape of 1 is the equivalent of iota.  `+⍀⍴1`
+3.  `⍤` [Rank](https://aplwiki.com/wiki/Rank_(operator)) applies the long left argument to cells of the right. `+⍀,⍨⍴+⍀⍤⍴∘1` the reshape of 1. The [Bind](https://aplwiki.com/wiki/Bind)  `∘` character binds reshape and 1 without a left argument for reshape. 
+G
+1. Recognizes that a scaler has a total count of elements of 1 so we can replace 1 with [tally](https://aplwiki.com/wiki/Tally) and then using a horizontal and vertical sum scan to create the table. 
+
 
 **Without Operators**
 ```APL
