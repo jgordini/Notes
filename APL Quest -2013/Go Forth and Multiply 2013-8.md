@@ -1,6 +1,4 @@
-(https://problems.tryapl.org/psets/2013.html?goto=P8_Go_Forth_And_Multiply)
-**Problem:** Write a dfn which produces a multiplication table.
-
+[Problem:](https://problems.tryapl.org/psets/2013.html?goto=P8_Go_Forth_And_Multiply)Write a dfn which produces a multiplication table.
 **Video:** https://youtu.be/O_l-nJYmDrs 
 **Code:** https://github.com/abrudz/apl_quest/blob/main/2013/8.apl
 
@@ -46,7 +44,7 @@ G
 1. Recognizes that a scaler has a total count of elements of 1 so we can replace 1 with [tally](https://aplwiki.com/wiki/Tally) and then using a horizontal and vertical sum scan to create the table. 
 
 
-**Without Operators**
+**Without Operators (Functions only)**
 ```APL
 H ← {⍵ ⍵⍴(⍵/⍳⍵)×(⍵×⍵)⍴⍳⍵}
 I ← {t×⍉t←⍵ ⍵⍴⍳⍵}
@@ -55,7 +53,29 @@ K ← ↑⍳×(⊂⍳)
 L ← (↑⊢×⊂)⍳
 	```
 
-**Without Arithmetic**
+H
+1.  `(⍵×⍵)⍴⍳⍵` generate the numbers and reshape to fill table. 
+2. `(⍵/⍳⍵)` generate the numbers and replicate them `⍵` times each. 
+3. `⍵ ⍵⍴` Put the two vectors together and reshape into a matrix
+
+I
+1.  `⍵ ⍵⍴⍳⍵` generate the numbers and reshape into a matrix
+2. `t×⍉t←` use t for transpose and shift the rows into columns multiply `t ⍵` together. 
+J 
+1. Using [Scaler Extension](https://aplwiki.com/wiki/Scalar_extension)
+2. `(⍳⍵)`generate the numbers
+3. `×⊂⍳⍵` multiply by the Scaler [enclose](https://aplwiki.com/wiki/Enclose) of the numbers.
+4. `↑` [Mix](https://aplwiki.com/wiki/Mix) the result into a matrix
+K
+1. Tacit version of J. 
+2. `(⍳⍵)×⊂⍳⍵` [Fork](https://aplwiki.com/wiki/Train#3-trains) Enclose iota and iota are applied to the argument. So we can remove the argument `⍵`
+3. `↑⍳×⊂⍤⍳` Enclose [of](https://xpqz.github.io/cultivations/Trains.html?highlight=trains) `⍤` iota
+L
+1.  Tacit version of J. 
+2.  `(↑⊢×⊂)⍳` putting the expression atop iota.
+3. `(↑⊢×⊂)⍳` enclose `⊂` of iota `⍳` multiplied by the [identity](https://aplwiki.com/wiki/Identity)  `⊢` of iota `⍳` and mixed. 
+
+**Without Arithmetic** 
 ```APL
 M ← {≢¨,¨⍳¨⍳⍵ ⍵}
 N ← ≢⍤,⍤⍳¨⍳⍤,⍨
@@ -63,6 +83,34 @@ O ← ∘.{≢⍺/⍵/#}⍨⍳
 P ← ≢⍤⍸¨⍳∘./⍳
 Q ← ∘.{≢#,⍣⍺⍣⍵⊢⍬}⍨⍳
 	```
+
+M ([Counting Stick](http://jwilson.coe.uga.edu/EMAT6680Fa2012/Faircloth/Essay1alf/ChineseStickMultiplication.html))
+1.  `⍳⍵ ⍵` iota for a vector argument generates a matrix of the [indices](https://aplwiki.com/wiki/Index "Index") of it's  [elements](https://aplwiki.com/wiki/Element "Element")
+2.  `⍳¨⍳⍵ ⍵` iota mapped to this matrix generates a nested matrix of the number of rows times the number of columns
+3. `,¨⍳¨⍳⍵ ⍵` Ravel to squash this matrix down to 1 dimension
+4. `≢¨,¨,¨⍳¨⍳⍵ ⍵` Count the number of elements in each cell
+
+N
+1.  Tacit version of M
+2. `,⍨` Self concatination
+3. `⍳⍤,⍨` Applying Iota on the self concatenation of the argument
+4. `⍤,⍤⍳¨` Fusing together the three [each](https://aplwiki.com/wiki/Each) using [rank](https://aplwiki.com/wiki/Rank_(operator))
+
+O ([Unary](https://en.wikipedia.org/wiki/Unary_numeral_system))
+1.  `∘.{#}⍨⍳`  [outer product](https://aplwiki.com/wiki/Outer_Product) with a custom function that just returns a value `#`  [Selfie](https://aplwiki.com/wiki/Commute) `⍨` puts the index on both sides. 
+2. `∘.{⍺ ⍵ #}⍨⍳` Placing the index values as arguments `⍺ ⍵`
+3. `∘.{⍺/⍵/#}⍨⍳` Replicating the  Replication of the value #
+4. `∘.{≢⍺/⍵/#}⍨⍳` Tally to convert unary to natural numbers
+P ([Where](https://aplwiki.com/wiki/Indices))
+1.  `∘./⍨⍳` outer replicate on the argument
+2.  `⍸¨∘./⍨⍳`  [Where](https://aplwiki.com/wiki/Indices) on [each](https://aplwiki.com/wiki/Each) since the array is not Boolean, the values are taken to mean the repeat count for each index. 
+3. `≢⍤⍸¨⍳∘./⍳` fuse a tally on the result to return a multiplication table. 
+Q (Finger Counting)
+1. `∘.{#,⍬}⍨⍳`  Empty vector for every result. Concatenate a #
+2. `∘.{#,⍣⍵⊢⍬}⍨⍳` Concatenate #,  `⍵` times using [power](https://aplwiki.com/wiki/Power_(operator))`⍣` 
+3. `∘.{#,⍣⍺⍣⍵⊢⍬}⍨⍳` Concatenate #,  `⍺` times using [power](https://aplwiki.com/wiki/Power_(operator))`⍣`
+4.  `≢` tally on the result to return a multiplication table. 
+
 
 **Note:**
 
