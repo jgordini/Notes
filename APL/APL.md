@@ -1,3 +1,12 @@
+
+```APL
+⍝ Boolean Mask Filter
+{⍺/⍨⍺∊⍵} ⍝ Find the intersection of two arrays and print the result
+⍝ Example
+8 3 1 5{⍺/⍨⍺∊⍵}5 3 4 6 9
+3 5
+```
+
 Translating into dyalog 
 prints out a table of ordered pairs to graph y=sin(x)
 ```APL
